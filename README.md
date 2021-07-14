@@ -1,1 +1,0 @@
-# TheEurekaCollective.github.io
