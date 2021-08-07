@@ -1,5 +1,5 @@
 body {
-	background-color: #171717;
+	background-color: black;
 	margin: 0px;
 }
 div.header {
@@ -11,6 +11,8 @@ div.header {
 	height: 45px;
 	overflow: hidden;
 	background-color: black;
+	opacity: 0.8;
+	z-index: 100;
 }
 img.menu {
 	position: fixed;
@@ -47,6 +49,7 @@ a.menu:link, a.menu:visited {
 a.menu:hover, a.menu:active {
 	/* color: #eeeeee; */
 	background-color: #171717;
+	text-decoration: underline;
 	transition: 0.5s ease;
 }
 a.current:link, a.current:visited,
@@ -56,7 +59,7 @@ a.current:hover, a.current:active {
 input.menu {
 	width: 17vw;
 	position: absolute;
-	top: 5px;
+	top: 7px;
 	right: 3vw;
 	height: 25px;
 	border: 1px solid white;
@@ -67,4 +70,104 @@ input.menu {
 	text-align: center;
 	font-family: Raleway;
 	outline: none;
+}
+#scroll {
+	position: fixed;
+	width: 13vw;
+	height: 40vh;
+	top: 28vh;
+	right: 2vw;
+	z-index: 100;
+	/* background-color: black; */
+}
+#scrollbar {
+	position: absolute;
+	width: 2px;
+	height: 82%;
+	top: 13%;
+	background-color: white;
+	right: 9px;
+	opacity: 0.6;
+}
+.dot {
+	background-color: white;
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	top: 10%;
+	right: 0;
+  border-radius: 50%;
+	margin: 0;
+	padding: 0;
+	transition: 0.2s ease;
+}
+p.scrolllabel {
+	position: absolute;
+	color: white;
+	font-family: Raleway;
+	font-weight: 200;
+	font-size: 100%;
+	right: 40px;
+	transition: 0.5s ease;
+}
+#scroll1{top: 5%;}
+#scroll2{top: 20%;}
+#scroll3{top: 36%;}
+#scroll4{top: 52%;}
+#scroll5{top: 67%;}
+#scroll6{top: 83%;}
+div.stuff {
+	margin: 0;
+	padding: 0;
+	position: static;
+	left: 0;
+	top: 0;
+	width: 100vw;
+}
+div.top {
+	position: relative;
+	width: 100%;
+}
+#topimg {
+	opacity: 0.4;
+	position: absolute;
+	width: 100%;
+	top: 0;
+}
+#heading1 {
+	font-family: Poiret One;
+	color: white;
+	font-size: 430%;
+	text-align: center;
+	position: absolute;
+	top: 40vh;
+	width: 100%;
+	font-weight: 200;
+}
+#heading2 {
+	font-family: Raleway;
+	color: white;
+	font-size: 160%;
+	text-align: center;
+	position: absolute;
+	top: 60vh;
+	width: 100%;
+}
+div.synopsis {
+	position: relative;
+	width: 100%;
+}
+#synimg {
+	position: absolute;
+	width: 100%;
+	opacity: 0.2;
+}
+#heading3 {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	font-size: 380%;
+	color: white;
+	font-family: Poiret One;
+	text-align: center;
 }

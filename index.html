@@ -10,12 +10,13 @@
 	<link href="https://fonts.googleapis.com/css2?family=Megrim&family=Poiret+One&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<!-- extralight 200 medium 500 bold 700 -->
 	<link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onscroll="update();">
 	<div class="header">
-		<img src="resources/logo.png" class="menu"></img>
+		<a href="index.html" style="overflow: hidden;"><img src="resources/logo.png" class="menu"></a>
 		<table class="menu"> <tr>
 			<td class="menu"> <a href="lore.html" class="menu">
 				Lore </a> </td>
@@ -28,10 +29,47 @@
 	  </table>
 		<input type="text" placeholder="Search..." class="menu">
 	</div>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<div id="scroll">
+		<span id="scrollbar"></span>
+		<span id="scrolldot" class="dot"></span>
+		<p class="scrolllabel" id="scroll1">Home</p>
+		<p class="scrolllabel" id="scroll2">Synopsis</p>
+		<p class="scrolllabel" id="scroll3">Featured</p>
+		<p class="scrolllabel" id="scroll4">Lore</p>
+		<p class="scrolllabel" id="scroll5">Art</p>
+		<p class="scrolllabel" id="scroll6">Sponsors</p>
+	</div>
+	<div class="stuff">
+		<div class="top">
+			<img src="resources/Background1.jpeg" id="topimg">
+			<p id="heading1">P R O J E C T&nbsp&nbspA N I M A</p>
+			<p id="heading2">A&nbsp&nbspF U T U R E&nbsp&nbspO F&nbsp&nbspS C I E N C E&nbsp&nbspA N D&nbsp&nbspM A G I C</p>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br>
+		<div class="synopsis">
+			<img src="resources/Background2.jpeg" id="synimg">
+			<p id="heading3">S Y N O P S I S</p>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</div>
 </body>
-<script> </script>
+<script src="home.js"></script>
