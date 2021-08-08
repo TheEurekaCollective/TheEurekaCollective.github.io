@@ -5,6 +5,7 @@ body {
 	background-color: black;
 	margin: 0px;
 }
+/* header stuff */
 div.header {
 	padding: 0px;
 	margin: 0px;
@@ -74,6 +75,7 @@ input.menu {
 	font-family: Raleway;
 	outline: none;
 }
+/* scroll stuff */
 #scroll {
 	position: fixed;
 	width: 13vw;
@@ -130,6 +132,7 @@ div.stuff {
 	width: 100vw;
 	background-color: #171717;
 }
+/* title page */
 div.top {
 	position: relative;
 	width: 100%;
@@ -162,6 +165,7 @@ div.top {
 	top: 60vh;
 	width: 100%;
 }
+/* synopsis page */
 div.synopsis {
 	position: relative;
 	width: 100%;
@@ -202,10 +206,11 @@ div.synopsis {
 	line-height: 180%;
 	font-size: 120%;
 }
+/* featured page */
 div.featured {
 	position: relative;
 	width: 100vw;
-	height: 125vh;
+	height: 130vh;
 }
 #heading4 {
 	position: absolute;
@@ -257,6 +262,7 @@ div.release {
 	width: 35vw;
 	height: 30vh;
 	left: 50vw;
+	background-color: #171717;
 }
 span.h {
 	position: absolute;
@@ -311,6 +317,80 @@ p.releasebody {
 #release1 {top: 0vh;}
 #release2 {top: 35vh;}
 #release3 {top: 70vh;}
+/* lore page */
+div.lore {
+	position: relative;
+	width: 100vw;
+	height: 150vh;
+}
+#heading5 {
+	position: absolute;
+	width: 100%;
+	top: 5vh;
+	font-size: 230%;
+	color: white;
+	font-family: Poiret One;
+	text-align: center;
+	letter-spacing: 11px;
+}
+#under5 {
+	position: absolute;
+	width: 40vw;
+	left: 30vw;
+	height: 1px;
+	background-color: white;
+	top: 20vh;
+}
+#lorestuff {
+	position: absolute;
+	width: 100%;
+	left: 0vw;
+	top: 33vh;
+}
+div.lorebox {
+	position: absolute;
+	width: 18vw;
+	height: 50vh;
+	background-color: #171717;
+}
+span.c1 {left: 0vw; top: 0vh;}
+span.c2 {left: 0vw; top: 0vh;}
+span.c3 {left: 16vw; top: 0vh;}
+span.c4 {left: 18vw; top: 0vh;}
+span.c5 {left: 0vw; top: 50vh;}
+span.c6 {left: 0vw; top: 46vh;}
+span.c7 {left: 16vw; top: 50vh;}
+span.c8 {left: 18vw; top: 46vh;}
+img.loreimg {
+	position: absolute;
+	width: 14vw;
+	height: 30vh;
+	left: 2vw;
+	top: 6vh;
+	object-fit: cover;
+}
+p.lorelbl {
+	position: absolute;
+	color: white;
+	font-family: Raleway;
+	font-weight: 200;
+	font-size: 120%;
+	letter-spacing: 6px;
+	text-align: center;
+	width: 100%;
+	left: 0vw;
+	top: 39vh;
+}
+#lore1{left: 11vw; top: 0vh;}
+#lore2{left: 31vw; top: 0vh;}
+#lore3{left: 51vw; top: 0vh;}
+#lore4{left: 71vw; top: 0vh;}
+#lore5{left: 11vw; top: 55vh;}
+#lore6{left: 31vw; top: 55vh;}
+#lore7{left: 51vw; top: 55vh;}
+#lore8{left: 71vw; top: 55vh;}
+
+
 
 
 

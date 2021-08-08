@@ -1,9 +1,11 @@
 
-var coords = [115, 230, 400, 600, 800, 1000];
+var coords = [115, 230, 355, 600, 800, 1000];
 var pos = ["10%", "26%", "42%", "58%", "74%", "90%"];
 var ids = ["scroll1", "scroll2", "scroll3", "scroll4", "scroll5", "scroll6"];
 var vh = window.innerHeight / 100.0;
 var vw = window.innerWidth / 100.0;
+var lorenames = ["FACTIONS", "CHARACTERS", "ITEMS", "SUBJECTS", "LOCATIONS", "HISTORY", "STORIES", "ALL"];
+var spanclasses = ["h c1", "v c2", "h c3", "v c4", "h c5", "v c6", "h c7", "v c8"];
 
 function getY(){
   var top  = window.pageYOffset || document.documentElement.scrollTop;
@@ -45,4 +47,25 @@ function move(i) {
 	update();
 }
 
+function setlore() {
+	for (var i = 1; i <= 8; i++) {
+		var div = document.getElementById("lore" + i);
+		var node;
+		for (var j = 0; j < 8; j++) {
+			node = document.createElement("span");
+			node.className = spanclasses[j];
+			div.append(node);
+		}
+		node = document.createElement("img");
+		node.src = "resources/lore" + i + ".png";
+		node.className = "loreimg";
+		div.append(node);
+		node = document.createElement("p");
+		node.textContent = lorenames[i-1];
+		node.className = "lorelbl";
+		div.append(node);
+	}
+}
+
+setlore();
 update();
