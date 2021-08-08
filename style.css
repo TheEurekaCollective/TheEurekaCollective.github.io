@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
 	background-color: black;
 	margin: 0px;
@@ -11,7 +14,7 @@ div.header {
 	height: 45px;
 	overflow: hidden;
 	background-color: black;
-	opacity: 0.8;
+	opacity: 0.9;
 	z-index: 100;
 }
 img.menu {
@@ -108,6 +111,8 @@ p.scrolllabel {
 	font-weight: 200;
 	font-size: 100%;
 	right: 40px;
+	padding: 0;
+	cursor: pointer;
 	transition: 0.5s ease;
 }
 #scroll1{top: 5%;}
@@ -123,16 +128,20 @@ div.stuff {
 	left: 0;
 	top: 0;
 	width: 100vw;
+	background-color: #171717;
 }
 div.top {
 	position: relative;
 	width: 100%;
+	height: 117vh;
 }
 #topimg {
 	opacity: 0.4;
 	position: absolute;
-	width: 100%;
+	width: 100vw;
+	height: 117vh;
 	top: 0;
+	object-fit: cover;
 }
 #heading1 {
 	font-family: Poiret One;
@@ -156,18 +165,155 @@ div.top {
 div.synopsis {
 	position: relative;
 	width: 100%;
+	height: 117vh;
 }
 #synimg {
 	position: absolute;
-	width: 100%;
+	width: 100vw;
+	height: 117vh;
 	opacity: 0.2;
+	object-fit: cover;
 }
 #heading3 {
 	position: absolute;
 	width: 100%;
-	top: 50%;
-	font-size: 380%;
+	top: 8vh;
+	font-size: 330%;
 	color: white;
 	font-family: Poiret One;
 	text-align: center;
 }
+#under3 {
+	position: absolute;
+	width: 36vw;
+	left: 32vw;
+	height: 2px;
+	background-color: white;
+	top: 29vh;
+}
+#syntext {
+	position: absolute;
+	top: 30vh;
+	width: 56vw;
+	padding: 0 22vw;
+	text-align: justify;
+	color: white;
+	font-family: Raleway;
+	line-height: 180%;
+	font-size: 120%;
+}
+div.featured {
+	position: relative;
+	width: 100vw;
+	height: 125vh;
+}
+#heading4 {
+	position: absolute;
+	width: 100%;
+	top: 5vh;
+	font-size: 230%;
+	color: white;
+	font-family: Poiret One;
+	text-align: center;
+	letter-spacing: 11px;
+}
+#under4 {
+	position: absolute;
+	width: 44vw;
+	left: 28vw;
+	height: 1px;
+	background-color: white;
+	top: 20vh;
+}
+#featuredstuff {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	left: 0px;
+	top: 25vh;
+}
+#Magus {
+	position: absolute;
+	object-fit: cover;
+	width: 30vw;
+	height: 80vh;
+	top: 0vh;
+	left: 10vw;
+}
+#Maguslbl {
+	font-size: 120%;
+	color: white;
+	font-family: Raleway;
+	font-weight: 100;
+	position: absolute;
+	text-align: center;
+	width: 25vw;
+	left: 13vw;
+	top: 82vh;
+	letter-spacing: 8px;
+}
+div.release {
+	position: absolute;
+	width: 35vw;
+	height: 30vh;
+	left: 50vw;
+}
+span.h {
+	position: absolute;
+	background-color: #666666;
+	height: 1px;
+	width: 2vw;
+}
+span.v {
+	position: absolute;
+	background-color: #666666;
+	height: 4vh;
+	width: 1px;
+}
+span.b1 {left: 0vw; top: 0vh;}
+span.b2 {left: 0vw; top: 0vh;}
+span.b3 {left: 33vw; top: 0vh;}
+span.b4 {left: 35vw; top: 0vh;}
+span.b5 {left: 0vw; top: 30vh;}
+span.b6 {left: 0vw; top: 26vh;}
+span.b7 {left: 33vw; top: 30vh;}
+span.b8 {left: 35vw; top: 26vh;}
+img.releaseicon {
+	position: absolute;
+	top: 3vh;
+	left: 2vw;
+	height: 22vh;
+	width: 16vh;
+	object-fit: cover;
+}
+p.releaseheading {
+	position: absolute;
+	color: white;
+	font-family: Raleway;
+	font-weight: 200;
+	font-size: 120%;
+	letter-spacing: 6px;
+	left: 11vw;
+	top: 1vh;
+}
+p.releasebody {
+	position: absolute;
+	color: white;
+	font-family: Raleway;
+	font-weight: 200;
+	font-size: 90%;
+	text-align: justify;
+	width: 22vw;
+	height: 20vh;
+	left: 11vw;
+	top: 7vh;
+}
+#release1 {top: 0vh;}
+#release2 {top: 35vh;}
+#release3 {top: 70vh;}
+
+
+
+
+
+br{}
