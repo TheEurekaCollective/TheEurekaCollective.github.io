@@ -21,8 +21,18 @@ div.header {
 img.menu {
 	position: fixed;
 	float: left;
-	top: 0px;
-	height: 45px;
+	top: 3px;
+	left: 3px;
+	height: 39px;
+}
+#menutxt {
+	color: white;
+	font-family: Poiret One;
+	position: absolute;
+	top: -10px;
+	left: 48px;
+	font-size: 130%;
+	letter-spacing: 4px;
 }
 table.menu {
 	border-collapse: collapse;
@@ -198,13 +208,13 @@ div.synopsis {
 #syntext {
 	position: absolute;
 	top: 30vh;
-	width: 56vw;
-	padding: 0 22vw;
+	width: 50vw;
+	padding: 0 25vw;
 	text-align: justify;
 	color: white;
 	font-family: Raleway;
 	line-height: 180%;
-	font-size: 120%;
+	font-size: 130%;
 }
 /* featured page */
 div.featured {
@@ -269,21 +279,23 @@ span.h {
 	background-color: #666666;
 	height: 1px;
 	width: 2vw;
+  border: 0px solid white;
+  box-shadow: 0 0 0px white;
+	transition: 0.3s ease;
 }
 span.v {
 	position: absolute;
 	background-color: #666666;
-	height: 4vh;
+	height: 2vw;
 	width: 1px;
+  border: 0px solid white;
+  box-shadow: 0 0 0px white;
+	transition: 0.3s ease;
 }
-span.b1 {left: 0vw; top: 0vh;}
-span.b2 {left: 0vw; top: 0vh;}
-span.b3 {left: 33vw; top: 0vh;}
-span.b4 {left: 35vw; top: 0vh;}
-span.b5 {left: 0vw; top: 30vh;}
-span.b6 {left: 0vw; top: 26vh;}
-span.b7 {left: 33vw; top: 30vh;}
-span.b8 {left: 35vw; top: 26vh;}
+span.c1 {left: 0; top: 0;}
+span.c2 {right: 0; top: 0;}
+span.c3 {left: 0; bottom: 0;}
+span.c4 {right: 0; bottom: 0;}
 img.releaseicon {
 	position: absolute;
 	top: 3vh;
@@ -321,7 +333,8 @@ p.releasebody {
 div.lore {
 	position: relative;
 	width: 100vw;
-	height: 150vh;
+	height: 68vw;
+	/* background-color: #222222; */
 }
 #heading5 {
 	position: absolute;
@@ -349,24 +362,19 @@ div.lore {
 }
 div.lorebox {
 	position: absolute;
-	width: 18vw;
-	height: 50vh;
+	width: 15vw;
+	height: 21vw;
 	background-color: #171717;
+	cursor: pointer;
+  transform: translate(-50%, -50%);
+	transition: 0.3s ease;
 }
-span.c1 {left: 0vw; top: 0vh;}
-span.c2 {left: 0vw; top: 0vh;}
-span.c3 {left: 16vw; top: 0vh;}
-span.c4 {left: 18vw; top: 0vh;}
-span.c5 {left: 0vw; top: 50vh;}
-span.c6 {left: 0vw; top: 46vh;}
-span.c7 {left: 16vw; top: 50vh;}
-span.c8 {left: 18vw; top: 46vh;}
 img.loreimg {
 	position: absolute;
-	width: 14vw;
-	height: 30vh;
-	left: 2vw;
-	top: 6vh;
+	width: 78%;
+	height: 56%;
+	left: 11%;
+	top: 12%;
 	object-fit: cover;
 }
 p.lorelbl {
@@ -374,21 +382,80 @@ p.lorelbl {
 	color: white;
 	font-family: Raleway;
 	font-weight: 200;
-	font-size: 120%;
+	font-size: 110%;
 	letter-spacing: 6px;
 	text-align: center;
 	width: 100%;
-	left: 0vw;
-	top: 39vh;
+	left: 0;
+	top: 78%;
+	transition: 0.3s ease;
 }
-#lore1{left: 11vw; top: 0vh;}
-#lore2{left: 31vw; top: 0vh;}
-#lore3{left: 51vw; top: 0vh;}
-#lore4{left: 71vw; top: 0vh;}
-#lore5{left: 11vw; top: 55vh;}
-#lore6{left: 31vw; top: 55vh;}
-#lore7{left: 51vw; top: 55vh;}
-#lore8{left: 71vw; top: 55vh;}
+#lore1{left: 20vw; top: 10vw;}
+#lore2{left: 40vw; top: 10vw;}
+#lore3{left: 60vw; top: 10vw;}
+#lore4{left: 80vw; top: 10vw;}
+#lore5{left: 20vw; top: 33vw;}
+#lore6{left: 40vw; top: 33vw;}
+#lore7{left: 60vw; top: 33vw;}
+#lore8{left: 80vw; top: 33vw;}
+/* art page */
+div.art {
+	position: relative;
+	width: 100vw;
+	height: 150vw;
+}
+#heading6 {
+	position: absolute;
+	width: 100%;
+	top: 5vh;
+	font-size: 230%;
+	color: white;
+	font-family: Poiret One;
+	text-align: center;
+	letter-spacing: 11px;
+}
+#under6 {
+	position: absolute;
+	width: 40vw;
+	left: 30vw;
+	height: 1px;
+	background-color: white;
+	top: 20vh;
+}
+#artscroll {
+	position: absolute;
+	top: 25vh;
+	width: 100vw;
+	left: 0;
+	height: 260vh;
+	/* background-color: #222222; */
+}
+#artstuff {
+	position: sticky;
+	top: 0;
+	width: 100vw;
+	left: 0;
+	height: 100vh;
+	/* background-color: #333333; */
+}
+div.artbox {
+	position: absolute;
+	width: 28vw;
+	height: 70vh;
+	top: 20vh;
+	transition: 0.5s ease;
+}
+img.artimg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: 0.5s ease;
+}
+#art1 {left: 5vw;}
+#art2 {left: 35vw;}
+#art3 {left: 65vw;}
+
 
 
 
