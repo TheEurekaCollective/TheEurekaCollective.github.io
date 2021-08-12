@@ -1,9 +1,11 @@
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
+	/* overflow-x: hidden; */
 }
 body {
 	background-color: black;
 	margin: 0px;
+	overflow-x: hidden;
 }
 /* header stuff */
 div.header {
@@ -472,7 +474,7 @@ a.artlabel {
 	width: 60%;
 	height: 10%;
 	text-align: center;
-	line-height: 3.5vw;
+	line-height: 8vh;
 	transition: 0.3s ease;
 	letter-spacing: 0.3vw;
 }

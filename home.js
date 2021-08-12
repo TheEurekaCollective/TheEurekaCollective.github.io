@@ -164,8 +164,6 @@ function updart(k) {
 }
 
 function scrollart() {
-	// alert("doing stuff");
-	updateSize();
 	var y = getY();
 	for (var i = 0; i < 3; i++) {
 		if (y <= 258*vw + artcoords[i]*vh) {
