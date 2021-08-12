@@ -1,5 +1,5 @@
 
-var coords = [115, 230, 361, 494, 715, 10000];
+var coords = [56, 112, 177, 245, 395, 10000];
 var pos = ["10%", "26%", "42%", "58%", "74%", "90%"];
 var ids = ["scroll1", "scroll2", "scroll3", "scroll4", "scroll5", "scroll6"];
 var vh = window.innerHeight / 100.0;
@@ -19,11 +19,13 @@ function updateSize() {
 
 function update(){
 	updateSize();
-	var y = getY() / vh;
+	var y = getY();
 	var p = document.getElementById("scrolldot");
 	var b = [false,false,false,false,false,false];
 	for (var i = 0; i < 6; i++) {
-		if (y<=coords[i]+1) {
+		var cmp = (coords[i]+1)*vw;
+		if (i==4) cmp=258*vw+250*vh;
+		if (y<=cmp) {
 			b[i]=true;
 			break;
 		}
@@ -41,7 +43,8 @@ function update(){
 
 function move(i) {
 	var offset = 0;
-	if (i>0) offset = coords[i-1] * vh + 20;
+	if (i>0) offset = coords[i-1] * vw + 20;
+	if (i==5) offset = 258*vw + 250*vh;
 	offset = offset - getY();
 	window.scrollBy(0, offset);
 	update();
@@ -49,6 +52,7 @@ function move(i) {
 
 function addborder(div, a, b, c, d) {
 	var node;
+	var ratio = a/c;
 	for (var j = 0; j < 8; j++) {
 		node = document.createElement("span");
 		node.className = spanclasses[j];
@@ -63,11 +67,11 @@ function addborder(div, a, b, c, d) {
 		this.style.width= a + "vw";
 		this.style.height= b + "vw";
 		var lbl = this.getElementsByClassName("lorelbl");
-		if (lbl.length>0) lbl[0].style.fontSize = "120%";
+		if (lbl.length>0) lbl[0].style.fontSize = (1.3*ratio)+"vw";
 		lbl = this.getElementsByClassName("releasebody");
-		if (lbl.length>0) lbl[0].style.fontSize = "93%";
+		if (lbl.length>0) lbl[0].style.fontSize = (1*ratio)+"vw";
 		lbl = this.getElementsByClassName("releaseheading");
-		if (lbl.length>0) lbl[0].style.fontSize = "125%";
+		if (lbl.length>0) lbl[0].style.fontSize = (1.4*ratio)+"vw";
 	}
 	div.onmouseout = function() {
 		spans = this.getElementsByTagName("span");
@@ -78,18 +82,18 @@ function addborder(div, a, b, c, d) {
 		this.style.width= c + "vw";
 		this.style.height= d + "vw";
 		var lbl = this.getElementsByClassName("lorelbl");
-		if (lbl.length>0) lbl[0].style.fontSize = "110%";
+		if (lbl.length>0) lbl[0].style.fontSize = "1.3vw";
 		lbl = this.getElementsByClassName("releasebody");
-		if (lbl.length>0) lbl[0].style.fontSize = "90%";
+		if (lbl.length>0) lbl[0].style.fontSize = "1vw";
 		lbl = this.getElementsByClassName("releaseheading");
-		if (lbl.length>0) lbl[0].style.fontSize = "120%";
+		if (lbl.length>0) lbl[0].style.fontSize = "1.4vw";
 	}
 }
 
 function setfeature() {
 	for (var i = 1; i <= 3; i++) {
 		var div = document.getElementById("release" + i);
-		addborder(div, 36, 16, 35, 15);
+		addborder(div, 36, 14, 35, 13);
 	}
 }
 
@@ -111,10 +115,11 @@ function setlore() {
 
 var artpos = [[35, 65, 105], [5, 35, 65], [-35, 5, 35]];
 var artop = [[1, 0.4, 0], [0.4, 1, 0.4], [0, 0.4, 1]];
-var artcoords = [568,642,10000];
+var artcoords = [50, 140, 1000];
 var artnames = ["MAGUS", "THE INFINITE CITY", "CHUNGUS"];
 
 function initart() {
+	document.getElementsByClassName("art")[0].style.height=(13*vw + 270*vh) + "px";
 	for (var i = 1; i <= 3; i++) {
 		var div = document.getElementById("art" + i);
 		var node = document.createElement("a");
@@ -161,9 +166,9 @@ function updart(k) {
 function scrollart() {
 	// alert("doing stuff");
 	updateSize();
-	var y = getY() / vh;
+	var y = getY();
 	for (var i = 0; i < 3; i++) {
-		if (y<=artcoords[i]+1) {
+		if (y <= 258*vw + artcoords[i]*vh) {
 			updart(i);
 			break;
 		}
@@ -171,10 +176,10 @@ function scrollart() {
 }
 
 function initsponsor() {
-	var txt = "<p class='sponsorname' style='left: (LEFT)vw; top: (TOP)vw;' data-aos='fade-up' data-aos-delay='(DELAY)'>CONTENT</p>"
+	var txt = "<p class='sponsorname' style='left: (LEFT)vw; top: (TOP)vw;' data-aos='fade-up' data-aos-delay='(DELAY)' data-aos-offset='0'>CONTENT</p>"
 	var div = document.getElementsByClassName("sponsor")[0];
 	var node;
-	for (var h = 15; h < 45; h += 8) {
+	for (var h = 13; h < 40; h += 5) {
 		for (var l = 15; l < 90; l += 15) {
 			var delay = Math.round((h+l)/10.0)*50;
 			var cpy = txt;
@@ -185,12 +190,12 @@ function initsponsor() {
 			div.innerHTML = div.innerHTML + cpy;
 		}
 	}
-	alert(div.innerHTML);
 }
 
-initsponsor();
-initart();
-scrollart();
+// alert(window.innerWidth / 100.0);
+update();
 setfeature();
 setlore();
-update();
+initart();
+scrollart();
+initsponsor();
