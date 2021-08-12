@@ -62,9 +62,7 @@ a.menu:link, a.menu:visited {
 }
 a.menu:hover, a.menu:active {
 	/* color: #eeeeee; */
-	background-color: #171717;
 	text-decoration: underline;
-	transition: 0.5s ease;
 }
 a.current:link, a.current:visited,
 a.current:hover, a.current:active {
@@ -76,12 +74,13 @@ input.menu {
 	top: 7px;
 	right: 3vw;
 	height: 25px;
-	border: 1px solid white;
+	border: solid white;
+	border-width: 0 0 1px 0;
 	margin: 5px
 	padding: 5px;
 	background-color: black;
 	color: white;
-	text-align: center;
+	text-align: left;
 	font-family: Raleway;
 	outline: none;
 }
@@ -270,17 +269,19 @@ div.featured {
 div.release {
 	position: absolute;
 	width: 35vw;
-	height: 30vh;
-	left: 50vw;
+	height: 15vw;
+	left: 67vw;
 	background-color: #171717;
+	transition: 0.3s ease;
+	transform: translate(-50%, -50%);
 }
 span.h {
 	position: absolute;
 	background-color: #666666;
 	height: 1px;
 	width: 2vw;
-  border: 0px solid white;
-  box-shadow: 0 0 0px white;
+	border: 0px solid white;
+	box-shadow: 0 0 0px white;
 	transition: 0.3s ease;
 }
 span.v {
@@ -288,8 +289,8 @@ span.v {
 	background-color: #666666;
 	height: 2vw;
 	width: 1px;
-  border: 0px solid white;
-  box-shadow: 0 0 0px white;
+	border: 0px solid white;
+	box-shadow: 0 0 0px white;
 	transition: 0.3s ease;
 }
 span.c1 {left: 0; top: 0;}
@@ -298,10 +299,10 @@ span.c3 {left: 0; bottom: 0;}
 span.c4 {right: 0; bottom: 0;}
 img.releaseicon {
 	position: absolute;
-	top: 3vh;
-	left: 2vw;
-	height: 22vh;
-	width: 16vh;
+	top: 10%;
+	left: 6%;
+	height: 73%;
+	width: 23%;
 	object-fit: cover;
 }
 p.releaseheading {
@@ -311,8 +312,9 @@ p.releaseheading {
 	font-weight: 200;
 	font-size: 120%;
 	letter-spacing: 6px;
-	left: 11vw;
-	top: 1vh;
+	left: 31%;
+	top: 3%;
+	transition: 0.3s ease;
 }
 p.releasebody {
 	position: absolute;
@@ -321,14 +323,15 @@ p.releasebody {
 	font-weight: 200;
 	font-size: 90%;
 	text-align: justify;
-	width: 22vw;
-	height: 20vh;
-	left: 11vw;
-	top: 7vh;
+	width: 63%;
+	height: 67%;
+	left: 31%;
+	top: 23%;
+	transition: 0.3s ease;
 }
-#release1 {top: 0vh;}
-#release2 {top: 35vh;}
-#release3 {top: 70vh;}
+#release1 {top: 8vw;}
+#release2 {top: 25vw;}
+#release3 {top: 43vw;}
 /* lore page */
 div.lore {
 	position: relative;
@@ -366,7 +369,7 @@ div.lorebox {
 	height: 21vw;
 	background-color: #171717;
 	cursor: pointer;
-  transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 	transition: 0.3s ease;
 }
 img.loreimg {
@@ -427,7 +430,7 @@ div.art {
 	top: 25vh;
 	width: 100vw;
 	left: 0;
-	height: 260vh;
+	height: 130vw;
 	/* background-color: #222222; */
 }
 #artstuff {
@@ -455,7 +458,65 @@ img.artimg {
 #art1 {left: 5vw;}
 #art2 {left: 35vw;}
 #art3 {left: 65vw;}
-
+a.artlabel {
+	transform: translate(-50%, -50%);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-color: black;
+	font-family: Raleway;
+	font-size: 100%;
+	color: white;
+	width: 60%;
+	height: 10%;
+	text-align: center;
+	line-height: 7vh;
+	transition: 0.3s ease;
+	letter-spacing: 4px;
+}
+/* sponsor page */
+div.sponsor {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 50vw;
+	background-color: #222222;
+}
+#heading7 {
+	position: absolute;
+	width: 100%;
+	top: 5vh;
+	font-size: 230%;
+	color: white;
+	font-family: Poiret One;
+	text-align: center;
+}
+#under7 {
+	position: absolute;
+	width: 40vw;
+	left: 30vw;
+	height: 1px;
+	background-color: white;
+	top: 10vw;
+}
+#tyimg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+	object-fit: cover;
+}
+p.sponsorname {
+	position: absolute;
+	font-family: Raleway;
+	text-align: center;
+	width: 8vw;
+	color: white;
+	font-size: 110%;
+}
 
 
 

@@ -47,7 +47,7 @@ function move(i) {
 	update();
 }
 
-function addborder(div) {
+function addborder(div, a, b, c, d) {
 	var node;
 	for (var j = 0; j < 8; j++) {
 		node = document.createElement("span");
@@ -60,9 +60,14 @@ function addborder(div) {
 			spans[i].style.boxShadow = "0 0 5px white";
 			spans[i].style.backgroundColor = "#bbbbbb";
 		}
-		this.style.width="16vw";
-		this.style.height="22vw";
-		this.getElementsByClassName("lorelbl")[0].style.fontSize = "120%";
+		this.style.width= a + "vw";
+		this.style.height= b + "vw";
+		var lbl = this.getElementsByClassName("lorelbl");
+		if (lbl.length>0) lbl[0].style.fontSize = "120%";
+		lbl = this.getElementsByClassName("releasebody");
+		if (lbl.length>0) lbl[0].style.fontSize = "93%";
+		lbl = this.getElementsByClassName("releaseheading");
+		if (lbl.length>0) lbl[0].style.fontSize = "125%";
 	}
 	div.onmouseout = function() {
 		spans = this.getElementsByTagName("span");
@@ -70,23 +75,28 @@ function addborder(div) {
 			spans[i].style.boxShadow = "0 0 0px white";
 			spans[i].style.backgroundColor = "#666666";
 		}
-		this.style.width="15vw";
-		this.style.height="21vw";
-		this.getElementsByClassName("lorelbl")[0].style.fontSize = "110%";
+		this.style.width= c + "vw";
+		this.style.height= d + "vw";
+		var lbl = this.getElementsByClassName("lorelbl");
+		if (lbl.length>0) lbl[0].style.fontSize = "110%";
+		lbl = this.getElementsByClassName("releasebody");
+		if (lbl.length>0) lbl[0].style.fontSize = "90%";
+		lbl = this.getElementsByClassName("releaseheading");
+		if (lbl.length>0) lbl[0].style.fontSize = "120%";
 	}
 }
 
 function setfeature() {
 	for (var i = 1; i <= 3; i++) {
 		var div = document.getElementById("release" + i);
-		addborder(div);
+		addborder(div, 36, 16, 35, 15);
 	}
 }
 
 function setlore() {
 	for (var i = 1; i <= 8; i++) {
 		var div = document.getElementById("lore" + i);
-		addborder(div);
+		addborder(div, 16, 22, 15, 21);
 		var node;
 		node = document.createElement("img");
 		node.src = "resources/" + lorenames[i-1] + " Icon.svg";
@@ -101,13 +111,50 @@ function setlore() {
 
 var artpos = [[35, 65, 105], [5, 35, 65], [-35, 5, 35]];
 var artop = [[1, 0.4, 0], [0.4, 1, 0.4], [0, 0.4, 1]];
-var artcoords = [568,642, 10000];
+var artcoords = [568,642,10000];
+var artnames = ["MAGUS", "THE INFINITE CITY", "CHUNGUS"];
+
+function initart() {
+	for (var i = 1; i <= 3; i++) {
+		var div = document.getElementById("art" + i);
+		var node = document.createElement("a");
+		node.className = "artlabel";
+		node.textContent = artnames[i-1];
+		node.style.opacity = "0";
+		node.mouseIsOver=false;
+		node.onmouseover = function() {
+			this.style.opacity = "1";
+			this.mouseIsOver=true;
+		}
+		node.onmouseout = function() {
+			this.style.opacity = "0.4";
+			this.mouseIsOver=false;
+		}
+		div.append(node);
+		div.onmouseover = function() {
+			var a = this.getElementsByTagName("a")[0];
+			if (a.mouseIsOver) return;
+			a.style.opacity="0.4";
+		}
+		div.onmouseout = function() {
+			var a = this.getElementsByTagName('a')[0];
+			a.style.opacity="0";
+		}
+	}
+}
 
 function updart(k) {
 	for (var i = 1; i <= 3; i++) {
 		var div = document.getElementById("art" + i);
 		div.style.left = "" + artpos[k][i-1] + "vw";
 		div.style.opacity = "" + artop[k][i-1];
+		var lbl = div.getElementsByClassName("artlabel")[0];
+		if (artpos[k][i-1]==35) {
+			lbl.style.display="initial";
+		} else {
+			lbl.style.display="none";
+			lbl.mouseIsOver=false;
+		}
 	}
 }
 
@@ -123,7 +170,27 @@ function scrollart() {
 	}
 }
 
-updart(0);
+function initsponsor() {
+	var txt = "<p class='sponsorname' style='left: (LEFT)vw; top: (TOP)vw;' data-aos='fade-up' data-aos-delay='(DELAY)'>CONTENT</p>"
+	var div = document.getElementsByClassName("sponsor")[0];
+	var node;
+	for (var h = 15; h < 45; h += 8) {
+		for (var l = 15; l < 90; l += 15) {
+			var delay = Math.round((h+l)/10.0)*50;
+			var cpy = txt;
+			cpy = cpy.replace("(LEFT)", l.toString());
+			cpy = cpy.replace("(TOP)", h.toString());
+			cpy = cpy.replace("(DELAY)", delay.toString());
+			cpy = cpy.replace("CONTENT", "Synthia Faber");
+			div.innerHTML = div.innerHTML + cpy;
+		}
+	}
+	alert(div.innerHTML);
+}
+
+initsponsor();
+initart();
+scrollart();
 setfeature();
 setlore();
 update();
