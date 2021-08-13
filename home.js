@@ -213,6 +213,13 @@ var loretxt = ["Antimatter is the primary form of energy storage within the Huma
 var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg"];
 
 function initlorepage() {
+	var submenu = document.querySelectorAll("p.submenup");
+	for (var i = 0; i < submenu.length; i++) {
+		submenu[i].number = i;
+		submenu[i].onclick = function() {
+			filter(this.number);
+		}
+	}
 	var feed = document.getElementsByClassName("lorefeed")[0];
 	var i = 0;
 	for (var y = 18; true; y += 34) {
@@ -221,6 +228,7 @@ function initlorepage() {
 			if (i >= loreheadings.length) break;
 			var div = document.createElement("div");
 			div.className = "loreentry";
+			div.number = i;
 			div.id = "entry" + i;
 			div.style.left = x + "vw";
 			div.style.top = y + "vw";
@@ -238,6 +246,10 @@ function initlorepage() {
 			div.append(node);
 			node = document.createElement("span");
 			node.className = "entryfade";
+			div.append(node);
+			node = document.createElement('a');
+			node.className = "entrylink";
+			node.href = "lorespecific.html#id=" + i;
 			div.append(node);
 			addborder(div, 26, 31, 25, 30);
 			feed.append(div);
