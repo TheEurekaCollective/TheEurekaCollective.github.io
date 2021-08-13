@@ -32,7 +32,7 @@ td.submenu {
 td.allsubmenu {
 	width: 5vw;
 }
-p.submenu {
+p.submenup {
 	text-decoration: none;
 	font-family: Raleway;
 	font-weight: 200;
@@ -47,7 +47,7 @@ p.submenu {
 	padding: 0px;
 	margin: 0px;
 }
-p.submenu:hover {
+p.submenup:hover {
 	text-decoration: underline;
 }
 /* lore feed */
@@ -62,29 +62,49 @@ div.loreentry {
 	width: 25vw;
 	height: 30vw;
 	transform: translate(-50%, -50%);
+	transition: 0.3s ease;
+	cursor: pointer;
 }
-#entry1 { left: 20vw; top: 18vw; }
-#entry2 { left: 50vw; top: 18vw; }
-#entry3 { left: 80vw; top: 18vw; }
 img.entryimg {
 	position: absolute;
-	width: 55%;
-	height: 50%;
+	width: 44%;
+	height: 40%;
 	object-fit: cover;
-	left: 22%;
-	top: 5%;
+	left: 28%;
+	top: 7%;
 }
 p.entryheading {
 	position: absolute;
 	width: 100%;
 	text-align: center;
-	top: 60%;
+	top: 55%;
 	font-family: Raleway;
 	color: white;
-	font-size: 1.6vw;
+	font-size: 1.3vw;
 	margin: 0;
 	letter-spacing: 0.4vw;
 	font-weight: 200;
+	transition: 0.3s ease;
+}
+p.entrytxt {
+	position: absolute;
+	width: 86%;
+	top: 70%;
+	font-family: Raleway;
+	color: white;
+	font-size: 0.95vw;
+	margin: 0;
+	padding: 0 7%;
+	font-weight: 200;
+	transition: 0.3s ease;
+}
+span.entryfade {
+	position: absolute;
+	width: 86%;
+	left: 7%;
+	top: 70%;
+	height: 28%;
+	background-image: linear-gradient(#17171700, #17171766, #171717ff);
 }
 
 

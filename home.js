@@ -50,8 +50,8 @@ function move(i) {
 	update();
 }
 
-var pclasses = ["lorelbl", "releasebody", "releaseheading"];
-var psizes = [1.3, 1, 1.4];
+var pclasses = ["lorelbl", "releasebody", "releaseheading", "entryheading", "entrytxt"];
+var psizes = [1.3, 1, 1.4, 1.3, 0.95];
 
 function addborder(div, a, b, c, d) {
 	var node;
@@ -63,7 +63,7 @@ function addborder(div, a, b, c, d) {
 	}
 	div.onmouseover = function() {
 		spans = this.getElementsByTagName("span");
-		for (var i = 0; i < spans.length; i++) {
+		for (var i = 0; i < spans.length; i++) if (spans[i].className != "entryfade") {
 			spans[i].style.boxShadow = "0 0 5px white";
 			spans[i].style.backgroundColor = "#bbbbbb";
 		}
@@ -73,11 +73,11 @@ function addborder(div, a, b, c, d) {
 		for (var i = 0; i < lbl.length; i++)
 			for (var j = 0; j < psizes.length; j++)
 				if (lbl[i].className==pclasses[j])
-					lbl[i].style.fontSize = (psizes[j]*ratio)+"vw";
+					lbl[i].style.fontSize = (psizes[j]*ratio).toPrecision(15)+"vw";
 	}
 	div.onmouseout = function() {
 		spans = this.getElementsByTagName("span");
-		for (var i = 0; i < spans.length; i++) {
+		for (var i = 0; i < spans.length; i++) if (spans[i].className != "entryfade") {
 			spans[i].style.boxShadow = "0 0 0px white";
 			spans[i].style.backgroundColor = "#777777";
 		}
@@ -203,4 +203,68 @@ function fade() {
 	setTimeout(() => {head1.style.transition="0.8s ease";head1.style.opacity='1';}, 1000);
 	var head2 = document.getElementById("heading2");
 	setTimeout(() => {head2.style.transition="0.8s ease";head2.style.opacity='1';}, 1200);
+}
+
+var loretype = [0, 1, 2];
+var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS"];
+var loretxt = ["Antimatter is the primary form of energy storage within the Human Domain. It is used to power almost every form of technology from mages to starships. It is even used as a form of currency. The commodification of antimatter stems from...",
+"In the Great Cities, it is not uncommon for an aspiring couple to walk into a Materna clinic and request a BioTube reservation. For what you may ask? For a baby! In the 26th century, nearly 93% of all births take place within an artificial uterus...",
+"Humanity has long mastered the human body. Genetic modification and alteration are the norm. One can get a cell sculpt from the corner store. An entire field of fashion known as fleshcraft sprung from this newfound ability. It..."];
+var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg"];
+
+function initlorepage() {
+	var feed = document.getElementsByClassName("lorefeed")[0];
+	var i = 0;
+	for (var y = 18; true; y += 34) {
+		if (i>=loreheadings.length) break;
+		for (var x = 20; x < 81; x += 30) {
+			if (i >= loreheadings.length) break;
+			var div = document.createElement("div");
+			div.className = "loreentry";
+			div.id = "entry" + i;
+			div.style.left = x + "vw";
+			div.style.top = y + "vw";
+			var node = document.createElement("img");
+			node.src = loreimg[i];
+			node.className = "entryimg";
+			div.append(node);
+			node = document.createElement("p");
+			node.className = "entryheading";
+			node.textContent = loreheadings[i];
+			div.append(node);
+			node = document.createElement("p");
+			node.className = "entrytxt";
+			node.textContent = loretxt[i];
+			div.append(node);
+			node = document.createElement("span");
+			node.className = "entryfade";
+			div.append(node);
+			addborder(div, 26, 31, 25, 30);
+			feed.append(div);
+			i += 1;
+		}
+	}
+}
+
+function filter(c) {
+	// alert(c);
+	var i = 0;
+	for (var y = 18; true; y += 34) {
+		if (i >= loreimg.length) break;
+		for (var x = 20; x < 81; x += 30) {
+			while (i<loreimg.length && c != 7 && loretype[i] != c) {
+				var div = document.getElementById("entry" + i)
+				div.style.opacity='0';
+				div.style.left='0';
+				div.style.top='0';
+				i += 1;
+			}
+			if (i >= loreimg.length) break;
+			var div = document.getElementById("entry" + i);
+			div.style.opacity='1';
+			div.style.left = x + "vw";
+			div.style.top = y + "vw";
+			i += 1;
+		}
+	}
 }
