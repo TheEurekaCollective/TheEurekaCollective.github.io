@@ -1,0 +1,92 @@
+/* submenu */
+div.submenu {
+	position: fixed;
+	top: 3.2vw;
+	left: 0;
+	border: solid white;
+	border-width: 1px 0 1px 0;
+	height: 3.2vw;
+	width: 100vw;
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	background-color: black;
+	opacity: 0.9;
+	z-index: 100;
+}
+table.submenu {
+	border-collapse: collapse;
+	position: absolute;
+	left: 18vw;
+	top: 0;
+	width: 64vw;
+	height: 3.2vw;
+}
+td.submenu {
+	padding: 0px;
+	width: 8vw;
+	border-width: 0px;
+	margin: 0px;
+}
+td.allsubmenu {
+	width: 5vw;
+}
+p.submenu {
+	text-decoration: none;
+	font-family: Raleway;
+	font-weight: 200;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	height: 3.2vw;
+	line-height: 3.2vw;
+	font-size: 1.2vw;
+	color: white;
+	cursor: pointer;
+	padding: 0px;
+	margin: 0px;
+}
+p.submenu:hover {
+	text-decoration: underline;
+}
+/* lore feed */
+div.lorefeed {
+	position: relative;
+	top: 6.4vw;
+	left: 0;
+	width: 100vw;
+}
+div.loreentry {
+	position: absolute;
+	width: 25vw;
+	height: 30vw;
+	transform: translate(-50%, -50%);
+}
+#entry1 { left: 20vw; top: 18vw; }
+#entry2 { left: 50vw; top: 18vw; }
+#entry3 { left: 80vw; top: 18vw; }
+img.entryimg {
+	position: absolute;
+	width: 55%;
+	height: 50%;
+	object-fit: cover;
+	left: 22%;
+	top: 5%;
+}
+p.entryheading {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 60%;
+	font-family: Raleway;
+	color: white;
+	font-size: 1.6vw;
+	margin: 0;
+	letter-spacing: 0.4vw;
+	font-weight: 200;
+}
+
+
+
+br {}

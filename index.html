@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title>Project Anima</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta charset="UTF-8">
 	<meta name="description" content="Project Anima">
@@ -18,7 +19,7 @@
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body onscroll="update(); scrollart();">
-	<div class="header">
+	<div class="header" style="opacity:0">
 		<a href="index.html">
 			<img src="resources/Anima Standalone.svg" class="menu">
 			<p id="menutxt">PROJECT ANIMA</p>
@@ -35,7 +36,7 @@
 	  </table>
 		<input type="text" placeholder="Search..." class="menu">
 	</div>
-	<div id="scroll">
+	<div id="scroll" style="opacity:0">
 		<span id="scrollbar"></span>
 		<span id="scrolldot" class="dot"></span>
 		<p class="scrolllabel" id="scroll1" onclick="move(0);">Home</p>
@@ -47,9 +48,11 @@
 	</div>
 	<div class="stuff">
 		<div class="top">
-			<img src="resources/Background1.jpeg" id="topimg">
-			<p id="heading1">P R O J E C T&nbsp&nbspA N I M A</p>
-			<p id="heading2">A&nbsp&nbspF U T U R E&nbsp&nbspO F&nbsp&nbspS C I E N C E&nbsp&nbspA N D&nbsp&nbspM A G I C</p>
+			<img src="resources/Background1.jpeg" id="topimg" style="opacity:0">
+			<!-- <p id="heading1" style="opacity:0">P R O J E C T&nbsp&nbspA N I M A</p> -->
+			<p id="heading1" style="opacity:0">PROJECT ANIMA</p>
+			<!-- <p id="heading2" style="opacity:0">A&nbsp&nbspF U T U R E&nbsp&nbspO F&nbsp&nbspS C I E N C E&nbsp&nbspA N D&nbsp&nbspM A G I C</p> -->
+			<p id="heading2" style="opacity:0">A FUTURE OF SCIENCE AND MAGIC</p>
 		</div>
 		<div class="synopsis">
 			<img src="resources/Background2.jpeg" id="synimg">
@@ -118,9 +121,19 @@
 			<img src="resources/Infinite City.jpg" id="tyimg">
 		</div>
 	</div>
-	<script src="home.js"></script>
+	<script src="home.js">
+	</script>
+	<script>
+		update();
+		setfeature();
+		setlore();
+		initart();
+		scrollart();
+		initsponsor();
+		fade();
+	</script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+	<script>
+		AOS.init();
+	</script>
 </body>

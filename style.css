@@ -1,9 +1,8 @@
 html {
 	scroll-behavior: smooth;
-	/* overflow-x: hidden; */
 }
 body {
-	background-color: black;
+	background-color: #171717;
 	margin: 0px;
 	overflow-x: hidden;
 }
@@ -38,7 +37,7 @@ img.menu {
 }
 table.menu {
 	border-collapse: collapse;
-	position: fixed;
+	position: absolute;
 	left: 30vw;
 	top: 0;
 	width: 40vw;
@@ -54,22 +53,21 @@ a.menu:link, a.menu:visited {
 	text-decoration: none;
 	display: inline-block;
 	font-family: Raleway;
-	width: 110%;
+	font-weight: 200;
+	width: 100%;
 	text-align: center;
 	height: 3.2vw;
 	line-height: 3.2vw;
 	background-color: black;
 	font-size: 1.2vw;
 	color: white;
-	transition: 0.5s ease;
 }
 a.menu:hover, a.menu:active {
-	/* color: #eeeeee; */
 	text-decoration: underline;
 }
 a.current:link, a.current:visited,
 a.current:hover, a.current:active {
-	/* fill this in later */
+	text-decoration: underline;
 }
 input.menu {
 	width: 17vw;
@@ -96,6 +94,7 @@ input.menu {
 	top: 14vw;
 	right: 2vw;
 	z-index: 100;
+	opacity: 0;
 	/* background-color: black; */
 }
 #scrollbar {
@@ -152,7 +151,7 @@ div.top {
 	height: 56vw;
 }
 #topimg {
-	opacity: 0.4;
+	opacity: 0;
 	position: absolute;
 	width: 100vw;
 	height: 56vw;
@@ -168,6 +167,8 @@ div.top {
 	top: 20vw;
 	width: 100%;
 	font-weight: 200;
+	letter-spacing: 1.3vw;
+	opacity: 0;
 }
 #heading2 {
 	font-family: Raleway;
@@ -177,6 +178,8 @@ div.top {
 	position: absolute;
 	top: 30vw;
 	width: 100%;
+	letter-spacing: 0.4vw;
+	opacity: 0;
 }
 /* synopsis page */
 div.synopsis {
@@ -281,7 +284,7 @@ div.release {
 }
 span.h {
 	position: absolute;
-	background-color: #666666;
+	background-color: #777777;
 	height: 1px;
 	width: 2vw;
 	border: 0px solid white;
@@ -290,7 +293,7 @@ span.h {
 }
 span.v {
 	position: absolute;
-	background-color: #666666;
+	background-color: #777777;
 	height: 2vw;
 	width: 1px;
 	border: 0px solid white;
@@ -341,7 +344,6 @@ div.lore {
 	position: relative;
 	width: 100vw;
 	height: 68vw;
-	/* background-color: #222222; */
 }
 #heading5 {
 	position: absolute;
@@ -521,11 +523,3 @@ p.sponsorname {
 	color: white;
 	font-size: 1.2vw;
 }
-
-
-
-
-
-
-
-br{}

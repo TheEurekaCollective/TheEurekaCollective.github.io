@@ -44,11 +44,14 @@ function update(){
 function move(i) {
 	var offset = 0;
 	if (i>0) offset = coords[i-1] * vw + 20;
-	if (i==5) offset = 258*vw + 250*vh;
+	if (i==5) offset = 258*vw + 250*vh + 20;
 	offset = offset - getY();
 	window.scrollBy(0, offset);
 	update();
 }
+
+var pclasses = ["lorelbl", "releasebody", "releaseheading"];
+var psizes = [1.3, 1, 1.4];
 
 function addborder(div, a, b, c, d) {
 	var node;
@@ -66,27 +69,25 @@ function addborder(div, a, b, c, d) {
 		}
 		this.style.width= a + "vw";
 		this.style.height= b + "vw";
-		var lbl = this.getElementsByClassName("lorelbl");
-		if (lbl.length>0) lbl[0].style.fontSize = (1.3*ratio)+"vw";
-		lbl = this.getElementsByClassName("releasebody");
-		if (lbl.length>0) lbl[0].style.fontSize = (1*ratio)+"vw";
-		lbl = this.getElementsByClassName("releaseheading");
-		if (lbl.length>0) lbl[0].style.fontSize = (1.4*ratio)+"vw";
+		var lbl = this.getElementsByTagName("p");
+		for (var i = 0; i < lbl.length; i++)
+			for (var j = 0; j < psizes.length; j++)
+				if (lbl[i].className==pclasses[j])
+					lbl[i].style.fontSize = (psizes[j]*ratio)+"vw";
 	}
 	div.onmouseout = function() {
 		spans = this.getElementsByTagName("span");
 		for (var i = 0; i < spans.length; i++) {
 			spans[i].style.boxShadow = "0 0 0px white";
-			spans[i].style.backgroundColor = "#666666";
+			spans[i].style.backgroundColor = "#777777";
 		}
 		this.style.width= c + "vw";
 		this.style.height= d + "vw";
-		var lbl = this.getElementsByClassName("lorelbl");
-		if (lbl.length>0) lbl[0].style.fontSize = "1.3vw";
-		lbl = this.getElementsByClassName("releasebody");
-		if (lbl.length>0) lbl[0].style.fontSize = "1vw";
-		lbl = this.getElementsByClassName("releaseheading");
-		if (lbl.length>0) lbl[0].style.fontSize = "1.4vw";
+		var lbl = this.getElementsByTagName("p");
+		for (var i = 0; i < lbl.length; i++)
+			for (var j = 0; j < psizes.length; j++)
+				if (lbl[i].className==pclasses[j])
+					lbl[i].style.fontSize = (psizes[j])+"vw";
 	}
 }
 
@@ -190,10 +191,16 @@ function initsponsor() {
 	}
 }
 
-// alert(window.innerWidth / 100.0);
-update();
-setfeature();
-setlore();
-initart();
-scrollart();
-initsponsor();
+function fade() {
+	var img = document.getElementById("topimg");
+	setTimeout(() => {img.style.transition="1s ease";img.style.opacity='0.4';}, 0);
+	var div = document.getElementsByClassName("header")[0];
+	div.style.opacity="0";
+	setTimeout(() => {div.style.transition="1s ease";div.style.opacity='0.9';}, 500);
+	var scroll = document.getElementById("scroll");
+	setTimeout(() => {scroll.style.transition="1s ease";scroll.style.opacity='1';}, 500);
+	var head1 = document.getElementById("heading1");
+	setTimeout(() => {head1.style.transition="0.8s ease";head1.style.opacity='1';}, 1000);
+	var head2 = document.getElementById("heading2");
+	setTimeout(() => {head2.style.transition="0.8s ease";head2.style.opacity='1';}, 1200);
+}
