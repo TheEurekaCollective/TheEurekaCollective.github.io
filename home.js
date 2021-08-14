@@ -249,7 +249,7 @@ function initlorepage() {
 			div.append(node);
 			node = document.createElement('a');
 			node.className = "entrylink";
-			node.href = "lorespecific.html#id=" + i;
+			node.href = "lorespecific.html?id=" + i;
 			div.append(node);
 			addborder(div, 26, 31, 25, 30);
 			feed.append(div);
