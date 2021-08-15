@@ -22,8 +22,6 @@
 	left: 15vw;
 	top: 12vw;
 	height: 100vw;
-	transition: 1s ease;
-	opacity: 0;
 }
 div.artdisplay {
 	position: absolute;
@@ -60,4 +58,124 @@ p.gallerylbl {
 	letter-spacing: 0.3vw;
 	padding: 0;
 	margin: 0;
+}
+a.gallerylink {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+}
+div.galleryleft {
+	position: absolute;
+	height: 100%;
+	width: 70vw;
+	left: 0;
+	top: 0;
+}
+div.galleryright {
+	position: absolute;
+	height: 100%;
+	width: 30vw;
+	left: 70vw;
+	top: 0;
+}
+img.specificimg {
+	position: absolute;
+	width: 96%;
+	height: 80%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 48%;
+	object-fit: contain;
+	/* border: 1px solid white; */
+	transition: 0.5s ease;
+	z-index: 3;
+	background-color: #00000000;
+}
+#fullscreen {
+	background-color: white;
+	width: 10%;
+	left: 45%;
+	position: absolute;
+	height: 8%;
+	bottom: 2%;
+}
+#darken {
+	position: absolute;
+	z-index: 2;
+	left: 0; right: 0;
+	top: 0; bottom: 0;
+	background-color: black;
+	opacity: 0;
+	display: hidden;
+}
+p.galleryheading {
+	position: absolute;
+	width: 100%;
+	top: 5vw;
+	font-size: 2.1vw;
+	color: white;
+	font-family: Poiret One;
+	text-align: center;
+	letter-spacing: 0.6vw;
+}
+span.galleryunderline {
+	position: absolute;
+	width: 22vw;
+	left: 4vw;
+	height: 1px;
+	background-color: white;
+	top: 10.5vw;
+}
+p.gallerytxt {
+	position: absolute;
+	left: 7%;
+	width: 80%;
+	padding: 0;
+	margin: 0;
+	top: 12vw;
+	color: white;
+	font-family: Raleway;
+	font-weight: 200;
+	font-size: 1vw;
+	line-height: 1.8vw;
+	overflow: scroll;
+	height: 55%;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.gallerytxt::-webkit-scrollbar {
+	display: none;
+}
+div.galleryscroll {
+	position: absolute;
+	left: 90%;
+	width: 8%;
+	height: 48%;
+	top: 14vw;
+}
+#gscrollbar {
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	top: 0;
+	background-color: white;
+	left: 50%;
+	opacity: 0.6;
+}
+#gdot {
+	transform: translate(-50%, -50%);
+	background-color: white;
+	height: 1.4vw;
+	width: 1.4vw;
+	position: absolute;
+	top: 0;
+	left: 50%;
+ 	border-radius: 50%;
+	margin: 0;
+	padding: 0;
+	transition: 0.2s ease;
 }

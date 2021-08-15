@@ -1,5 +1,6 @@
-var imgs = ["resources/Infinite City.jpg", "resources/Magus.png", "resources/chungus.jpeg"];
-var gallerynames = ["THE INFINITE CITY", "MAGUS", "SCUPT"];
+var imgs = ["resources/Infinite City.jpg", "resources/Magus.png", "resources/chungus.jpeg", 'lol.png'];
+var gallerynames = ["THE INFINITE CITY", "MAGUS", "SCULPT", 'LOLOLOLOLOL'];
+var pagelink = ["artspecific.html", "artspecific.html", "artspecific.html", "artspecific.html"];
 
 function initgallery() {
 	var i = 0;
@@ -20,8 +21,37 @@ function initgallery() {
 			lbl.className = 'gallerylbl';
 			lbl.textContent = gallerynames[i];
 			node.append(lbl);
+			var link = document.createElement('a');
+			link.className = 'gallerylink';
+			link.href = pagelink[i];
+			node.append(link);
 			div.append(node);
 			i += 1;
 		}
+	}
+}
+
+function initspecific() {
+	var img = document.querySelectorAll('img.specificimg')[0];
+	img.fullscreen = false;
+	var fs = document.getElementById('fullscreen');
+	fs.onclick = function() {
+		var img = document.querySelectorAll('img.specificimg')[0];
+		if (img.fullscreen) return;
+		img.fullscreen=true;
+		img.style.left='50vw';
+		img.style.top='50vh';
+		img.style.width='100vw';
+		img.style.height='100vh';
+		img.style.backgroundColor="#000000ff";
+	}
+	img.onclick = function() {
+		if (! this.fullscreen) return;
+		this.fullscreen = false;
+		this.style.left='50%';
+		this.style.top='48%';
+		this.style.width='96%';
+		this.style.height='80%';
+		this.style.backgroundColor="#00000000";
 	}
 }

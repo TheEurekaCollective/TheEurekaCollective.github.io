@@ -17,7 +17,7 @@ div.header {
 	overflow: hidden;
 	background-color: black;
 	opacity: 0.9;
-	z-index: 100;
+	z-index: 1;
 }
 img.menu {
 	position: fixed;
