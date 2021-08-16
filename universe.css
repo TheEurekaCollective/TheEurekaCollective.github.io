@@ -30,13 +30,49 @@ span.underline {
 #universeorigin {
 	position: absolute;
 	top: 5vw;
-	left: 44vw;
+	left: 41.5vw;
 	width: 51.5vw;
 	height: 24vw;
 }
-#universesandbox {
+#sandboxheading {
 	position: absolute;
 	top: 30vw;
 	left: 7vw;
-	width: 88.5vw
+	width: 86vw
+}
+div.sandboxentry {
+	position: absolute;
+	width: 27vw;
+	height: 15vw;
+	left: 6vw;
+	top: 36vw;
+}
+#sbentry1 { left: 6vw; top: 36vw; }
+#sbentry2 { left: 36.5vw; top: 36vw; }
+#sbentry3 { left: 67vw; top: 36vw; }
+#sbentry4 { left: 6vw; top: 54vw; }
+#sbentry5 { left: 36.5vw; top: 54vw; }
+#sbentry6 { left: 67vw; top: 54vw; }
+p.sandboxcategory {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-family: Raleway;
+	font-size: 1.8vw;
+	color: white;
+	margin: 0; padding: 0;
+	letter-spacing: 0.4vw;
+	top: 1.5vw;
+	font-weight: 300;
+}
+p.sandboxtext {
+	position: absolute;
+	width: 23.9vw;
+	padding: 0 1.55vw;
+	color: white;
+	font-family: Raleway;
+	font-size: 1.1vw;
+	margin: 0;
+	top: 5vw;
+	font-weight: 100;
 }
