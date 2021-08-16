@@ -29,12 +29,6 @@ div.artdisplay {
 	height: 30vw;
 	transform: translate(-50%, -50%);
 }
-#gallery1 {left: 16%; top: 15vw;}
-#gallery2 {left: 50%; top: 15vw;}
-#gallery3 {left: 84%; top: 15vw;}
-#gallery4 {left: 16%; top: 47vw;}
-#gallery5 {left: 50%; top: 47vw;}
-#gallery6 {left: 84%; top: 47vw;}
 img.galleryimg {
 	position: absolute;
 	left: 0;
@@ -102,24 +96,15 @@ img.specificimg {
 	height: 8%;
 	bottom: 2%;
 }
-#darken {
-	position: absolute;
-	z-index: 2;
-	left: 0; right: 0;
-	top: 0; bottom: 0;
-	background-color: black;
-	opacity: 0;
-	display: hidden;
-}
 p.galleryheading {
 	position: absolute;
 	width: 100%;
-	top: 5vw;
-	font-size: 2.1vw;
+	top: 10vh;
+	font-size: 4.2vh;
 	color: white;
 	font-family: Poiret One;
 	text-align: center;
-	letter-spacing: 0.6vw;
+	letter-spacing: 1.2vh;
 }
 span.galleryunderline {
 	position: absolute;
@@ -127,22 +112,22 @@ span.galleryunderline {
 	left: 4vw;
 	height: 1px;
 	background-color: white;
-	top: 10.5vw;
 }
 p.gallerytxt {
+	/* background-color: #333333; */
 	position: absolute;
 	left: 7%;
 	width: 80%;
 	padding: 0;
 	margin: 0;
-	top: 12vw;
+	top: 23vh;
 	color: white;
 	font-family: Raleway;
 	font-weight: 200;
-	font-size: 1vw;
-	line-height: 1.8vw;
+	font-size: 2.2vh;
+	line-height: 3.6vh;
 	overflow: scroll;
-	height: 55%;
+	height: 50vh;
 	-ms-overflow-style: none;  /* IE and Edge */
 	scrollbar-width: none;  /* Firefox */
 }
@@ -154,8 +139,8 @@ div.galleryscroll {
 	position: absolute;
 	left: 90%;
 	width: 8%;
-	height: 48%;
-	top: 14vw;
+	height: 43vh;
+	top: 28vh;
 }
 #gscrollbar {
 	position: absolute;
@@ -178,4 +163,62 @@ div.galleryscroll {
 	margin: 0;
 	padding: 0;
 	transition: 0.2s ease;
+}
+p.readmore {
+	color: white;
+	font-family: Raleway;
+	font-weight: 200;
+	font-size: 2.2vh;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 80vh;
+	padding: 0; margin: 0;
+}
+a.readmore {
+	color: white;
+	font-family: Raleway;
+	font-weight: 200;
+	font-size: 2.2vh;
+	text-decoration: underline;
+}
+span.authorborder {
+	position: absolute;
+	width: 28vw;
+	left: 1vw;
+	height: 1px;
+	top: 88vh;
+	background-color: white;
+}
+span.pfp {
+	transform: translate(-50%, -50%);
+	background-color: white;
+	height: 8vh;
+	width: 8vh;
+	position: absolute;
+	top: 94vh;
+	left: 9vw;
+ 	border-radius: 50%;
+	margin: 0;
+	padding: 0;
+	transition: 0.2s ease;
+}
+p.authorname {
+	position: absolute;
+	color: white;
+	font-family: Poiret One;
+	font-size: 3.5vh;
+	left: 12vw;
+	top: 90vh;
+	margin: 0; padding: 0;
+}
+p.authorclass {
+	position: absolute;
+	color: white;
+	font-family: Raleway;
+	font-size: 2.4vh;
+	font-weight: 200;
+	left: 12vw;
+	bottom: 2.3vh;
+	margin: 0; padding: 0;
 }
