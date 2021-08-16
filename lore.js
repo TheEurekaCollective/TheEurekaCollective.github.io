@@ -1,5 +1,4 @@
 
-var spanclasses = ["h c1", "v c1", "h c2", "v c2", "h c3", "v c3", "h c4", "v c4"];
 var defaultinfo = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"];
 var imgname = ["resources/Materna Icon.svg"];
 var boxinfo = ["CATEGORY--Factions|Human Domain|Corporation|Human|Synthia Faber|September 1st, 2021"];
@@ -11,14 +10,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 =Paragraph Title
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`]
 
-function plainborder(div) {
-	var node;
-	for (var j = 0; j < 8; j++) {
-		node = document.createElement("span");
-		node.className = spanclasses[j];
-		div.append(node);
-	}
-}
+
 
 function initlorespecific() {
 	var queryString = window.location.search;

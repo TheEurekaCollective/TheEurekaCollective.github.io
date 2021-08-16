@@ -91,6 +91,15 @@ function addborder(div, a, b, c, d) {
 	}
 }
 
+function plainborder(div) {
+	var node;
+	for (var j = 0; j < 8; j++) {
+		node = document.createElement("span");
+		node.className = spanclasses[j];
+		div.append(node);
+	}
+}
+
 function setfeature() {
 	for (var i = 1; i <= 3; i++) {
 		var div = document.getElementById("release" + i);
