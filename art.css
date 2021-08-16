@@ -162,7 +162,6 @@ div.galleryscroll {
  	border-radius: 50%;
 	margin: 0;
 	padding: 0;
-	transition: 0.2s ease;
 }
 p.readmore {
 	color: white;
@@ -201,7 +200,6 @@ span.pfp {
  	border-radius: 50%;
 	margin: 0;
 	padding: 0;
-	transition: 0.2s ease;
 }
 p.authorname {
 	position: absolute;
