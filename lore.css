@@ -56,6 +56,7 @@ div.lorefeed {
 	top: 6.4vw;
 	left: 0;
 	width: 100vw;
+	transition: 0.3s ease;
 }
 div.loreentry {
 	position: absolute;
@@ -116,10 +117,9 @@ a.entrylink {
 
 /* lore specific */
 div.specificall {
-	position: absolute;
+	overflow: auto;
 	width: 86vw;
-	left: 7vw;
-	top: 2vw;
+	padding: 2vw 7vw;
 }
 /* info */
 div.info {

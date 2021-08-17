@@ -17,11 +17,13 @@
 	top: 10.5vw;
 }
 #artgallery {
-	position: absolute;
+	/* position: absolute; */
+	position: relative;
 	width: 70vw;
-	left: 15vw;
-	top: 12vw;
-	height: 100vw;
+	margin: 12vw 15vw;
+	/* left: 15vw; */
+	/* top: 12vw; */
+	/* height: 100vw; */
 }
 div.artdisplay {
 	position: absolute;

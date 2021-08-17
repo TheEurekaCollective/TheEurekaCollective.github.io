@@ -232,7 +232,6 @@ function initlorepage() {
 	var feed = document.getElementsByClassName("lorefeed")[0];
 	var i = 0;
 	for (var y = 18; true; y += 34) {
-		if (i>=loreheadings.length) break;
 		for (var x = 20; x < 81; x += 30) {
 			if (i >= loreheadings.length) break;
 			var div = document.createElement("div");
@@ -264,6 +263,10 @@ function initlorepage() {
 			feed.append(div);
 			i += 1;
 		}
+		if (i>=loreheadings.length) {
+			feed.style.height = (y+24)+'vw';
+			break;
+		}
 	}
 }
 
@@ -271,7 +274,6 @@ function filter(c) {
 	// alert(c);
 	var i = 0;
 	for (var y = 18; true; y += 34) {
-		if (i >= loreimg.length) break;
 		for (var x = 20; x < 81; x += 30) {
 			while (i<loreimg.length && c != 7 && loretype[i] != c) {
 				var div = document.getElementById("entry" + i)
@@ -286,6 +288,10 @@ function filter(c) {
 			div.style.left = x + "vw";
 			div.style.top = y + "vw";
 			i += 1;
+		}
+		if (i >= loreimg.length) {
+			document.getElementsByClassName("lorefeed")[0].style.height = (y+24)+'vw';
+			break;
 		}
 	}
 }

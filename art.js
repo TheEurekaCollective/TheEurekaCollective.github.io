@@ -1,12 +1,11 @@
-var imgs = ["resources/Infinite City.jpg", "resources/Magus.png", "resources/chungus.jpeg", 'lol.png'];
-var gallerynames = ["THE INFINITE CITY", "MAGUS", "SCULPT", 'LOLOLOLOLOL'];
-var pagelink = ["artspecific.html", "artspecific.html", "artspecific.html", "artspecific.html"];
+var imgs = ["resources/Infinite City.jpg", "resources/Magus.png", "resources/chungus.jpeg"];
+var gallerynames = ["THE INFINITE CITY", "MAGUS", "SCULPT"];
+var pagelink = ["artspecific.html", "artspecific.html", "artspecific.html"];
 
 function initgallery() {
 	var i = 0;
 	var div = document.getElementById("artgallery");
 	for (var y = 15; true; y += 32) {
-		if (i>=imgs.length) break;
 		for (var x = 16; x < 100; x += 34) {
 			if (i>=imgs.length) break;
 			var node = document.createElement('div');
@@ -27,6 +26,10 @@ function initgallery() {
 			node.append(link);
 			div.append(node);
 			i += 1;
+		}
+		if (i>=imgs.length) {
+			div.style.height = (y+10)+'vw';
+			break;
 		}
 	}
 }
