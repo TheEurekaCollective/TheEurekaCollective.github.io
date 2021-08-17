@@ -1,6 +1,6 @@
 
 var coords = [56, 112, 177, 245, 395, 10000];
-var pos = ["10%", "26%", "42%", "58%", "74%", "90%"];
+var pos = ['0%', '20%', '40%', '60%', '80%', '100%'];
 var ids = ["scroll1", "scroll2", "scroll3", "scroll4", "scroll5", "scroll6"];
 var vh = window.innerHeight / 100.0;
 var vw = window.innerWidth / 100.0;

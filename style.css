@@ -101,32 +101,34 @@ input.menu {
 /* scroll stuff */
 #scroll {
 	position: fixed;
-	width: 13vw;
-	height: 20vw;
-	top: 14vw;
-	right: 2vw;
+	width: 9vw;
+	transform: translateY(-50%);
+	height: 16vw;
+	top: 50vh;
+	right: 2.63vw;
 	z-index: 100;
-	opacity: 0;
 }
 #scrollbar {
 	position: absolute;
 	width: 2px;
-	height: 82%;
-	top: 13%;
+	height: 100%;
+	top: 0;
 	background-color: white;
-	right: 0.63vw;
+	right: 0;
 	opacity: 0.6;
+	margin: 0; padding: 0;
 }
 .dot {
+	position: absolute;
 	background-color: white;
+	transform: translate(50%, -50%);
 	height: 1.4vw;
 	width: 1.4vw;
 	position: absolute;
-	top: 10%;
+	top: 0%;
 	right: 0;
  	border-radius: 50%;
-	margin: 0;
-	padding: 0;
+	margin: 0; padding: 0;
 	transition: 0.2s ease;
 }
 p.scrolllabel {
@@ -134,17 +136,18 @@ p.scrolllabel {
 	font-family: Raleway;
 	font-weight: 200;
 	font-size: 1.2vw;
-	right: 2.8vw;
-	padding: 0;
+	transform: translateY(-50%);
+	right: 2vw;
+	margin: 0; padding: 0;
 	cursor: pointer;
 	transition: 0.5s ease;
 }
-#scroll1{top: 5%;}
+#scroll1{top: 0%;}
 #scroll2{top: 20%;}
-#scroll3{top: 36%;}
-#scroll4{top: 52%;}
-#scroll5{top: 67%;}
-#scroll6{top: 83%;}
+#scroll3{top: 40%;}
+#scroll4{top: 60%;}
+#scroll5{top: 80%;}
+#scroll6{top: 100%;}
 div.stuff {
 	margin: 0;
 	padding: 0;
