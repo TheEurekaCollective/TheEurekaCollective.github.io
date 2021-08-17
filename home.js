@@ -23,8 +23,8 @@ function update(){
 	var p = document.getElementById("scrolldot");
 	var b = [false,false,false,false,false,false];
 	for (var i = 0; i < 6; i++) {
-		var cmp = (coords[i]+1)*vw;
-		if (i==4) cmp=258*vw+250*vh;
+		var cmp = (coords[i])*vw;
+		if (i==4) cmp=258*vw+270*vh;
 		if (y<=cmp) {
 			b[i]=true;
 			break;
@@ -43,15 +43,15 @@ function update(){
 
 function move(i) {
 	var offset = 0;
-	if (i>0) offset = coords[i-1] * vw + 20;
-	if (i==5) offset = 258*vw + 250*vh + 20;
+	if (i>0) offset = coords[i-1] * vw + 10;
+	if (i==5) offset = 258*vw + 270*vh + 10;
 	offset = offset - getY();
 	window.scrollBy(0, offset);
 	update();
 }
 
 var pclasses = ["lorelbl", "releasebody", "releaseheading", "entryheading", "entrytxt"];
-var psizes = [1.3, 1, 1.4, 1.3, 0.95];
+var psizes = [1.2, 1, 1.4, 1.3, 0.95];
 
 function addborder(div, a, b, c, d) {
 	var node;
@@ -110,7 +110,7 @@ function setfeature() {
 function setlore() {
 	for (var i = 1; i <= 8; i++) {
 		var div = document.getElementById("lore" + i);
-		addborder(div, 16, 22, 15, 21);
+		addborder(div, 15, 21, 14, 20);
 		var node;
 		node = document.createElement("img");
 		node.src = "resources/" + lorenames[i-1] + " Icon.svg";
