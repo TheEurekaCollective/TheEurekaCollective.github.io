@@ -346,9 +346,9 @@ p.releasebody {
 	top: 23%;
 	transition: 0.3s ease;
 }
-#release1 {top: 7vw;}
-#release2 {top: 22vw;}
-#release3 {top: 38vw;}
+#release1 {top: 5vw;}
+#release2 {top: 20vw;}
+#release3 {top: 35vw;}
 /* lore page */
 div.lore {
 	position: relative;
