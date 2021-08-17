@@ -6,6 +6,16 @@ body {
 	margin: 0px;
 	overflow-x: hidden;
 }
+p {
+	color: white;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
 /* header stuff */
 div.header {
 	padding: 0px;
@@ -49,8 +59,7 @@ td.menu {
 	border-width: 0px;
 	margin: 0px;
 }
-a.menu:link, a.menu:visited {
-	text-decoration: none;
+a.menu {
 	display: inline-block;
 	font-family: Raleway;
 	font-weight: 200;
@@ -60,14 +69,10 @@ a.menu:link, a.menu:visited {
 	line-height: 3.2vw;
 	background-color: black;
 	font-size: 1.2vw;
-	color: white;
 }
-a.menu:hover, a.menu:active {
+a.current {
 	text-decoration: underline;
-}
-a.current:link, a.current:visited,
-a.current:hover, a.current:active {
-	text-decoration: underline;
+	cursor: default;
 }
 input.menu {
 	width: 17vw;
@@ -95,7 +100,6 @@ input.menu {
 	right: 2vw;
 	z-index: 100;
 	opacity: 0;
-	/* background-color: black; */
 }
 #scrollbar {
 	position: absolute;
@@ -120,7 +124,6 @@ input.menu {
 }
 p.scrolllabel {
 	position: absolute;
-	color: white;
 	font-family: Raleway;
 	font-weight: 200;
 	font-size: 1.2vw;
@@ -138,7 +141,7 @@ p.scrolllabel {
 div.stuff {
 	margin: 0;
 	padding: 0;
-	position: static;
+	position: relative;
 	left: 0;
 	top: 0;
 	width: 100vw;
@@ -523,4 +526,109 @@ p.sponsorname {
 	color: white;
 	font-size: 1.2vw;
 	font-weight: 200;
+}
+/* footer */
+footer {
+	position: relative;
+	display: inline-block;
+	width: 100vw;
+	height: 40vw;
+	top: 0;
+	background-color: black;
+}
+p.contactus {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-family: Raleway;
+	font-size: 2vw;
+	margin: 0; padding: 0;
+	letter-spacing: 0.5vw;
+	font-weight: 300;
+}
+a.email {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-family: Raleway;
+	font-size: 1.4vw;
+	margin: 0; padding: 0;
+	top: 10vw;
+	font-weight: 300;
+}
+img.contacticon {
+	position: absolute;
+	width: 3vw;
+	height: 3vw;
+	transform: translateX(-50%);
+	top: 19vw;
+	border: 1px solid white;
+}
+#contact1 { left: 38vw; }
+#contact2 { left: 42vw; }
+#contact3 { left: 46vw; }
+#contact4 { left: 50vw; }
+#contact5 { left: 54vw; }
+#contact6 { left: 58vw; }
+#contact7 { left: 62vw; }
+p.footerheading {
+	font-family: Raleway;
+	font-size: 1.4vw;
+	margin: 0; padding: 0;
+	letter-spacing: 0.3vw;
+	font-weight: 200;
+}
+a.footerlink {
+	font-family: Raleway;
+	font-size: 1.3vw;
+	margin: 0; padding: 0;
+	font-weight: 200;
+}
+div.follow {
+	position: absolute;
+	top: 5vw;
+	left: 6vw;
+}
+div.support {
+	position: absolute;
+	top: 5vw;
+	left: 21vw;
+}
+div.explore {
+	position: absolute;
+	top: 5vw;
+	left: 69vw;
+}
+div.more {
+	position: absolute;
+	top: 5vw;
+	left: 83vw;
+}
+img.footereureka {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 27vw;
+	left: 50vw;
+	height: 5vw;
+	width: auto;
+}
+span.footerline {
+	position: absolute;
+	background-color: white;
+	height: 1px;
+	width: 40vw;
+	top: 27vw;
+}
+p.copyright {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-family: Raleway;
+	font-size: 1.2vw;
+	top: 30vw;
+	margin:0; padding:0;
+}
+a.copyright {
+	text-decoration: underline;
+	cursor: pointer;
 }

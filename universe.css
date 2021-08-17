@@ -1,12 +1,19 @@
+div.universestuff {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 73vw;
+}
 p.universeheading {
-	color: white;
 	font-family: Poiret One;
 	font-size: 2.4vw;
 	padding: 0;
 	margin: 0 0 1vw 1vw;
 }
 p.universeparagraph {
-	color: white;
 	font-family: Raleway;
 	font-weight: 200;
 	line-height: 2.5vw;
@@ -59,7 +66,6 @@ p.sandboxcategory {
 	text-align: center;
 	font-family: Raleway;
 	font-size: 1.8vw;
-	color: white;
 	margin: 0; padding: 0;
 	letter-spacing: 0.4vw;
 	top: 1.5vw;
@@ -69,7 +75,6 @@ p.sandboxtext {
 	position: absolute;
 	width: 23.9vw;
 	padding: 0 1.55vw;
-	color: white;
 	font-family: Raleway;
 	font-size: 1.1vw;
 	margin: 0;
