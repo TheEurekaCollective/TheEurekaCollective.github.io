@@ -120,12 +120,16 @@ function setlore() {
 		node.textContent = lorenames[i-1].toUpperCase();
 		node.className = "lorelbl";
 		div.append(node);
+		node = document.createElement('a');
+		node.href = 'lore.html?filter=' + lorenames[i-1];
+		node.className = 'coverlink';
+		div.append(node);
 	}
 }
 
 var artpos = [[35, 65, 105], [5, 35, 65], [-35, 5, 35]];
 var artop = [[1, 0.4, 0], [0.4, 1, 0.4], [0, 0.4, 1]];
-var artcoords = [50, 140, 1000];
+var artcoords = [50, 120, 1000];
 var artnames = ["MAGUS", "THE INFINITE CITY", "CHUNGUS"];
 
 function initart() {
@@ -214,7 +218,7 @@ function fade() {
 	setTimeout(() => {head2.style.transition="0.8s ease";head2.style.opacity='1';}, 1200);
 }
 
-var loretype = [0, 1, 2];
+var loretype = ['Items', 'Locations', 'Locations'];
 var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS"];
 var loretxt = ["Antimatter is the primary form of energy storage within the Human Domain. It is used to power almost every form of technology from mages to starships. It is even used as a form of currency. The commodification of antimatter stems from...",
 "In the Great Cities, it is not uncommon for an aspiring couple to walk into a Materna clinic and request a BioTube reservation. For what you may ask? For a baby! In the 26th century, nearly 93% of all births take place within an artificial uterus...",
@@ -222,11 +226,11 @@ var loretxt = ["Antimatter is the primary form of energy storage within the Huma
 var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg"];
 
 function initlorepage() {
-	var submenu = document.querySelectorAll("p.submenup");
+	var submenu = document.querySelectorAll("a.submenup");
 	for (var i = 0; i < submenu.length; i++) {
-		submenu[i].number = i;
+		submenu[i].category = lorenames[i];
 		submenu[i].onclick = function() {
-			filter(this.number);
+			filter(this.category);
 		}
 	}
 	var feed = document.getElementsByClassName("lorefeed")[0];
@@ -268,14 +272,25 @@ function initlorepage() {
 			break;
 		}
 	}
+	var queryString = window.location.search;
+	var urlParams = new URLSearchParams(queryString);
+	if (urlParams.has("filter")) {
+		var c = urlParams.get('filter');
+		filter(c);
+	}
 }
 
 function filter(c) {
 	// alert(c);
+	var submenus = document.querySelectorAll('a.submenup');
+	for (var i = 0; i < submenus.length; i++) {
+		if (submenus[i].category == c) submenus[i].className = 'submenup submenuc';
+		else submenus[i].className = 'submenup';
+	}
 	var i = 0;
 	for (var y = 18; true; y += 34) {
 		for (var x = 20; x < 81; x += 30) {
-			while (i<loreimg.length && c != 7 && loretype[i] != c) {
+			while (i<loreimg.length && c != 'All' && loretype[i] != c) {
 				var div = document.getElementById("entry" + i)
 				div.style.opacity='0';
 				div.style.left='0';

@@ -16,6 +16,13 @@ a {
 a:hover, a:active {
 	text-decoration: underline;
 }
+a.coverlink {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
 /* header stuff */
 div.header {
 	padding: 0px;
@@ -33,7 +40,7 @@ img.menu {
 	position: fixed;
 	float: left;
 	top: 0.2vw;
-	left: 0.2vw;
+	left: 1.7vw;
 	height: 2.9vw;
 }
 #menutxt {
@@ -41,7 +48,7 @@ img.menu {
 	font-family: Poiret One;
 	position: absolute;
 	top: -0.6vw;
-	left: 3.4vw;
+	left: 4.9vw;
 	font-size: 1.4vw;
 	letter-spacing: 4px;
 }
@@ -483,6 +490,9 @@ a.artlabel {
 	transition: 0.3s ease;
 	letter-spacing: 0.3vw;
 }
+a.artlabel:hover, a.artlabel:active {
+	text-decoration: none;
+}
 /* sponsor page */
 div.sponsor {
 	position: relative;
@@ -587,22 +597,22 @@ a.footerlink {
 div.follow {
 	position: absolute;
 	top: 5vw;
-	left: 6vw;
+	left: 10vw;
 }
 div.support {
 	position: absolute;
 	top: 5vw;
-	left: 21vw;
+	left: 23vw;
 }
 div.explore {
 	position: absolute;
 	top: 5vw;
-	left: 69vw;
+	left: 67vw;
 }
 div.more {
 	position: absolute;
 	top: 5vw;
-	left: 83vw;
+	left: 79vw;
 }
 img.footereureka {
 	position: absolute;

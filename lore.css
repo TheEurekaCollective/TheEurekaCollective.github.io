@@ -32,7 +32,7 @@ td.submenu {
 td.allsubmenu {
 	width: 5vw;
 }
-p.submenup {
+a.submenup {
 	text-decoration: none;
 	font-family: Raleway;
 	font-weight: 200;
@@ -47,8 +47,12 @@ p.submenup {
 	padding: 0px;
 	margin: 0px;
 }
-p.submenup:hover {
+a.submenup:hover {
 	text-decoration: underline;
+}
+a.submenuc {
+	text-decoration: underline;
+	cursor: default;
 }
 /* lore feed */
 div.lorefeed {
