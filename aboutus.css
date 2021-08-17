@@ -1,0 +1,134 @@
+#aboutcontainer {
+	position: relative;
+	top: 4.3vw;
+	left: 0;
+	width: 100vw;
+	height: 53vw;
+}
+div.aboutusheading {
+	position: absolute;
+	width: 38vw;
+	left: 31vw;
+}
+p.aboutusheading {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin: 0; padding: 0;
+	left: 0; top: 0;
+	font-family: Poiret One;
+	color: white;
+	font-size: 3vw;
+}
+span.underline {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: white;
+	top: 5vw;
+}
+#about {top: 0;}
+#aboutuseureka {
+	position: absolute;
+	transform: translateY(-50%);
+	top: 15vw;
+	width: 16vw;
+	height: auto;
+	left: 29vw;
+}
+#aboutusanima {
+	position: absolute;
+	transform: translateY(-50%);
+	top: 15vw;
+	width: 16vw;
+	height: auto;
+	right: 29vw;
+}
+#cross1 {
+	position: absolute;
+	background-color: white;
+	top: 15vw;
+	width: 4vw;
+	height: 3px;
+	left: 48vw;
+	transform: rotate(45deg);
+}
+#cross2 {
+	position: absolute;
+	background-color: white;
+	top: 15vw;
+	width: 4vw;
+	height: 3px;
+	left: 48vw;
+	transform: rotate(135deg);
+}
+p.aboutustext {
+	position: absolute;
+	color: white;
+	font-family: Raleway;
+	font-weight: 200;
+	line-height: 2.5vw;
+	padding: 0.5vw 1vw;
+	font-size: 1.2vw;
+}
+#abouttxt {
+	top: 24vw;
+	width: 38vw;
+	left: 31vw;
+}
+
+/* meet the team */
+#meettheteam {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 50vw;
+}
+div.teammember {
+	position: absolute;
+	width: 14vw;
+	height: 22vw;
+	transform: translateX(-50%);
+	/* background-color: #333333; */
+}
+img.memberpfp {
+	position: absolute;
+	width: 14vw;
+	height: 14vw;
+	left: 0; top: 0;
+ 	border-radius: 50%;
+	margin: 0; padding: 0;
+	object-fit: cover;
+}
+p.memberuser {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	top: 15vw;
+	font-family: Poiret One;
+	color: white;
+	font-size: 1.6vw;
+	margin: 0; padding: 0;
+}
+p.memberrole {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	top: 18vw;
+	font-family: Raleway;
+	color: white;
+	font-size: 1.3vw;
+	margin: 0; padding: 0;
+	font-weight: 200;
+}
+#member1 { left: 16vw; top: 7vw; }
+#member2 { left: 33vw; top: 7vw; }
+#member3 { left: 50vw; top: 7vw; }
+#member4 { left: 67vw; top: 7vw; }
+#member5 { left: 84vw; top: 7vw; }
+#member6 { left: 16vw; top: 29vw; }
+#member7 { left: 33vw; top: 29vw; }
