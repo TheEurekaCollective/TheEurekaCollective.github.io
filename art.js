@@ -77,3 +77,12 @@ function initspecific() {
 		this.style.backgroundColor="#00000000";
 	}
 }
+
+function specificscroll() {
+	var div = document.querySelectorAll('p.gallerytxt')[0];
+	var totalheight = div.scrollHeight;
+	var showheight = 50 * window.innerHeight / 100.0;
+	if (totalheight <= showheight) return;
+	var percent = div.scrollTop / (totalheight - showheight);
+	document.getElementById('gdot').style.top = (100.0 * percent) + '%';
+}
