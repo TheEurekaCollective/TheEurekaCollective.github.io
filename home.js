@@ -42,7 +42,7 @@ function update(){
 
 function move(i) {
 	var offset = 0;
-	if (i>0) offset = coords[i-1] * vh + 10;
+	if (i>0) offset = coords[i-1] * vh + 1;
 	offset = offset - getY();
 	window.scrollBy(0, offset);
 	update();
@@ -129,6 +129,7 @@ var artpos = [[35, 65, 105], [5, 35, 65], [-35, 5, 35]];
 var artop = [[1, 0.4, 0], [0.4, 1, 0.4], [0, 0.4, 1]];
 var artcoords = [50, 100, 1000];
 var artnames = ["MAGUS", "THE INFINITE CITY", "SCULPT"];
+var artlinks = ['artspecific.html', 'artspecific.html', 'artspecific.html']
 
 function initart() {
 	document.getElementsByClassName("art")[0].style.height=(250*vh) + "px";
@@ -136,6 +137,7 @@ function initart() {
 		var div = document.getElementById("art" + i);
 		var node = document.createElement("a");
 		node.className = "artlabel";
+		node.href = artlinks[i];
 		node.textContent = artnames[i-1];
 		node.style.opacity = "0";
 		node.mouseIsOver=false;

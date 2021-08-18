@@ -5,7 +5,7 @@ var pagelink = ["artspecific.html", "artspecific.html", "artspecific.html"];
 function initgallery() {
 	var i = 0;
 	var div = document.getElementById("artgallery");
-	for (var y = 15; true; y += 32) {
+	for (var y = 12; true; y += 32) {
 		for (var x = 16; x < 100; x += 34) {
 			if (i>=imgs.length) break;
 			var node = document.createElement('div');
@@ -16,14 +16,29 @@ function initgallery() {
 			img.className = 'galleryimg';
 			img.src = imgs[i];
 			node.append(img);
-			var lbl = document.createElement('p');
+			var lbl = document.createElement('a');
 			lbl.className = 'gallerylbl';
 			lbl.textContent = gallerynames[i];
+			lbl.href = pagelink[i];
+			lbl.mouseIsOver = false;
+			lbl.onmouseover = function() {
+				this.style.opacity='1';
+				this.mouseIsOver=true;
+			}
+			lbl.onmouseout = function() {
+				this.mouseIsOver=false;
+				this.style.opacity='0.4';
+			}
 			node.append(lbl);
-			var link = document.createElement('a');
-			link.className = 'gallerylink';
-			link.href = pagelink[i];
-			node.append(link);
+			node.onmouseover = function() {
+				var a = this.getElementsByClassName('gallerylbl')[0];
+				if (a.mouseIsOver) return;
+				a.style.opacity='0.4';
+			}
+			node.onmouseout = function() {
+				var a = this.getElementsByClassName('gallerylbl')[0];
+				a.style.opacity='0';
+			}
 			div.append(node);
 			i += 1;
 		}

@@ -573,9 +573,9 @@ a.artlabel {
 	font-size: 1.1vw;
 	color: white;
 	width: 60%;
-	height: 10%;
+	height: 7vh;
 	text-align: center;
-	line-height: 4vw;
+	line-height: 7vh;
 	transition: 0.3s ease;
 	letter-spacing: 0.3vw;
 }
@@ -721,12 +721,12 @@ a.footerlink {
 div.follow {
 	position: absolute;
 	top: 5vw;
-	left: 10vw;
+	left: 12vw;
 }
 div.support {
 	position: absolute;
 	top: 5vw;
-	left: 23vw;
+	left: 24vw;
 }
 div.explore {
 	position: absolute;
