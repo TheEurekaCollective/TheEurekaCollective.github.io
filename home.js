@@ -135,6 +135,10 @@ function initart() {
 	document.getElementsByClassName("art")[0].style.height=(250*vh) + "px";
 	for (var i = 1; i <= 3; i++) {
 		var div = document.getElementById("art" + i);
+		var covernode = document.createElement('a');
+		covernode.className = 'coverlink';
+		covernode.href = artlinks[i-1];
+		div.append(covernode);
 		var node = document.createElement("a");
 		node.className = "artlabel";
 		node.href = artlinks[i];
@@ -151,12 +155,12 @@ function initart() {
 		}
 		div.append(node);
 		div.onmouseover = function() {
-			var a = this.getElementsByTagName("a")[0];
+			var a = this.querySelectorAll('a.artlabel')[0];
 			if (a.mouseIsOver) return;
 			a.style.opacity="0.4";
 		}
 		div.onmouseout = function() {
-			var a = this.getElementsByTagName('a')[0];
+			var a = this.querySelectorAll('a.artlabel')[0];
 			a.style.opacity="0";
 		}
 	}

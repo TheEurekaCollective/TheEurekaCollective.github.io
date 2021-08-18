@@ -16,6 +16,10 @@ function initgallery() {
 			img.className = 'galleryimg';
 			img.src = imgs[i];
 			node.append(img);
+			var cvr = document.createElement('a');
+			cvr.className = 'coverlink';
+			cvr.href = pagelink[i];
+			node.append(cvr);
 			var lbl = document.createElement('a');
 			lbl.className = 'gallerylbl';
 			lbl.textContent = gallerynames[i];
@@ -31,12 +35,12 @@ function initgallery() {
 			}
 			node.append(lbl);
 			node.onmouseover = function() {
-				var a = this.getElementsByClassName('gallerylbl')[0];
+				var a = this.querySelectorAll('a.gallerylbl')[0];
 				if (a.mouseIsOver) return;
 				a.style.opacity='0.4';
 			}
 			node.onmouseout = function() {
-				var a = this.getElementsByClassName('gallerylbl')[0];
+				var a = this.querySelectorAll('a.gallerylbl')[0];
 				a.style.opacity='0';
 			}
 			div.append(node);
