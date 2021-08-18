@@ -130,7 +130,7 @@ function setlore() {
 var artpos = [[35, 65, 105], [5, 35, 65], [-35, 5, 35]];
 var artop = [[1, 0.4, 0], [0.4, 1, 0.4], [0, 0.4, 1]];
 var artcoords = [50, 100, 1000];
-var artnames = ["MAGUS", "THE INFINITE CITY", "CHUNGUS"];
+var artnames = ["MAGUS", "THE INFINITE CITY", "SCULPT"];
 
 function initart() {
 	document.getElementsByClassName("art")[0].style.height=(13*vw + 280*vh) + "px";
@@ -280,3 +280,5 @@ function initfooter() {
 		cticons[i].href = footerlinks[i];
 	}
 }
+
+initfooter();

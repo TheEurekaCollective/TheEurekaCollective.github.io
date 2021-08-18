@@ -580,7 +580,7 @@ a.email {
 	top: 10vw;
 	font-weight: 300;
 }
-.contacticon {
+img.contacticon {
 	position: absolute;
 	width: 3vw;
 	height: 3vw;

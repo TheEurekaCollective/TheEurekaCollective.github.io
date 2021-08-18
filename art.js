@@ -1,4 +1,4 @@
-var imgs = ["resources/Infinite City.jpg", "resources/Magus.png", "resources/chungus.jpeg"];
+var imgs = ["resources/Infinite City.jpg", "resources/Magus.png", "resources/Sculpt.jpeg"];
 var gallerynames = ["THE INFINITE CITY", "MAGUS", "SCULPT"];
 var pagelink = ["artspecific.html", "artspecific.html", "artspecific.html"];
 
@@ -28,7 +28,7 @@ function initgallery() {
 			i += 1;
 		}
 		if (i>=imgs.length) {
-			div.style.height = (y+10)+'vw';
+			div.style.height = (y+12)+'vw';
 			break;
 		}
 	}
