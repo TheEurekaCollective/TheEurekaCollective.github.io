@@ -222,10 +222,10 @@ var footertxt = `<p class="contactus" style="top:5vw">CONTACT US</p>
 	<a href="mailto: theeurekacollective@gmail.com" class="email"> theeurekacollective@gmail.com </a>
 	<p class="contactus" style="top:14vw">OR</p>
 	<div class="contacticon">
-		<a class="contacticon"><img alt="insta" class="contacticon" id="contact1"></a>
-		<a class="contacticon"><img alt="fb" class="contacticon" id="contact2"></a>
+		<a class="contacticon"><i class="fab fa-instagram contacticon" id="contact1"></i></a>
+		<a class="contacticon"><i class="fab fa-facebook-f contacticon" id="contact2"></i></a>
 		<a class="contacticon"><img alt="art" class="contacticon" id="contact3"></a>
-		<a class="contacticon"><img alt="red" class="contacticon" id="contact4"></a>
+		<a class="contacticon"><i class="fab fa-reddit-alien contacticon" id="contact4"></i></a>
 		<a class="contacticon"><img alt="pat" class="contacticon" id="contact5"></a>
 		<a class="contacticon"><img alt="buy" class="contacticon" id="contact6"></a>
 		<a class="contacticon"><img alt="Kofi" class="contacticon" id="contact7"></a>
@@ -263,7 +263,7 @@ var footertxt = `<p class="contactus" style="top:5vw">CONTACT US</p>
 	<p class="copyright" style="top: 35vw">© 2021 Project Anima</p>`;
 
 var footerlinks = ["https://www.instagram.com/theeurekacollective/", "https://www.facebook.com/The-Eureka-Collective-105419318305863", "https://www.artstation.com/theeurekacollective", "https://www.reddit.com/r/projectanima/", "https://www.patreon.com/theeurekacollective", "https://www.buymeacoffee.com/projectanima", "https://ko-fi.com/theeurekacollective", "index.html", "lore.html", "art.html", "universe.html", "aboutus.html", "privacypolicy.html", "sitemap.html"];
-var iconsrcs = [];
+var iconsrcs = ['resources/ArtStation-logomark-white.png','resources/Digital-Patreon-Logo_White.png','resources/bmc-logo.svg','resources/Ko-fi_Icon_RGBforDarkBg.png'];
 
 function initfooter() {
 	document.getElementsByTagName('footer')[0].innerHTML = footertxt;

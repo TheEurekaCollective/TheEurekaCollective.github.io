@@ -586,11 +586,21 @@ img.contacticon {
 	height: 3vw;
 	transform: translateX(-50%);
 	top: 19vw;
-	border: 1px solid white;
-	border-radius: 50%;
+}
+.fa {
+	width: 3vw;
+	height: 3vw;
+}
+i.contacticon {
+	position: absolute;
+	width: 3vw;
+	height: 3vw;
+	font-size: 3vw;
+	transform: translateX(-50%);
+	top: 19vw;
 }
 #contact1 { left: 38vw; }
-#contact2 { left: 42vw; }
+#contact2 { left: 42.5vw; }
 #contact3 { left: 46vw; }
 #contact4 { left: 50vw; }
 #contact5 { left: 54vw; }
