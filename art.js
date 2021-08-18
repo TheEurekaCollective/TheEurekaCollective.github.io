@@ -1,6 +1,6 @@
 var imgs = ["resources/Infinite City.jpg", "resources/Magus.png", "resources/Sculpt.jpeg"];
 var gallerynames = ["THE INFINITE CITY", "MAGUS", "SCULPT"];
-var pagelink = ["artspecific.html", "artspecific.html", "artspecific.html"];
+var artpagelink = ["artspecific.html", "artspecific.html", "artspecific.html"];
 
 function initgallery() {
 	var i = 0;
@@ -18,12 +18,12 @@ function initgallery() {
 			node.append(img);
 			var cvr = document.createElement('a');
 			cvr.className = 'coverlink';
-			cvr.href = pagelink[i];
+			cvr.href = artpagelink[i];
 			node.append(cvr);
 			var lbl = document.createElement('a');
 			lbl.className = 'gallerylbl';
 			lbl.textContent = gallerynames[i];
-			lbl.href = pagelink[i];
+			lbl.href = artpagelink[i];
 			lbl.mouseIsOver = false;
 			lbl.onmouseover = function() {
 				this.style.opacity='1';

@@ -58,6 +58,7 @@ function getResults() {
 	for (var i = 0; i < tosort.length && i < 10; i++) {
 		if (tosort[i][0]>0) {
 			var x = pagetitle[tosort[i][1]];
+			if (x.length>17) x = x.slice(0, 17) + "...";
 			element("search-results").innerHTML +=
 				"<div class='search-item'><a class='search-item' href='"+pagelink[tosort[i][1]]+"'>" + x + "</a></div>";
 		}
