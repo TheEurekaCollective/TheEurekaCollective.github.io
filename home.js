@@ -228,9 +228,10 @@ var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "r
 function initlorepage() {
 	var submenu = document.querySelectorAll("a.submenup");
 	for (var i = 0; i < submenu.length; i++) {
-		submenu[i].category = lorenames[i];
+		submenu[i].category = [lorenames[i], "All"];
+		submenu[i].index = 0;
 		submenu[i].onclick = function() {
-			filter(this.category);
+			filter(this.category[this.index]);
 		}
 	}
 	var feed = document.getElementsByClassName("lorefeed")[0];
@@ -284,8 +285,14 @@ function filter(c) {
 	// alert(c);
 	var submenus = document.querySelectorAll('a.submenup');
 	for (var i = 0; i < submenus.length; i++) {
-		if (submenus[i].category == c) submenus[i].className = 'submenup submenuc';
-		else submenus[i].className = 'submenup';
+		if (submenus[i].category[0] == c) {
+			submenus[i].className = 'submenup submenuc';
+			submenus[i].index=1;
+		}
+		else {
+			submenus[i].className = 'submenup';
+			submenus[i].index=0;
+		}
 	}
 	var i = 0;
 	for (var y = 18; true; y += 34) {
