@@ -1,0 +1,20 @@
+p, h1, h2, h3, ul, li {
+	color: white;
+	font-family: Raleway;
+}
+p, li {
+	font-weight: 200;
+}
+h1 {
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+a.policya {
+	text-decoration: underline;
+}
+div.policyall {
+	position: relative;
+	width: 80vw;
+	margin: 5vw 10vw;
+	overflow: auto;
+}
