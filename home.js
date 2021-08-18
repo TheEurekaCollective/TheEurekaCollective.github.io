@@ -218,102 +218,65 @@ function fade() {
 	setTimeout(() => {head2.style.transition="0.8s ease";head2.style.opacity='1';}, 1200);
 }
 
-var loretype = ['Items', 'Locations', 'Locations'];
-var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS"];
-var loretxt = ["Antimatter is the primary form of energy storage within the Human Domain. It is used to power almost every form of technology from mages to starships. It is even used as a form of currency. The commodification of antimatter stems from...",
-"In the Great Cities, it is not uncommon for an aspiring couple to walk into a Materna clinic and request a BioTube reservation. For what you may ask? For a baby! In the 26th century, nearly 93% of all births take place within an artificial uterus...",
-"Humanity has long mastered the human body. Genetic modification and alteration are the norm. One can get a cell sculpt from the corner store. An entire field of fashion known as fleshcraft sprung from this newfound ability. It..."];
-var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg"];
+var footertxt = `<p class="contactus" style="top:5vw">CONTACT US</p>
+	<a href="mailto: theeurekacollective@gmail.com" class="email"> theeurekacollective@gmail.com </a>
+	<p class="contactus" style="top:14vw">OR</p>
+	<div class="contacticon">
+		<a class="contacticon"><img alt="insta" class="contacticon" id="contact1"></a>
+		<a class="contacticon"><img alt="fb" class="contacticon" id="contact2"></a>
+		<a class="contacticon"><img alt="art" class="contacticon" id="contact3"></a>
+		<a class="contacticon"><img alt="red" class="contacticon" id="contact4"></a>
+		<a class="contacticon"><img alt="pat" class="contacticon" id="contact5"></a>
+		<a class="contacticon"><img alt="buy" class="contacticon" id="contact6"></a>
+		<a class="contacticon"><img alt="Kofi" class="contacticon" id="contact7"></a>
+	</div>
+	<div class="follow">
+		<p class="footerheading">FOLLOW</p> <br>
+		<a class="footerlink">Instagram</a><br><br>
+		<a class="footerlink">Facebook</a><br><br>
+		<a class="footerlink">Artstation</a><br><br>
+		<a class="footerlink">Reddit</a>
+	</div>
+	<div class="support">
+		<p class="footerheading">SUPPORT US</p> <br>
+		<a class="footerlink">Patreon</a><br><br>
+		<a class="footerlink">Buy Me a Coffee</a><br><br>
+		<a class="footerlink">Ko-fi</a>
+	</div>
+	<div class="explore">
+		<p class="footerheading">EXPLORE</p> <br>
+		<a class="footerlink">Home</a><br><br>
+		<a class="footerlink">Lore</a><br><br>
+		<a class="footerlink">Art</a><br><br>
+		<a class="footerlink">Universe</a><br><br>
+		<a class="footerlink">About</a>
+	</div>
+	<div class="more">
+		<p class="footerheading">MORE</p> <br>
+		<a class="footerlink">Privacy Policy</a><br><br>
+		<a class="footerlink">Sitemap</a>
+	</div>
+	<img src="resources/Eureka Integrated.svg" class="footereureka">
+	<span class="footerline" style="left:0"></span>
+	<span class="footerline" style="right:0"></span>
+	<p class="copyright" style="top: 32vw">Unless otherwise stated, this work is licensed under a <a class="copyright" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a></p>
+	<p class="copyright" style="top: 35vw">© 2021 Project Anima</p>`;
 
-function initlorepage() {
-	var submenu = document.querySelectorAll("a.submenup");
-	for (var i = 0; i < submenu.length; i++) {
-		submenu[i].category = [lorenames[i], "All"];
-		submenu[i].index = 0;
-		submenu[i].onclick = function() {
-			filter(this.category[this.index]);
-		}
-	}
-	var feed = document.getElementsByClassName("lorefeed")[0];
-	var i = 0;
-	for (var y = 18; true; y += 34) {
-		for (var x = 20; x < 81; x += 30) {
-			if (i >= loreheadings.length) break;
-			var div = document.createElement("div");
-			div.className = "loreentry";
-			div.number = i;
-			div.id = "entry" + i;
-			div.style.left = x + "vw";
-			div.style.top = y + "vw";
-			var node = document.createElement("img");
-			node.src = loreimg[i];
-			node.className = "entryimg";
-			div.append(node);
-			node = document.createElement("p");
-			node.className = "entryheading";
-			node.textContent = loreheadings[i];
-			div.append(node);
-			node = document.createElement("p");
-			node.className = "entrytxt";
-			node.textContent = loretxt[i];
-			div.append(node);
-			node = document.createElement("span");
-			node.className = "entryfade";
-			div.append(node);
-			node = document.createElement('a');
-			node.className = "entrylink";
-			node.href = "lorespecific.html?id=" + i;
-			div.append(node);
-			addborder(div, 26, 31, 25, 30);
-			feed.append(div);
-			i += 1;
-		}
-		if (i>=loreheadings.length) {
-			feed.style.height = (y+24)+'vw';
-			break;
-		}
-	}
-	var queryString = window.location.search;
-	var urlParams = new URLSearchParams(queryString);
-	if (urlParams.has("filter")) {
-		var c = urlParams.get('filter');
-		filter(c);
-	}
-}
+var footerlinks = ["https://www.instagram.com/theeurekacollective/", "https://www.facebook.com/The-Eureka-Collective-105419318305863", "https://www.artstation.com/theeurekacollective", "https://www.reddit.com/r/projectanima/", "https://www.patreon.com/theeurekacollective", "https://www.buymeacoffee.com/projectanima", "https://ko-fi.com/theeurekacollective", "index.html", "lore.html", "art.html", "universe.html", "aboutus.html", "privacypolicy.html", "sitemap.html"];
+var iconsrcs = [];
 
-function filter(c) {
-	// alert(c);
-	var submenus = document.querySelectorAll('a.submenup');
-	for (var i = 0; i < submenus.length; i++) {
-		if (submenus[i].category[0] == c) {
-			submenus[i].className = 'submenup submenuc';
-			submenus[i].index=1;
-		}
-		else {
-			submenus[i].className = 'submenup';
-			submenus[i].index=0;
-		}
+function initfooter() {
+	document.getElementsByTagName('footer')[0].innerHTML = footertxt;
+	var ftlinks = document.querySelectorAll('a.footerlink');
+	for (var i = 0; i < ftlinks.length; i++) {
+		ftlinks[i].href = footerlinks[i];
 	}
-	var i = 0;
-	for (var y = 18; true; y += 34) {
-		for (var x = 20; x < 81; x += 30) {
-			while (i<loreimg.length && c != 'All' && loretype[i] != c) {
-				var div = document.getElementById("entry" + i)
-				div.style.opacity='0';
-				div.style.left='0';
-				div.style.top='0';
-				i += 1;
-			}
-			if (i >= loreimg.length) break;
-			var div = document.getElementById("entry" + i);
-			div.style.opacity='1';
-			div.style.left = x + "vw";
-			div.style.top = y + "vw";
-			i += 1;
-		}
-		if (i >= loreimg.length) {
-			document.getElementsByClassName("lorefeed")[0].style.height = (y+24)+'vw';
-			break;
-		}
+	var cticons = document.querySelectorAll('img.contacticon');
+	for (var i = 0; i < cticons.length; i++) {
+		cticons[i].src = iconsrcs[i];
+	}
+	cticons = document.querySelectorAll('a.contacticon');
+	for (var i = 0; i < cticons.length; i++) {
+		cticons[i].href = footerlinks[i];
 	}
 }

@@ -55,51 +55,7 @@
 	</div>
 	<div class="lorefeed">
 	</div>
-	<footer>
-		<p class="contactus" style="top:5vw">CONTACT US</p>
-		<a href="mailto: theeurekacollective@gmail.com" class="email"> theeurekacollective@gmail.com </a>
-		<p class="contactus" style="top:14vw">OR</p>
-		<div class="contacticon">
-			<a href="https://www.instagram.com/theeurekacollective/" class="contacticon"><img src="asdf" alt="insta" class="contacticon" id="contact1"></a>
-			<a href="https://www.facebook.com/The-Eureka-Collective-105419318305863" class="contacticon"><img src="asdf" alt="fb" class="contacticon" id="contact2"></a>
-			<a href="https://www.artstation.com/theeurekacollective" class="contacticon"><img src="asdf" alt="art" class="contacticon" id="contact3"></a>
-			<a href="https://www.reddit.com/r/projectanima/" class="contacticon"><img src="asdf" alt="red" class="contacticon" id="contact4"></a>
-			<a href="https://www.patreon.com/theeurekacollective" class="contacticon"><img src="asdf" alt="pat" class="contacticon" id="contact5"></a>
-			<a href="https://www.buymeacoffee.com/projectanima" class="contacticon"><img src="asdf" alt="buy" class="contacticon" id="contact6"></a>
-			<a href="https://ko-fi.com/theeurekacollective40508#paypalModal" class="contacticon"><img src="asdf" alt="Kofi" class="contacticon" id="contact7"></a>
-		</div>
-		<div class="follow">
-			<p class="footerheading">FOLLOW</p> <br>
-			<a href="" class="footerlink">Instagram</a><br><br>
-			<a href="" class="footerlink">Facebook</a><br><br>
-			<a href="" class="footerlink">Artstation</a><br><br>
-			<a href="" class="footerlink">Reddit</a>
-		</div>
-		<div class="support">
-			<p class="footerheading">SUPPORT US</p> <br>
-			<a href="" class="footerlink">Patreon</a><br><br>
-			<a href="" class="footerlink">Buy Me a Coffee</a><br><br>
-			<a href="" class="footerlink">Ko-fi</a>
-		</div>
-		<div class="explore">
-			<p class="footerheading">EXPLORE</p> <br>
-			<a href="index.html" class="footerlink">Home</a><br><br>
-			<a href="lore.html" class="footerlink">Lore</a><br><br>
-			<a href="art.html" class="footerlink">Art</a><br><br>
-			<a href="universe.html" class="footerlink">Universe</a><br><br>
-			<a href="about" class="footerlink">About</a>
-		</div>
-		<div class="more">
-			<p class="footerheading">MORE</p> <br>
-			<a href="index.html" class="footerlink">Privacy Policy</a><br><br>
-			<a href="about" class="footerlink">Sitemap</a>
-		</div>
-		<img src="resources/Eureka Integrated.svg" class="footereureka">
-		<span class="footerline" style="left:0"></span>
-		<span class="footerline" style="right:0"></span>
-		<p class="copyright" style="top: 32vw">Unless otherwise stated, this work is licensed under a <a class="copyright" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a></p>
-		<p class="copyright" style="top: 35vw">© 2021 Project Anima</p>
-	</footer>
+	<footer></footer>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-X3JSDF3FB4"></script>
@@ -111,10 +67,14 @@
 	</script>
 
 	<script src="home.js"></script>
+	<script src="lore.js"></script>
 	<script>
 		initlorepage();
+		var entries = document.querySelectorAll('div.loreentry');
+		for (var i = 0; i < entries.length; i++) {
+			addborder(entries[i], 26, 31, 25, 30);
+		}
 	</script>
-	<script src="lore.js"></script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>
 		AOS.init();

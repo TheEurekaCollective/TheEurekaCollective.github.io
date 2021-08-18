@@ -580,13 +580,14 @@ a.email {
 	top: 10vw;
 	font-weight: 300;
 }
-img.contacticon {
+.contacticon {
 	position: absolute;
 	width: 3vw;
 	height: 3vw;
 	transform: translateX(-50%);
 	top: 19vw;
 	border: 1px solid white;
+	border-radius: 50%;
 }
 #contact1 { left: 38vw; }
 #contact2 { left: 42vw; }
