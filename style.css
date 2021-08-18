@@ -31,10 +31,9 @@ div.header {
 	top: 0px;
 	width: 100vw;
 	height: 3.2vw;
-	overflow: hidden;
 	background-color: black;
 	opacity: 0.9;
-	z-index: 1;
+	z-index: 10;
 }
 img.menu {
 	position: fixed;
@@ -765,4 +764,49 @@ p.copyright {
 a.copyright {
 	text-decoration: underline;
 	cursor: pointer;
+}
+/* search engine */
+.container-in {
+	font-family: Raleway;
+	margin: 0; padding: 0;
+	position: absolute;
+	width: 17vw;
+	right: 3vw;
+	top: 3.1vw;
+	z-index: 10;
+
+}
+.search-container {
+	position: relative;
+	max-width: 300px;
+	margin: 0; padding: 0;
+	text-align: center;
+	z-index: 9;
+}
+#search-results {
+	position: absolute;
+	z-index: 9;
+	margin: 1px auto;
+	background: black;
+	width: 90%;
+	text-align: left;
+	border-radius: 4px;
+	border: solid #777777;
+	border-width: 0 2px 2px 2px;
+	display: none;
+}
+div.search-item {
+	color: white;
+	cursor: pointer;
+	width: 100%;
+	height: 2vw;
+}
+a.search-item {
+	position: absolute;
+	padding: 0; margin: 0;
+	width: 90%; left: 10px;
+	line-height: 2vw;
+}
+.search-item:hover {
+	background: #171717;
 }

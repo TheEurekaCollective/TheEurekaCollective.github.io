@@ -13,7 +13,7 @@ div.submenu {
 	overflow: hidden;
 	background-color: black;
 	opacity: 0.9;
-	z-index: 100;
+	z-index: 5;
 }
 table.submenu {
 	border-collapse: collapse;

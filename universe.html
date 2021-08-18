@@ -24,6 +24,7 @@
 		gtag('js', new Date());
 		gtag('config', 'G-X3JSDF3FB4');
 	</script>
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
 </head>
 <body >
 	<div class="header">
@@ -41,7 +42,12 @@
 			<td class="menu"> <a href="aboutus.html" class="menu">
 				About Us </a> </td>
 	  	</tr> </table>
-		<input type="text" placeholder="Search..." class="menu">
+		<input type="text" placeholder="Search..." autocomplete="off" class="menu">
+		<div class="container-in">
+			<div class="search-container">
+				<div id="search-results"></div>
+			</div>
+		</div>
 	</div>
 	<div class="universestuff">
 		<div id="universeoverview">
@@ -85,8 +91,8 @@
 	</div>
 	<footer></footer>
 
+	<script src="data.js"></script>
 	<script src="home.js"></script>
-	<script src="universe.js"></script>
 	<script>
 		var divs = document.querySelectorAll("div.sandboxentry");
 		for (var i = 0; i < divs.length; i++) plainborder(divs[i]);
