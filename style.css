@@ -215,6 +215,7 @@ div.synopsis {
 	color: white;
 	font-family: Poiret One;
 	text-align: center;
+	letter-spacing: 1.3vw;
 }
 #under3 {
 	position: absolute;
@@ -239,7 +240,7 @@ div.synopsis {
 div.featured {
 	position: relative;
 	width: 100vw;
-	height: 65vw;
+	height: 55vw;
 }
 #heading4 {
 	position: absolute;
@@ -357,7 +358,7 @@ p.releasebody {
 div.lore {
 	position: relative;
 	width: 100vw;
-	height: 68vw;
+	height: 58vw;
 }
 #heading5 {
 	position: absolute;

@@ -1,5 +1,5 @@
 
-var coords = [56, 112, 177, 245, 395, 10000];
+var coords = [56, 112, 167, 225, 395, 10000];
 var pos = ['0%', '20%', '40%', '60%', '80%', '100%'];
 var ids = ["scroll1", "scroll2", "scroll3", "scroll4", "scroll5", "scroll6"];
 var vh = window.innerHeight / 100.0;
@@ -24,7 +24,7 @@ function update(){
 	var b = [false,false,false,false,false,false];
 	for (var i = 0; i < 6; i++) {
 		var cmp = (coords[i])*vw;
-		if (i==4) cmp=258*vw+270*vh;
+		if (i==4) cmp=238*vw+250*vh;
 		if (y<=cmp) {
 			b[i]=true;
 			break;
@@ -44,7 +44,7 @@ function update(){
 function move(i) {
 	var offset = 0;
 	if (i>0) offset = coords[i-1] * vw + 10;
-	if (i==5) offset = 258*vw + 270*vh + 10;
+	if (i==5) offset = 238*vw + 250*vh + 10;
 	offset = offset - getY();
 	window.scrollBy(0, offset);
 	update();
@@ -129,11 +129,11 @@ function setlore() {
 
 var artpos = [[35, 65, 105], [5, 35, 65], [-35, 5, 35]];
 var artop = [[1, 0.4, 0], [0.4, 1, 0.4], [0, 0.4, 1]];
-var artcoords = [50, 120, 1000];
+var artcoords = [50, 100, 1000];
 var artnames = ["MAGUS", "THE INFINITE CITY", "CHUNGUS"];
 
 function initart() {
-	document.getElementsByClassName("art")[0].style.height=(13*vw + 270*vh) + "px";
+	document.getElementsByClassName("art")[0].style.height=(13*vw + 280*vh) + "px";
 	for (var i = 1; i <= 3; i++) {
 		var div = document.getElementById("art" + i);
 		var node = document.createElement("a");
@@ -180,7 +180,7 @@ function updart(k) {
 function scrollart() {
 	var y = getY();
 	for (var i = 0; i < 3; i++) {
-		if (y <= 258*vw + artcoords[i]*vh) {
+		if (y <= 238*vw + artcoords[i]*vh) {
 			updart(i);
 			break;
 		}
