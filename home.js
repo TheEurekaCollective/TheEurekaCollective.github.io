@@ -1,5 +1,5 @@
 
-var coords = [56, 112, 167, 225, 395, 10000];
+var coords = [100, 200, 300, 400, 650, 10000];
 var pos = ['0%', '20%', '40%', '60%', '80%', '100%'];
 var ids = ["scroll1", "scroll2", "scroll3", "scroll4", "scroll5", "scroll6"];
 var vh = window.innerHeight / 100.0;
@@ -23,8 +23,7 @@ function update(){
 	var p = document.getElementById("scrolldot");
 	var b = [false,false,false,false,false,false];
 	for (var i = 0; i < 6; i++) {
-		var cmp = (coords[i])*vw;
-		if (i==4) cmp=238*vw+250*vh;
+		var cmp = (coords[i])*vh;
 		if (y<=cmp) {
 			b[i]=true;
 			break;
@@ -43,15 +42,14 @@ function update(){
 
 function move(i) {
 	var offset = 0;
-	if (i>0) offset = coords[i-1] * vw + 10;
-	if (i==5) offset = 238*vw + 250*vh + 10;
+	if (i>0) offset = coords[i-1] * vh + 10;
 	offset = offset - getY();
 	window.scrollBy(0, offset);
 	update();
 }
 
 var pclasses = ["lorelbl", "releasebody", "releaseheading", "entryheading", "entrytxt"];
-var psizes = [1.2, 1, 1.4, 1.3, 0.95];
+var psizes = [1.15, 1, 1.4, 1.3, 0.95];
 
 function addborder(div, a, b, c, d) {
 	var node;
@@ -103,14 +101,14 @@ function plainborder(div) {
 function setfeature() {
 	for (var i = 1; i <= 3; i++) {
 		var div = document.getElementById("release" + i);
-		addborder(div, 36, 14, 35, 13);
+		addborder(div, 36, 13, 35, 12);
 	}
 }
 
 function setlore() {
 	for (var i = 1; i <= 8; i++) {
 		var div = document.getElementById("lore" + i);
-		addborder(div, 15, 21, 14, 20);
+		addborder(div, 14, 19, 13, 18);
 		var node;
 		node = document.createElement("img");
 		node.src = "resources/" + lorenames[i-1] + " Icon.svg";
@@ -133,7 +131,7 @@ var artcoords = [50, 100, 1000];
 var artnames = ["MAGUS", "THE INFINITE CITY", "SCULPT"];
 
 function initart() {
-	document.getElementsByClassName("art")[0].style.height=(13*vw + 280*vh) + "px";
+	document.getElementsByClassName("art")[0].style.height=(250*vh) + "px";
 	for (var i = 1; i <= 3; i++) {
 		var div = document.getElementById("art" + i);
 		var node = document.createElement("a");
@@ -180,7 +178,7 @@ function updart(k) {
 function scrollart() {
 	var y = getY();
 	for (var i = 0; i < 3; i++) {
-		if (y <= 238*vw + artcoords[i]*vh) {
+		if (y <= 400*vh + artcoords[i]*vh) {
 			updart(i);
 			break;
 		}

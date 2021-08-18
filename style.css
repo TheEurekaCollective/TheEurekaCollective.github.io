@@ -164,13 +164,13 @@ div.stuff {
 div.top {
 	position: relative;
 	width: 100vw;
-	height: 56vw;
+	height: 100vh;
 }
 #topimg {
 	opacity: 0;
 	position: absolute;
 	width: 100vw;
-	height: 56vw;
+	height: 100vh;
 	top: 0;
 	object-fit: cover;
 }
@@ -181,7 +181,7 @@ div.top {
 	text-align: center;
 	position: absolute;
 	transform: translateY(-50%);
-	top: 27vw;
+	top: 48vh;
 	margin: 0; padding: 0;
 	width: 100%;
 	font-weight: 200;
@@ -194,7 +194,7 @@ div.top {
 	font-size: 1.7vw;
 	text-align: center;
 	position: absolute;
-	top: 30vw;
+	top: 53vh;
 	width: 100%;
 	letter-spacing: 0.4vw;
 	opacity: 0;
@@ -256,25 +256,33 @@ div.top {
 /* synopsis page */
 div.synopsis {
 	position: relative;
-	width: 100%;
-	height: 56vw;
+	width: 100vw;
+	height: 100vh;
 }
 #synimg {
 	position: absolute;
 	width: 100vw;
-	height: 56vw;
+	height: 100vh;
 	opacity: 0.2;
 	object-fit: cover;
+}
+div.synopsiscontent {
+	position: absolute;
+	width: 100vw;
+	height: 40vw;
+	transform: translateY(-50%);
+	top: 50vh;
 }
 #heading3 {
 	position: absolute;
 	width: 100%;
-	top: 4vw;
+	top: 0;
 	font-size: 4vw;
 	color: white;
 	font-family: Poiret One;
 	text-align: center;
 	letter-spacing: 1.3vw;
+	margin: 0; padding: 0;
 }
 #under3 {
 	position: absolute;
@@ -282,11 +290,11 @@ div.synopsis {
 	left: 32vw;
 	height: 2px;
 	background-color: white;
-	top: 14vw;
+	top: 6vw;
 }
 #syntext {
 	position: absolute;
-	top: 15vw;
+	top: 7vw;
 	width: 50vw;
 	padding: 0 25vw;
 	text-align: justify;
@@ -300,12 +308,20 @@ div.synopsis {
 div.featured {
 	position: relative;
 	width: 100vw;
-	height: 55vw;
+	height: 100vh;
+}
+div.featuredstuff {
+	position: absolute;
+	width: 100vw;
+	top: 4.5vw;
+	height: 46vw;
+	transform: translateY(-50%);
+	top: 50vh;
 }
 #heading4 {
 	position: absolute;
 	width: 100%;
-	top: 4.5vw;
+	top: 0;
 	font-size: 2.8vw;
 	color: white;
 	font-family: Poiret One;
@@ -319,22 +335,22 @@ div.featured {
 	left: 28vw;
 	height: 1px;
 	background-color: white;
-	top: 9vw;
+	top: 4.5vw;
 }
-#featuredstuff {
+#featuredcontent {
 	position: absolute;
 	width: 100vw;
-	height: 50vw;
+	height: 43.5vw;
 	left: 0px;
-	top: 7vw;
+	top: 2.5vw;
 }
 #Magus {
 	position: absolute;
 	object-fit: cover;
 	width: 30vw;
-	height: 40vw;
+	height: 35vw;
 	top: 3.8vw;
-	left: 10vw;
+	left: 15vw;
 }
 #Maguslbl {
 	font-size: 1.5vw;
@@ -344,14 +360,14 @@ div.featured {
 	position: absolute;
 	text-align: center;
 	width: 25vw;
-	left: 13vw;
-	top: 43vw;
+	left: 18vw;
+	top: 38vw;
 	letter-spacing: .6vw;
 }
 div.release {
 	position: absolute;
 	width: 35vw;
-	height: 13vw;
+	height: 12vw;
 	left: 67vw;
 	background-color: #171717;
 	transition: 0.3s ease;
@@ -412,13 +428,20 @@ p.releasebody {
 	transition: 0.3s ease;
 }
 #release1 {top: 10vw;}
-#release2 {top: 25vw;}
-#release3 {top: 40vw;}
+#release2 {top: 23vw;}
+#release3 {top: 36vw;}
 /* lore page */
 div.lore {
 	position: relative;
 	width: 100vw;
-	height: 58vw;
+	height: 100vh;
+}
+div.lorestuff {
+	position: absolute;
+	width: 100vw;
+	height: 47vw;
+	transform: translateY(-50%);
+	top: 50vh;
 }
 #heading5 {
 	position: absolute;
@@ -429,6 +452,7 @@ div.lore {
 	font-family: Poiret One;
 	text-align: center;
 	letter-spacing: 0.8vw;
+	margin: 0; padding: 0;
 }
 #under5 {
 	position: absolute;
@@ -436,18 +460,19 @@ div.lore {
 	left: 30vw;
 	height: 1px;
 	background-color: white;
-	top: 10vw;
+	top: 7vw;
 }
-#lorestuff {
+#lorecontent {
 	position: absolute;
 	width: 100%;
 	left: 0vw;
-	top: 13vw;
+	top: 9vw;
+	height: 38vw;
 }
 div.lorebox {
 	position: absolute;
-	width: 14vw;
-	height: 20vw;
+	width: 13vw;
+	height: 18vw;
 	background-color: #171717;
 	cursor: pointer;
 	transform: translate(-50%, -50%);
@@ -466,32 +491,32 @@ p.lorelbl {
 	color: white;
 	font-family: Raleway;
 	font-weight: 200;
-	font-size: 1.2vw;
-	letter-spacing: 0.45vw;
+	font-size: 1.15vw;
+	letter-spacing: 0.3vw;
 	text-align: center;
 	width: 100%;
 	left: 0;
 	top: 78%;
 	transition: 0.3s ease;
 }
-#lore1{left: 23vw; top: 9vw;}
-#lore2{left: 41vw; top: 9vw;}
-#lore3{left: 59vw; top: 9vw;}
-#lore4{left: 77vw; top: 9vw;}
-#lore5{left: 23vw; top: 31vw;}
-#lore6{left: 41vw; top: 31vw;}
-#lore7{left: 59vw; top: 31vw;}
-#lore8{left: 77vw; top: 31vw;}
+#lore1{left: 27.5vw; top: 9.1vw;}
+#lore2{left: 42.5vw; top: 9.1vw;}
+#lore3{left: 57.5vw; top: 9.1vw;}
+#lore4{left: 72.5vw; top: 9.1vw;}
+#lore5{left: 27.5vw; top: 29.1vw;}
+#lore6{left: 42.5vw; top: 29.1vw;}
+#lore7{left: 57.5vw; top: 29.1vw;}
+#lore8{left: 72.5vw; top: 29.1vw;}
 /* art page */
 div.art {
 	position: relative;
 	width: 100vw;
-	height: 150vw;
+	height: 250vh;
 }
 #heading6 {
 	position: absolute;
 	width: 100%;
-	top: 2.5vw;
+	top: 1vw;
 	font-size: 2.8vw;
 	color: white;
 	font-family: Poiret One;
@@ -504,15 +529,14 @@ div.art {
 	left: 30vw;
 	height: 1px;
 	background-color: white;
-	top: 10vw;
+	top: 8.5vw;
 }
 #artscroll {
 	position: absolute;
-	top: 13vw;
+	top: 0;
 	width: 100vw;
 	left: 0;
-	height: 270vh;
-	/* background-color: #222222; */
+	height: 250vh;
 }
 #artstuff {
 	position: sticky;
@@ -525,8 +549,8 @@ div.art {
 div.artbox {
 	position: absolute;
 	width: 28vw;
-	height: 75vh;
-	top: 10vh;
+	height: 65vh;
+	bottom: 13vh;
 	transition: 0.5s ease;
 }
 img.artimg {
@@ -557,6 +581,25 @@ a.artlabel {
 }
 a.artlabel:hover, a.artlabel:active {
 	text-decoration: none;
+}
+#artseemore {
+	position: absolute;
+	right: 7vw;
+	bottom: 3vh;
+	width: 13vw;
+	height: 6vh;
+	line-height: 6vh;
+	text-align: center;
+	font-size: 2.5vh;
+	color: white;
+	font-family: Raleway;
+	font-weight: 200;
+	letter-spacing: 0.6vh;
+	background-color: black;
+	border: 1px solid white;
+	text-align: center;
+	transition: 0.3s ease;
+	cursor: pointer;
 }
 /* sponsor page */
 div.sponsor {
