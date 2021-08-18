@@ -31,7 +31,7 @@ function update(){
 		}
 	}
 	for (var i = 0; i < 6; i++) {
-		var lab = document.getElementById(ids[i]);
+		var lab = document.getElementById("scroll" + (i+1));
 		if (b[i]) {
 			p.style.top=pos[i];
 			lab.style.fontWeight="700";
@@ -206,7 +206,7 @@ function initsponsor() {
 
 function fade() {
 	var img = document.getElementById("topimg");
-	setTimeout(() => {img.style.transition="1s ease";img.style.opacity='0.4';}, 0);
+	setTimeout(() => {img.style.transition="1s ease";img.style.opacity='0.25';}, 0);
 	var div = document.getElementsByClassName("header")[0];
 	div.style.opacity="0";
 	setTimeout(() => {div.style.transition="1s ease";div.style.opacity='0.9';}, 500);
@@ -216,6 +216,16 @@ function fade() {
 	setTimeout(() => {head1.style.transition="0.8s ease";head1.style.opacity='1';}, 1000);
 	var head2 = document.getElementById("heading2");
 	setTimeout(() => {head2.style.transition="0.8s ease";head2.style.opacity='1';}, 1200);
+	var learn = document.getElementById("learnmore");
+	setTimeout(() => {
+		learn.style.opacity='0.6';
+		learn.onmouseover = function() {this.style.opacity='1'; this.style.fontWeight='400';};
+		learn.onmouseout = function() {this.style.opacity='0.6'; this.style.fontWeight='200';}
+	}, 1400);
+	var a1 = document.getElementById("arrow1");
+	setTimeout(() => {a1.style.animation='change 2s ease infinite';}, 1600);
+	var a2 = document.getElementById("arrow2");
+	setTimeout(() => {a2.style.animation='change 2s ease infinite';}, 1600);
 }
 
 var footertxt = `<p class="contactus" style="top:5vw">CONTACT US</p>
