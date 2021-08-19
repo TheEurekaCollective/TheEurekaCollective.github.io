@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>(PAGETITLE) - Project Anima</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Magic, Mage, Antimatter, Paraphysics">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Megrim&family=Poiret+One&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<!-- extralight 200 medium 500 bold 700 -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="art.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-X3JSDF3FB4"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-X3JSDF3FB4');
+	</script>
+</head>
+<body >
+	<div class="header">
+		<a href="index.html">
+			<img src="resources/Anima Standalone.svg" class="menu">
+			<p id="menutxt">PROJECT ANIMA</p>
+		</a>
+		<table class="menu"> <tr>
+			<td class="menu"> <a href="lore.html" class="menu">
+				Lore </a> </td>
+			<td class="menu"> <a href="art.html" class="menu current">
+				Art </a> </td>
+			<td class="menu"> <a href="universe.html" class="menu">
+				Universe </a> </td>
+			<td class="menu"> <a href="aboutus.html" class="menu">
+				About Us </a> </td>
+	  	</tr> </table>
+		<input type="text" placeholder="Search..." class="menu">
+		<div class="container-in">
+			<div class="search-container">
+				<div id="search-results"></div>
+			</div>
+		</div>
+	</div>
+	<div class="galleryleft">
+		<img src="(IMAGELOCATION)" class="specificimg">
+		<div id="fullscreen"></div>
+	</div>
+	<div class="galleryright">
+		<p class="galleryheading">(ARTHEADING)</p>
+		<span class="galleryunderline" style="top: 21vh;"></span>
+		<p class="gallerytxt" onscroll="specificscroll();">(ARTDESCRIPTION)</p>
+		<div class="galleryscroll">
+			<span id="gscrollbar"></span>
+			<span id="gdot"></span>
+		</div>
+		<span class="galleryunderline" style="top: 76vh;"></span>
+		<p class="readmore">Read more in <a href="(READMORE)" class="readmore">Lore</a></p>
+		<span class="authorborder"></span>
+		<img class="pfp" src="(ARTISTPFP)"></span>
+		<p class="authorname">(ARTISTNAME)</p>
+		<p class="authorclass">(ARTISTROLE)</p>
+	</div>
+
+	<script src="home.js"></script>
+	<script src="data.js"></script>
+	<script src="art.js"></script>
+	<script>
+		initspecific();
+		fullscreenborder(document.getElementById('fullscreen'), 8,8,7,7);
+	</script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
