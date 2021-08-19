@@ -5,7 +5,7 @@ var memberroles = ["Web Developer", "Web Developer", "Founder & Director", "Edit
 function initaboutus() {
 	var i = 0;
 	var div = document.getElementById('meettheteam');
-	for (var y = 7; i < memberpfps.length; y += 22) {
+	for (var y = 7; i < memberpfps.length; y += 19) {
 		for (var x = 16; x < 85 && i < memberpfps.length; x += 17) {
 			var node = document.createElement('div');
 			node.className = 'teammember';

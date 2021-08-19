@@ -84,19 +84,19 @@ p.aboutustext {
 	top: 0;
 	left: 0;
 	width: 100vw;
-	height: 55vw;
+	height: 50vw;
 }
 div.teammember {
 	position: absolute;
-	width: 14vw;
-	height: 22vw;
+	width: 13vw;
+	height: 19vw;
 	transform: translateX(-50%);
 	/* background-color: #333333; */
 }
 img.memberpfp {
 	position: absolute;
-	width: 14vw;
-	height: 14vw;
+	width: 13vw;
+	height: 13vw;
 	left: 0; top: 0;
  	border-radius: 50%;
 	margin: 0; padding: 0;
@@ -107,10 +107,10 @@ p.memberuser {
 	width: 100%;
 	text-align: center;
 	left: 0;
-	top: 15vw;
+	top: 13.5vw;
 	font-family: Poiret One;
 	color: white;
-	font-size: 1.6vw;
+	font-size: 1.5vw;
 	margin: 0; padding: 0;
 }
 p.memberrole {
@@ -118,10 +118,10 @@ p.memberrole {
 	width: 100%;
 	text-align: center;
 	left: 0;
-	top: 18vw;
+	top: 16vw;
 	font-family: Raleway;
 	color: white;
-	font-size: 1.3vw;
+	font-size: 1.25vw;
 	margin: 0; padding: 0;
 	font-weight: 200;
 }
