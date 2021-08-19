@@ -63,6 +63,9 @@ function getResults() {
 				"<div class='search-item'><a class='search-item' href='"+pagelink[tosort[i][1]]+"'>" + x + "</a></div>";
 		}
 	}
+	if (tosort[0][0]==0) {
+		element("search-results").innerHTML = "<div class='search-item no-results'><a class='search-item no-results'>No Results</a></div>"
+	}
 	element("search-results").style.display = "block";
 }
 //gets results after each input

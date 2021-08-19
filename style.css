@@ -824,6 +824,16 @@ a.search-item {
 	line-height: 2vw;
 	font-size: 1.1vw;
 }
-.search-item:hover {
+div.search-item:hover {
 	background: #171717;
+}
+a.no-results {
+	text-decoration: none;
+	cursor: default;
+}
+div.no-results {
+	cursor: default;
+}
+div.no-results:hover {
+	background: black;
 }
