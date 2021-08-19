@@ -86,7 +86,7 @@ function plainborder(div) {
 function setfeature() {
 	for (var i = 1; i <= 3; i++) {
 		var div = document.getElementById("release" + i);
-		addborder(div, 36, 13, 35, 12);
+		addborder(div, 36, 12.5, 35, 12);
 	}
 	var div = document.querySelectorAll('div.releaseimg')[0];
 	div.onmouseover = function() {

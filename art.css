@@ -86,10 +86,10 @@ img.specificimg {
 }
 #fullscreen {
 	transform: translate(-50%, -50%);
-	width: 7vh;
+	width: 4vh;
 	left: 35vw;
 	position: absolute;
-	height: 7vh;
+	height: 4vh;
 	top: 94vh;
 	transition: 0.3s ease;
 }
@@ -97,7 +97,7 @@ span.arth {
 	position: absolute;
 	background-color: #cccccc;
 	height: 1px;
-	width: 3vh;
+	width: 1.2vh;
 	border: 0px solid white;
 	box-shadow: 0 0 0px white;
 	transition: 0.3s ease;
@@ -105,7 +105,7 @@ span.arth {
 span.artv {
 	position: absolute;
 	background-color: #cccccc;
-	height: 3vh;
+	height: 1.2vh;
 	width: 1px;
 	border: 0px solid white;
 	box-shadow: 0 0 0px white;
@@ -204,9 +204,8 @@ span.authorborder {
 	top: 88vh;
 	background-color: white;
 }
-span.pfp {
+img.pfp {
 	transform: translate(-50%, -50%);
-	background-color: white;
 	height: 8vh;
 	width: 8vh;
 	position: absolute;
@@ -215,6 +214,7 @@ span.pfp {
  	border-radius: 50%;
 	margin: 0;
 	padding: 0;
+	object-fit: cover;
 }
 p.authorname {
 	position: absolute;
