@@ -1,5 +1,5 @@
 
-var coords = [100, 200, 300, 400, 650, 10000];
+var coords = [99, 193, 295, 399, 649, 10000];
 var pos = ['0%', '20%', '40%', '60%', '80%', '100%'];
 var ids = ["scroll1", "scroll2", "scroll3", "scroll4", "scroll5", "scroll6"];
 var vh = window.innerHeight / 100.0;
