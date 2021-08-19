@@ -74,14 +74,14 @@ div.galleryright {
 img.specificimg {
 	position: absolute;
 	width: 96%;
-	height: 80%;
+	height: 75%;
 	transform: translate(-50%, -50%);
 	left: 50%;
-	top: 48%;
+	top: 50%;
 	object-fit: contain;
 	/* border: 1px solid white; */
 	transition: 0.5s ease;
-	z-index: 3;
+	z-index: 20;
 	background-color: #00000000;
 }
 #fullscreen {

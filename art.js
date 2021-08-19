@@ -61,9 +61,9 @@ function initspecific() {
 		if (! this.fullscreen) return;
 		this.fullscreen = false;
 		this.style.left='50%';
-		this.style.top='48%';
+		this.style.top='50%';
 		this.style.width='96%';
-		this.style.height='80%';
+		this.style.height='75%';
 		this.style.backgroundColor="#00000000";
 	}
 }
