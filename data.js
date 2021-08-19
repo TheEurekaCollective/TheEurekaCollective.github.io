@@ -73,8 +73,7 @@ document.querySelectorAll('input.menu')[0].oninput = function() {
 	getResults();
 };
 document.querySelectorAll('input.menu')[0].onblur = function() {
-	element("search-results").innerHTML = "";
-	element("search-results").style.display = "none";
+	setTimeout(() => {element("search-results").style.display = "none";}, 100);
 };
 document.querySelectorAll('input.menu')[0].onfocus = function() {
 	getResults();
