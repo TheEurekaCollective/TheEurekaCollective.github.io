@@ -73,7 +73,9 @@ document.querySelectorAll('input.menu')[0].oninput = function() {
 	getResults();
 };
 document.querySelectorAll('input.menu')[0].onblur = function() {
-	setTimeout(() => {element("search-results").style.display = "none";}, 100);
+	window.addEventListener("click", function() {
+		setTimeout(() => {element("search-results").style.display = "none";}, 10);
+	}, {once : true});
 };
 document.querySelectorAll('input.menu')[0].onfocus = function() {
 	getResults();
