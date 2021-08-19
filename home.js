@@ -103,6 +103,15 @@ function setfeature() {
 		var div = document.getElementById("release" + i);
 		addborder(div, 36, 13, 35, 12);
 	}
+	var div = document.querySelectorAll('div.releaseimg')[0];
+	div.onmouseover = function() {
+		var a = this.querySelectorAll('a.releaselbl')[0];
+		a.style.opacity='1';
+	}
+	div.onmouseout = function() {
+		var a = this.querySelectorAll('a.releaselbl')[0];
+		a.style.opacity='0';
+	}
 }
 
 function setlore() {
@@ -144,20 +153,10 @@ function initart() {
 		node.href = artlinks[i];
 		node.textContent = artnames[i-1];
 		node.style.opacity = "0";
-		node.mouseIsOver=false;
-		node.onmouseover = function() {
-			this.style.opacity = "1";
-			this.mouseIsOver=true;
-		}
-		node.onmouseout = function() {
-			this.style.opacity = "0.4";
-			this.mouseIsOver=false;
-		}
 		div.append(node);
 		div.onmouseover = function() {
 			var a = this.querySelectorAll('a.artlabel')[0];
-			if (a.mouseIsOver) return;
-			a.style.opacity="0.4";
+			a.style.opacity="1";
 		}
 		div.onmouseout = function() {
 			var a = this.querySelectorAll('a.artlabel')[0];

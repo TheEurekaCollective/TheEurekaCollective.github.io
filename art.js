@@ -24,20 +24,10 @@ function initgallery() {
 			lbl.className = 'gallerylbl';
 			lbl.textContent = gallerynames[i];
 			lbl.href = artpagelink[i];
-			lbl.mouseIsOver = false;
-			lbl.onmouseover = function() {
-				this.style.opacity='1';
-				this.mouseIsOver=true;
-			}
-			lbl.onmouseout = function() {
-				this.mouseIsOver=false;
-				this.style.opacity='0.4';
-			}
 			node.append(lbl);
 			node.onmouseover = function() {
 				var a = this.querySelectorAll('a.gallerylbl')[0];
-				if (a.mouseIsOver) return;
-				a.style.opacity='0.4';
+				a.style.opacity='1';
 			}
 			node.onmouseout = function() {
 				var a = this.querySelectorAll('a.gallerylbl')[0];

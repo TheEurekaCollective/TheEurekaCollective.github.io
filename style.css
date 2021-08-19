@@ -343,25 +343,36 @@ div.featuredstuff {
 	left: 0px;
 	top: 2.5vw;
 }
-#Magus {
+div.releaseimg {
 	position: absolute;
-	object-fit: cover;
 	width: 30vw;
-	height: 35vw;
+	height: 38vw;
 	top: 3.8vw;
 	left: 15vw;
 }
-#Maguslbl {
-	font-size: 1.5vw;
-	color: white;
-	font-family: Raleway;
-	font-weight: 100;
+img.releaseimg {
 	position: absolute;
+	object-fit: cover;
+	width: 100%; height: 100%;
+	left: 0; top: 0;
+}
+a.releaselbl {
+	transform: translate(-50%, -50%);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-color: black;
+	font-family: Raleway;
+	font-size: 1.1vw;
+	color: white;
+	width: 60%;
+	height: 7vh;
 	text-align: center;
-	width: 25vw;
-	left: 18vw;
-	top: 38vw;
-	letter-spacing: .6vw;
+	line-height: 7vh;
+	transition: 0.3s ease;
+	letter-spacing: 0.3vw;
+	text-decoration: none;
+	opacity: 0;
 }
 div.release {
 	position: absolute;
