@@ -5,7 +5,7 @@ var artpagelink = ["artspecific.html", "artspecific.html", "artspecific.html"];
 function initgallery() {
 	var i = 0;
 	var div = document.getElementById("artgallery");
-	for (var y = 12; true; y += 32) {
+	for (var y = 14; true; y += 32) {
 		for (var x = 16; x < 100; x += 34) {
 			if (i>=imgs.length) break;
 			var node = document.createElement('div');

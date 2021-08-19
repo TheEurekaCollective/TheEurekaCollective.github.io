@@ -119,7 +119,7 @@ function setlore() {
 	}
 }
 
-var artpos = [[35, 65, 105], [5, 35, 65], [-35, 5, 35]];
+var artpos = [[50, 80, 120], [20, 50, 80], [-20, 20, 50]];
 var artop = [[1, 0.4, 0], [0.4, 1, 0.4], [0, 0.4, 1]];
 var artcoords = [50, 100, 1000];
 var artnames = ["MAGUS", "THE INFINITE CITY", "SCULPT"];
@@ -156,7 +156,7 @@ function updart(k) {
 		div.style.left = "" + artpos[k][i-1] + "vw";
 		div.style.opacity = "" + artop[k][i-1];
 		var lbl = div.getElementsByClassName("artlabel")[0];
-		if (artpos[k][i-1]==35) {
+		if (artpos[k][i-1]==50) {
 			lbl.style.display="initial";
 		} else {
 			lbl.style.display="none";
