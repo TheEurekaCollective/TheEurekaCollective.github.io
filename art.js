@@ -68,6 +68,34 @@ function initspecific() {
 	}
 }
 
+var artspanclasses = ["arth c1", "artv c1", "arth c2", "artv c2", "arth c3", "artv c3", "arth c4", "artv c4"];
+
+function fullscreenborder(div, a, b, c, d) {
+	var node;
+	var ratio = a/c;
+	for (var j = 0; j < 8; j++) {
+		node = document.createElement("span");
+		node.className = artspanclasses[j];
+		div.append(node);
+	}
+	div.onmouseover = function() {
+		spans = this.getElementsByTagName("span");
+		for (var i = 0; i < spans.length; i++) if (spans[i].className != "entryfade") {
+			spans[i].style.boxShadow = "0 0 5px white";
+			spans[i].style.backgroundColor = "white";
+		}
+		this.style.transform = 'translate(-50%, -50%) scale(' + (a/c).toPrecision(15) + ', ' + (b/d).toPrecision(15) + ')';
+	}
+	div.onmouseout = function() {
+		spans = this.getElementsByTagName("span");
+		for (var i = 0; i < spans.length; i++) if (spans[i].className != "entryfade") {
+			spans[i].style.boxShadow = "0 0 0px white";
+			spans[i].style.backgroundColor = "#cccccc";
+		}
+		this.style.transform = 'translate(-50%, -50%) scale(1)';
+	}
+}
+
 function specificscroll() {
 	var div = document.querySelectorAll('p.gallerytxt')[0];
 	var totalheight = div.scrollHeight;

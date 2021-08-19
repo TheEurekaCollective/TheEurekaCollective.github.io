@@ -50,7 +50,7 @@
 	<!-- <span id="darken"></span> -->
 	<div class="galleryleft">
 		<img src="resources/Infinite City.jpg" class="specificimg">
-		<span id="fullscreen"></span>
+		<div id="fullscreen"></div>
 	</div>
 	<div class="galleryright">
 		<p class="galleryheading">AETERNUM</p>
@@ -73,6 +73,7 @@
 	<script src="art.js"></script>
 	<script>
 		initspecific();
+		fullscreenborder(document.getElementById('fullscreen'), 8,8,7,7);
 	</script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>

@@ -85,12 +85,31 @@ img.specificimg {
 	background-color: #00000000;
 }
 #fullscreen {
-	background-color: white;
-	width: 10%;
-	left: 45%;
+	transform: translate(-50%, -50%);
+	width: 7vh;
+	left: 35vw;
 	position: absolute;
-	height: 8%;
-	bottom: 2%;
+	height: 7vh;
+	top: 94vh;
+	transition: 0.3s ease;
+}
+span.arth {
+	position: absolute;
+	background-color: #cccccc;
+	height: 1px;
+	width: 3vh;
+	border: 0px solid white;
+	box-shadow: 0 0 0px white;
+	transition: 0.3s ease;
+}
+span.artv {
+	position: absolute;
+	background-color: #cccccc;
+	height: 3vh;
+	width: 1px;
+	border: 0px solid white;
+	box-shadow: 0 0 0px white;
+	transition: 0.3s ease;
 }
 p.galleryheading {
 	position: absolute;
