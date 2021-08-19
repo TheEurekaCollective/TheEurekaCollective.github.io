@@ -1,7 +1,26 @@
 
+var featuredimgname = 'MAGUS';
+var featuredimglink = 'artspecific';
+var featuredimgsource = 'resources/Magus.png';
+
+
+var featuredtitles = ['MATERNA', 'MATERNA', 'MATERNA'];
+var featurediconsources = ['resources/Materna Icon.svg', 'resources/Materna Icon.svg', 'resources/Materna Icon.svg'];
+var featuredlinks = ['lorespecific', 'lorespecific', 'lorespecific'];
+var featureddescriptions = ['In the Great Cities, it is not uncommon for an aspiring couple to walk into a Materna clinic and request a BioTube reservation. For what you may ask? For a baby! In the 26th century, nearly 93% of all births take place within an artificial uterus...', 'In the Great Cities, it is not uncommon for an aspiring couple to walk into a Materna clinic and request a BioTube reservation. For what you may ask? For a baby! In the 26th century, nearly 93% of all births take place within an artificial uterus...', 'In the Great Cities, it is not uncommon for an aspiring couple to walk into a Materna clinic and request a BioTube reservation. For what you may ask? For a baby! In the 26th century, nearly 93% of all births take place within an artificial uterus...'];
+
+
+var artnames = ["MAGUS", "THE INFINITE CITY", "SCULPT"];
+var artimgsources = ["resources/Magus.png", "resources/Infinite City.jpg", "resources/Sculpt.jpeg"];
+var artlinks = ['artspecific', 'artspecific', 'artspecific'];
+
+
+var sponsors = [];
+
+
+
 var coords = [99, 193, 295, 399, 649, 10000];
 var pos = ['0%', '20%', '40%', '60%', '80%', '100%'];
-var ids = ["scroll1", "scroll2", "scroll3", "scroll4", "scroll5", "scroll6"];
 var vh = window.innerHeight / 100.0;
 var vw = window.innerWidth / 100.0;
 var lorenames = ["Factions", "Characters", "Items", "Subjects", "Locations", "History", "Stories", "All"];
@@ -86,9 +105,17 @@ function plainborder(div) {
 function setfeature() {
 	for (var i = 1; i <= 3; i++) {
 		var div = document.getElementById("release" + i);
+		div.querySelectorAll('img.releaseicon')[0].src = featurediconsources[i-1];
+		div.querySelectorAll('p.releaseheading')[0].textContent = featuredtitles[i-1];
+		div.querySelectorAll('p.releasebody')[0].textContent = featureddescriptions[i-1];
+		div.querySelectorAll('a.coverlink')[0].href = featuredlinks[i-1];
 		addborder(div, 36, 12.5, 35, 12);
 	}
 	var div = document.querySelectorAll('div.releaseimg')[0];
+	div.querySelectorAll('img.releaseimg')[0].src = featuredimgsource;
+	div.querySelectorAll('a.coverlink')[0].href = featuredimglink;
+	div.querySelectorAll('a.releaselbl')[0].href = featuredimglink;
+	div.querySelectorAll('a.releaselbl')[0].textContent = featuredimgname;
 	div.onmouseover = function() {
 		var a = this.querySelectorAll('a.releaselbl')[0];
 		a.style.opacity='1';
@@ -113,7 +140,7 @@ function setlore() {
 		node.className = "lorelbl";
 		div.append(node);
 		node = document.createElement('a');
-		node.href = 'lore.html?filter=' + lorenames[i-1];
+		node.href = 'lore?filter=' + lorenames[i-1];
 		node.className = 'coverlink';
 		div.append(node);
 	}
@@ -122,20 +149,22 @@ function setlore() {
 var artpos = [[50, 80, 120], [20, 50, 80], [-20, 20, 50]];
 var artop = [[1, 0.4, 0], [0.4, 1, 0.4], [0, 0.4, 1]];
 var artcoords = [50, 100, 1000];
-var artnames = ["MAGUS", "THE INFINITE CITY", "SCULPT"];
-var artlinks = ['artspecific.html', 'artspecific.html', 'artspecific.html']
 
 function initart() {
 	document.getElementsByClassName("art")[0].style.height=(250*vh) + "px";
 	for (var i = 1; i <= 3; i++) {
 		var div = document.getElementById("art" + i);
+		var img = document.createElement('img');
+		img.className = 'artimg';
+		img.src = artimgsources[i-1];
+		div.append(img);
 		var covernode = document.createElement('a');
 		covernode.className = 'coverlink';
 		covernode.href = artlinks[i-1];
 		div.append(covernode);
 		var node = document.createElement("a");
 		node.className = "artlabel";
-		node.href = artlinks[i];
+		node.href = artlinks[i-1];
 		node.textContent = artnames[i-1];
 		node.style.opacity = "0";
 		div.append(node);
@@ -176,18 +205,25 @@ function scrollart() {
 }
 
 function initsponsor() {
-	var txt = "<p class='sponsorname' style='left: (LEFT)vw; top: (TOP)vw;' data-aos='fade-up' data-aos-delay='(DELAY)' data-aos-offset='0'>CONTENT</p>"
+	var txt = "<p class='sponsorname' style='left: (LEFT)vw; top: (TOP)vw;' data-aos='fade-up' data-aos-delay='(DELAY)' data-aos-offset='0'>CONTENT</p>";
+	var befirst = "<p id='sponsorplaceholder' data-aos='fade-up'>Be the first to donate!</p>";
 	var div = document.getElementsByClassName("sponsor")[0];
+	if (sponsors.length==0) {
+		div.innerHTML += befirst;
+		return;
+	}
 	var node;
-	for (var h = 13; h < 40; h += 5) {
-		for (var l = 15; l < 90; l += 15) {
+	var i = 0;
+	for (var h = 13; h < 40 && i<sponsors.length; h += 5) {
+		for (var l = 15; l < 90 && i<sponsors.length; l += 15) {
 			var delay = Math.round((h+l)/10.0)*50;
 			var cpy = txt;
 			cpy = cpy.replace("(LEFT)", l.toString());
 			cpy = cpy.replace("(TOP)", h.toString());
 			cpy = cpy.replace("(DELAY)", delay.toString());
-			cpy = cpy.replace("CONTENT", "Synthia Faber");
-			div.innerHTML = div.innerHTML + cpy;
+			cpy = cpy.replace("CONTENT", sponsors[i]);
+			div.innerHTML += cpy;
+			i += 1;
 		}
 	}
 }
@@ -260,7 +296,7 @@ var footertxt = `<p class="contactus" style="top:5vw">CONTACT US</p>
 	<p class="copyright" style="top: 32vw">Unless otherwise stated, this work is licensed under a <a class="copyright" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a></p>
 	<p class="copyright" style="top: 35vw">© 2021 Project Anima</p>`;
 
-var footerlinks = ["https://www.instagram.com/theeurekacollective/", "https://www.facebook.com/The-Eureka-Collective-105419318305863", "https://www.artstation.com/theeurekacollective", "https://www.reddit.com/r/projectanima/", "https://www.patreon.com/theeurekacollective", "https://www.buymeacoffee.com/projectanima", "https://ko-fi.com/theeurekacollective", "index.html", "lore.html", "art.html", "universe.html", "aboutus.html", "privacypolicy.html", "sitemap.xml"];
+var footerlinks = ["https://www.instagram.com/theeurekacollective/", "https://www.facebook.com/The-Eureka-Collective-105419318305863", "https://www.artstation.com/theeurekacollective", "https://www.reddit.com/r/projectanima/", "https://www.patreon.com/theeurekacollective", "https://www.buymeacoffee.com/projectanima", "https://ko-fi.com/theeurekacollective", "index", "lore", "art", "universe", "aboutus", "privacypolicy", "sitemap"];
 var iconsrcs = ['resources/ArtStation-logomark-white.png','resources/Digital-Patreon-Logo_White.png','resources/bmc-logo.svg','resources/Ko-fi_Icon_RGBforDarkBg.png'];
 
 function initfooter() {
