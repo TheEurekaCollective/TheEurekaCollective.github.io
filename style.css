@@ -421,8 +421,10 @@ p.releaseheading {
 	font-size: 1.4vw;
 	letter-spacing: .45vw;
 	left: 31%;
-	top: 3%;
+	top: 13%;
+	width: 63%;
 	transition: 0.3s ease;
+	margin: 0; padding: 0;
 }
 p.releasebody {
 	position: absolute;
@@ -433,8 +435,10 @@ p.releasebody {
 	text-align: justify;
 	width: 63%;
 	height: 67%;
-	left: 31%;
-	top: 23%;
+	top: 35%;
+	line-height: 1.1vw;
+	margin: 0;
+	padding: 0 6% 0 31%;
 	transition: 0.3s ease;
 }
 #release1 {top: 10vw;}

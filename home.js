@@ -48,9 +48,6 @@ function move(i) {
 	update();
 }
 
-var pclasses = ["lorelbl", "releasebody", "releaseheading", "entryheading", "entrytxt"];
-var psizes = [1.15, 1, 1.4, 1.3, 0.95];
-
 function addborder(div, a, b, c, d) {
 	var node;
 	var ratio = a/c;
@@ -65,13 +62,7 @@ function addborder(div, a, b, c, d) {
 			spans[i].style.boxShadow = "0 0 5px white";
 			spans[i].style.backgroundColor = "#bbbbbb";
 		}
-		this.style.width= a + "vw";
-		this.style.height= b + "vw";
-		var lbl = this.getElementsByTagName("p");
-		for (var i = 0; i < lbl.length; i++)
-			for (var j = 0; j < psizes.length; j++)
-				if (lbl[i].className==pclasses[j])
-					lbl[i].style.fontSize = (psizes[j]*ratio).toPrecision(15)+"vw";
+		this.style.transform = 'translate(-50%, -50%) scale(' + (a/c).toPrecision(15) + ', ' + (b/d).toPrecision(15) + ')';
 	}
 	div.onmouseout = function() {
 		spans = this.getElementsByTagName("span");
@@ -79,13 +70,7 @@ function addborder(div, a, b, c, d) {
 			spans[i].style.boxShadow = "0 0 0px white";
 			spans[i].style.backgroundColor = "#777777";
 		}
-		this.style.width= c + "vw";
-		this.style.height= d + "vw";
-		var lbl = this.getElementsByTagName("p");
-		for (var i = 0; i < lbl.length; i++)
-			for (var j = 0; j < psizes.length; j++)
-				if (lbl[i].className==pclasses[j])
-					lbl[i].style.fontSize = (psizes[j])+"vw";
+		this.style.transform = 'translate(-50%, -50%) scale(1)';
 	}
 }
 
