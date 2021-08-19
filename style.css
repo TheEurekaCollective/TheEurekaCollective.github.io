@@ -408,10 +408,10 @@ span.c4 {right: 0; bottom: 0;}
 img.releaseicon {
 	position: absolute;
 	top: 10%;
-	left: 6%;
+	left: 3%;
 	height: 73%;
-	width: 20%;
-	object-fit: cover;
+	width: 26%;
+	object-fit: contain;
 }
 p.releaseheading {
 	position: absolute;

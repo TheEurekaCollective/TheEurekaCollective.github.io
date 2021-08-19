@@ -71,11 +71,13 @@ div.loreentry {
 }
 img.entryimg {
 	position: absolute;
-	width: 44%;
+	transform: translate(-50%, -50%);
+	width: 70%;
 	height: 40%;
-	object-fit: cover;
-	left: 28%;
-	top: 7%;
+	object-fit: contain;
+	left: 50%;
+	top: 27%;
+	/* background: gray; */
 }
 p.entryheading {
 	position: absolute;
@@ -150,9 +152,9 @@ div.infobox {
 img.infoimg {
 	position: absolute;
 	height: 90%;
-	width: 60%;
-	object-fit: cover;
-	left: 20%;
+	width: 90%;
+	object-fit: contain;
+	left: 5%;
 	top: 5%;
 }
 p.boxheading {
