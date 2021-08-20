@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>(PAGETITLE) - Project Anima</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Magic, Mage, Antimatter, Paraphysics">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Megrim&family=Poiret+One&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<script src="https://kit.fontawesome.com/e2f3217a68.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<!-- extralight 200 medium 500 bold 700 -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="lore.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-X3JSDF3FB4"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-X3JSDF3FB4');
+	</script>
+</head>
+<body >
+	<div class="header">
+		<a href="index.html">
+			<img src="resources/Anima Standalone.svg" class="menu">
+			<p id="menutxt">PROJECT ANIMA</p>
+		</a>
+		<table class="menu"> <tr>
+			<td class="menu"> <a href="lore.html" class="menu current">
+				Lore </a> </td>
+			<td class="menu"> <a href="art.html" class="menu">
+				Art </a> </td>
+			<td class="menu"> <a href="universe.html" class="menu">
+				Universe </a> </td>
+			<td class="menu"> <a href="aboutus.html" class="menu">
+				About Us </a> </td>
+	  	</tr> </table>
+		<input type="text" placeholder="Search..." class="menu">
+		<div class="container-in">
+			<div class="search-container">
+				<div id="search-results"></div>
+			</div>
+		</div>
+	</div>
+	<div class="specificall">
+		<div class="info">
+			<div class="infoimg">
+				<img src="(INFOIMAGE)" class="infoimg">
+			</div>
+			<div class="infobox">
+				<p class="boxheading" id="boxh0">(H0)</p>
+				<p class="boxinfo" id="boxi0">(I0)</p>
+				<p class="boxheading" id="boxh1">(H1)</p>
+				<p class="boxinfo" id="boxi1">(I1)</p>
+				<p class="boxheading" id="boxh2">(H2)</p>
+				<p class="boxinfo" id="boxi2">(I2)</p>
+				<p class="boxheading" id="boxh3">(H3)</p>
+				<p class="boxinfo" id="boxi3">(I3)</p>
+				<p class="boxheading" id="boxh4">(H4)</p>
+				<p class="boxinfo" id="boxi4">(I4)</p>
+				<p class="boxheading" id="boxh5">(H5)</p>
+				<p class="boxinfo" id="boxi5">(I5)</p>
+			</div>
+		</div>
+		(CONTENT)
+	</div>
+	<footer></footer>
+
+
+	<script src="home.js"></script>
+	<script src="data.js"></script>
+	<script src="lore.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		plainborder(document.getElementsByClassName("infoimg")[0]);
+		plainborder(document.getElementsByClassName("infobox")[0]);
+		AOS.init();
+	</script>
+</body>

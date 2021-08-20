@@ -38,6 +38,7 @@ artistrole = "Artist"
 # (this time you have to include the .html extension)
 filename = "thingy-art.html"
 
+# ignore this stuff
 s = open('arttemplate.txt', 'r').read()
 s = s.replace("(PAGETITLE)", tabtitle)
 s = s.replace("(IMAGELOCATION)", imagelocation)
