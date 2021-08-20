@@ -48,7 +48,8 @@ function getResults() {
 
 	element("search-results").style.display = "none";
 	element("search-results").innerHTML = "";
-	
+
+	if (search.length==0) return;
 	for (var i = 0; i < pagedata.length; i++) {
 		tosort.push([score(i, search), i]);
 	}
