@@ -48,8 +48,7 @@ function getResults() {
 
 	element("search-results").style.display = "none";
 	element("search-results").innerHTML = "";
-	//starts searching from the second input
-	if (search.length <= 1) return;
+	
 	for (var i = 0; i < pagedata.length; i++) {
 		tosort.push([score(i, search), i]);
 	}
