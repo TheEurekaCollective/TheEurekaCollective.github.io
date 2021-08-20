@@ -837,7 +837,3 @@ div.no-results {
 div.no-results:hover {
 	background: black;
 }
-
-@media (min-width: 900px) {
-	
-}
