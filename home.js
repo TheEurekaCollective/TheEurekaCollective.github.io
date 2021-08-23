@@ -296,7 +296,7 @@ var footertxt = `<p class="contactus" style="top:5vw">CONTACT US</p>
 	<p class="copyright" style="top: 32vw">Unless otherwise stated, this work is licensed under a <a class="copyright" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a></p>
 	<p class="copyright" style="top: 35vw">© 2021 Project Anima</p>`;
 
-var footerlinks = ["https://www.instagram.com/theeurekacollective/", "https://www.facebook.com/The-Eureka-Collective-105419318305863", "https://www.artstation.com/theeurekacollective", "https://www.reddit.com/r/projectanima/", "https://www.patreon.com/theeurekacollective", "https://www.buymeacoffee.com/projectanima", "https://ko-fi.com/theeurekacollective", "index", "lore", "art", "universe", "aboutus", "privacypolicy", "sitemap"];
+var footerlinks = ["https://www.instagram.com/theeurekacollective/", "https://www.facebook.com/eurekacollective/", "https://www.artstation.com/theeurekacollective", "https://www.reddit.com/r/projectanima/", "https://www.patreon.com/eurekacollective", "https://www.buymeacoffee.com/projectanima", "https://ko-fi.com/eurekacollective", "index", "lore", "art", "universe", "aboutus", "privacypolicy", "sitemap"];
 var iconsrcs = ['resources/ArtStation-logomark-white.png','resources/Digital-Patreon-Logo_White.png','resources/bmc-logo.svg','resources/Ko-fi_Icon_RGBforDarkBg.png'];
 
 function initfooter() {
