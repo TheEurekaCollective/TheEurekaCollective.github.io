@@ -5,10 +5,11 @@ div.universestuff {
 	left: 0;
 	top: 0;
 	width: 100vw;
-	height: 73vw;
+	height: 200vw;
 }
-p.universeheading {
+h1 {
 	font-family: Poiret One;
+	color: white;
 	font-size: 2.4vw;
 	padding: 0;
 	margin: 0 0 1vw 1vw;
@@ -45,7 +46,13 @@ span.underline {
 	position: absolute;
 	top: 30vw;
 	left: 7vw;
-	width: 86vw
+	width: 86vw;
+}
+#devlogheading {
+	position: absolute;
+	top: 72vw;
+	left: 7vw;
+	width: 50vw;
 }
 div.sandboxentry {
 	position: absolute;
@@ -80,4 +87,78 @@ p.sandboxtext {
 	margin: 0;
 	top: 5vw;
 	font-weight: 100;
+}
+div.devlogcontainer {
+	width: 100%;
+	height: 35vw;
+	position: relative;
+	top: 2vw;
+	background-color: black;
+}
+div.devlog {
+	position: absolute;
+	height: 100%;
+	width: 80%;
+	left: 0; top: 0;
+	padding: 0 5%;
+	overflow: scroll;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+div.devlog::-webkit-scrollbar {
+	display: none;
+}
+div.universescroll {
+	position: absolute;
+	left: 90%;
+	width: 8%;
+	height: 80%;
+	top: 10%;
+}
+#uscrollbar {
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	top: 0;
+	background-color: white;
+	left: 50%;
+	opacity: 0.6;
+}
+#udot {
+	transform: translate(-50%, -50%);
+	background-color: white;
+	height: 1.4vw;
+	width: 1.4vw;
+	position: absolute;
+	top: 0;
+	left: 50%;
+ 	border-radius: 50%;
+	margin: 0;
+	padding: 0;
+}
+p.devlogday {
+	font-family: Raleway;
+	font-size: 2vw;
+	font-weight: 200;
+	padding: 1.3vw 0;
+	margin: 0;
+}
+p.devlogcategory {
+	font-family: Raleway;
+	font-size: 1.6vw;
+	font-weight: 500;
+	padding: 0;
+	margin: 0;
+}
+ul {
+	color: white;
+	font-family: Raleway;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin: 0.5vw 0;
+}
+li {
+	padding-top: 0.2vw;
+	padding-bottom: 0.2vw;
 }
