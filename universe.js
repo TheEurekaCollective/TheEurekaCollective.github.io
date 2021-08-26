@@ -1,9 +1,83 @@
 var log = `
+==08/16/21
+=Art (Specific)
+{
+Finished html outline
+}
+=Universe
+{
+Created overview, origin, and sandbox
+}
+=About Us
+{
+Created About and Meet the Team sections
+Uploaded profile pictures
+}
+==08/15/21
+=Art
+{
+Created art gallery
+Played with fade-in effects
+}
+=Art (Specific)
+{
+Created art specific page
+Added most features (missing bottom of right side)
+}
+==08/14/21
+=Lore (Specific)
+{
+Aesthetic tweaks
+Wrote javascript to generate html text
+}
+==08/13/21
+=Homepage
+{
+Created fade-in effect on page load
+Aesthetic tweaks
+}
+=Lore
+{
+Created lore feed
+Created submenu selection
+}
+=Lore (Specific)
+{
+Set up lore page template
+}
+==08/12/21
+=Homepage
+{
+Minor fixes
+Proportions remain constant across variable screen sizes
+}
+==08/11/21
+=Homepage
+{
+Boxes expand on hover in lore section
+Art carousel names show up on hover
+Created sponsor section
+}
+==08/09/21
+=Homepage
+{
+Replaced temporary png's with svg's
+Borders light up on hover in lore section
+Started work on art carousel
+}
+==08/08/21
+=Homepage
+{
+Created synopsis section
+Created featured section
+Created lore section
+}
 ==08/06/21
 =Homepage
 {
 Implemented header
 Added scrollbar
+Created title screen
 }
 `
 
@@ -13,14 +87,15 @@ function initdevlog() {
 	var lines = log.split('\n');
 	for (var i = 0; i < lines.length; i++) {
 		if (lines[i].length==0) continue;
-		else if (lines[i]=='{') html += '<ul>';
-		else if (lines[i]=='}') html += '</ul>';
+		else if (lines[i]=='{') html += '<ul>\n';
+		else if (lines[i]=='}') html += '</ul>\n';
 		else if (lines[i].length>=2 && lines[i].substring(0,2)=='==') {
-			html += "<p class='devlogday'>"+lines[i].substring(2)+"</p>";
+			html += "<p class='devlogday'>"+lines[i].substring(2)+"</p>\n";
 		} else if (lines[i].substring(0,1)=='=') {
-			html += "<p class='devlogcategory'>"+lines[i].substring(1)+"</p>";
-		} else html += '<li>'+lines[i]+'</li>';
+			html += "<p class='devlogcategory'>"+lines[i].substring(1)+"</p>\n";
+		} else html += '\t<li>'+lines[i]+'</li>\n';
 	}
+	console.log(html);
 	div.innerHTML = html;
 }
 
