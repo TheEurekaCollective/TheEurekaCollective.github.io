@@ -1,6 +1,6 @@
 var memberpfps = ["Josephine Lee.jpg", "zaxwellmen.png", "Sirawyn.gif", "Isabelle Lam.jpg", "Doctor Martins.JPG", "TitanAMB.png", "jessica mui.jpg", "Xiaoshen Ma With Flame.jpg", "wajora!.jpg", "Zephyryne.JPG"];
 var membernames = ["Josephine Lee", "zaxwellmen", "Sirawyn", "bowbow", "Dr. Martins", "TitanAMB", "Jessica", "Xiaoshen Ma", "wajora!", "Zephyryne"];
-var memberroles = ["Web Developer", "Web Developer", "Founder & Director", "Editor", "Promoter", "Artist", "Artist", "Artist", "Scribe", "Page"];
+var memberroles = ["Editor", "Web Developer", "Founder & Director", "Editor", "Promoter", "Artist", "Artist", "Artist", "Scribe", "Page"];
 
 function initaboutus() {
 	var i = 0;
@@ -25,6 +25,9 @@ function initaboutus() {
 			node.append(role);
 			div.append(node);
 			i += 1;
+		}
+		if (i >= memberpfps.length) {
+			document.getElementById('meettheteam').style.height = (y+24)+'vw';
 		}
 	}
 }
