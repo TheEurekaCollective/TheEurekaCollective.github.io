@@ -8,6 +8,7 @@ div.universestuff {
 	height: 200vw;
 }
 h1 {
+	position: static;
 	font-family: Poiret One;
 	color: white;
 	font-size: 2.4vw;
@@ -48,11 +49,17 @@ span.underline {
 	left: 7vw;
 	width: 86vw;
 }
-#devlogheading {
+#devlogsection {
 	position: absolute;
 	top: 72vw;
 	left: 7vw;
-	width: 50vw;
+	width: 47vw;
+}
+#updatetimersection {
+	position: absolute;
+	top: 72vw;
+	left: 60vw;
+	width: 33vw;
 }
 div.sandboxentry {
 	position: absolute;
@@ -88,11 +95,11 @@ p.sandboxtext {
 	top: 5vw;
 	font-weight: 100;
 }
-div.devlogcontainer {
+div.container {
 	width: 100%;
 	height: 35vw;
-	position: relative;
-	top: 2vw;
+	position: absolute;
+	top: 6vw;
 	background-color: black;
 }
 div.devlog {
@@ -162,3 +169,74 @@ li {
 	padding-top: 0.2vw;
 	padding-bottom: 0.2vw;
 }
+p.updateexpected {
+	position: absolute;
+	font: 2vw Raleway;
+	width: 80%;
+	padding: 0 10%;
+	margin: 0;
+	text-align: center;
+	font-weight: 200;
+	line-height: 3.5vw;
+	top: 13%;
+}
+time.updateday {
+	position: absolute;
+	font: 2.8vw Raleway;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-weight: 200;
+	top: 40%;
+}
+div.updatedisplay {
+	position: absolute;
+	width: 20%;
+	height: 20%;
+	transform: translateX(-50%);
+	top: 62%;
+}
+p.updatenumber {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font: 2.3vw Raleway;
+	font-weight: 200;
+	top: 0;
+	padding: 0; margin: 0;
+}
+p.updatetype {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font: 1.4vw Raleway;
+	font-weight: 200;
+	top: 2vw;
+}
+#days {left: 17%;}
+#hours {left: 39%;}
+#minutes {left: 61%;}
+#seconds {left: 83%;}
+p.soontxt {
+	position: absolute;
+	font: 2.8vw Raleway;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-weight: 200;
+	top: 60%;
+	padding: 0; margin: 0;
+}
+#timer {
+	width: 100%; height: 100%;
+	display: none;
+}
+#soon {
+	width: 100%; height: 100%;
+	display: none;
+}
+
+
+
+
+br {}
