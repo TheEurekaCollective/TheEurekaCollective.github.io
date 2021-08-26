@@ -1,3 +1,28 @@
+var log = `
+==08/06/21
+=Homepage
+{
+Implemented header
+Added scrollbar
+}
+`
+
+function initdevlog() {
+	var div = document.querySelectorAll('div.devlog')[0];
+	var html = "";
+	var lines = log.split('\n');
+	for (var i = 0; i < lines.length; i++) {
+		if (lines[i].length==0) continue;
+		else if (lines[i]=='{') html += '<ul>';
+		else if (lines[i]=='}') html += '</ul>';
+		else if (lines[i].length>=2 && lines[i].substring(0,2)=='==') {
+			html += "<p class='devlogday'>"+lines[i].substring(2)+"</p>";
+		} else if (lines[i].substring(0,1)=='=') {
+			html += "<p class='devlogcategory'>"+lines[i].substring(1)+"</p>";
+		} else html += '<li>'+lines[i]+'</li>';
+	}
+	div.innerHTML = html;
+}
 
 var now;
 var until;
@@ -31,6 +56,7 @@ Number.prototype.pad = function (count) {
 function element(id) { return document.getElementById(id); }
 
 function init() {
+	initdevlog();
 	until = new Date("2021-09-01T00:00:00");
 	document.getElementById("soon").style.display = "none";
 	document.getElementById("timer").style.display = "block";

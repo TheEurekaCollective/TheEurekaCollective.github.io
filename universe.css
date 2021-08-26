@@ -126,6 +126,7 @@ div.universescroll {
 #uscrollbar {
 	position: absolute;
 	width: 2px;
+	transform: translateX(-50%);
 	height: 100%;
 	top: 0;
 	background-color: white;
