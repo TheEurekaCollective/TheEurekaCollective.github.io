@@ -1,0 +1,58 @@
+#resultgallery {
+	position: relative;
+	width: 70vw;
+	margin: 11.5vw 15vw 8vw 15vw;
+}
+/* rmenu */
+div.rmenu {
+	position: fixed;
+	top: 3.2vw;
+	left: 0;
+	border: solid white;
+	border-width: 1px 0 1px 0;
+	height: 3.2vw;
+	width: 100vw;
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	background-color: black;
+	opacity: 0.9;
+	z-index: 5;
+}
+table.rmenu {
+	border-collapse: collapse;
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50vw;
+	top: 0;
+	width: 16vw;
+	height: 3.2vw;
+}
+td.rmenu {
+	padding: 0px;
+	width: 8vw;
+	border-width: 0px;
+	margin: 0px;
+}
+a.rmenup {
+	text-decoration: none;
+	font-family: Raleway;
+	font-weight: 200;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	height: 3.2vw;
+	line-height: 3.2vw;
+	font-size: 1.2vw;
+	color: white;
+	cursor: pointer;
+	padding: 0px;
+	margin: 0px;
+}
+a.rmenup:hover {
+	text-decoration: underline;
+}
+a.rmenuc {
+	text-decoration: underline;
+}
