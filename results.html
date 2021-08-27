@@ -54,13 +54,16 @@
 	</div>
 	<div class="rmenu">
 		<table class="rmenu"> <tr>
-			<td class="rmenu"> <a class="rmenup rmenuc">
+			<td class="rmenu"> <a class="rmenup rmenuc" onclick='rflip(0);'>
 				Articles </a> </td>
-			<td class="rmenu"> <a class="rmenup">
+			<td class="rmenu"> <a class="rmenup" onclick='rflip(1);'>
 				Images </a> </td>
 	  	</tr> </table>
 	</div>
-	<div class="lorefeed">
+	<div id="resultcontainer">
+
+	</div>
+	<div id="resultlore">
 
 	</div>
 	<div id="resultgallery">
@@ -74,14 +77,13 @@
 	<script src="art.js"></script>
 	<script>
 		initresults();
-		initloreboxes(loreindices, document.querySelectorAll('div.lorefeed')[0]);
+		initloreboxes(loreindices, element('resultlore'));
 		var entries = document.querySelectorAll('div.loreentry');
 		for (var i = 0; i < entries.length; i++) {
 			addborder(entries[i], 26, 31, 25, 30);
 		}
 		initartboxes(artindices, element('resultgallery'));
-		// element('artgallery').style.display='none';
-		// document.querySelectorAll('div.lorefeed')[0].style.display='none';
+		rflip(0);
 	</script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>

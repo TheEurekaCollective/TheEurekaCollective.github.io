@@ -18,6 +18,9 @@ for (var i = 0; i < pagedata.length; i++) {
 	pagedata[i] = pagedata[i].toLowerCase();
 }
 
+//shortens document.getElementById
+function element(id) { return document.getElementById(id); }
+
 function initresults() {
 	var queryString = window.location.search;
 	var urlParams = new URLSearchParams(queryString);
@@ -45,9 +48,20 @@ function initresults() {
 	}
 }
 
+function rflip(x) {
+	var rmenu = document.querySelectorAll('a.rmenup');
+	for (var i = 0; i < 2; i++) {
+		if (i==x) rmenu[i].className='rmenup rmenuc';
+		else rmenu[i].className='rmenup';
+	}
+	var displays = [['0', '-100%'], ['100%', '0']];
+	element('resultlore').style.left=displays[0][x];
+	element('resultgallery').style.left=displays[1][x];
+	if (x==0) element('resultcontainer').style.height=element('resultlore').style.height;
+	else element('resultcontainer').style.height=element('resultgallery').style.height;
+}
 
-//shortens document.getElementById
-function element(id) { return document.getElementById(id); }
+
 
 function strcnt(a, b) {
 	var r = a.indexOf(b);

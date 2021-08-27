@@ -37,7 +37,7 @@ function initartboxes(indices, div) {
 			j += 1;
 		}
 		if (j>=indices.length) {
-			div.style.height = (y+12)+'vw';
+			div.style.height = (y+31.5)+'vw';
 			break;
 		}
 	}

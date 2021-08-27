@@ -1,7 +1,20 @@
+#resultlore {
+	position: absolute;
+	top: 6.4vw;
+	left: 0;
+	width: 100vw;
+	transition: 0.3s ease;
+}
 #resultgallery {
-	position: relative;
+	position: absolute;
+	top: 11.5vw;
 	width: 70vw;
-	margin: 11.5vw 15vw 8vw 15vw;
+	margin: 0 15vw 0 15vw;
+	transition: 0.3s ease;
+}
+#resultcontainer {
+	position: relative;
+	transition: 0.3s ease;
 }
 /* rmenu */
 div.rmenu {
