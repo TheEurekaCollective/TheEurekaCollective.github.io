@@ -1,23 +1,39 @@
 #resultlore {
 	position: absolute;
-	top: 0; left: 0;
+	top: 6vw; left: 0;
 	width: 100vw;
 	transition: 0.3s ease;
 }
 #resultgallery {
 	position: absolute;
-	top: 0; left: 0;
+	top: 6vw; left: 0;
 	width: 100vw;
 	transition: 0.3s ease;
+}
+#resultfiller {
+	position: relative;
+	width: 100vw;
+	height: 6vw;
 }
 #resultcontainer {
 	position: relative;
 	transition: 0.3s ease;
+	top: 0; left: 0;
+	width: 100vw;
+}
+h1 {
+	position: absolute;
+	color: white;
+	font: 3.5vw Poiret One;
+	letter-spacing: 1vw;
+	top: 1vw;
+	width: 100%;
+	text-align: center;
 }
 p.noresult1 {
 	position: absolute;
 	top: 13vw;
-	font: 3vw Raleway;
+	font: 2.8vw Raleway;
 	font-weight: 300;
 	width: 100%;
 	text-align: center;
@@ -25,7 +41,7 @@ p.noresult1 {
 p.noresult2 {
 	position: absolute;
 	top: 20vw;
-	font: 2.5vw Raleway;
+	font: 2.3vw Raleway;
 	font-weight: 200;
 	width: 100%;
 	text-align: center;
