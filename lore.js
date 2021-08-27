@@ -7,20 +7,12 @@ var loretxt = ["Antimatter is the primary form of energy storage within the Huma
 var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg"];
 var lorespecificlink = ['lorespecific', 'lorespecific', 'lorespecific'];
 
-function initlorepage() {
-	var submenu = document.querySelectorAll("a.submenup");
-	for (var i = 0; i < submenu.length; i++) {
-		submenu[i].category = [lorenames[i], "All"];
-		submenu[i].index = 0;
-		submenu[i].onclick = function() {
-			filter(this.category[this.index]);
-		}
-	}
-	var feed = document.getElementsByClassName("lorefeed")[0];
-	var i = 0;
+function initloreboxes(indices, feed) {
+	var j = 0;
 	for (var y = 18; true; y += 34) {
 		for (var x = 20; x < 81; x += 30) {
-			if (i >= loreheadings.length) break;
+			if (j >= indices.length) break;
+			var i = indices[j];
 			var div = document.createElement("div");
 			div.className = "loreentry";
 			div.number = i;
@@ -47,13 +39,28 @@ function initlorepage() {
 			node.href = lorespecificlink[i];
 			div.append(node);
 			feed.append(div);
-			i += 1;
+			j += 1;
 		}
-		if (i>=loreheadings.length) {
+		if (j>=indices.length) {
 			feed.style.height = (y+24)+'vw';
 			break;
 		}
 	}
+}
+
+function initlorepage() {
+	var submenu = document.querySelectorAll("a.submenup");
+	for (var i = 0; i < submenu.length; i++) {
+		submenu[i].category = [lorenames[i], "All"];
+		submenu[i].index = 0;
+		submenu[i].onclick = function() {
+			filter(this.category[this.index]);
+		}
+	}
+	var feed = document.getElementsByClassName("lorefeed")[0];
+	var indices = [];
+	for (var i = 0; i < loreheadings.length; i++) indices.push(i);
+	initloreboxes(indices, feed);
 	var queryString = window.location.search;
 	var urlParams = new URLSearchParams(queryString);
 	if (urlParams.has("filter")) {
