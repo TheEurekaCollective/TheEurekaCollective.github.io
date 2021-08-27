@@ -36,7 +36,7 @@ function initartboxes(indices, div) {
 			div.append(node);
 			j += 1;
 		}
-		if (j>=imgs.length) {
+		if (j>=indices.length) {
 			div.style.height = (y+12)+'vw';
 			break;
 		}
