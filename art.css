@@ -17,13 +17,17 @@
 	top: 10.5vw;
 }
 #artgallery {
+	position: absolute;
+	top: 0;
+	width: 100vw;
+}
+#artcontainer {
 	position: relative;
-	width: 70vw;
-	margin: 8vw 15vw;
+	width: 100vw;
 }
 div.artdisplay {
 	position: absolute;
-	width: 32%;
+	width: 22.4vw;
 	height: 30vw;
 	transform: translate(-50%, -50%);
 }

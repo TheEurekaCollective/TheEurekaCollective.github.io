@@ -77,7 +77,7 @@ function score(p, s) {
 	s = s.split(' ');
 	var ans = 0;
 	for (var i = 0; i < s.length; i++) {
-		if (s[i].length==0) return;
+		if (s[i].length==0) continue;
 		ans += strcnt(pagetitle[p].toLowerCase(), s[i])*s[i].length*s[i].length*10;
 		ans += strcnt(pagedata[p], s[i])*s[i].length*s[i].length;
 	}

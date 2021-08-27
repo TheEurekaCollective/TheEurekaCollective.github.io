@@ -64,10 +64,8 @@
 
 	</div>
 	<div id="resultlore">
-
 	</div>
 	<div id="resultgallery">
-
 	</div>
 	<footer></footer>
 
@@ -77,13 +75,25 @@
 	<script src="art.js"></script>
 	<script>
 		initresults();
-		initloreboxes(loreindices, element('resultlore'));
-		var entries = document.querySelectorAll('div.loreentry');
-		for (var i = 0; i < entries.length; i++) {
-			addborder(entries[i], 26, 31, 25, 30);
+		if (loreindices.length==0) {
+			element('resultlore').innerHTML = "<p class='noresult1'>No articles were found</p><p class='noresult2'>Try changing your search, or looking through the general lore section</p>";
+			element('resultlore').style.height = '35vw';
+		} else {
+			initloreboxes(loreindices, element('resultlore'));
+			var entries = document.querySelectorAll('div.loreentry');
+			for (var i = 0; i < entries.length; i++) {
+				addborder(entries[i], 26, 31, 25, 30);
+			}
 		}
-		initartboxes(artindices, element('resultgallery'));
-		rflip(0);
+		if (artindices.length==0) {
+			element('resultgallery').innerHTML = "<p class='noresult1'>No images were found</p><p class='noresult2'>Try changing your search, or looking through the general art gallery</p>";
+			element('resultgallery').style.height = '35vw';
+		} else {
+			initartboxes(artindices, element('resultgallery'), 25.5);
+		}
+		if (artindices.length==0) rflip(0);
+		else if (loreindices.length==0) rflip(1);
+		else rflip(0);
 	</script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>

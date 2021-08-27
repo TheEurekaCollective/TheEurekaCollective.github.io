@@ -2,10 +2,10 @@ var imgs = ["resources/Infinite City.jpg", "resources/Magus.png", "resources/Scu
 var gallerynames = ["THE INFINITE CITY", "MAGUS", "SCULPT"];
 var artpagelink = ["artspecific.html", "artspecific.html", "artspecific.html"];
 
-function initartboxes(indices, div) {
+function initartboxes(indices, div, start) {
 	var j = 0;
-	for (var y = 14; true; y += 32) {
-		for (var x = 16; x < 100; x += 34) {
+	for (var y = start; true; y += 32) {
+		for (var x = 26; x < 75; x += 24) {
 			if (j>=indices.length) break;
 			var i = indices[j];
 			var node = document.createElement('div');
@@ -37,7 +37,8 @@ function initartboxes(indices, div) {
 			j += 1;
 		}
 		if (j>=indices.length) {
-			div.style.height = (y+31.5)+'vw';
+			div.style.height = (y+20)+'vw';
+			div.myheight = (y+20);
 			break;
 		}
 	}
@@ -47,7 +48,8 @@ function initgallery() {
 	var div = document.getElementById("artgallery");
 	var indices = [];
 	for (var i = 0; i < imgs.length; i++) indices.push(i);
-	initartboxes(indices, div);
+	initartboxes(indices, div, 22);
+	document.getElementById('artcontainer').style.height = document.getElementById('artgallery').style.height;
 }
 
 function initspecific() {

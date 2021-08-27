@@ -9,7 +9,7 @@ var lorespecificlink = ['lorespecific', 'lorespecific', 'lorespecific'];
 
 function initloreboxes(indices, feed) {
 	var j = 0;
-	for (var y = 18; true; y += 34) {
+	for (var y = 24.4; true; y += 34) {
 		for (var x = 20; x < 81; x += 30) {
 			if (j >= indices.length) break;
 			var i = indices[j];
@@ -42,7 +42,7 @@ function initloreboxes(indices, feed) {
 			j += 1;
 		}
 		if (j>=indices.length) {
-			feed.style.height = (y+24)+'vw';
+			feed.style.height = (y+17.6)+'vw';
 			break;
 		}
 	}

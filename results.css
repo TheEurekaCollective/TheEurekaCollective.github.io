@@ -1,20 +1,34 @@
 #resultlore {
 	position: absolute;
-	top: 6.4vw;
-	left: 0;
+	top: 0; left: 0;
 	width: 100vw;
 	transition: 0.3s ease;
 }
 #resultgallery {
 	position: absolute;
-	top: 11.5vw;
-	width: 70vw;
-	margin: 0 15vw 0 15vw;
+	top: 0; left: 0;
+	width: 100vw;
 	transition: 0.3s ease;
 }
 #resultcontainer {
 	position: relative;
 	transition: 0.3s ease;
+}
+p.noresult1 {
+	position: absolute;
+	top: 13vw;
+	font: 3vw Raleway;
+	font-weight: 300;
+	width: 100%;
+	text-align: center;
+}
+p.noresult2 {
+	position: absolute;
+	top: 20vw;
+	font: 2.5vw Raleway;
+	font-weight: 200;
+	width: 100%;
+	text-align: center;
 }
 /* rmenu */
 div.rmenu {
