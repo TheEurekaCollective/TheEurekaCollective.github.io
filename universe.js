@@ -6,9 +6,13 @@ Replaced logo in header
 Fixed searchbar links
 Created guide for adding new pages
 }
+=Lore
+{
+Added Faster Than Light
+}
 =Universe
 {
-Finished developer log 
+Finished developer log
 Fixed margins
 }
 ==08/27/21
