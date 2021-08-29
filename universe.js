@@ -1,4 +1,142 @@
 var log = `
+==08/28/21
+=General
+{
+Replaced logo in header
+Fixed searchbar links
+Created guide for adding new pages
+}
+=Universe
+{
+Finished developer log 
+Fixed margins
+}
+==08/27/21
+=General
+{
+Fixed header links
+}
+=Results
+{
+Edited lore and art javascript to make results page easier
+Created results page javascript to generate results
+Implemented submenu selection
+Added no results found message
+Added results heading
+}
+==08/26/21
+=General
+{
+Hitting enter on search bar redirects to empty results page
+}
+=Universe
+{
+Added update timer
+}
+=About Us
+{
+Allowed arbitrarily many team members
+}
+==08/25/21
+=Universe
+{
+Added developer log
+}
+==08/23/21
+=General
+{
+Replaced social media links
+}
+=Lore
+{
+Changed how links are set
+}
+==08/20/21
+=General
+{
+Added python and text files to generate future lore pages
+Allowed searching with one letter only
+}
+==08/19/21
+=General
+{
+Tweaked onblur timing to wait for next click
+Added python and text files to generate future art pages
+Resized most images
+}
+=Homepage
+{
+Altered new release ratios
+Made it easier to edit contents of homepage
+}
+=Art (Specific)
+{
+Added and resized fullscreen icon
+Resized image margins
+Tested profile pictures
+}
+==08/18/21
+=General
+{
+Added logos to footer
+Resized header text
+Added search engine
+Added No Results message to search bar
+Fixed onblur issue with search bar
+}
+=Homepage
+{
+Added and resized learn more button
+Resized title text
+Fixed lore icons clipping
+Altered scroll parameters
+Fixed choppy text transforms
+Centered art carousel
+}
+=Art
+{
+Moved gallery labels to image center
+Links cover entire image
+Art labels go completely visible on hover
+Fixed margins
+}
+=Art (Specific)
+{
+Dot moves when scrolling through text
+}
+=About Us
+{
+Resized Meet the Team profiles
+}
+=Privacy Policy
+{
+Added privacy policy
+}
+=Sitemap
+{
+Added sitemap
+}
+==08/17/21
+=General
+{
+Created footer, added to each page
+Set up google analytics
+}
+=Homepage
+{
+Tweaked new releases section
+Edited scrollbar mechanics
+Resized various elements
+}
+=Lore
+{
+Minor tweaks to submenus and filtering
+Implemented clicking again to unfilter
+}
+=Art
+{
+Removed gallery title
+}
 ==08/16/21
 =Art (Specific)
 {
@@ -73,9 +211,12 @@ Created featured section
 Created lore section
 }
 ==08/06/21
-=Homepage
+=General
 {
 Implemented header
+}
+=Homepage
+{
 Added scrollbar
 Created title screen
 }
