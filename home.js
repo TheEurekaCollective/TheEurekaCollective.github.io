@@ -7,7 +7,9 @@ var featuredimgsource = 'resources/Magus.png';
 var featuredtitles = ['MATERNA', 'MATERNA', 'MATERNA'];
 var featurediconsources = ['resources/Materna Icon.svg', 'resources/Materna Icon.svg', 'resources/Materna Icon.svg'];
 var featuredlinks = ['lorespecific', 'lorespecific', 'lorespecific'];
-var featureddescriptions = ["In the Great Cities, it is not uncommon for an aspiring couple to walk into a Materna clinic and request a BioTube reservation. For what you may ask? For a baby! In the 26th century, nearly 93% of all births take place within an artificial uterus...", "In the Great Cities, it is not uncommon for an aspiring couple to walk into a Materna clinic and request a BioTube reservation. For what you may ask? For a baby! In the 26th century, nearly 93% of all births take place within an artificial uterus...", "In the Great Cities, it is not uncommon for an aspiring couple to walk into a Materna clinic and request a BioTube reservation. For what you may ask? For a baby! In the 26th century, nearly 93% of all births take place within an artificial uterus..."];
+var featureddescriptions = ["In the Great Cities, it is not uncommon for an aspiring couple to walk into a Materna clinic and request a BioTube reservation. For what you may ask? For a baby! In the 26th century, nearly 93% of all births take place within an artificial uterus...",
+"In the Great Cities, it is not uncommon for an aspiring couple to walk into a Materna clinic and request a BioTube reservation. For what you may ask? For a baby! In the 26th century, nearly 93% of all births take place within an artificial uterus...",
+"In the Great Cities, it is not uncommon for an aspiring couple to walk into a Materna clinic and request a BioTube reservation. For what you may ask? For a baby! In the 26th century, nearly 93% of all births take place within an artificial uterus..."];
 
 
 var artnames = ["MAGUS", "THE INFINITE CITY", "SCULPT"];
