@@ -108,7 +108,7 @@ function filter(c) {
 			i += 1;
 		}
 		if (i >= loreimg.length) {
-			document.getElementsByClassName("lorefeed")[0].style.height = (y+24)+'vw';
+			document.getElementsByClassName("lorefeed")[0].style.height = (y+17.6)+'vw';
 			break;
 		}
 	}
