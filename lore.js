@@ -91,7 +91,7 @@ function filter(c) {
 		}
 	}
 	var i = 0;
-	for (var y = 18; true; y += 34) {
+	for (var y = 24.4; true; y += 34) {
 		for (var x = 20; x < 81; x += 30) {
 			while (i<loreimg.length && c != 'All' && loretype[i] != c) {
 				var div = document.getElementById("entry" + i)
