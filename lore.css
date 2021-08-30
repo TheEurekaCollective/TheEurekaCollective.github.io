@@ -199,13 +199,15 @@ span.underline {
 	width: 50vw;
 	height: 1px;
 	background-color: white;
+	margin-bottom: 1vw;
 }
 p.infoparagraph {
 	color: white;
 	font-family: Raleway;
 	font-weight: 200;
 	line-height: 2.5vw;
-	padding: 0.5vw 1vw;
+	padding: 0vw 1vw 1vw 1vw;
+	margin: 0;
 	font-size: 1.2vw;
 }
 p.sectiontitle {
@@ -221,7 +223,8 @@ p.paragraphtitle {
 	font-family: Raleway;
 	font-weight: 500;
 	line-height: 2.5vw;
-	padding: 2vw 0 0 1vw;
+	padding: 0.3vw 0 0 1vw;
+	margin: 0;
 	font-size: 1.3vw;
 }
 a.infolink {
