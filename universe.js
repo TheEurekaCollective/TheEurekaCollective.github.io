@@ -240,7 +240,6 @@ function initdevlog() {
 			html += "<p class='devlogcategory'>"+lines[i].substring(1)+"</p>\n";
 		} else html += '\t<li>'+lines[i]+'</li>\n';
 	}
-	console.log(html);
 	div.innerHTML = html;
 }
 
