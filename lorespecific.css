@@ -50,6 +50,7 @@ p.boxinfo {
 	color: white;
 	font-size: 1vw;
 	font-weight: 200;
+	width: 40%;
 }
 #boxh0 {left: 10%; top: 5%;}
 #boxh1 {left: 10%; top: 35%;}
