@@ -9,7 +9,8 @@ var artpagelink = ["artspecific", "artspecific", "artspecific"];
 function initartboxes(indices, div, start) {
 	var j = 0;
 	for (var y = start; true; y += 32) {
-		for (var x = 26; x < 75; x += 24) {
+		var nxt = Math.min(indices.length-j, 3)-1;
+		for (var x = 50-12*nxt; x < 51+12*nxt; x += 24) {
 			if (j>=indices.length) break;
 			var i = indices[j];
 			var node = document.createElement('div');

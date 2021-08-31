@@ -19,7 +19,8 @@ var lorespecificlink = ['lorespecific', 'lorespecific', 'lorespecific', 'fastert
 function initloreboxes(indices, feed) {
 	var j = 0;
 	for (var y = 24.4; true; y += 34) {
-		for (var x = 20; x < 81; x += 30) {
+		var nxt = Math.min(indices.length-j, 3)-1;
+		for (var x = 50-15*nxt; x < 51+15*nxt; x += 30) {
 			if (j >= indices.length) break;
 			var i = indices[j];
 			var div = document.createElement("div");
@@ -90,24 +91,28 @@ function filter(c) {
 			submenus[i].index=0;
 		}
 	}
+	var indices = [];
+	for (var i = 0; i < loreimg.length; i++) {
+		var div = document.getElementById("entry" + i);
+		if (c != 'All' && loretype[i] != c) {
+			div.style.opacity='0';
+			div.style.left='0';
+			div.style.top='0';
+		} else {
+			indices.push(i);
+			div.style.opacity='1';
+		}
+	}
 	var i = 0;
 	for (var y = 24.4; true; y += 34) {
-		for (var x = 20; x < 81; x += 30) {
-			while (i<loreimg.length && c != 'All' && loretype[i] != c) {
-				var div = document.getElementById("entry" + i)
-				div.style.opacity='0';
-				div.style.left='0';
-				div.style.top='0';
-				i += 1;
-			}
-			if (i >= loreimg.length) break;
-			var div = document.getElementById("entry" + i);
-			div.style.opacity='1';
+		var nxt = Math.min(indices.length-i, 3)-1;
+		for (var x = 50-15*nxt; x < 51+15*nxt && i<indices.length; x += 30) {
+			var div = document.getElementById("entry" + indices[i]);
 			div.style.left = x + "vw";
 			div.style.top = y + "vw";
 			i += 1;
 		}
-		if (i >= loreimg.length) {
+		if (i >= indices.length) {
 			document.getElementsByClassName("lorefeed")[0].style.height = (y+17.6)+'vw';
 			break;
 		}
