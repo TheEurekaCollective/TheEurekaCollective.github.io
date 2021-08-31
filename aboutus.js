@@ -1,5 +1,5 @@
 var memberpfps = ["Alyssa Choi.PNG", "zaxwellmen.png", "Sirawyn.gif", "Isabelle Lam.jpg", "loy.JPG", "Josephine Lee.jpg", "Doctor Martins.JPG", "TitanAMB.png", "jessica mui.jpg", "Xiaoshen Ma With Flame.jpg", "wajora!.jpg", "Zephyryne.JPG"];
-var membernames = ["Alyssa Choi", "zaxwellmen", "Sirawyn", "bowbow", "Loy", "Josephine Lee", "Dr. Martins", "TitanAMB", "Jessica", "Xiaoshen Ma", "wajora!", "Zephyryne"];
+var membernames = ["Alyssa Choi", "Maxwell Zen", "Devin Deng", "bowbow", "Loy", "Josephine Lee", "Dr. Martins", "TitanAMB", "Jessica", "Xiaoshen Ma", "wajora!", "Zephyryne"];
 var memberroles = ["Web Developer", "Web Developer", "Founder & Director", "Editor", "Editor", "Editor", "Promoter", "Artist", "Artist", "Artist", "Scribe", "Page"];
 
 function initaboutus() {
