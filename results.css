@@ -26,9 +26,10 @@ h1 {
 	color: white;
 	font: 3.5vw Poiret One;
 	letter-spacing: 1vw;
-	top: 1vw;
+	top: 2vw;
 	width: 100%;
 	text-align: center;
+	margin: 0;
 }
 p.noresult1 {
 	position: absolute;
