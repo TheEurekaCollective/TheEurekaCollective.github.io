@@ -2,7 +2,8 @@
 // so that it can contain multiple lines, ex `this is a quote`
 const pagedata = [`MATERNA
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`, `AETERNUM
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in velit esse cillum dolore eu fugiat quis nostrud exercitation ullamco laboris nulla pariatur. Duis nulla pariatur. Duis aute irure dolor in reprehenderit in velit esse cillum dolore eu fugiat quis nostrud exercitation fugiat quis nostrud exercitation ullamco nulla pariatur.`, `FASTER THAN LIGHT
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in velit esse cillum dolore eu fugiat quis nostrud exercitation ullamco laboris nulla pariatur. Duis nulla pariatur. Duis aute irure dolor in reprehenderit in velit esse cillum dolore eu fugiat quis nostrud exercitation fugiat quis nostrud exercitation ullamco nulla pariatur.`,
+`FASTER THAN LIGHT
 Within {Project Anima}, there have been many methods in which faster-than-light (FTL) is accomplished and utilized. This article is a compendium of all faster than light capable phenomena and applications. It can be noted that many of these systems could be used in tandem for different results.
 WARP
 Warp is the compression and expansion of space-time using a warp drive. With advanced gravitics and quantum manipulation, a bubble is generated in which the area in front of the vessel is compressed while the area behind the vessel is expanded to compensate. Warp speeds are affected by the size, shape, and efficiency of the warp field.
@@ -40,31 +41,7 @@ The Bygone Races had mastered the art of transpositioning, a method of FTL where
 Ansible
 Ansibles are utilized by organizations such as the Scribes Consortium to allow for FTL communications using an anima as a medium.
 Singularity Systems: Singularity systems use anima to produce the FTL systems described above. Essentially, they empower a host to be able to enter the Void, generate wormholes, or warp space. `,
-`AKANTHE INTERNATIONAL PARK
-Akanthe International Park is a series of scientific missions and resorts located within Akanthe and its ring system. This area is designated a Park due to it being one of the few occurrences of void ecology within the {Milky Way Galaxy}.
-ORIGIN
-Due to the young nature of the system itself, {Commonwealth} scientists theorized that life did not arise within the system but instead came from an external source through migration or seeding. The flora and fauna that have arisen are incredibly complex and varied, which implies that life has been present in the system for at least a few million years.
-SOLAR SYSTEM
-Akanthe International Park rests in the ring system of Akanthe, a planet that orbits around a G-Type Star.
-AKANTHE
-Akanthe is a gaseous planet orbited by a ring system with a diameter of approximately 90 million kilometers.
-DISCOVERY
-While recovered pre-war data modules have indicated previous knowledge of the Nujim system and its contents, the area was rediscovered by the Commonwealth Galactic Research Initiative after the Theomachy. It was designated as a nature reserve twelve years later by the Galactic Assembly.
-ECOLOGY
-Autotrophs
-While some animals possess their own form of autotrophy, primary autotrophs are prevalent throughout the ring system. They are primarily found on asteroids with a suitable gravitic well, or just floating in the form of large planes in the vacuum. Although some autotrophs are capable of photosynthesizing, other portions of the electromagnetic spectrum are utilized as well. Some have even been documented to use photovoltaic cells, which can directly convert light to electricity. Autotrophs of all colors—from purple, pink, and beige for photosynthetic cells to yellow and brown for photovoltaic cells—can be found here.
-Bucket Whales
-One of the most notable herbivore species within this ecosystem is the bucket whale, a migratory animal that can span several kilometers in size. They possess incredibly wide mouths that funnel into a small body, which then funnel into an even smaller excretory system. These mouths are used to wrap around drifting autotrophs. A long tongue-like structure then extends from the body and the plant matter is consumed using a combination of chemical and mechanical digestion. After digestion, gas is stored in a rear sac until it needs to be excreted for propulsion. Bucket whales possess four telescopic eyes on stalks that can peek over their large mouth to determine their heading as well as to watch for predators. These eyes can retract into the body in the event of an attack for protection.
-Raptors
-One of the primary carnivores that reside within the ring system are the raptors, tentacled predators that orbit asteroids. They possess compound eyes that can spot various herbivores that venture near the surface of their asteroids. Raptors utilize a form of methane rocket to propel themselves toward their prey. They use their hooked tentacles to latch onto their prey which then they promptly consume using a toothed maw. During long periods without food, they may enter a state of orbital hibernation. In this case, their tentacles will wrap around their entire bodies save for their compound eyes. When their eyes detect significant movement, the raptors will immediately reemerge from hibernation to hunt their prey.
-Derma
-There exists a fungal organism named derma that envelops celestial bodies, such as asteroids, within the ring system. It is a thin membrane that stretches across the surface of celestial bodies, which allows the fungus to decompose various detritus that fall into the gravity well of the asteroids. This can include the bodies of old raptors as well as the uneaten bits of flesh of the bucket whales.
-Environment
-The size of the ring system allowed for a large variety of environments where life flourished. Some of these include artificial atmospheres created by coral-like organisms, ice chunks with sizable amounts of internal water, and the barren surface of asteroids.
-Increased Mutation Rate
-Due to the lack of protective magnetic fields or atmosphere within the ring system, the organisms that dwell within are constantly bombarded with powerful radiation, leading to high mutation rates.
-ORGANIZATIONS
-Several organizations have been established within the park, including Optil Kawau Hotels & Resorts, the Akanthe Research Institute, and the Akanthe Park Service.`]
+`Akanthe International Park, Akanthe, void ecology, migration, seeding, life, G-Type Star, Nujim system, Commonwealth Galactic Research Initiative, Theomachy, Galactic Assembly, autotrophs, gravitic well, bucket whales, telescopic eyes, raptors, methane rockets, derma, artificial atmospheres, mutation rates, organizations, Optil Kawau Hotels & Resorts, Akanthe Research Institute, Akanthe Park Service`]
 // heading that shows up, title of the lore page or name of the image
 const pagetitle = ["MATERNA", "AETERNUM", "FASTER THAN LIGHT", "AKANTHE INTERNATIONAL PARK"];
 // link to the specific page
