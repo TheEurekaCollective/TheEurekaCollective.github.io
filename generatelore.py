@@ -2,22 +2,22 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Akanthe International Park"
+tabtitle = "Antimatter"
 
-keywords = "​​​​Akanthe International Park, Akanthe, void ecology, migration, seeding, life, G-Type Star, Nujim system, Commonwealth Galactic Research Initiative, Theomachy, Galactic Assembly, autotrophs, gravitic well, bucket whales, telescopic eyes, raptors, methane rockets, derma, artificial atmospheres, mutation rates, organizations, Optil Kawau Hotels & Resorts, Akanthe Research Institute, Akanthe Park Service"
+keywords = "​​​​Human Domain, antimatter, currency, containment units (wells), Sol system, New Heliopolis, solar colonies, Dyson Project, Laser Energy Transport Grid, drones, laser energy, particle accelerators, hermetically sealed container, fuel source, mages, starships, mana-catalyzed antimatter reactors, paraphysical techniques, antimatter credit, weaponry, counterfeit"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
 # 1 4
 # 2 5
 # 3 6
-infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Locations", "Galactic Commonwealth", "Natural Park", "Mixed", "Devin Deng", "September 1st, 2021"]
+infoheadings = ["CATEGORY", "CREATOR", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
+infoentries = ["Items", "Human Domain", "Energy", "Human", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Akanthe International Park Icon.svg"
+infoimagesource = "resources/Antimatter Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
@@ -49,35 +49,32 @@ articlelinks = ["milkywaygalaxy-lore", "galacticcommonwealth-lore"]
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===AKANTHE INTERNATIONAL PARK
-Akanthe International Park is a series of scientific missions and resorts located within Akanthe and its ring system. This area is designated a Park due to it being one of the few occurrences of void ecology within the {Milky Way Galaxy}.
-==ORIGIN
-Due to the young nature of the system itself, {Commonwealth} scientists theorized that life did not arise within the system but instead came from an external source through migration or seeding. The flora and fauna that have arisen are incredibly complex and varied, which implies that life has been present in the system for at least a few million years.
-==SOLAR SYSTEM
-Akanthe International Park rests in the ring system of Akanthe, a planet that orbits around a G-Type Star.
-==AKANTHE
-Akanthe is a gaseous planet orbited by a ring system with a diameter of approximately 90 million kilometers.
-==DISCOVERY
-While recovered pre-war data modules have indicated previous knowledge of the Nujim system and its contents, the area was rediscovered by the Commonwealth Galactic Research Initiative after the Theomachy. It was designated as a nature reserve twelve years later by the Galactic Assembly.
-==ECOLOGY
-=Autotrophs
-While some animals possess their own form of autotrophy, primary autotrophs are prevalent throughout the ring system. They are primarily found on asteroids with a suitable gravitic well, or just floating in the form of large planes in the vacuum. Although some autotrophs are capable of photosynthesizing, other portions of the electromagnetic spectrum are utilized as well. Some have even been documented to use photovoltaic cells, which can directly convert light to electricity. Autotrophs of all colors—from purple, pink, and beige for photosynthetic cells to yellow and brown for photovoltaic cells—can be found here.
-=Bucket Whales
-One of the most notable herbivore species within this ecosystem is the bucket whale, a migratory animal that can span several kilometers in size. They possess incredibly wide mouths that funnel into a small body, which then funnel into an even smaller excretory system. These mouths are used to wrap around drifting autotrophs. A long tongue-like structure then extends from the body and the plant matter is consumed using a combination of chemical and mechanical digestion. After digestion, gas is stored in a rear sac until it needs to be excreted for propulsion. Bucket whales possess four telescopic eyes on stalks that can peek over their large mouth to determine their heading as well as to watch for predators. These eyes can retract into the body in the event of an attack for protection.
-=Raptors
-One of the primary carnivores that reside within the ring system are the raptors, tentacled predators that orbit asteroids. They possess compound eyes that can spot various herbivores that venture near the surface of their asteroids. Raptors utilize a form of methane rocket to propel themselves toward their prey. They use their hooked tentacles to latch onto their prey which then they promptly consume using a toothed maw. During long periods without food, they may enter a state of orbital hibernation. In this case, their tentacles will wrap around their entire bodies save for their compound eyes. When their eyes detect significant movement, the raptors will immediately reemerge from hibernation to hunt their prey.
-=Derma
-There exists a fungal organism named derma that envelops celestial bodies, such as asteroids, within the ring system. It is a thin membrane that stretches across the surface of celestial bodies, which allows the fungus to decompose various detritus that fall into the gravity well of the asteroids. This can include the bodies of old raptors as well as the uneaten bits of flesh of the bucket whales.
-=Environment
-The size of the ring system allowed for a large variety of environments where life flourished. Some of these include artificial atmospheres created by coral-like organisms, ice chunks with sizable amounts of internal water, and the barren surface of asteroids.
-=Increased Mutation Rate
-Due to the lack of protective magnetic fields or atmosphere within the ring system, the organisms that dwell within are constantly bombarded with powerful radiation, leading to high mutation rates.
-==ORGANIZATIONS
-Several organizations have been established within the park, including Optil Kawau Hotels & Resorts, the Akanthe Research Institute, and the Akanthe Park Service. """
+article = """===ANTIMATTER
+Within the Human Domain, antimatter is the primary form of energy production and storage. From cities to starships, antimatter powers almost every aspect of life. It is even used as a currency and is stored in special containment units colloquially dubbed "wells."
+==PRODUCTION
+=Step 1 - Collecting Energy
+The production of antimatter within the Sol system begins at various stations of New Heliopolis, a series of interconnected solar colonies that have an orbit close to that of Mercury’s. It serves both as the staging ground for the Dyson Project and the central base of operations for the Laser Energy Transport Grid.
+_Dyson Project
+The Dyson Project is a long-running initiative to partially cover Sol with an array of mirrors, which will funnel the collected light into tight beams and send them to antimatter production facilities around the system. To do this, material is lifted directly from the surface of the star using strong magnetic fields. Then, manufacturing drones convert this raw material into ultra-thin reflective panels, which become the robotic mirrors that collect and send light throughout the system.
+_Laser Energy Transport Grid
+The Laser Energy Transport Grid (LETG) is a series of facilities that collect and distribute laser energy throughout the system. Hundreds of these facilities are scattered throughout the Sol System to account for celestial bodies blocking the path of the lasers. The path of these lasers end in various factories dedicated to producing various goods, including that of antimatter.
+=Step 2 - Synthesis
+At various orbital antimatter plants around the solar system, particle accelerators generate antimatter. This antimatter is then shipped off to various locations or fed to their destination via direct pipeline.
+=Step 3 - Storage
+A hermetically sealed container known as a well is used to store antimatter safely. It generates a strong internal magnetic field to suspend the antimatter within the center of a vacuum, preventing the substance from making contact with the matter composing the container. The magnetic field can also be manipulated so that the antimatter moves along a designated path. Antimatter pipelines are based on this principle.
+==APPLICATIONS
+=Energy
+Antimatter is used as a portable fuel source for most constructs, including mages and starships which utilize mana-catalyzed antimatter reactors to produce usable energy. These reactors can be miniaturized down to the size of a marble with the aid of paraphysical techniques.
+=Antimatter Credit
+Long before the 26th century, currency became regarded as simply an analogue for time and energy, so when the technology became available, it made sense to turn energy itself into currency. Antimatter as a currency is referred to as the antimatter credit. This comes in two forms: the physical antimatter credit and the virtual antimatter credit. While the physical antimatter credit is a physical amount of antimatter, the virtual antimatter credit refers to the amount of energy a person can use.
+=Weaponry
+Projectiles and missiles, such as antimatter warheads, are highly present within the Human Domain’s arsenal.
+==SECURITY
+Producing antimatter always yields less energy than is invested. This alone greatly deters counterfeiting, but even if counterfeiters attempt antimatter production, the energy signatures generated would easily be picked up by scanners."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "akantheinternationalpark-lore.html"
+filename = "antimatter-lore.html"
 
 # ignore this stuff
 article = article.replace('{', "<a class='infolink' href='(LINKGOESHERE)'>")

@@ -41,16 +41,17 @@ The Bygone Races had mastered the art of transpositioning, a method of FTL where
 Ansible
 Ansibles are utilized by organizations such as the Scribes Consortium to allow for FTL communications using an anima as a medium.
 Singularity Systems: Singularity systems use anima to produce the FTL systems described above. Essentially, they empower a host to be able to enter the Void, generate wormholes, or warp space. `,
-`Akanthe International Park, Akanthe, void ecology, migration, seeding, life, G-Type Star, Nujim system, Commonwealth Galactic Research Initiative, Theomachy, Galactic Assembly, autotrophs, gravitic well, bucket whales, telescopic eyes, raptors, methane rockets, derma, artificial atmospheres, mutation rates, organizations, Optil Kawau Hotels & Resorts, Akanthe Research Institute, Akanthe Park Service`]
+`Akanthe International Park, Akanthe, void ecology, migration, seeding, life, G-Type Star, Nujim system, Commonwealth Galactic Research Initiative, Theomachy, Galactic Assembly, autotrophs, gravitic well, bucket whales, telescopic eyes, raptors, methane rockets, derma, artificial atmospheres, mutation rates, organizations, Optil Kawau Hotels & Resorts, Akanthe Research Institute, Akanthe Park Service`,
+`Human Domain, antimatter, currency, containment units (wells), Sol system, New Heliopolis, solar colonies, Dyson Project, Laser Energy Transport Grid, drones, laser energy, particle accelerators, hermetically sealed container, fuel source, mages, starships, mana-catalyzed antimatter reactors, paraphysical techniques, antimatter credit, weaponry, counterfeit`]
 // heading that shows up, title of the lore page or name of the image
-const pagetitle = ["MATERNA", "AETERNUM", "FASTER THAN LIGHT", "AKANTHE INTERNATIONAL PARK"];
+const pagetitle = ["MATERNA", "AETERNUM", "FASTER THAN LIGHT", "AKANTHE INTERNATIONAL PARK", "ANTIMATTER"];
 // link to the specific page
 // note that if the html file is 'artspecific.html' the link is 'artspecific'
-const pagelink = ["lorespecific", "artspecific", "fasterthanlight-lore", 'akantheinternationalpark-lore'];
+const pagelink = ["lorespecific", "artspecific", "fasterthanlight-lore", 'akantheinternationalpark-lore', 'antimatter-lore'];
 // 'lore' if it's lore, else 'art' if it's art
-const type = ["lore", "art", "lore", "lore"];
+const type = ["lore", "art", "lore", "lore", 'lore'];
 // index it shows up in lore.js or art.js, remember that it's 0-indexed
-const indices = [1, 0, 3, 4];
+const indices = [1, 0, 3, 4, 0];
 // ignore this stuff
 var loreindices;
 var artindices;
