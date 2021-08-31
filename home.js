@@ -69,7 +69,7 @@ function move(i) {
 	update();
 }
 
-function addborder(div, a, b, c, d) {
+function addborder(div, a, c) {
 	var node;
 	var ratio = a/c;
 	for (var j = 0; j < 8; j++) {
@@ -78,19 +78,19 @@ function addborder(div, a, b, c, d) {
 		div.append(node);
 	}
 	div.onmouseover = function() {
-		spans = this.getElementsByTagName("span");
-		for (var i = 0; i < spans.length; i++) if (spans[i].className != "entryfade") {
-			spans[i].style.boxShadow = "0 0 5px white";
-			spans[i].style.backgroundColor = "#bbbbbb";
-		}
-		this.style.transform = 'translate(-50%, -50%) scale(' + (a/c).toPrecision(15) + ', ' + (b/d).toPrecision(15) + ')';
+		// spans = this.getElementsByTagName("span");
+		// for (var i = 0; i < spans.length; i++) if (spans[i].className != "entryfade") {
+		// 	spans[i].style.boxShadow = "0 0 5px white";
+		// 	spans[i].style.backgroundColor = "#bbbbbb";
+		// }
+		this.style.transform = 'translate(-50%, -50%) scale(' + (a/c).toPrecision(15) + ')';
 	}
 	div.onmouseout = function() {
-		spans = this.getElementsByTagName("span");
-		for (var i = 0; i < spans.length; i++) if (spans[i].className != "entryfade") {
-			spans[i].style.boxShadow = "0 0 0px white";
-			spans[i].style.backgroundColor = "#777777";
-		}
+		// spans = this.getElementsByTagName("span");
+		// for (var i = 0; i < spans.length; i++) if (spans[i].className != "entryfade") {
+		// 	spans[i].style.boxShadow = "0 0 0px white";
+		// 	spans[i].style.backgroundColor = "#777777";
+		// }
 		this.style.transform = 'translate(-50%, -50%) scale(1)';
 	}
 }
@@ -111,7 +111,7 @@ function setfeature() {
 		div.querySelectorAll('p.releaseheading')[0].textContent = featuredtitles[i-1];
 		div.querySelectorAll('p.releasebody')[0].textContent = featureddescriptions[i-1];
 		div.querySelectorAll('a.coverlink')[0].href = featuredlinks[i-1];
-		addborder(div, 36, 12.5, 35, 12);
+		addborder(div, 29, 28);
 	}
 	var div = document.querySelectorAll('div.releaseimg')[0];
 	div.querySelectorAll('img.releaseimg')[0].src = featuredimgsource;
@@ -131,7 +131,7 @@ function setfeature() {
 function setlore() {
 	for (var i = 1; i <= 8; i++) {
 		var div = document.getElementById("lore" + i);
-		addborder(div, 14, 19, 13, 18);
+		addborder(div, 19, 18);
 		var node;
 		node = document.createElement("img");
 		node.src = "resources/" + lorenames[i-1] + " Icon.svg";
