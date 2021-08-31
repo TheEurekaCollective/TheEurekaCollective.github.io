@@ -78,19 +78,19 @@ function addborder(div, a, c) {
 		div.append(node);
 	}
 	div.onmouseover = function() {
-		// spans = this.getElementsByTagName("span");
-		// for (var i = 0; i < spans.length; i++) if (spans[i].className != "entryfade") {
-		// 	spans[i].style.boxShadow = "0 0 5px white";
-		// 	spans[i].style.backgroundColor = "#bbbbbb";
-		// }
+		spans = this.getElementsByTagName("span");
+		for (var i = 0; i < spans.length; i++) if (spans[i].className != "entryfade") {
+			spans[i].style.boxShadow = "0 0 5px white";
+			spans[i].style.backgroundColor = "#bbbbbb";
+		}
 		this.style.transform = 'translate(-50%, -50%) scale(' + (a/c).toPrecision(15) + ')';
 	}
 	div.onmouseout = function() {
-		// spans = this.getElementsByTagName("span");
-		// for (var i = 0; i < spans.length; i++) if (spans[i].className != "entryfade") {
-		// 	spans[i].style.boxShadow = "0 0 0px white";
-		// 	spans[i].style.backgroundColor = "#777777";
-		// }
+		spans = this.getElementsByTagName("span");
+		for (var i = 0; i < spans.length; i++) if (spans[i].className != "entryfade") {
+			spans[i].style.boxShadow = "0 0 0px white";
+			spans[i].style.backgroundColor = "#777777";
+		}
 		this.style.transform = 'translate(-50%, -50%) scale(1)';
 	}
 }

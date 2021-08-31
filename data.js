@@ -42,16 +42,17 @@ Ansible
 Ansibles are utilized by organizations such as the Scribes Consortium to allow for FTL communications using an anima as a medium.
 Singularity Systems: Singularity systems use anima to produce the FTL systems described above. Essentially, they empower a host to be able to enter the Void, generate wormholes, or warp space. `,
 `Akanthe International Park, Akanthe, void ecology, migration, seeding, life, G-Type Star, Nujim system, Commonwealth Galactic Research Initiative, Theomachy, Galactic Assembly, autotrophs, gravitic well, bucket whales, telescopic eyes, raptors, methane rockets, derma, artificial atmospheres, mutation rates, organizations, Optil Kawau Hotels & Resorts, Akanthe Research Institute, Akanthe Park Service`,
-`Human Domain, antimatter, currency, containment units (wells), Sol system, New Heliopolis, solar colonies, Dyson Project, Laser Energy Transport Grid, drones, laser energy, particle accelerators, hermetically sealed container, fuel source, mages, starships, mana-catalyzed antimatter reactors, paraphysical techniques, antimatter credit, weaponry, counterfeit`]
+`Human Domain, antimatter, currency, containment units (wells), Sol system, New Heliopolis, solar colonies, Dyson Project, Laser Energy Transport Grid, drones, laser energy, particle accelerators, hermetically sealed container, fuel source, mages, starships, mana-catalyzed antimatter reactors, paraphysical techniques, antimatter credit, weaponry, counterfeit`,
+`​​​​Argentimaria Attack, BCI-based psychotechnical terrorist attack, lunar city, Argentimaria, seventh of November, anti-BCI group, Ad Antea, Neurogenesis, BCI firm, neurovirus attack, backdoor, guardian AI, data traffic, malignant information, trojan virus, nervous system, motor control, live capture footage, rogue craft, atmospheric dome, analyst AI, Terran Union, Foxhound, anti-terrorism division, Terran military, trial and punishment, Eris, Sol System, thaumaturgists, orbital facilities, chronoprison, Union government, Human Domain`]
 // heading that shows up, title of the lore page or name of the image
-const pagetitle = ["MATERNA", "AETERNUM", "FASTER THAN LIGHT", "AKANTHE INTERNATIONAL PARK", "ANTIMATTER"];
+const pagetitle = ["MATERNA", "AETERNUM", "FASTER THAN LIGHT", "AKANTHE INTERNATIONAL PARK", "ANTIMATTER", "ARGENTIMARIA ATTACK"];
 // link to the specific page
 // note that if the html file is 'artspecific.html' the link is 'artspecific'
-const pagelink = ["lorespecific", "artspecific", "fasterthanlight-lore", 'akantheinternationalpark-lore', 'antimatter-lore'];
+const pagelink = ["lorespecific", "artspecific", "fasterthanlight-lore", 'akantheinternationalpark-lore', 'antimatter-lore', 'argentimariaattack-lore'];
 // 'lore' if it's lore, else 'art' if it's art
-const type = ["lore", "art", "lore", "lore", 'lore'];
+const type = ["lore", "art", "lore", "lore", 'lore', 'lore'];
 // index it shows up in lore.js or art.js, remember that it's 0-indexed
-const indices = [1, 0, 3, 4, 0];
+const indices = [1, 0, 3, 4, 0, 5];
 // ignore this stuff
 var loreindices;
 var artindices;

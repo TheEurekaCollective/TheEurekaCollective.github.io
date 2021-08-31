@@ -2,27 +2,27 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Antimatter"
+tabtitle = "Argentimaria Attack"
 
-keywords = "​​​​Human Domain, antimatter, currency, containment units (wells), Sol system, New Heliopolis, solar colonies, Dyson Project, Laser Energy Transport Grid, drones, laser energy, particle accelerators, hermetically sealed container, fuel source, mages, starships, mana-catalyzed antimatter reactors, paraphysical techniques, antimatter credit, weaponry, counterfeit"
+keywords = "​​​​Argentimaria Attack, BCI-based psychotechnical terrorist attack, lunar city, Argentimaria, seventh of November, anti-BCI group, Ad Antea, Neurogenesis, BCI firm, neurovirus attack, backdoor, guardian AI, data traffic, malignant information, trojan virus, nervous system, motor control, live capture footage, rogue craft, atmospheric dome, analyst AI, Terran Union, Foxhound, anti-terrorism division, Terran military, trial and punishment, Eris, Sol System, thaumaturgists, orbital facilities, chronoprison, Union government, Human Domain"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
 # 1 4
 # 2 5
 # 3 6
-infoheadings = ["CATEGORY", "CREATOR", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Items", "Human Domain", "Energy", "Human", "Devin Deng", "September 1st, 2021"]
+infoheadings = ["CATEGORY", "LOCATION", "CLASS", "PERPETRATOR", "AUTHOR", "LAST UPDATE"]
+infoentries = ["History", "Argentimaria", "Terrorist Act", "Ad Antea", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Antimatter Icon.svg"
+infoimagesource = "resources/Argentimaria Attack Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = ["milkywaygalaxy-lore", "galacticcommonwealth-lore"]
+articlelinks = []
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,32 +49,15 @@ articlelinks = ["milkywaygalaxy-lore", "galacticcommonwealth-lore"]
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===ANTIMATTER
-Within the Human Domain, antimatter is the primary form of energy production and storage. From cities to starships, antimatter powers almost every aspect of life. It is even used as a currency and is stored in special containment units colloquially dubbed "wells."
-==PRODUCTION
-=Step 1 - Collecting Energy
-The production of antimatter within the Sol system begins at various stations of New Heliopolis, a series of interconnected solar colonies that have an orbit close to that of Mercury’s. It serves both as the staging ground for the Dyson Project and the central base of operations for the Laser Energy Transport Grid.
-_Dyson Project
-The Dyson Project is a long-running initiative to partially cover Sol with an array of mirrors, which will funnel the collected light into tight beams and send them to antimatter production facilities around the system. To do this, material is lifted directly from the surface of the star using strong magnetic fields. Then, manufacturing drones convert this raw material into ultra-thin reflective panels, which become the robotic mirrors that collect and send light throughout the system.
-_Laser Energy Transport Grid
-The Laser Energy Transport Grid (LETG) is a series of facilities that collect and distribute laser energy throughout the system. Hundreds of these facilities are scattered throughout the Sol System to account for celestial bodies blocking the path of the lasers. The path of these lasers end in various factories dedicated to producing various goods, including that of antimatter.
-=Step 2 - Synthesis
-At various orbital antimatter plants around the solar system, particle accelerators generate antimatter. This antimatter is then shipped off to various locations or fed to their destination via direct pipeline.
-=Step 3 - Storage
-A hermetically sealed container known as a well is used to store antimatter safely. It generates a strong internal magnetic field to suspend the antimatter within the center of a vacuum, preventing the substance from making contact with the matter composing the container. The magnetic field can also be manipulated so that the antimatter moves along a designated path. Antimatter pipelines are based on this principle.
-==APPLICATIONS
-=Energy
-Antimatter is used as a portable fuel source for most constructs, including mages and starships which utilize mana-catalyzed antimatter reactors to produce usable energy. These reactors can be miniaturized down to the size of a marble with the aid of paraphysical techniques.
-=Antimatter Credit
-Long before the 26th century, currency became regarded as simply an analogue for time and energy, so when the technology became available, it made sense to turn energy itself into currency. Antimatter as a currency is referred to as the antimatter credit. This comes in two forms: the physical antimatter credit and the virtual antimatter credit. While the physical antimatter credit is a physical amount of antimatter, the virtual antimatter credit refers to the amount of energy a person can use.
-=Weaponry
-Projectiles and missiles, such as antimatter warheads, are highly present within the Human Domain’s arsenal.
-==SECURITY
-Producing antimatter always yields less energy than is invested. This alone greatly deters counterfeiting, but even if counterfeiters attempt antimatter production, the energy signatures generated would easily be picked up by scanners."""
+article = """===ARGENTIMARIA ATTACK
+The Argentimaria Attack was a BCI-based psychotechnical terrorist attack that took place in the lunar city of Argentimaria. On the seventh of November, 2133, a fanatical anti-BCI group known as Ad Antea penetrated the servers of Neurogenesis, a popular BCI firm at the time, and instigated a neurovirus attack through a backdoor. While many people who owned BCIs had guardian AI to help sift through data traffic and remove potentially malignant information, a specifically tailored trojan virus was generated by Ad Antea for this operation. The deployment of this virus allowed Ad Antea a strong degree of control over people’s nervous system, more importantly their motor control.
+The ensuing chaos was seen through live capture footage, showing people tearing themselves apart while fully conscious, children jumping off the roofs of buildings, and others simply standing perfectly still staring at the sun. Even the animals were not spared, with security footage showing owners getting eaten alive by their own beloved pets. A rogue craft crashed into the side of the atmospheric dome, causing a large rupture that sucked out more than a hundred people before being sealed by expanding foam. It took Neurogenesis an entire sixteen minutes to realize the issue and stop the data streams, but in that short time frame the damage was already done. More than five thousand people were killed and tens of thousands more were injured.
+After the attack, analyst AI of the Terran Union quickly determined that Ad Antea was behind the attack. Foxhound, an anti-terrorism division of the Terran military. was tasked to find Ad Antea and bring in the perpetrators for trial and imprisonment. Several days of investigation found that the signal used to begin the attack originated from Eris in the Sol System. Foxhound thaumaturgists were deployed and held the orbital facilities of Eris under lockdown. The perpetrators were caught and were each sentenced to twelve centuries in a chronoprison.
+The aftereffects of the Argentimaria Attack were widespread. Neurogenesis was held accountable for failing to prevent the tragedy, with the company being disbanded a few weeks later. Newer, stricter regulations were drawn up by the Union government concerning the administration and application of brain-computer interfaces. Many people within the Human Domain lost faith in BCIs for a while, causing a recession in the BCI sector of the market. After the city of Argentimaria was repaired and the bodies buried, a memorial was established where on the seventh of every November, leaders of the Terran Union would visit to honor those that had suffered."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "antimatter-lore.html"
+filename = "argentimariaattack-lore.html"
 
 # ignore this stuff
 article = article.replace('{', "<a class='infolink' href='(LINKGOESHERE)'>")
