@@ -1,6 +1,10 @@
+# coding=utf-8
+
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
 tabtitle = "Faster Than Light"
+
+keywords = "​​​​faster-than-light (FTL), Warp, warp drive, gravitics, quantum manipulation, warp field, Warp Shielding, Warp Weaponry, Void, mana, Material Plane, voidjumping, reality stabilization field, spatial auger, gravitational field, Void Submersibles, Void Carriers, void drive, Void Tracking, gravitic signatures, Constructs, Nexus, Stasis Worlds, Voidborne Wyrms, Void Tactics, Wormhole, Yunian Uncertainty, wormhole relay stations, Wormhole System, Pathfinders Legion for the Galactic Commonwealth, wormhole gates, Wormhole Cooling, Traders of the Wandering, Quantum Wormholes, superluminal communications, Anima, binary systems, singularity systems, Transpositioning, Bygone Races, conceptual plane, Ansible, Scribes Consortium"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -78,11 +82,12 @@ Small wormholes are generated and allow for superluminal communications, which c
 ==ANIMA
 Anima-based FTL can be divided into two categories. These are designated binary systems and singularity systems. A binary system requires the use of two hosts while a singularity system only needs one.
 =Binary Systems
-=Transpositioning
+_Transpositioning
 The Bygone Races had mastered the art of transpositioning, a method of FTL where an object is uploaded to the conceptual plane and placed via an anima in a different location. However, this requires a host to already be at the target location.
-=Ansible
+_Ansible
 Ansibles are utilized by organizations such as the Scribes Consortium to allow for FTL communications using an anima as a medium.
-Singularity Systems: Singularity systems use anima to produce the FTL systems described above. Essentially, they empower a host to be able to enter the Void, generate wormholes, or warp space. """
+=Singularity Systems
+Singularity systems use anima to produce the FTL systems described above. Essentially, they empower a host to be able to enter the Void, generate wormholes, or warp space. """
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
@@ -98,17 +103,24 @@ htmlcode = ""
 lines = article.split('\n')
 for line in lines:
 	if len(line)>=3 and line[:3]=='===':
-		htmlcode += "\t\t<h1>" + line[3:] + "</h1>\n\t\t<span class='underline'></span>\n"
+		curID = line[3:].lower().replace(' ', '-')
+		htmlcode += "\t\t<h1 id='"+curID+"'>" + line[3:] + "</h1>\n\t\t<span class='underline'></span>\n"
 	elif len(line)>=2 and line[:2]=='==':
-		htmlcode += "\t\t<h2>" + line[2:] + "</h2>\n\t\t<span class='underline'></span>\n"
+		curID = line[2:].lower().replace(' ', '-')
+		htmlcode += "\t\t<h2 id='"+curID+"'>" + line[2:] + "</h2>\n\t\t<span class='underline'></span>\n"
 	elif len(line)>=1 and line[:1]=='=':
-		htmlcode += "\t\t<h3>" + line[1:] + "</h3>\n"
+		curID = line[1:].lower().replace(' ', '-')
+		htmlcode += "\t\t<h3 id='"+curID+"'>" + line[1:] + "</h3>\n"
+	elif len(line)>=1 and line[:1]=='_':
+		curID = line[1:].lower().replace(' ', '-')
+		htmlcode += "\t\t<h4 id='"+curID+"'>" + line[1:] + "</h4>\n"
 	else:
 		htmlcode += "\t\t<p class='infoparagraph'>" + line + "</p>\n"
 
 s = open('loretemplate.txt', 'r').read()
 s = s.replace('(PAGETITLE)', tabtitle)
 s = s.replace('(INFOIMAGE)', infoimagesource)
+s = s.replace('(KEYWORDS)', keywords)
 for i in range(6):
 	s = s.replace('(H'+str(i)+')', infoheadings[i])
 	s = s.replace('(I'+str(i)+')', infoentries[i])
