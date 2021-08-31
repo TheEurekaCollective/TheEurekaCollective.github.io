@@ -1,12 +1,13 @@
-var memberpfps = ["Josephine Lee.jpg", "zaxwellmen.png", "Sirawyn.gif", "Isabelle Lam.jpg", "Doctor Martins.JPG", "TitanAMB.png", "jessica mui.jpg", "Xiaoshen Ma With Flame.jpg", "wajora!.jpg", "Zephyryne.JPG"];
-var membernames = ["Josephine Lee", "zaxwellmen", "Sirawyn", "bowbow", "Dr. Martins", "TitanAMB", "Jessica", "Xiaoshen Ma", "wajora!", "Zephyryne"];
-var memberroles = ["Editor", "Web Developer", "Founder & Director", "Editor", "Promoter", "Artist", "Artist", "Artist", "Scribe", "Page"];
+var memberpfps = ["Alyssa Choi.PNG", "zaxwellmen.png", "Sirawyn.gif", "Isabelle Lam.jpg", "loy.JPG", "Josephine Lee.jpg", "Doctor Martins.JPG", "TitanAMB.png", "jessica mui.jpg", "Xiaoshen Ma With Flame.jpg", "wajora!.jpg", "Zephyryne.JPG"];
+var membernames = ["Alyssa Choi", "zaxwellmen", "Sirawyn", "bowbow", "Loy", "Josephine Lee", "Dr. Martins", "TitanAMB", "Jessica", "Xiaoshen Ma", "wajora!", "Zephyryne"];
+var memberroles = ["Web Developer", "Web Developer", "Founder & Director", "Editor", "Editor", "Editor", "Promoter", "Artist", "Artist", "Artist", "Scribe", "Page"];
 
 function initaboutus() {
 	var i = 0;
 	var div = document.getElementById('meettheteam');
 	for (var y = 7; i < memberpfps.length; y += 19) {
-		for (var x = 16; x < 85 && i < memberpfps.length; x += 17) {
+		var nxt = Math.min(memberpfps.length-i, 5)-1;
+		for (var x = 50 - 8.5*nxt; x < 51 + 8.5*nxt && i < memberpfps.length; x += 17) {
 			var node = document.createElement('div');
 			node.className = 'teammember';
 			node.style.left = x + 'vw';
