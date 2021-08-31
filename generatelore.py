@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Faster Than Light"
+tabtitle = "Akanthe International Park"
 
-keywords = "​​​​faster-than-light (FTL), Warp, warp drive, gravitics, quantum manipulation, warp field, Warp Shielding, Warp Weaponry, Void, mana, Material Plane, voidjumping, reality stabilization field, spatial auger, gravitational field, Void Submersibles, Void Carriers, void drive, Void Tracking, gravitic signatures, Constructs, Nexus, Stasis Worlds, Voidborne Wyrms, Void Tactics, Wormhole, Yunian Uncertainty, wormhole relay stations, Wormhole System, Pathfinders Legion for the Galactic Commonwealth, wormhole gates, Wormhole Cooling, Traders of the Wandering, Quantum Wormholes, superluminal communications, Anima, binary systems, singularity systems, Transpositioning, Bygone Races, conceptual plane, Ansible, Scribes Consortium"
+keywords = "​​​​Akanthe International Park, Akanthe, void ecology, migration, seeding, life, G-Type Star, Nujim system, Commonwealth Galactic Research Initiative, Theomachy, Galactic Assembly, autotrophs, gravitic well, bucket whales, telescopic eyes, raptors, methane rockets, derma, artificial atmospheres, mutation rates, organizations, Optil Kawau Hotels & Resorts, Akanthe Research Institute, Akanthe Park Service"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "​​​​faster-than-light (FTL), Warp, warp drive, gravitics, qu
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Subjects", "Mixed", "Superluminal", "Mixed", "Sirawyn", "September 1st, 2021"]
+infoentries = ["Locations", "Galactic Commonwealth", "Natural Park", "Mixed", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Faster Than Light Icon.jpg"
+infoimagesource = "resources/Akanthe International Park Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = ["/"]
+articlelinks = ["milkywaygalaxy-lore", "galacticcommonwealth-lore"]
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,49 +49,35 @@ articlelinks = ["/"]
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===FASTER THAN LIGHT
-Within {Project Anima}, there have been many methods in which faster-than-light (FTL) is accomplished and utilized. This article is a compendium of all faster than light capable phenomena and applications. It can be noted that many of these systems could be used in tandem for different results.
-==WARP
-Warp is the compression and expansion of space-time using a warp drive. With advanced gravitics and quantum manipulation, a bubble is generated in which the area in front of the vessel is compressed while the area behind the vessel is expanded to compensate. Warp speeds are affected by the size, shape, and efficiency of the warp field.
-=Warp Shielding
-When a warp bubble is projected, spacetime in the area becomes skewed and becomes difficult for sensors to understand. This allows ships that host a warp drive to use the bubble as a form of shielding.
-=Warp Weaponry
-Warp drives are extremely expensive. However, in rare instances, an explosive device can be fitted with a warp drive.
-==VOID
-The Void is a higher-dimensional space that is composed purely of mana. One location in the Void can coincide with multiple locations in the Material Plane. This property allows for travel within the Void to be much faster than travel in the Material Plane, a practice known as voidjumping. The Void is theoretically infinite and is hostile to all forms of matter. As a result, travel into the Void requires using a reality stabilization field and a spatial auger. Spatial augers allow ships to tear through space-time and enter Void space while a reality stabilization field protects ships from the Void. Should a reality stabilization field fail, its contents would disappear completely. Travelers of the Void must also be wary of large gravitic influences that stem from the Material Plane, as gravity possesses the ability to penetrate space-time. Should a vessel intercept a large gravitational field, it might be pulled off its designated course. To address this, advanced computers calculate a voidjump solution before entering the Void.
-=Void Submersibles
-Void Submersibles are ships designed to operate for long periods in the Void without reentering the Material Plane.
-=Void Carriers
-Void Carriers are a type of spaceship that exhibits a very large reality stabilization field. This allows for ships without a void drive to hitch on for a ride within the reality stabilization field. This requires significant degrees of coordination as the ships have to move in unison and at the same speeds so as to not accidentally leave the field and enter the Void.
-=Void Tracking
-Just as gravity from the Material Plane penetrates spacetime into the Void, gravitic signatures could be detected within the Void from the Material Plane.
-=Constructs
-With the proper technology, constructs such as the Nexus and the Void Wyrms could be established within the Void.
-=Void Wormholes
-While wormholes function within the Void, their calibration systems are skewed and thus have the possibility of inducing a paradox. Since a single location within the Void can represent multiple locations within the Material Plane, a wormhole passage can be split between multiple locations, and thus destroy whatever travels through.
-=Void Tactics
-It is common for spaceships to rapidly enter and exit Void space to evade the enemy during ship-to-ship combat.
-==WORMHOLE
-A bridge between two spaces in spacetime is known as a wormhole. Wormholes are one of the fastest methods of FTL but also the costliest due to the nature of wormhole energy consumption. While the size of a wormhole is expanded in a scalar fashion, the required energy input rises exponentially. It also takes a much larger amount of infrastructure compared to most other forms of FTL travel. Wormhole travel effectiveness drops over large distances due to an accumulation of Yunian Uncertainty. To address this issue, wormhole relay stations are utilized.
-=Wormhole System
-A system of wormholes gates were established by the Pathfinders Legion for the Galactic Commonwealth. Nearly all major systems have access to one or more wormhole gates. These wormhole gates are relatively small and are open for short bursts at specific times. It is common to see fleets of spaceships arrayed in front of offline wormholes awaiting their opening. It is also common for ships to link their navigation systems with one another to maintain the best balance between speed and cohesion.
-=Wormhole Cooling
-One of the main pitfalls for any spacefaring object is the amount of heat that needs to be released or decreased. One of the methods devised to help alleviate this issue was to use a wormhole as a cooling system. High-energy matter would be dumped through the wormhole into an off-site cooling facility. This method has also been used in the reverse, allowing for ships with wormholes to be supplied indefinitely. The stellar engines used by the Traders of the Wandering Sun utilize this technology extensively.
-=Quantum Wormholes
-Small wormholes are generated and allow for superluminal communications, which can include photons and radiowaves.
-==ANIMA
-Anima-based FTL can be divided into two categories. These are designated binary systems and singularity systems. A binary system requires the use of two hosts while a singularity system only needs one.
-=Binary Systems
-_Transpositioning
-The Bygone Races had mastered the art of transpositioning, a method of FTL where an object is uploaded to the conceptual plane and placed via an anima in a different location. However, this requires a host to already be at the target location.
-_Ansible
-Ansibles are utilized by organizations such as the Scribes Consortium to allow for FTL communications using an anima as a medium.
-=Singularity Systems
-Singularity systems use anima to produce the FTL systems described above. Essentially, they empower a host to be able to enter the Void, generate wormholes, or warp space. """
+article = """===AKANTHE INTERNATIONAL PARK
+Akanthe International Park is a series of scientific missions and resorts located within Akanthe and its ring system. This area is designated a Park due to it being one of the few occurrences of void ecology within the {Milky Way Galaxy}.
+==ORIGIN
+Due to the young nature of the system itself, {Commonwealth} scientists theorized that life did not arise within the system but instead came from an external source through migration or seeding. The flora and fauna that have arisen are incredibly complex and varied, which implies that life has been present in the system for at least a few million years.
+==SOLAR SYSTEM
+Akanthe International Park rests in the ring system of Akanthe, a planet that orbits around a G-Type Star.
+==AKANTHE
+Akanthe is a gaseous planet orbited by a ring system with a diameter of approximately 90 million kilometers.
+==DISCOVERY
+While recovered pre-war data modules have indicated previous knowledge of the Nujim system and its contents, the area was rediscovered by the Commonwealth Galactic Research Initiative after the Theomachy. It was designated as a nature reserve twelve years later by the Galactic Assembly.
+==ECOLOGY
+=Autotrophs
+While some animals possess their own form of autotrophy, primary autotrophs are prevalent throughout the ring system. They are primarily found on asteroids with a suitable gravitic well, or just floating in the form of large planes in the vacuum. Although some autotrophs are capable of photosynthesizing, other portions of the electromagnetic spectrum are utilized as well. Some have even been documented to use photovoltaic cells, which can directly convert light to electricity. Autotrophs of all colors—from purple, pink, and beige for photosynthetic cells to yellow and brown for photovoltaic cells—can be found here.
+=Bucket Whales
+One of the most notable herbivore species within this ecosystem is the bucket whale, a migratory animal that can span several kilometers in size. They possess incredibly wide mouths that funnel into a small body, which then funnel into an even smaller excretory system. These mouths are used to wrap around drifting autotrophs. A long tongue-like structure then extends from the body and the plant matter is consumed using a combination of chemical and mechanical digestion. After digestion, gas is stored in a rear sac until it needs to be excreted for propulsion. Bucket whales possess four telescopic eyes on stalks that can peek over their large mouth to determine their heading as well as to watch for predators. These eyes can retract into the body in the event of an attack for protection.
+=Raptors
+One of the primary carnivores that reside within the ring system are the raptors, tentacled predators that orbit asteroids. They possess compound eyes that can spot various herbivores that venture near the surface of their asteroids. Raptors utilize a form of methane rocket to propel themselves toward their prey. They use their hooked tentacles to latch onto their prey which then they promptly consume using a toothed maw. During long periods without food, they may enter a state of orbital hibernation. In this case, their tentacles will wrap around their entire bodies save for their compound eyes. When their eyes detect significant movement, the raptors will immediately reemerge from hibernation to hunt their prey.
+=Derma
+There exists a fungal organism named derma that envelops celestial bodies, such as asteroids, within the ring system. It is a thin membrane that stretches across the surface of celestial bodies, which allows the fungus to decompose various detritus that fall into the gravity well of the asteroids. This can include the bodies of old raptors as well as the uneaten bits of flesh of the bucket whales.
+=Environment
+The size of the ring system allowed for a large variety of environments where life flourished. Some of these include artificial atmospheres created by coral-like organisms, ice chunks with sizable amounts of internal water, and the barren surface of asteroids.
+=Increased Mutation Rate
+Due to the lack of protective magnetic fields or atmosphere within the ring system, the organisms that dwell within are constantly bombarded with powerful radiation, leading to high mutation rates.
+==ORGANIZATIONS
+Several organizations have been established within the park, including Optil Kawau Hotels & Resorts, the Akanthe Research Institute, and the Akanthe Park Service. """
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "fasterthanlight-lore.html"
+filename = "akantheinternationalpark-lore.html"
 
 # ignore this stuff
 article = article.replace('{', "<a class='infolink' href='(LINKGOESHERE)'>")
