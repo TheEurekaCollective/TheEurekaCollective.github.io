@@ -1,20 +1,21 @@
 // don't edit these
 var lorenames = ["Factions", "Characters", "Items", "Subjects", "Locations", "History", "Stories", "All"];
 // make sure these match exactly the entries in lorenames right above
-var loretype = ['Items', 'Locations', 'Locations', 'Subjects'];
+var loretype = ['Items', 'Locations', 'Locations', 'Subjects', 'Locations'];
 // This is the heading that shows up
-var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS", "FASTER THAN LIGHT"];
+var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS", "FASTER THAN LIGHT", "AKANTHE INTERNATIONAL PARK"];
 // This is the description that shows up, trim it manually
 // (the first description is abt as long as it goes, don't go much longer than that)
 var loretxt = ["Antimatter is the primary form of energy storage within the Human Domain. It is used to power almost every form of technology from mages to starships. It is even used as a form of currency. The commodification of antimatter stems from...",
 "In the Great Cities, it is not uncommon for an aspiring couple to walk into a Materna clinic and request a BioTube reservation. For what you may ask? For a baby! In the 26th century, nearly 93% of all births take place within an artificial uterus...",
 "Humanity has long mastered the human body. Genetic modification and alteration are the norm. One can get a cell sculpt from the corner store. An entire field of fashion known as fleshcraft sprung from this newfound ability. It...",
-"Within Project Anima, there have been many methods in which faster-than-light (FTL) is accomplished and utilized. This article is a compendium of all faster than light capable phenomena and applications. It can be noted that many of these systems... "];
+"Within Project Anima, there have been many methods in which faster-than-light (FTL) is accomplished and utilized. This article is a compendium of all faster than light capable phenomena and applications. It can be noted that many of these systems... ",
+"Akanthe International Park is a series of scientific missions and resorts located within Akanthe and its ring system. This area is designated a Park due to it being one of the few occurrences of void ecology within the Milky Way Galaxy..."];
 // This is the address of the icon you want to add
-var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg", "resources/Faster Than Light Icon.jpg"];
+var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg", "resources/Faster Than Light Icon.jpg", "resources/Akanthe International Park Icon.svg"];
 // This is the link to the corresponding specific page
 // Notice that if the html file is 'lorespecific.html' the entry here is 'lorespecific'
-var lorespecificlink = ['lorespecific', 'lorespecific', 'lorespecific', 'fasterthanlight-lore'];
+var lorespecificlink = ['lorespecific', 'lorespecific', 'lorespecific', 'fasterthanlight-lore', 'akantheinternationalpark-lore'];
 
 function initloreboxes(indices, feed) {
 	var j = 0;
