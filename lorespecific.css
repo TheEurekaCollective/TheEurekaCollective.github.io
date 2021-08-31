@@ -72,7 +72,7 @@ p.infoheading, h1 {
 	padding: 0;
 	margin: 5vw 0 1.5vw 1vw;
 }
-span.underline {
+span.underline1, span.underline2 {
 	position: static;
 	display: block;
 	width: 50vw;

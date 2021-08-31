@@ -104,10 +104,10 @@ lines = article.split('\n')
 for line in lines:
 	if len(line)>=3 and line[:3]=='===':
 		curID = line[3:].lower().replace(' ', '-')
-		htmlcode += "\t\t<h1 id='"+curID+"'>" + line[3:] + "</h1>\n\t\t<span class='underline'></span>\n"
+		htmlcode += "\t\t<h1 id='"+curID+"'>" + line[3:] + "</h1>\n\t\t<span class='underline1'></span>\n"
 	elif len(line)>=2 and line[:2]=='==':
 		curID = line[2:].lower().replace(' ', '-')
-		htmlcode += "\t\t<h2 id='"+curID+"'>" + line[2:] + "</h2>\n\t\t<span class='underline'></span>\n"
+		htmlcode += "\t\t<h2 id='"+curID+"'>" + line[2:] + "</h2>\n\t\t<span class='underline2'></span>\n"
 	elif len(line)>=1 and line[:1]=='=':
 		curID = line[1:].lower().replace(' ', '-')
 		htmlcode += "\t\t<h3 id='"+curID+"'>" + line[1:] + "</h3>\n"
