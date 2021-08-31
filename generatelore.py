@@ -2,27 +2,27 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Caspia Interactive"
+tabtitle = "Chassis"
 
-keywords = "​​​​Caspia Interactive (CI), video games, Human Domain, Dreamscape, virtual reality, Noosphere engine, Vulkan Games, Caspia (artificial island), Caspian Sea, troposcraper, enigmatic council, Rasui Mimoza, Satellites, Superluminal Information Relays, Tolkienesque fantasy, discopunk, brain-computer interface (BCI), Heimdall application, NPC, neural imprint, Temporal Manipulation, Sleep Play, Great Server Merge of 2499, the Union, Oneironauts, simulation-type worlds, memory blockers, Morpheus, Terra"
+keywords = "​​​​combat mage, chassis, biomechanical , Paraphysics Division, Research and Technology Sector, Bases, Central Cognition Cores (CCC), General Utility Combat Chassis (GUCC), Soft Systems, Hard Systems, Nanolaminate Plating, Superstructure, Artificial Muscles, liquid-metal matrix, Somatic Threads, mana, psions, Modular Armature System (MAS), Nanite Nodes, nanites, nanopod // nanite pod, Movement Systems, Digitigrade Legs, Power Limbs, Jointed Limbs, Non-Jointed Limbs, Manipular Limbs, artificial cilia, Flight Packages, Njordian Flight Unit, repulsor-type thrusters, Utility Slots, Utility Modules, Central Cognition Core (CCC), mage, Anchor, Computation Module, Sensor and Communications Suite (SCS), mage-to-ship communications,sensory capabilities, magnetoreception, thermography, object bypass vision (OBV) , electroreception, psioreception, drones, mothership, Mana-Catalyzed Micro Antimatter Reactor (MCMAR), wand, hydrogen-antihydrogen reactions, fine manipulation, Auxiliary Life Support (ALS)"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
 # 1 4
 # 2 5
 # 3 6
-infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Factions", "Human Domain", "Corporation", "Human", "Devin Deng", "September 1st, 2021"]
+infoheadings = ["CATEGORY", "CREATOR", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
+infoentries = ["Items", "Paraphysics Division", "Robotics", "Human", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Caspia Interactive Icon.svg"
+infoimagesource = "resources/Chassis Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = []
+articlelinks = ['combatmages-lore', 'paraphysicsdivision-lore']
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,41 +49,52 @@ articlelinks = []
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===CASPIA INTERACTIVE
-Caspia Interactive is the main proprietor of video games within the Human Domain. Their most popular product is the Dreamscape, a virtual reality game built on the revolutionary Noosphere engine.
-==HISTORY
-Vulkan Games was established in 2060 A.D. as a small indie games company in New Zealand. In 2065, they were able to create the Noosphere Engine, based on the first commercial brain-computer interfaces (BCIs) that came out a few years earlier. They then created the Dreamscape, which was released to the public in 2069. The game blew up nearly immediately, with in-game population numbers growing exponentially. In 2074, the island of Caspia was built in the Caspian Sea. The company was rebranded as Caspia Interactive, with the beginning of the city being built in 2077. Over time, layers and sections of the city were built, eventually culminating in the completion of the troposcraper in 2111.
-==ORGANIZATION
-The creators of the Dreamscape and the Noosphere network reside as the original and only owners of Caspia Interactive. It is a council of six people. The only member of this enigmatic council that the public is aware of is Rasui Mimoza, the head of the Public Relations department.
-==BASE OF OPERATIONS
-Caspia Interactive (CI) built an artificial island known as Caspia in the middle of the Caspian Sea. This gargantuan platform is host to a city populated by CI employees, their families, support employees that run the various businesses of the island, and visitors. In the center of Caspia stands a troposcraper that serves as CI’s main base. This troposcraper is primarily filled with servers and system equipment, but specific parts of the building are sectioned off for visitors. It is also said that the founders of CI reside at the top of the troposcraper, but this is uncertain.
-==SATELLITES
-CI operates swarms of satellites around planets to convey signals quickly and efficiently. They also utilize a significant chunk of the bandwidth of the Superluminal Information Relays.
-==BUSINESS MODEL
-Dreamscape is subscription-based. However, it is incredibly cheap and most of the money collected is used to run the Dreamscape itself. However, the sheer amount of players has made CI one of the largest companies within the Human Domain.
-==DREAMSCAPE
-The Dreamscape is a virtual reality game that utilizes the revolutionary Noosphere Engine to host a nearly infinite amount of worlds and universes to explore and enjoy. It is a realm of infinite possibilities as it is not bound by conventional laws of physics. Tolkienesque fantasy worlds to discopunk nightclubs are just some of the locations available to explore. The phenomena of the game can be set to perfectly emulate the real world, with sensations such as pain being indistinguishable from that in real life.
-=Noosphere Engine
-The Noosphere Engine is a state-of-the-art game engine that has a peculiar way of generating content for the game. Information from history, as well as the memories and experiences of players, are collected and compiled using AI. This allows the system to essentially be self-propagating, with more content generated as more players log in and play.
-=System Requirements
-Once a person gets their BCI tuned, they can download the Heimdall application. This allows them to enter the Dreamscape. One can access the Dreamscape with most BCIs, however, the speed of the BCI limits what timescales the player can play with.
-=NPCs
-The Dreamscape is not only populated with players, but also with trillions of nearly lifelike NPCs, from bartenders to dragons. Some of these NPCs are also based on real people who have died and wanted their neural imprint to be placed within the game.
-=Temporal Manipulation
-Time operates differently within the Dreamscape as compared to the real world. The normal time rate within the game is twice that of real life, but players can customize their worlds’ time speeds.
-=Sleep Play
-It is necessary for the players to be sleeping (forced or naturally) whilst playing this game due to their BCIs intercepting their bodily signals and translating that into interactions within the Dreamscape.
-=Population
-As of 2570, nearly 72 percent of humanity regularly uses the Dreamscape.
-=Servers
-The servers of Dreamscape used to be independent of each other, with each server correlating with a different planet or system. However, the advent of Superluminal Information Relays allowed for the Great Server Merge of 2499, allowing players from all over the Union to play with one another.
-=Oneironauts
-Oneironauts are a culture of players that create simulation-type worlds within the Dreamscape. They then use memory blockers and enter their constructed worlds. They live out their lives within the Dreamscape, completely oblivious to the fact that they are within a video game. Oneironauts play on speeds several times that of the normal server speed, allowing them to experience lifetimes in their constructed worlds in a matter of a few years. The most famous oneironaut is Morpheus, who constructed a real life analogue to 17th century Terra and conquered the entirety of it.
-"""
+article = """===CHASSIS
+A {combat mage}’s chassis is its body and its method of interaction with the environment. The chassis is a biomechanical frame that is composed of the most advanced materials produced by the {Paraphysics Division}. New versions of chassis are always being generated by the designer AI of the Research and Technology Sector.
+==BASES
+Bases are biomechanical bodies that Central Cognition Cores (CCC) can be inserted into. These CCC’s can adapt to suit special situations, but the most commonly used version is the General Utility Combat Chassis (GUCC).
+=Hard Systems
+_Nanolaminate Plating and Superstructure
+The material used to form the outer shell and superstructure is known as nanolaminate. Nanolaminate is composed of micron-scale layers of varying elements and compounds. These layers are placed on top of each other in different orientations to induce different properties while also accomplishing high density. These layers can be modified to induce thermal resistance, thermal dispersion, impact toughness, malleability, and other properties.
+_Artificial Muscles
+The current generation of chassis utilizes an artificial muscular system that is composed of a liquid-metal matrix which changes its structure based on the level of electrical charge. This allows for remarkable flexibility and strength in an incredibly small volume.
+=Soft Systems
+_Somatic Threads
+A combat mage’s somatic threads are a four-bundled system of wires that transfer mana, psions, data, and power throughout the chassis. The threads are especially thin and have the ability to extrude out of specific orifices in a chassis so a combat mage can interface with certain technologies.
+==MODULAR ARMATURE SYSTEM (MAS)
+The MAS is an essential part of most chassis. They allow for a single base to be adapted to a multitude of mission profiles.
+=Nanite Nodes
+Nanite nodes are extrusion points where nanites can exit the nanopod to execute tasks. They are incredibly small and are two-fold hermetically sealed.
+=Digitigrade Legs
+For increased agility and mobility, the digitigrade leg option is available. To compensate for the inherent shortcomings of digitigrade legs, there is the option of adding support pads that increase the surface area of the foot. The feet of these legs are also inherently modular, allowing them to form any sort of underfoot from snowshoes to noise-dampening padding.
+=Power Limbs
+Power limbs are stronger than Manipular limbs, but lack the manipular limbs’ precision. They can be categorized into two subtypes:
+_Jointed Limbs
+While greater in strength than non-jointed limbs, they are weaker in terms of flexibility.
+_Non-Jointed Limbs
+While stronger in flexibility than jointed limbs, they are weaker in terms of strength.
+=Manipular Limbs
+Manipular limbs are weak yet nimble compared to their power limb counterparts. They are covered in nanite nodes to allow nanites to form the best complement of whatever the limb needs to interface with. This creates artificial cilia that allow for manipulation on a microscopic level. Manipulars can also come equipped with a series of tech interface fingers, allowing combat mages to physically tap into a large number of electronic and mechanical systems.
+=Flight Packages
+Flight packages allow the combat mage to achieve flight. The most popular is the Njordian Flight Unit, a series of repulsor-type thrusters mounted on flexible limbs for maximum agility while in the air.
+==UTILITY SLOTS
+Utility slots and their complementary utility modules are the primary functional components of a combat mage’s chassis.
+=Central Cognition Core (CCC)
+The CCC is the main brain of any mage. It is where the anchor resides, and thus where mana and psions are generated. As a result, the psionic threads are linked directly to this unit. The CCC and the computation module have the option of being ex-situ but at the cost of response speeds and increased latency.
+=Computation Module
+Computation modules host maintenance subsystems as well as the assistant AI.
+=Sensor and Communications Suite (SCS)
+The SCS allows access to not only mage-to-ship communications but also affords the combat mage a series of sensory capabilities. On top of heightened baseline senses (sight, smell, touch, taste, and hearing), SCS’s are afforded a series of other senses depending on the sensory package. These other senses include, but are not limited to magnetoreception, thermography, object bypass vision (OBV), electroreception, and psioreception. Drones with additional points of view, as well as the mothership, can provide additional sensory data and improve situational awareness.
+=Mana-Catalyzed Micro Antimatter Reactor (MCMAR)
+The MCMAR is a modular portable power supply that fuels both the combat mage’s chassis and wand. The MCMAR utilizes hydrogen-antihydrogen reactions to ensure that combat mages and their weapons are capable of operating unassisted for years on end.
+=Nanite Pod (Nanopod)
+A nanite pod contains a single swarm of nanites. These nanites could be used for a variety of tasks such as machine interfacing, fine manipulation, and temporary repair.
+=Auxiliary Life Support (ALS)
+In extreme cases, the CCC can be ejected and supported by the ALS until retrieval by extraction teams. """
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "caspiainteractive-lore.html"
+filename = "chassis-lore.html"
 
 # ignore this stuff
 article = article.replace('{', "<a class='infolink' href='(LINKGOESHERE)'>")
