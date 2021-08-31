@@ -98,11 +98,11 @@ htmlcode = ""
 lines = article.split('\n')
 for line in lines:
 	if len(line)>=3 and line[:3]=='===':
-		htmlcode += "\t\t<p class='infoheading'>" + line[3:] + "</p>\n\t\t<span class='underline'></span>\n"
+		htmlcode += "\t\t<h1>" + line[3:] + "</h1>\n\t\t<span class='underline'></span>\n"
 	elif len(line)>=2 and line[:2]=='==':
-		htmlcode += "\t\t<p class='sectiontitle'>" + line[2:] + "</p>\n\t\t<span class='underline'></span>\n"
+		htmlcode += "\t\t<h2>" + line[2:] + "</h2>\n\t\t<span class='underline'></span>\n"
 	elif len(line)>=1 and line[:1]=='=':
-		htmlcode += "\t\t<p class='paragraphtitle'>" + line[1:] + "</p>\n"
+		htmlcode += "\t\t<h3>" + line[1:] + "</h3>\n"
 	else:
 		htmlcode += "\t\t<p class='infoparagraph'>" + line + "</p>\n"
 
