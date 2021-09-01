@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Milky Way Galaxy"
+tabtitle = "Nexus"
 
-keywords = "Milky Way, Sagittarius A, Anima, Theomachy, Bygone Races, Elder Race, Newborn Races, sophonthood, Galactic Commonwealth, Mithraeho Spheres, Sharhastian Alliance, Terran Union, Concordat, animium-based life, Kalatari, Arhima, Thosik, Kalathron, Talaphrian Order, onturgists, Eyon (the Sword Saint), Great Sleep, Sage, Aeternum (the Infinite City), Aunox’s Prison, Karanaan, Lord Merchant Olande, Andromeda Galaxy, Ikolae Collectives, Outlands, Lorekeepers Guild, Dex’ Illur (the Threefold Mind), Inner Core, Outer Core, Rim, Assemblages, Chanceries, Abyssal Gate, Nexus, voidborne gigastructures, pontificies, City of Three Peoples, Animium Wars, Silver Tower, Arhimaian Directorate Brain, Kelleus, wormhole-based heatsink, Age of Genesis, God Age"
+keywords = "Nexus, transportation, Void, Theomachy, highway systems, mass shadows, Material Plane, gravitically dead, pontifices, sectors, vacuum corridors, Nexus Gate, Galactic Commonwealth, Fellowship of Voidwalkers, Karanaan , Damdayu (the Freewalker), Ikujo, Zaramin, black market, Free City of Jakka, Lost Civilization of Indalu., voidborne vessels"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "Milky Way, Sagittarius A, Anima, Theomachy, Bygone Races, Elder Race
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Locations", "Milky Way", "Galaxy", "Mixed", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Locations", "Mixed", "Gigastructure", "Mixed", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Milky Way Galaxy Icon.svg"
+infoimagesource = "resources/Nexus Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = ['galacticcommonwealth-lore', 'talaphrianorder-lore', 'karanaan-lore', 'ikolae-lore', 'nexus-lore', 'kalatari-lore', 'silvertower-lore']
+articlelinks = ['cosmology-lore#void', 'cosmology-lore#material-plane', 'galacticcommonwealth-lore', 'karanaan-lore']
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,47 +49,37 @@ articlelinks = ['galacticcommonwealth-lore', 'talaphrianorder-lore', 'karanaan-l
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===MILKY WAY GALAXY
-The Milky Way Galaxy, otherwise known as the Milky Way, is a 13.6 billion-year-old galaxy that is approximately 105,700 light-years in diameter and has a height of more than a thousand light-years. It contains several hundred billion stars and is centered by a supermassive black hole that weighs four million solar masses, known by humanity as Sagittarius A. This galaxy is the home of humanity, the galactic community, and the stories of Anima.
-==RACES
-Using the Theomachy as a reference, the races of the galaxy can be divided into three distinct groups.
-=Bygone Races
-The Bygone Races were the species and civilizations that were exterminated or fell due to the Theomachy.
-=Elder Races
-The Elder Races were the species and civilizations that have survived the Theomachy and live to the present day, albeit usually in a much more devolved state due to the various technological and informational collapses that took place during the Theomachy. Many of these Elder Races have also gone into a deep sleep or traveled to other galaxies.
-=Newborn Races
-The Newborn Races are the groups that achieved sophonthood and space flight after the Theomachy.
-==FACTIONS
-={Galactic Commonwealth}
-The Galactic Commonwealth is the primary collection of nations within the Milky Way, consisting of groups such as the Mithraeho Spheres, Sharhastian Alliance, and Terran Union.
-=Concordat
-The Concordat is composed of three races of animium-based life, the Kalatari, the Arhima, and the Thosik. It was formed after the Animium Wars and the destruction of Kalathron as a means of building bridges between the species. While it is independent from the Galactic Commonwealth, the Concordat maintains good relations with the organization.
-={Talaphrian Order}
-The Talaphrian Order is a group of onturgists that have been present since before the Theomachy. They were led by Eyon, the Sword Saint but after it went into the Great Sleep, its avatar, the Sage, has been ruling the Knights in its stead. The organization and its subsidiaries maintain close cooperation with Aeternum and the Galactic Commonwealth due to its proximity to Aunox’s Prison.
-={Karanaan}
-The Karanaan are the largest mercantile combine of the galaxy, dominating the majority of intragalactic commerce. They are led by Lord Merchant Olande and are expansive, even possessing proxies in the Andromeda Galaxy.
-={Ikolae Collectives}
-The Ikolae Collectives are a sophont machine civilization currently existing in the Outlands. Due to their isolated location and different goals compared to the rest of the galaxy, they have remained a sovereign nation. However, they are not hostile towards the other civilizations, and regularly interact with the greater galactic community.
-=Lorekeepers Guild
-The Lorekeepers Guild is dedicated to collecting and maintaining all knowledge in the known universe. They are led by one of the Newborn onturgists, an artificial intelligence by the name of Dex’ Illur, the Threefold Mind.
-==REGIONS
-The galaxy is divided into four celestial regions of increasing distance from the galactic center. These are the Inner Core with a diameter of 20,000 light-years, the Outer Core with a diameter of 30,000 light-years, the Rim with a diameter of 50,000 light-years, and the Outlands, which are the gaps between galaxies.
-==LOCATIONS
-=Aeternum
-Aeternum, the Infinite City, is the home of the Galactic Commonwealth. It is the hub for Commonwealth civilizations, containing key facilities such as the Assemblages and the Chanceries. It also serves as a bastion of defense for the greater galaxy, as it is situated close to an abyssal gate leading to Aunox’s Prison.
-={Nexus}
-The Nexus is a voidborne gigastructure built by an unknown race before the Theomachy. It is used as a form of faster than light travel and is controlled by sophont monitors known as pontificies.
-=City of Three Peoples
-The City of Three Peoples was built after the Animium Wars to act as a hub system where members of the {Kalatari}, Arhima, and Thosik could live in harmony. It contains key locations such as the {Silver Tower} and Arhimaian Directorate Brain.
-=Kelleus
-Kelleus is the homeworld of the Ikolae, originally serving as a wormhole-based heatsink before the Theomachy. Now, it is the hub system for all Ikolae Collectives and uplifted constructs.
-==HISTORY
-=Genesis
-Before the first creatures crawled out of the Terran seas, the Elder Races were already taking to the stars. They were isolated on this slab of light, unfettered by each other's movements. Empowered by arcane energies and solar flame, they grew into races of demigods. By will alone, they built castles of light, tombs to ferry them to the end of time, and weapons that shook the fabric of reality. But, even demigods are afflicted with loneliness. In great numbers, they merged their bodies and minds. They gave themselves hearts of suns, skins of black holes, and somas of dead star-matter. The universe itself became their plaything, with time and space being bent into their instruments. This was the Age of Genesis, the God Age."""
+article = """===NEXUS
+The Nexus is a complex series of transportation systems residing within the {Void}. While it is unknown as to who constructed it, it is theorized to be from before the Theomachy. This system is special from the jump and Void highway systems in the sense that it can pass through mass shadows originating from the {Material Plane}. It is essentially gravitically dead from both the inside and the “outside.”
+==DENIZENS
+The primary denizens of the Nexus are a group of intelligences known as pontifices (singular
+pontifex). Pontifices each have their own section of the Nexus that they possess full control over. Each pontifex acts independently of each other, possessing their own wills and personalities. They can be hostile, friendly, or neutral, with said dispositions seemingly chosen at random. To traverse a specific section of the Nexus, a traveler has to be approved by the sector’s pontifex. Currently, thousands of these sectors and pontifices exist, with some beyond the edge of the galaxy.
+=Pontifex Hostilities
+Pontifices possess a form of free will and so some of them exhibit hostilities towards one another, as their primary precept is that of expansion. This leads to battles between pontifices, with the victor overtaking the sector of the vanquished.
+=Dead Pontifices
+A pontifex is very rarely killed by a non-pontifex. In those instances, their sector would either be left derelict or consumed by a neighboring pontifex.
+=Defense
+Intruders are dealt with by pontifices swiftly through methods such as closing itself off, collapsing tunnel sections, or even opening itself up to the Void. What might be a planet-sized tunnel one second may be a pinhole the next. However, these actions are highly energy intensive and most pontifices usually resort to using defense constructs known as sentinels. Akin to pontifices,  sentinels are also highly varied. Some are swarms of nanomachines while others are melee-oriented golems. Attempts to remove portions of the tunnels are also met with deadly force.
+==ENVIRONMENT
+The Nexus, in its base form, is simply a series of small vacuum corridors. Travelers with the proper permissions can request that a tunnel be dilated or contracted, or that a specific section be terraformed. As a result, certain pontifices have allowed various ecosystems and constructs to flourish.
+==TRAVEL
+To enter the Nexus, one must use a designated Nexus Gate. They are rings of variable size spread throughout the galaxy. There used to be many spread throughout the galaxy, but the Theomachy had destroyed many, leading to a massive reconstruction project after the war. However, since opening a Nexus Gate requires the permission of a friendly pontifex, various factions maintain control over their own gates. There exists at least one Nexus Gate within each major city of the {Galactic Commonwealth}.
+==GROUPS
+Many factions have arisen over time to take advantage of the Nexus and the pontifices.
+=Fellowship of Voidwalkers
+The Fellowship of Voidwalkers is a subset of {Karanaan} dedicated to exploring and mapping the multitude of pathways of the Nexus. They designate greenlit sectors and maintain some dead sectors. Due to the geography and politics of the Nexus constantly changing, the task of the Fellowship of Voidwalkers is considered to be very important. Within this faction also resides a cult, worshipping a prophesied figure they call “Damdayu, the Freewalker”. This entity would be universally regarded as friendly by all pontifices, allowing it to travel unabated throughout the Nexus.
+=Ikujo
+The Ikujo are an expansive and powerful crime family that have forged a pact with a pontifex known as Zaramin. They specialize in all sorts of black market activity, but their main forte within the Nexus is the smuggling of goods considered illegal by the Galactic Commonwealth.
+==EXPLORATION
+Due to the risk posed by a potentially hostile pontifex, new sectors are explored via remote drones deployed by the Fellowship of Voidwalkers.
+==NOTABLE LOCATIONS
+Various permanent locations have been established or found within the Nexus, including the Free City of Jakka and the Lost Civilization of Indalu.
+==INCIDENTS
+On very rare occasions, a voidborne vessel will crash into one of the tunnels that compose the Nexus. If it is big and fast enough, it may destroy parts of the underlying structure."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "milkywaygalaxy-lore.html"
+filename = "nexus-lore.html"
 
 # ignore this stuff
 
