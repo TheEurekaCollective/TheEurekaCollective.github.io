@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Materna"
+tabtitle = "Metaphysics"
 
-keywords = "​​​​​​Materna, biotechnology, cloning, prenatal modification, artificial births, Faber Technologies, Variable-Organic Apparatuses, BioTubes, corporation, landside, spaceside, artificial birthing clinics, genes, genetic template, embryo, artificial uterus, polymers, tailored life support system, monitoring sensors, Class-3, human cloning, banned, organs, pets, redundant heart, extra kidney, artificially created organs, hyperlungs, endocrine manipulators, crimson retrievers, great chihuahuas, state-of-the-art, printers, duplicating cells, Gene Hosting, Gamete Hosting, Genetic Banks, genetic lineages, Medicine, Medical BioTubes, culture cells, injured cells, nutrient mix, specially-made viruses, pill, kill code, Gene Tagging, biological products, Materna Genetic Tag, isolated section, artificial genetic code, Materna Corporation, child, mother, grandmother, one-time fees, subscriptions, ecosystem, organic growth capacity, 25 kilograms, 50 kilograms, 100 kilograms, cellular matter, Class 1 subscription, Class 2 subscription, Class 3 subscription, Class 4 subscription, Class 5 subscription, Organization Class subscription, Expedited Medical Program, Priority Medical Pickup, Priority Biotube Replacemnet, Priority Organ Replacement, Yearly Organ Upgrades, unlimited kilograms, growth rates"
+keywords = "Metaphysics, Conceptual Plane, Material Plane, dimensions, sister universe, ontologically, quark, souls, anima, conceptual web, sentient creature, constituents, Galactic Commonwealth, Apotheons, entity"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "​​​​​​Materna, biotechnology, cloning, prenatal modifica
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Factions", "Human Domain", "Corporation", "Human", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Subjects", "Conceptual Plane", "Science", "Mixed", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Materna Icon.svg"
+infoimagesource = "resources/Metaphysics Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = ['madamemartins-lore']
+articlelinks = ['galacticcommonwealth-lore']
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,42 +49,20 @@ articlelinks = ['madamemartins-lore']
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===MATERNA
-Materna is one of the largest companies in the biotechnology sector and focuses on providing services such as cloning, prenatal modification, and artificial births. They are a subsidiary of Faber Technologies and have existed since the mid-21st century. They utilize the trademark Variable-Organic Printing Apparatuses, otherwise known as BioTubes, to grow and modify organics.
-==OPERATIONS
-Materna is an extremely large corporation and has stakes in almost every portion of the human technologies sector. Materna facilities could be found in almost every landside or spaceside city.
-=Artificial Births
-The primary focus of Materna’s operations is the artificial birthing clinics. These are facilities where babies are grown and modified. To begin the fully automated process, genetic samples are extracted from the parents and are mixed to create a genetic template. Desired genes are added and undesired genes are removed. The genetic template is then codified for storage. An embryo is generated based on the genetic template and placed within an artificial uterus. This artificial uterus is made of advanced polymers and has both a tailored life support system and monitoring sensors to ensure that the baby grows up healthy and any complications during the growing process are addressed quickly. The growing period usually takes nine months, but people with a Class 3 or greater subscription can have it decreased up to merely two months.
-=Cloning
-While human cloning is officially banned, organs and pets can be cloned. Organs are not only made to replace existing organs, but also act as an additive. It is not uncommon to see a person with a redundant heart or extra kidney. Artificially created organs, such as hyperlungs and endocrine manipulators, are popular. Pets can also be created with specific traits in mind, some being completely unnatural. Crimson retrievers and great chihuahuas are some of the pets that have been made possible.
-=BioTube
-Materna’s state-of-the-art BioTubes are containers that are suitable for the culturing and duplicating of cells. They are essentially printers for organics.
-=Gene and Gamete Hosting
-Many families have their entire genetic lineages hosted within the Genetic Banks of Materna.
-=Genetic Modifications
-People can pay to have specific snippets of their genetic code removed or added to.
-=Medicine
-Medical BioTubes not only have the capacity to culture cells but also heal injured cells. Injured individuals are placed into a deep sleep and are submerged in a nutrient mix. Specially-made viruses are then injected into the system to perform operations on the individual. After the treatment, an individual takes a pill that sends a kill code to the viruses, which are promptly decomposed and excreted.
-=Gene Tagging
-Almost all biological products of Materna possess the Materna Genetic Tag. This isolated section of artificial genetic code marks the product as originating from the Materna corporation.
-==BUSINESS MODEL
-Most people have their entire families placed in the hands of Materna. In fact, a child, her mother, and her grandmother might have all been grown in the same BioTube. There are two ways that people can pay for Materna’s services: one-time fees and subscriptions. However, one-time fees are unusual as usage of Materna and their ecosystem is quite common. There are six classes of subscription services, each offering a different set of benefits and services. Organizations such as {Madame Martins} can also take advantage of organic growth capacity.
-=Class 1
-For a Class 1 Subscription, one person can get cells, gametes, and gene hosting. This is the first, and only free, tier of Materna subscriptions.
-=Class 2
-For a Class 2 subscription, one person can get 25 kilograms of cellular matter made a year.
-=Class 3
-For a Class 3 subscription, one person can get 50 kilograms of cellular matter made a year.
-=Class 4
-For a Class 4 subscription, one person can get 100 kilograms of cellular matter made a year and a spot in the Expedited Medical Program.
-=Class 5
-For a Class 5 subscription, one person can get Priority Medical Pickup, Priority Medical Biotube Reservation, Priority Organ Replacement, Yearly Organ Upgrades, and unlimited kilograms of cellular matter made a year.
-=Organization Class
-This is the most expensive, but offers lower rates for employees of the organizations as well as incredibly cheap cellular matter growth rates."""
+article = """===METAPHYSICS
+Metaphysics is a term used to describe the phenomena that occurs within the Conceptual Plane. Metaphysics and the Conceptual Plane operate on completely different laws compared to the Material Plane, meaning it is beyond true comprehension. It is not composed of dimensions nor does it follow a linear form of time. As a result, this plane is highly theoretical and can only be explored through experimentation and conjecture, not firsthand exploration.
+==CONCEPTUAL PLANE
+The Conceptual Plane is a sister universe where metaphysical concepts reside. Everything that can be categorized ontologically exists in this universe, from the idea of a cup to a quark. As the Material Plane’s sister universe, it is inherently tied to the activities of the Material Plane. This is also the plane where souls and anima reside.
+==ANIMA
+Souls are containers for memories and experiences. It is only natural that over time multiple souls would host similar memories and experiences. When this occurs, a conceptual web begins to be generated. When exceeding a certain threshold, this web becomes a sentient creature, known as an anima. The souls that compose this conceptual web are then designated as constituents. For an anima to grow, it either must have its constituents increase information related to it or attain more constituents. The larger and more complex this group of constituents is, the more powerful an anima becomes. There is a near infinite amount of anima residing in the Conceptual Plane due to the sheer number of differing concepts available in existence.
+=Classification
+There are a multitude of methods for classifying anima. In the {Galactic Commonwealth}, the primary methods are by primary concept(s), constituent count, and origin.
+_Apotheons
+Apotheons are a special subtype of anima due to their point of origin not being that of the Conceptual Plane, but the Material Plane. This occurs when the point of worship stems from not just a concept, but an entity and its soul. When people begin to worship such entities, their soul begins to take on some of the properties of an anima."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "materna-lore.html"
+filename = "metaphysics-lore.html"
 
 # ignore this stuff
 
