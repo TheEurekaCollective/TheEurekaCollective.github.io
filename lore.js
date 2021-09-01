@@ -1,9 +1,9 @@
 // don't edit these
 var lorenames = ["Factions", "Characters", "Items", "Subjects", "Locations", "History", "Stories", "All"];
 // make sure these match exactly the entries in lorenames right above
-var loretype = ['Items', 'Locations', 'Locations', 'Subjects', 'Locations', 'History', 'Factions', 'Items'];
+var loretype = ['Items', 'Locations', 'Locations', 'Subjects', 'Locations', 'History', 'Factions', 'Items', 'Characters'];
 // This is the heading that shows up
-var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS", "FASTER THAN LIGHT", "AKANTHE INTERNATIONAL PARK", "ARGENTIMARIA ATTACK", "CASPIA INTERACTIVE", "CHASSIS"];
+var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS", "FASTER THAN LIGHT", "AKANTHE INTERNATIONAL PARK", "ARGENTIMARIA ATTACK", "CASPIA INTERACTIVE", "CHASSIS", "COMBAT MAGES"];
 // This is the description that shows up, trim it manually
 // (the first description is abt as long as it goes, don't go much longer than that)
 var loretxt = ["Within the Human Domain, antimatter is the primary form of energy production and storage. From cities to starships, antimatter powers almost every aspect of life. It is even used as a currency and is stored in special containment units...",
@@ -13,12 +13,13 @@ var loretxt = ["Within the Human Domain, antimatter is the primary form of energ
 "Akanthe International Park is a series of scientific missions and resorts located within Akanthe and its ring system. This area is designated a Park due to it being one of the few occurrences of void ecology within the Milky Way Galaxy...",
 "The Argentimaria Attack was a BCI-based psychotechnical terrorist attack that took place in the lunar city of Argentimaria. On the seventh of November, 2133, a fanatical anti-BCI group known as Ad Antea penetrated the servers of...",
 "Caspia Interactive is the main proprietor of video games within the Human Domain. Their most popular product is the Dreamscape, a virtual reality game built on the revolutionary Noosphere engine...",
-"A combat mage’s chassis is its body and its method of interaction with the environment. The chassis is a biomechanical frame that is composed of the most advanced materials produced by the Paraphysics Division. New versions of chassis..."];
+"A combat mage’s chassis is its body and its method of interaction with the environment. The chassis is a biomechanical frame that is composed of the most advanced materials produced by the Paraphysics Division. New versions of chassis...",
+"Thousands of years of warfare and the discovery of paraphysics culminated in humanity’s ultimate soldier: the combat mage. Of all the mages within the Human Domain, nearly 60 percent are classified as combat mages..."];
 // This is the address of the icon you want to add
-var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg", "resources/Faster Than Light Icon.jpg", "resources/Akanthe International Park Icon.svg", "resources/Argentimaria Attack Icon.svg", "resources/Caspia Interactive Icon.svg", "resources/Chassis Icon.svg"];
+var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg", "resources/Faster Than Light Icon.jpg", "resources/Akanthe International Park Icon.svg", "resources/Argentimaria Attack Icon.svg", "resources/Caspia Interactive Icon.svg", "resources/Chassis Icon.svg", "resources/Combat Mages Icon.svg"];
 // This is the link to the corresponding specific page
 // Notice that if the html file is 'lorespecific.html' the entry here is 'lorespecific'
-var lorespecificlink = ['antimatter-lore', 'lorespecific', 'lorespecific', 'fasterthanlight-lore', 'akantheinternationalpark-lore', 'argentimariaattack-lore', 'caspiainteractive-lore', 'chassis-lore'];
+var lorespecificlink = ['antimatter-lore', 'lorespecific', 'lorespecific', 'fasterthanlight-lore', 'akantheinternationalpark-lore', 'argentimariaattack-lore', 'caspiainteractive-lore', 'chassis-lore', 'combatmages-lore'];
 
 function initloreboxes(indices, feed) {
 	var j = 0;
