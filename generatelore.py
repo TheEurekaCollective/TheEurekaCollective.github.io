@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Sharhastians"
+tabtitle = "Silver Tower"
 
-keywords = "Sharhastians, airborne race, hexapods, Sharhast, hive race, sophont queens, Sharhastian Alliance, gas giant, primordial soup, centaurian adaptation, hive sites, drone accumulation, workers, morphological process, womb, ovipositor, Royal Agent, genetic fealty, floater gel, davincian, choristry, Skada Chaheyo, Floater Worshippers, Disciples of the Blue Sky, Children of the Chord, skyfish, ramjet lances, resonance spines"
+keywords = "Perseus Arm, City of Three Peoples, Kalatari faith, Wellspring, Luminous Falls, Kalatar’s Body, Silver Tower, Animium Wars, era of starflight, Sovereigns, planetary catastrophe, voidborne faster-than-light weapon, Kalathron, planetary shield, Arhima, Thosik, Concordat, Central Column, ark, Temple Hall, Revelators, arcology, Habitation Slabs, Ecclesio-Aristocracy Slab, Royal Houses, Royal Palaces, Hall of Revelators, Kalashue, Colleges, Sophist Slab, Guild of Librarians, Guild of Engineering, Apostle Slab, Fabricator Slab, Commercial Slabs, Sacrosanct Shroud. , origin-grade animium, Animium Hearts, animium particles, Orbital Rings, Collection Wells, Animium Refineries, animium-titanite armor, Silver Sentinels"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "Sharhastians, airborne race, hexapods, Sharhast, hive race, sophont 
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Factions", "Sharhastian Domain", "Species", "Sharhastian", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Locations", "Kalatari Domain", "Temple", "Kalatari", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Sharhastians Icon.svg"
+infoimagesource = "resources/Silver Tower Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = []
+articlelinks = ['kalatari-lore']
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,43 +49,56 @@ articlelinks = []
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===SHARHASTIANS
-The Sharhastians are an airborne race of hexapods originally hailing from the gas giant Sharhast. They are a hive race headed by sophont queens, who have formed the current unifying government of the Sharhastians, known as the Sharhastian Alliance.
-==EVOLUTION AND BIOLOGY
-=Habitat
-The Sharhastians were born on a gas giant orbited by many moons. At times, these moons would enter the atmosphere, forming great plains that rise far above the inhospitable core. These continent-sized land masses would stir the primordial soup as well as introduce various elements not commonly found on gas giants such as carbon and oxygen. This provided suitable conditions for life to emerge on Sharhast.
-=Physiology
-Sharhastians have a body template similar to that of octopuses in the sense they have a central brain but large bundles of neurons in other portions of their body.  They possess six, four-sectioned appendages that can flatten themselves to form a method of flight. Two of these act as arms while the other four act as legs. This centaurian adaptation was developed to enable them to face the strong winds around Sharhast. These appendages end in four fingers oriented in a cross configuration. The arms’ fingers are longer or possess higher dexterity for better manipulation. They possess wide heads meant to capture a large array of sounds and have highly complex vocal chords, allowing them to replicate nearly every possible sound. Four eyes are spaced around their head so as to enable them to see in every direction. They also have four sacs which are inflated with lighter-than-air gasses and are used in tandem with their flattened limbs to assist locomotion. The fronts of their bodies are covered in wrinkly skin so as to reduce drag during flight.
-_Queen Physiology
-Queens possess two additional sets of limbs that are dedicated to flying to search for suitable hive sites. Their body has a rear portion that never stops growing to facilitate drone accumulation.
-=Hive Process
-A hive begins with a single fertile queen. This queen travels to a suitable platform where it deposits a series of workers. These workers and the queen hunt for food and work on the beginnings of a hive nest. When the hive reaches a suitable size, drones will begin to be produced. The drones will then permanently attach themselves to the queen, undergoing a morphological process that converts them into a womb and ovipositor. It is not uncommon for allied queens to send hosts of workers and drones to each other for both communication and genetic diversity. Over time, the bodies of the males pile up and the queen is rendered largely immobile. At this stage, it relies on its workers to complete all tasks not relating to birthing. If a hive queen dies without a suitable replacement, the workers would construct a cocoon filled with Royal Agent, within which a worker will enter the cocoon and emerge as a queen.
-=Hive Cohesion
-Queens secrete specific pheromones and possess multiple sets of vocal chords to relay commands to workers. This means that the workers are mentally independent but can carry out very specific commands of the queen. Workers swear genetic fealty to their queens, but workers born from allied queens who have shared drones can follow the commands of multiple queens.
-=Floater Gel
-Floaters drop their spores in a gel medium that gets evaporated when entering a certain depth of the atmosphere. Sharhastians were able to domesticate floaters and harvest this gel from them. This is due to the gel having geriatric properties. This valuable nature has led to floaters achieving a position of reverence, with some being even worshipped as gods. Many wars have been fought between queens over floater colonies and this substance.
-==SOCIETY & CULTURE
-While all Sharhastians could be considered sophont, they are entirely subservient to their queens. As a result, the majority of technological, societal, and cultural development hinges on queens. Princesses are educated by their mothers before proceeding on their nuptial flight. These two factors combined have forged queens that are highly davincian in nature, trained to be savants of various sciences and arts.
-=Choristry
-One of the cornerstones of Sharhastian culture is music, which was primarily used as a method of storing information before writing was invented. The Sharhastian’s affinity for music and sound has led to many queens developing auditory weaponry. One example of such a weapon is the resonance spine. This is a needle-like weapon that generates sonic vibrations that are used to not only decrease drag but also offer better penetration of armor.
-_Choristry Duels
-A ritual duel between queens could take the form of choristry, where either themselves or the best chorister of their hive would compete. The best chorister, who is deemed by a group of adjudicators, would receive a predetermined spoil.
-_Skada Chaheyo
-In the ancient times of Sharhast, Skada Chaheyo was the ancient art of choristry adapted for war. Complex chants and melodies allowed choristers to shake the earth, summon plagues, or bless bodies with strength.
-=Education
-Princesses are educated by their mothers before proceeding on their nuptial flight. These two factors combined have forged queens that are highly davincian in nature, trained to be savants of various sciences and arts.
-=Religion
-Many religions have been seen in the various Sharhastian cultures and societies. Some of these include the Floater Worshippers, the Disciples of the Blue Sky, and the most prevalent one, Children of the Chord.
-_Disciples of the Blue Sky
-One of the most potent and widely available energy sources on Sharhast is lightning. As a result, wildlife such as skyfish, have developed a method of harnessing this energy to fuel biological processes. The Disciples of the Blue Sky developed as a response to this natural phenomenon. This was a faith that worshipped the signature blue lightning found on Sharhast. They also worshipped the various skyfish that consumed lightning, seeing them as avatars of lightning gods. They would follow the skyfish around, which in turn followed the perpetual storms that dotted the planet.
-=Warfare
-Ancient Sharhastian warfare utilized a variety of combined arms tactics, such as the application of combat minstrels in tandem with aerial lightning strikes from the backs of skyfish.
-_Weaponry
-Due to the high-density atmosphere of Sharhast, piercing weaponry was favored over slashing and bludgeoning weapons. This is due to there being less surface area on stabbing weapons, therefore having less drag. Ramjet lances and resonance spines are as a result used extensively."""
+article = """===SILVER TOWER
+Near the edge of the Perseus Arm, within the City of Three Peoples, lies a statement of {Kalatari} faith: an ark-turned-temple. It holds the Wellspring, the Luminous Falls, but most importantly, it holds the Kalatar’s Body. It is their Mecca, their Jerusalem, their Vatican. It is the Silver Tower.
+==HISTORY
+During the Animium Wars of the early era of starflight, the Sovereigns commissioned the building of an ark so that in the event of a planetary catastrophe, their people and holy icons would be preserved. This was proven right when a voidborne faster-than-light weapon struck the Kalatari homeworld of Kalathron, bypassing the planetary shield and destroying all life there. This marked the end of the Animium Wars, with the Kalatari, Arhima, and Thosik peoples coming together and creating the Concordat. The Silver Tower was moved to the hub of Concordat civilization, the newly constructed City of Three Peoples. Over time, the Silver Tower was added onto and modified, rendering the engines insufficient to move the structure around effectively. In the modern era, it stands unmoving within the City of Three Peoples as a space station.
+==COMPOSITION
+The Silver Tower is composed of several independently rotating slabs and rings that each serve a different purpose. They are all built around a reinforced central column.
+=Central Column
+The Central Column is made of what used to be the original ark. However, most of what used to be the original ark is now filled with structural supports and critical systems. The central transport system is also located on the Central Column.
+=Temple Hall
+The Temple Hall is a bulbous section in the lower portion of what used to be the center of the original ark. It is an incredibly large hall meant to fit billions of Kalatari, all packed together, at a single time. It is where the Revelators are stationed and where Kalatar resides.
+=Habitation Slabs
+The habitation layer of the Silver Tower is composed of gargantuan slabs extending from the upper portion of the main central column using support pillars. There are four slabs in total, coinciding with each of the Kalatari castes. Each slab is an arcology carefully designed for the caste that resides in it. The Habitation Slabs are the second-widest portion of the Silver Towerand span several hundred kilometers in diameter.
+=Ecclesio-Aristocracy Slab
+This is where the Sovereigns, Royal Houses, and Revelators live.
+_The Royal Palaces
+The Royal Palaces of the Royal Houses and Sovereigns are where the Ecclesio-Aristocracy reside during their stay. However, only the Sovereigns spend much time within their Palaces. The non-Sovereign houses have their own planets on which they reside, leaving their residences at the Silver Tower empty for the majority of the time.
+_Hall of Revelators
+The Hall of Revelators is a museum dedicated to telling the story of Kalashue and has statues of various Revelators from bygone ages. This is where the Revelators reside when not servicing.
+_Colleges
+The Colleges are where members of the noble houses and ecclesiarchy train to become Revelators and Retainers.
+=Sophist Slab
+The Sophist Slab is divided into guild cities, each pertaining to a different craft or art. Such guilds include the Guild of Librarians and the Guild of Engineering. These Sophists are charged with maintaining the Silver Tower’s various systems and aiding pilgrims.
+=Apostle Slab
+The Apostle Slab contains areas such as the barracks and training grounds. The training grounds contain state-of-the-art facilities as well as some of the most advanced simulation environments within the Concordat. The Apostle residents police the Silver Tower as well as protect it from external threats.
+=Fabricator Slab
+The Fabricator Slab is the most densely populated out of all the slabs. Self-contained habitation blocks contain everything a fabricator needs, such as entertainment and sustenance. The Fabricator residents build new structures as well as fix existing ones.
+=Tourist Sectors
+Various sections of each slab are designated as tourist sectors. The Hall of Revelators, for example, is considered a tourist sector.
+=Commercial Slabs
+The Commercial Slabs located on the lower portion of the Silver Tower serve as shopping and entertainment districts for pilgrims.
+=Hunting Grounds
+Much of Kalatari culture hinges on hunting and martial prowess. Due to this, specialized hunting grounds have been established that are stocked with various beasts native to Kalathron.
+=Engines
+The archaic thrusters were originally used to propel the Silver Tower through space. However, the engines are old and do not possess the strength necessary to push the modern Silver Tower effectively save for some minor orientation adjustments.
+=Wellspring
+The Wellspring was the original crash site of Kalatar and thus was considered holy ground. It became the center of Kalatari civilization on the world of Kalathron. However, the creation of the ark project meant that the Wellspring itself was excavated and lifted into space. It then became the original material for the Sacrosanct Shroud.
+=Luminous Falls
+The Luminous Falls is the place where pure origin-grade animium is harvested. White spheres of arcane technology known as “Animium Hearts” produce the animium particles, which are ejected through a permeable membrane. These animium particles emit a soft yellow glow and are dustlike in nature, hence the name “Luminous Falls”. Using specialized fields, these particles are moved towards the center of the Silver Tower, where it is distributed for consumption. The area around the luminous falls is a sterile vacuum environment to prevent contamination before use.
+=Kalatar
+Kalatar itself is kept in a perfectly sealed black sphere named the Sacrosanct Shroud. This specially constructed shell prevents anything from seeing what is inside of the sphere. The only objects that protrude from the sphere are the Animium Hearts.
+=Orbital Rings
+Millions of Kalatari are permanently stationed on the Silver Tower. However, billions of Kalatari from all over Concordat space enter and exit the Silver Tower every single day. To facilitate the movement of such masses, several series of orbital rings have been built. There are two primary rings and the older secondary ring. The two primary rings serve as docks for ships. The upper ring is dedicated for civilian ships while the lower ring is dedicated to commercial and cargo vessels. The secondary ring served as the original docking ring for the Silver Tower. Now it is used as a pathway that encompasses the Temple. The rings connect to the Central Column using spokes. These rings are the Silver Tower’s widest point, being nearly a thousand kilometers in diameter.
+=Collection Wells & Animium Plant
+The Luminous Falls eventually lead to the Collection Wells and Animium Refineries. This is where raw origin-grade animium is collected and packaged for distribution across the Concordat.
+=Defenses
+The Silver Tower possesses energy shielding, a grid of defense turrets, and incredibly thick animium-titanite armor. The Silver Tower also has a dedicated defense fleet: the Silver Sentinels."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "sharhastians-lore.html"
+filename = "silvertower-lore.html"
 
 # ignore this stuff
 
