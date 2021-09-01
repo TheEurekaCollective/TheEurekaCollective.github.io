@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Silver Tower"
+tabtitle = "Slime Mold"
 
-keywords = "Perseus Arm, City of Three Peoples, Kalatari faith, Wellspring, Luminous Falls, Kalatar’s Body, Silver Tower, Animium Wars, era of starflight, Sovereigns, planetary catastrophe, voidborne faster-than-light weapon, Kalathron, planetary shield, Arhima, Thosik, Concordat, Central Column, ark, Temple Hall, Revelators, arcology, Habitation Slabs, Ecclesio-Aristocracy Slab, Royal Houses, Royal Palaces, Hall of Revelators, Kalashue, Colleges, Sophist Slab, Guild of Librarians, Guild of Engineering, Apostle Slab, Fabricator Slab, Commercial Slabs, Sacrosanct Shroud. , origin-grade animium, Animium Hearts, animium particles, Orbital Rings, Collection Wells, Animium Refineries, animium-titanite armor, Silver Sentinels"
+keywords = "slime molds, protists, neural network simulations, civil engineering, Human Domain, alien behaviors, physarum polycephalum (blob), fuligo septica (dog’s vomit), hemitrichia serpula (pretzel slime), genetic splicing, genetic modification, eclipse slime mold, bioluminescence, mobile terrariums, slime mold art, colonies, generations, collections"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "Perseus Arm, City of Three Peoples, Kalatari faith, Wellspring, Lumi
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Locations", "Kalatari Domain", "Temple", "Kalatari", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Characters", "Human Domain", "Pet", "Mixed", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Silver Tower Icon.svg"
+infoimagesource = "resources/Slime Mold Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = ['kalatari-lore']
+articlelinks = []
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,56 +49,20 @@ articlelinks = ['kalatari-lore']
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===SILVER TOWER
-Near the edge of the Perseus Arm, within the City of Three Peoples, lies a statement of {Kalatari} faith: an ark-turned-temple. It holds the Wellspring, the Luminous Falls, but most importantly, it holds the Kalatar’s Body. It is their Mecca, their Jerusalem, their Vatican. It is the Silver Tower.
-==HISTORY
-During the Animium Wars of the early era of starflight, the Sovereigns commissioned the building of an ark so that in the event of a planetary catastrophe, their people and holy icons would be preserved. This was proven right when a voidborne faster-than-light weapon struck the Kalatari homeworld of Kalathron, bypassing the planetary shield and destroying all life there. This marked the end of the Animium Wars, with the Kalatari, Arhima, and Thosik peoples coming together and creating the Concordat. The Silver Tower was moved to the hub of Concordat civilization, the newly constructed City of Three Peoples. Over time, the Silver Tower was added onto and modified, rendering the engines insufficient to move the structure around effectively. In the modern era, it stands unmoving within the City of Three Peoples as a space station.
-==COMPOSITION
-The Silver Tower is composed of several independently rotating slabs and rings that each serve a different purpose. They are all built around a reinforced central column.
-=Central Column
-The Central Column is made of what used to be the original ark. However, most of what used to be the original ark is now filled with structural supports and critical systems. The central transport system is also located on the Central Column.
-=Temple Hall
-The Temple Hall is a bulbous section in the lower portion of what used to be the center of the original ark. It is an incredibly large hall meant to fit billions of Kalatari, all packed together, at a single time. It is where the Revelators are stationed and where Kalatar resides.
-=Habitation Slabs
-The habitation layer of the Silver Tower is composed of gargantuan slabs extending from the upper portion of the main central column using support pillars. There are four slabs in total, coinciding with each of the Kalatari castes. Each slab is an arcology carefully designed for the caste that resides in it. The Habitation Slabs are the second-widest portion of the Silver Towerand span several hundred kilometers in diameter.
-=Ecclesio-Aristocracy Slab
-This is where the Sovereigns, Royal Houses, and Revelators live.
-_The Royal Palaces
-The Royal Palaces of the Royal Houses and Sovereigns are where the Ecclesio-Aristocracy reside during their stay. However, only the Sovereigns spend much time within their Palaces. The non-Sovereign houses have their own planets on which they reside, leaving their residences at the Silver Tower empty for the majority of the time.
-_Hall of Revelators
-The Hall of Revelators is a museum dedicated to telling the story of Kalashue and has statues of various Revelators from bygone ages. This is where the Revelators reside when not servicing.
-_Colleges
-The Colleges are where members of the noble houses and ecclesiarchy train to become Revelators and Retainers.
-=Sophist Slab
-The Sophist Slab is divided into guild cities, each pertaining to a different craft or art. Such guilds include the Guild of Librarians and the Guild of Engineering. These Sophists are charged with maintaining the Silver Tower’s various systems and aiding pilgrims.
-=Apostle Slab
-The Apostle Slab contains areas such as the barracks and training grounds. The training grounds contain state-of-the-art facilities as well as some of the most advanced simulation environments within the Concordat. The Apostle residents police the Silver Tower as well as protect it from external threats.
-=Fabricator Slab
-The Fabricator Slab is the most densely populated out of all the slabs. Self-contained habitation blocks contain everything a fabricator needs, such as entertainment and sustenance. The Fabricator residents build new structures as well as fix existing ones.
-=Tourist Sectors
-Various sections of each slab are designated as tourist sectors. The Hall of Revelators, for example, is considered a tourist sector.
-=Commercial Slabs
-The Commercial Slabs located on the lower portion of the Silver Tower serve as shopping and entertainment districts for pilgrims.
-=Hunting Grounds
-Much of Kalatari culture hinges on hunting and martial prowess. Due to this, specialized hunting grounds have been established that are stocked with various beasts native to Kalathron.
-=Engines
-The archaic thrusters were originally used to propel the Silver Tower through space. However, the engines are old and do not possess the strength necessary to push the modern Silver Tower effectively save for some minor orientation adjustments.
-=Wellspring
-The Wellspring was the original crash site of Kalatar and thus was considered holy ground. It became the center of Kalatari civilization on the world of Kalathron. However, the creation of the ark project meant that the Wellspring itself was excavated and lifted into space. It then became the original material for the Sacrosanct Shroud.
-=Luminous Falls
-The Luminous Falls is the place where pure origin-grade animium is harvested. White spheres of arcane technology known as “Animium Hearts” produce the animium particles, which are ejected through a permeable membrane. These animium particles emit a soft yellow glow and are dustlike in nature, hence the name “Luminous Falls”. Using specialized fields, these particles are moved towards the center of the Silver Tower, where it is distributed for consumption. The area around the luminous falls is a sterile vacuum environment to prevent contamination before use.
-=Kalatar
-Kalatar itself is kept in a perfectly sealed black sphere named the Sacrosanct Shroud. This specially constructed shell prevents anything from seeing what is inside of the sphere. The only objects that protrude from the sphere are the Animium Hearts.
-=Orbital Rings
-Millions of Kalatari are permanently stationed on the Silver Tower. However, billions of Kalatari from all over Concordat space enter and exit the Silver Tower every single day. To facilitate the movement of such masses, several series of orbital rings have been built. There are two primary rings and the older secondary ring. The two primary rings serve as docks for ships. The upper ring is dedicated for civilian ships while the lower ring is dedicated to commercial and cargo vessels. The secondary ring served as the original docking ring for the Silver Tower. Now it is used as a pathway that encompasses the Temple. The rings connect to the Central Column using spokes. These rings are the Silver Tower’s widest point, being nearly a thousand kilometers in diameter.
-=Collection Wells & Animium Plant
-The Luminous Falls eventually lead to the Collection Wells and Animium Refineries. This is where raw origin-grade animium is collected and packaged for distribution across the Concordat.
-=Defenses
-The Silver Tower possesses energy shielding, a grid of defense turrets, and incredibly thick animium-titanite armor. The Silver Tower also has a dedicated defense fleet: the Silver Sentinels."""
+article = """===SLIME MOLD
+Slime mold is an umbrella term used to describe various single-celled protists that can coalesce to form complex structures. While originally used in tasks such as neural network simulations and civil engineering, they are now commonly seen as pets within the Human Domain due to their low maintenance and peculiar, seemingly alien, behaviors.
+==SPECIES
+There are many species of slime molds that are kept as pets. Some of these include physarum polycephalum (blob), fuligo septica (dog’s vomit), and hemitrichia serpula (pretzel slime). They are usually chosen by owners due to their shape and color, as the behaviors of slime molds do not vary much from species to species. Genetic splicing and modification have also allowed some very interesting species to come to life, such as the eclipse slime mold, possessing a pure black color that exhibits a form of bioluminescence.
+==MAINTENANCE
+Keeping and maintaining a slime mold varies from species to species, but the process is usually quite simple. Slime molds do not require much in terms of interaction and need only to be fed. Slime molds kept in more natural terrariums are regularly supplied with fresh detritus and decaying organic matter. However, those kept in less natural environments are provided alternatives such as oat flakes and valerian root.
+==EQUIPMENT
+Mobile terrariums are robotic bodies that utilize various sensors and tactile stimuli to allow a slime mold to somewhat rudimentarily pilot walking vessels. The slime mold also acts as the robot’s central processing unit -- stored in a glass terrarium for viewing pleasure. The glass has multiple settings to allow in variable amounts of light, as slime molds generally have an aversion to it. The interiors of the terrarium are also highly modular, with not only the environmental conditionals able to be changed but also the physical layout. Clever slime mold owners have been known to make living sculptures and tapestries by growing slime molds in different patterns and setups. Many owners also grow different species in the same setting, adding another layer of complexity to making slime mold art.
+==ACQUISITION
+While it is possible to buy a newly grown slime mold, most people tend to prefer splitting one of their family’s existing colonies. It is not uncommon to see colonies of slime molds hundreds of years old, passed down from generation to generation. People often keep multiple colonies of slime molds as a collection."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "silvertower-lore.html"
+filename = "slimemold-lore.html"
 
 # ignore this stuff
 
