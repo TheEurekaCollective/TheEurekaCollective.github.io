@@ -5,13 +5,15 @@ var loretype = ['Items', 'Locations', 'Locations',
 'Subjects', 'Locations', 'History',
 'Factions', 'Items', 'Characters',
 'Subjects', 'Factions', 'Factions',
-'Subjects', 'History', 'Factions'];
+'Subjects', 'History', 'Factions',
+'Locations'];
 // This is the heading that shows up
 var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS",
 "FASTER THAN LIGHT", "AKANTHE INTERNATIONAL PARK", "ARGENTIMARIA ATTACK",
 "CASPIA INTERACTIVE", "CHASSIS", "COMBAT MAGES",
 "COSMOLOGY", "EGO", "GALACTIC COMMONWEALTH",
-"HUMAN SPELLS", "HUMAN THAUMATOLOGY", "IKOLAE"];
+"HUMAN SPELLS", "HUMAN THAUMATOLOGY", "IKOLAE",
+"INTERNATIONAL SPACE ELEVATOR"];
 // This is the description that shows up, trim it manually
 // (the first description is abt as long as it goes, don't go much longer than that)
 var loretxt = ["Within the Human Domain, antimatter is the primary form of energy production and storage. From cities to starships, antimatter powers almost every aspect of life. It is even used as a currency and is stored in special containment units...",
@@ -28,20 +30,23 @@ var loretxt = ["Within the Human Domain, antimatter is the primary form of energ
 "The Galactic Commonwealth, otherwise known as the Commonwealth, is a collection of loosely associated nations and species. It is the dominant organization within the Milky Way, composed of hundreds of member states and being on...",
 "Spells are the foundation of thaumaturgy, serving as which thaumaturgical phenomena are generated. They are energy-information packages composed of psions and mana, cast from devices known as emitters...",
 "Ever since humankind's inception, the arcane arts have shifted and twisted the tides of history. From the magus cabals and alchemists of yore to the construct mages and thaumatologists of the modern day, thaumaturgy has played...",
-"The creation of custodian races and constructs to maintain structures and systems was not uncommon amongst the Elder Races. However, one of the few that have survived the War of Dreams and achieved sophonthood are the..."];
+"The creation of custodian races and constructs to maintain structures and systems was not uncommon amongst the Elder Races. However, one of the few that have survived the War of Dreams and achieved sophonthood are the...",
+"The first Carbon Spire, otherwise known as the International Space Elevator (ISE), is humankind's first megastructure. It is one of the centerpieces of human civilization, ferrying people and goods non-stop between its base..."];
 // This is the address of the icon you want to add
 var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg",
 "resources/Faster Than Light Icon.svg", "resources/Akanthe International Park Icon.svg", "resources/Argentimaria Attack Icon.svg",
 "resources/Caspia Interactive Icon.svg", "resources/Chassis Icon.svg", "resources/Combat Mages Icon.svg",
 "resources/Cosmology Icon.svg", "resources/Ego Icon.svg", "resources/Galactic Commonwealth Icon.svg",
-"resources/Human Spells Icon.svg", "resources/Human Thaumatology Icon.svg", "resources/Ikolae Icon.svg"];
+"resources/Human Spells Icon.svg", "resources/Human Thaumatology Icon.svg", "resources/Ikolae Icon.svg",
+"resources/International Space Elevator Icon.svg"];
 // This is the link to the corresponding specific page
 // Notice that if the html file is 'lorespecific.html' the entry here is 'lorespecific'
 var lorespecificlink = ['antimatter-lore', 'lorespecific', 'lorespecific',
 'fasterthanlight-lore', 'akantheinternationalpark-lore', 'argentimariaattack-lore',
 'caspiainteractive-lore', 'chassis-lore', 'combatmages-lore',
 'cosmology-lore', 'ego-lore', 'galacticcommonwealth-lore',
-'humanspells-lore', 'humanthaumatology-lore', 'ikolae-lore'];
+'humanspells-lore', 'humanthaumatology-lore', 'ikolae-lore',
+'internationalspaceelevator-lore'];
 
 function initloreboxes(indices, feed) {
 	var j = 0;

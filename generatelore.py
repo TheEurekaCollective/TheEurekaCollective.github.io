@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Ikolae"
+tabtitle = "International Space Elevator"
 
-keywords = "​​​​​​custodian races, Elder Races, War of Dreams, sophonthood, Ikolae (the Enlightened Minds), Outlanders, Galactic Commonwealth, Kelleus, spaceborne constructs, orbs, combat frames, central minds, mining frames, void drives, drone complement, maintenance frames, Proto-Ikolae, First Awakening, wormhole gates, Second Awakening, civilizations, collectives, hive-mind, Delegate Collective, Builder Collectives, Caretakers, Weaponsmiths, Mechanic, Guardian Collective, Striker Collective, Miners, voidjumping, centrums, cooling apparatus, Kelleus mainframe"
+keywords = "​​​​​​Carbon Spire, International Space Elevator (ISE), megastructure, civilization, Apex Station, Terran Union, landside tethering, nanothreads, habitation units, nanolaminates, mana-based active reinforcement systems, living pods, nonliving pods, amenities, skybus, vacuum tram, Old Age"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "​​​​​​custodian races, Elder Races, War of Dreams, sopho
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Factions", "Ikolae Domain", "Species", "Ikolae", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Locations", "Human Domain", "Megastructure", "Human", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Ikolae Icon.svg"
+infoimagesource = "resources/International Space Elevator Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = ['galacticcommonwealth-lore', 'fasterthanlight-lore#wormhole']
+articlelinks = []
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,45 +49,29 @@ articlelinks = ['galacticcommonwealth-lore', 'fasterthanlight-lore#wormhole']
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===IKOLAE
-The creation of custodian races and constructs to maintain structures and systems was not uncommon amongst the Elder Races. However, one of the few that have survived the War of Dreams and achieved sophonthood are the Ikolae, the Enlightened Minds. They and their brethren compose a group of nations referred to as the Outlanders by the {Galactic Commonwealth}.
-==CONSTRUCTION AND CAPABILITIES
-The Ikolae of Kelleus are spaceborne constructs of purely mechanical nature. They possess the capability to move through a vacuum and their only need for survival is the spatial energy given off by radiators. Their consciousness rests in an orb that serves as the central processing unit. These orbs are placed into frames that serve a variety of functions, such as mining frames and maintenance frames. This allows the same orb to be placed in a variety of constructs.
-=Orb
-Most orbs possess a rudimentary form of movement in the form of thrusters. This allows them to switch bodies without external aid and retreat if necessary.
-=Combat Frames
-Combat frames are diverse, with units ranging from conventional infantry to defense batteries to starships. Combat frames primarily utilize laser and plasma weaponry and are highly effective, being able to perfectly coordinate with each other through central minds.
-=Mining Frames
-Mining frames are starships equipped with void drives to allow for faster than light travel to the inner galaxy. They also possess a drone complement to aid in the collection of raw materials.
-=Maintenance Frames
-Maintenance frames are equipped with tools such as cutting lasers and power jumpers to maintain the various radiators and manufactorums of the Ikolae.
+article = """===INTERNATIONAL SPACE ELEVATOR
+The first Carbon Spire, otherwise known as the International Space Elevator (ISE), is humankind's first megastructure. It is one of the centerpieces of human civilization, ferrying people and goods non-stop between its base platforms and Apex Station.
 ==HISTORY
-=Conception
-The death of the Elder Races meant that much of their technology would be destroyed. When this occurred, a kill switch was sent to various facilities to shut them down. However, on Kelleus, this kill switch did not function properly. It split the central AI’s consciousness into various bodies, wiping its memories in the process and birthing the Proto-Ikolae. However, shortly after this occurred, Kelleus lost its power and {wormhole} capabilities, shutting the facility down for a long time. 
-=First Awakening
-Tens of thousands of years later, Kelleus suddenly received a spark of power from an unknown source. The wormhole gates opened and for the first time in millennia, power began flowing throughout the facility, and in turn, to the Proto-Ikolae. Each Proto-Ikolae, while sentient, possessed only the routines and rituals it needed to complete its former tasks.
-=Second Awakening
-For thousands of years the Ikolae communicated with each other mentally, exchanging and downloading information. Eventually, more complex consciousnesses emerged, creating the first sophont Ikolae. These Ikolae formed collectives based on their primary function, and eventually these merged into greater collectives, leading to the establishment of the first civilizations.
-==SOCIETY
-While their memories of the bygone age were wiped, their primary protocols and instincts still remained. Due to this, Ikolae society is divided into various major collectives, which are further divided into minor collectives based on their function. These collectives form a hive-mind, where while each Ikolae possesses their own form of free will, they can actively exchange information with their brethren. New collectives can also be formed to fulfill functions that weren’t previously needed, such as the Delegate Collective.
-=Collectives
-_Builders
-The Builder Collectives are the most respected and numerous of Ikolae. They are responsible for building and maintaining the various environments and constructs of the Ikolae. Some of the major collectives within the Builder Collective include the Caretakers, the Weaponsmiths, and the Mechanics.
-_Warriors
-Warriors within Ikolae society are generally of the Guardian Collective, but as the Ikolae began to expand into the galaxy, they found many hostile fauna and civilizations. Thus, the Striker Collective was created to facilitate the use of preemptive strikes. This was a sharp change compared to the Guardian Collective, whose only functions were to protect the territories and structures of the Ikolae.
-_Miners
-Miners are mobile platforms that acquire and transport various resources to the foundries of the Ikolae. Due to them being deep within the Outlands, they utilize a form of voidjumping to enter the Milky Way and extract resources.
-_Delegate Collective
-The original responsibilities of the Ikolae, established by their creators, did not include forming diplomatic ties with other nations. As a result, when the Ikolae began encountering other sophont species, the collectives were initially at a loss for action. After a long period of discourse and a few wars of wills, they decided that a new collective would be established to form non-violent relationships with these foreign nations. It was due to this the Delegate Collective was created, each member purposely built to accommodate a specific race or culture.
-==CULTURE
-Ikolae culture is highly pragmatic yet peaceful. Physical conflicts between Ikolae rarely occur due to such actions being
-viewed as a waste of resources. Instead, collectives of Ikolae will engage in wars of wills, where the different sides will strain to mentally dominate each other. While possessing forms of individuality, the Ikolae do not engage in actions such as lying and withholding of information, instead seeking to share all information to better Ikolae society.
-==LOCATIONS
-Even the most advanced civilizations cannot circumvent the laws of thermodynamics. Ships and other spaceborne constructs are left in the vacuum of space, a place of perfect insulation. Getting rid of waste heat through large radiators becomes impractical for mobile vessels such as starships when energy generation scales upwards. One of the methods devised to address this issue was the invention of cooling worlds, megastructure scale heatsinks connected to starships via wormholes. Energy is fed through these wormholes and distributed throughout the structures, dissipating it as radiation. One of these locations is Kelleus, the home of the first Ikolae. Kelleus is a radiator-type megastructure that is composed of modular units known as centrums. Centrums usually consist of a wormhole gate and a cooling apparatus. However, additional sections such as foundries and defense batteries can also be produced and integrated into the greater Kelleus mainframe. """
+By the middle of the 21st century, the Terran Union realized it needed a more efficient way to take ships into orbit. After much debate, the Union approved the construction of the International Space Elevator (ISE) in 2054. In 2059, the first few hundred platforms were built to facilitate landside tethering. By 2062, the first automated nanothread factory was launched into geostationary orbit over the designated base site. The nanothread factory then began lowering its products down to the platforms, where they were connected. This process was repeated thousands of times, with each subsequent tether having a much faster connection process. In 2066, the first test climb was initiated, and turned out to be a success. At this stage, habitation units started being added onto the orbital nanothread factory, turning it into Apex Station. By 2070, the ISE became fully operational, routinely transporting passengers and resources to and from Apex Station. Both the station and tether are continually being expanded at record rates to facilitate the ever increasing flow of goods.
+==DESIGN & CONSTRUCTION
+=Base
+The ISE’s base is composed of hundreds of thousands of platforms spread out throughout the coastal waters of Singapore. The location is important in helping to maintain geostationary orbit above Terra’s equator.
+=Height
+The ISE is approximately 100,000 kilometers long, which is nearly a quarter of the distance from Terra to Luna.
+=Materials
+Its primary structure utilizes carbon nanothreads, nanolaminates, and mana-based active reinforcement systems. To supply power, superconductor cables are paired with the carbon nanothread tethers.
+=Transportation
+Every day, hundreds of thousands of tether runners are sent up and down the elevator to transport people and goods to Apex Station. People are placed in habitable transport pods, otherwise known as living pods, which are equipped with amenities such as in-transit meals and life support safety measures. Meanwhile, nonliving pods are simply vacuum sealed containers storing either raw materials or manufactured commodities. Since both of these pods utilize the same universal locking lugs, tether runners don’t need to differentiate between the two for transport. On average, it takes one or two days to fully climb a tether and reach Apex Station from the base.
+=Emergency Measures
+In the event that a tether is destroyed, parachutes placed at regular intervals will activate in unison with small explosive charges. The parachutes aid in slowing down the descent of the broken tether as well as breaking the tether into several pieces so it will burn itself up in the atmosphere more easily.
+=Apex Station
+Apex Station was built around the original nanothread factory that began the ISE. Since its inception, several more factories have been built to facilitate higher rates of nanothread production. The station also keeps tens of thousands of kilometers of extra nanothread in reserve for the event of a tether disconnect. Nanothread production and storage aside, the primary purpose of Apex Station for the people and goods that travel through it is to serve as a jumping-off point to harbors of Luna. As a result, there are many amenities available to travelers awaiting their lunar transport, including restaurants, hotels, observatories, and nature decks.
+==OPERATIONS
+To begin the transportation operation, people and goods are brought by a skybus or vacuum tram to one of the collection and sorting facilities. These facilities are similar to Old Age airports, where prospective travelers and goods are grouped into their respective pods. Then, a tram takes these groups to their respective tether platform, where a tether runner and open pod awaits them. The travelers enter the pod, diagnostics are made, and the journey up begins. After the travelers have scaled the tether and are deposited into Apex Station, the tether runners and empty pods go back down to restart their transport cycle."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "ikolae-lore.html"
+filename = "internationalspaceelevator-lore.html"
 
 # ignore this stuff
 article = article.replace('{', "<a class='infolink' href='(LINKGOESHERE)'>")
