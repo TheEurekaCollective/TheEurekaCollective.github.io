@@ -7,7 +7,7 @@ var loretype = ['Items', 'Locations', 'Locations',
 'Subjects', 'Factions', 'Factions',
 'Subjects', 'History', 'Factions',
 'Locations', 'Stories', 'Factions',
-'Stories'];
+'Stories', 'Factions'];
 // This is the heading that shows up
 var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS",
 "FASTER THAN LIGHT", "AKANTHE INTERNATIONAL PARK", "ARGENTIMARIA ATTACK",
@@ -15,7 +15,7 @@ var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS",
 "COSMOLOGY", "EGO", "GALACTIC COMMONWEALTH",
 "HUMAN SPELLS", "HUMAN THAUMATOLOGY", "IKOLAE",
 "INTERNATIONAL SPACE ELEVATOR", "OPERATION HELIOS", "KALATARI",
-"KALATARI ORIGIN"];
+"KALATARI ORIGIN", "KARANAAN"];
 // This is the description that shows up, trim it manually
 // (the first description is abt as long as it goes, don't go much longer than that)
 var loretxt = ["Within the Human Domain, antimatter is the primary form of energy production and storage. From cities to starships, antimatter powers almost every aspect of life. It is even used as a currency and is stored in special containment units...",
@@ -36,7 +36,8 @@ var loretxt = ["Within the Human Domain, antimatter is the primary form of energ
 "The first Carbon Spire, otherwise known as the International Space Elevator (ISE), is humankind's first megastructure. It is one of the centerpieces of human civilization, ferrying people and goods non-stop between its base...",
 "Mission Log Start\nTerran Time: 22:30\nTerran Date: 24-11-2570\nSubject: Candidate Extraction\nCodename: Operation Helios...",
 "The Kalatari are a race of animium-based life evolved from the sophont reptilian Skago, who in turn evolved from the non-sophont Skaga. Their entire civilization hinges on a caste system controlled by the clans of Revelators...",
-"The world of Kalathron revolved around a cruel sun. Great waves of plasma would sweep across the planet, cursing those it came in contact with. However, life found a way to survive, not on the surface, but within deep caverns..."];
+"The world of Kalathron revolved around a cruel sun. Great waves of plasma would sweep across the planet, cursing those it came in contact with. However, life found a way to survive, not on the surface, but within deep caverns...",
+"The Karanaan, otherwise known as the Traders of the Wandering Sun, are a collective of organizations dedicated to building wealth both in and out of the galaxy. Led by Lord-Merchant Olande, the Karanaan hold sway over the large..."];
 // This is the address of the icon you want to add
 var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg",
 "resources/Faster Than Light Icon.svg", "resources/Akanthe International Park Icon.svg", "resources/Argentimaria Attack Icon.svg",
@@ -44,7 +45,7 @@ var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "r
 "resources/Cosmology Icon.svg", "resources/Ego Icon.svg", "resources/Galactic Commonwealth Icon.svg",
 "resources/Human Spells Icon.svg", "resources/Human Thaumatology Icon.svg", "resources/Ikolae Icon.svg",
 "resources/International Space Elevator Icon.svg", "resources/Operation Helios Icon.svg", "resources/Kalatari Icon.svg",
-"resources/Kalatari Origin Icon.svg"];
+"resources/Kalatari Origin Icon.svg", "resources/Karanaan Icon.svg"];
 // This is the link to the corresponding specific page
 // Notice that if the html file is 'lorespecific.html' the entry here is 'lorespecific'
 var lorespecificlink = ['antimatter-lore', 'lorespecific', 'lorespecific',
@@ -53,7 +54,7 @@ var lorespecificlink = ['antimatter-lore', 'lorespecific', 'lorespecific',
 'cosmology-lore', 'ego-lore', 'galacticcommonwealth-lore',
 'humanspells-lore', 'humanthaumatology-lore', 'ikolae-lore',
 'internationalspaceelevator-lore', 'operationhelios-lore', 'kalatari-lore',
-'kalatariorigin-lore'];
+'kalatariorigin-lore', 'karanaan-lore'];
 
 function initloreboxes(indices, feed) {
 	var j = 0;

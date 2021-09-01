@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Kalatari Origin"
+tabtitle = "Karanaan"
 
-keywords = "​​​​​​Kalathron, waves of plasma, stone skies, volcanic vents, flora, fauna, Skago, sophont, Prinor, steel magic, iron flesh, Fallen Star, stone sky, underground lake, Grand Matron Talavale, Dragonslayer, liquid light, metal husk, golden lightning, halo of hardlight, voids of space, cosmos, heroes of the past, Kalatar, Firstborn, Revelator Scyanthus, Mouth of the Fallen Star, legions of living iron, blessings, Kalatari, Children of the Fallen Star"
+keywords = "​​​​​​Karanaan, Traders of the Wandering Sun, Lord-Merchant Olande, Galactic Commonwealth, galactic governments, galactic politics, Bygone Races, Theomachy, stellar engine, Ascendance, Head Chairman of Zvrenda Holdings, Fellowship of Voidwalkers, Nexus, Ikujo Family, pontifices, Society of Silver Scales, Aukhukr Logistics, waystations, wormhole gates, Ergotan International, advanced technologies, Vlahir Communications, wormhole communications, galactic interweb, Taekoti Mining and Manufacturing (TMM), starlifters, automated mining platforms, forge worlds, megastructures, Tykupiel (the Resplendent Aster)"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "​​​​​​Kalathron, waves of plasma, stone skies, volcanic 
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Stories", "Kalatari Domain", "Origin", "Kalatari", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Factions", "Karanaan", "Guild", "Mixed", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Kalatari Origin Icon.svg"
+infoimagesource = "resources/Karanaan Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = ['kalatari-lore#prinor', 'kalatari-lore']
+articlelinks = ['galacticcommonwealth-lore', 'milkywaygalaxy-lore#bygone-races', 'nexus-lore']
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,14 +49,32 @@ articlelinks = ['kalatari-lore#prinor', 'kalatari-lore']
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===KALATARI ORIGIN
-==CHAPTER 1 - FIRSTBORN
-The world of Kalathron revolved around a cruel sun. Great waves of plasma would sweep across the planet, cursing those it came in contact with. However, life found a way to survive, not on the surface, but within deep caverns. From above, stone skies shielded life from the scorching rays, allowing only what was necessary to pass through. From below, volcanic vents would feed the various flora and fauna, allowing life to eventually advance to that of a sophont species, a reptilian race known as the Skago. They were a collection of primitive tribes, distributed throughout the myriad continents of the planet. One of these tribes called themselves the {Prinor}. They were hunters, slayers of great beasts. They adorned their bodies with the remnants of such beasts, so that their strength may be known to all. It was them who would first grasp the art of steel magic and bestow upon themselves iron flesh.
-Tales speak of the Fallen Star breaking through the stone sky, its body coming to rest at an underground lake near a Prinor settlement. The greatest of this tribe was Grand Matron Talavale, the Dragonslayer. Talavale, curious as to what had fallen from the Lands above, led her people into the murky depths of the lake. Through the deep water, she was able to see liquid light pouring from a metal husk, permeating throughout the lake. Talavale reached out her hand, for she had never seen such a beautiful sight before. When she did, she was enveloped with golden lightning. It began changing her, with a halo of hardlight manifesting itself above her head. Through a great trial of pain, her body was made anew. Steel scales replaced ivory plates, her bones gained strength rivaling that of iron. Images from a thousand lives flooded her mind. She saw stars grow dim and die. She touched the voids of space and felt what came at the edge of the cosmos. When the process was over, she finally understood; the body before her was not of this age, or even of this world. It was old, much older than even the heroes of the past. She gave the husk before her a name: Kalatar, the Fallen Star. It would serve as the god of her people, the Firstborn. But most of all, Talavale was no more; she was now Revelator Scyanthus, Mouth of the Fallen Star. Legions of living iron marched across the continents, spreading the blessings of Kalatar for the next 1,000 years. When this was done, the Skago people were no longer. They were known by a new name: the {Kalatari}, Children of the Fallen Star. """
+article = """===KARANAAN
+The Karanaan, otherwise known as the Traders of the Wandering Sun, are a collective of organizations dedicated to building wealth both in and out of the galaxy. Led by Lord-Merchant Olande, the Karanaan hold sway over the large majority of logistics and financial institutions within the galaxy. While they are highly associated with the {Galactic Commonwealth} and other galactic governments, they are not part of any, allowing them to maintain their sovereignty amidst galactic politics.
+==HISTORY
+To fill the vacuum in infrastructure left behind by the {Bygone Races} after the Theomachy, the Karanaan was founded. Seven guilds of wandering nomads, each with their own stellar engine, merged under a single banner. Each guild of the Karanaan held equal authority in the collective, with each relying on the others to maintain their own operations at their full capacity. However, the Ascendance of the Head Chairman of Zvrenda Holdings, Olande, disrupted the status quo. Given this new power, Olande reformed the Karanaan to the one that exists during the modern-day.
+==ORGANIZATION
+The Karanaan are a septet of organizations bound together by Lord-Merchant Olande, Head Chairman of Zvrenda Holdings. Acting in unison, they could be considered one of the most powerful organizations within the Milky Way, with either themselves or their proxies being present in almost every galactic affair.
+=Zvrenda Holdings
+Zvrenda Holdings is the primary shareholder for all the organizations within the Karanaan, allowing it to posit itself as the collective leader. Led by Lord-Merchant Olande, it is the glue that binds all the different organizations together into a single force. While many initially despised Olande’s takeover of the Karanaan, Olande’s masterful leadership and strength took the collective to new heights and profits, rapidly regaining the support of the guilds.
+=Fellowship of Voidwalkers
+The Fellowship of Voidwalkers controls almost all commerce that occurs within the {Nexus}, save for other major organizations such as the Ikujo Family. They are charged with forging pacts with pontifices as well as charting new pathways within the Nexus. 
+=Society of Silver Scales
+The Society of Silver Scales is the primary bank for the Galactic Commonwealth and many smaller governments, charged with keeping track of currency as well as maintaining exchange rates between various currencies.
+=Aukhukr Logistics
+Aukhukr Logistics is one of the largest corporations within the Karanaan, possessing the most expansive merchant fleets known in the galaxy. This is due to their many services and charges, including transportation of goods and people, monitoring and maintaining the various waystations and wormhole gates, as well as charting new transportation routes for the galactic community.
+=Ergotan International
+Ergotan International is a private military corporation that not only protects the Karanaan’s interests but also serves as Olande’s private army. They have their own weapons research divisions, allowing them to stay equipped with the most advanced technologies to bring into battle.
+=Vlahir Communications
+Vlahir Communications monitors and maintains the wormhole communications technology that composes twenty-three percent of the galactic interweb.
+=Taekoti Mining and Manufacturing
+Taekoti Mining and Manufacturing (TMM) acquires the resources and produces the various goods needed to keep the Karanaan operational. They own expansive fleets of starlifters, automated mining platforms, and even forge worlds, megastructures dedicated to the single act of production for the Karanaan.
+==LOCATIONS
+The hubs of the Karanaan are stellar engines, machines held to a godlike status within the collective. They number seven, with each of the guilds controlling one. To enable the travel of these gargantuan constructs, each guild must dedicate their engine power to the traveling star in question. The foremost of these engines is Tykupiel, the Resplendent Aster. It is nearly 200 million kilometers in diameter, serving as Olande’s flagship and the home of Zvrenda Holdings."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "kalatariorigin-lore.html"
+filename = "karanaan-lore.html"
 
 # ignore this stuff
 
