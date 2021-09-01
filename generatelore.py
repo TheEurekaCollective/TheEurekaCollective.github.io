@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Paraphysics Division"
+tabtitle = "Scribes Consortium"
 
-keywords = "Paraphysics Division (PD), research organization, paraphysical forces, Human Domain, gravitic drives, spell rifles, Pre-Unification Era, Federal Bureau of Paraphysics, State Research Center of Koltsovo, Defence Science and Technology Laboratory, Terran Accords, Terran Union, Johannes Siddhar, Solana Igarashi, paraphysics, thaumatology, Esoteric Energies, Conceptual Particle Interactions, psions, infons, mana, Intendant Eureka, AI, Department of External Affairs (DEA), Department of Internal Affairs (DIA), Information Control Sector (ICS), Department of Intelligence (DOI), Department of Communications (DOC), interwebs, Department of Records (DOR), Research and Technology Sector (RTS) , Department of Paraphysics (DOP), Department of Engineering (DOE), Department of Intelligence Research (DOIR), ghosts, Department of Bioengineering and Neural Sciences (DOBNS), mages, Jovian Cloning Facilities, Maintenance and Creation Sector (MCS), Department of Accounting (DOA), Department of Logistics (DOL), Department of Security (DOS), Department of Manufacturing (DOM), Department of Resources (DORS), mining drones, self-replicating robots, Magus Sector, Department of Intendant, intendant mages, Department of Pilots, pilot mages, Department of Combat, combat mages"
+keywords = "​​Scribes Consortium, megaconglomerate, anima-based organizations, Galactic Commonwealth, Triumvirate, Archimedean Zodrak, Beldam Hetach, Rhapsodist Klioxes, Council, Ilgurz, Mithrae, Ilgurzi Script (Puchep, the (Immortal Alphabet), minting currency, scribery-based products, starlit spheres, runic circuit boards, photonic computers, Archimedean language, omni tools, mana, Onten, Sharhastian peoples, chorister hive, Queen Aria, Skada Chaheyo, Sharhast, choristry, Yillvisk, computronium, hyperelements, Duzo Ko ‘eke, memetics, Tyrami, Hakita, data hosting, Pelatanuh, contracting, anima-based, Kero, Material Plane, Conceptual Plane, ansibles, mass hosting, Aksil Process, Qursias Aksil, manufactured memories (simulacrums), passive hosts, Namo Class, mental locks, Cognition Stacks, Designated Hosts, Domain, BioTubes, Matter Injection Apparatus, paraphysical materials, rogue anima, rogue host"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "Paraphysics Division (PD), research organization, paraphysical force
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Factions", "Human Domain", "Science", "Human", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Factions", "Mixed", "Conglomerate", "Mixed", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Paraphysics Division Icon.svg"
+infoimagesource = "resources/Scribes Consortium Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = ['paraphysics-lore', 'spellrifles-lore', 'magus-lore', 'combatmages-lore']
+articlelinks = ['metaphysics-lore#anima', 'galacticcommonwealth-lore', 'sharhastians-lore']
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -50,59 +50,46 @@ articlelinks = ['paraphysics-lore', 'spellrifles-lore', 'magus-lore', 'combatmag
 #     as a regular paragraph
 
 article = """===PARAPHYSICS DIVISION
-The Paraphysics Division (PD) is a research organization dedicated to studying and utilizing {paraphysical forces}. While mostly shrouded in mystery to the common person, the technologies and techniques that have been developed by the PD can be seen all over the Human Domain. From gravitic drives to {spell rifles}, the work of the PD has helped humankind reach new technological heights.
-==HISTORY
-The Paraphysics Division (PD) has its roots in several different nations from the Pre-Unification Era. Some of these include the USA’s Federal Bureau of Paraphysics, the USSR’s State Research Center of Koltsovo, and the UK’s Defence Science and Technology Laboratory. After the Terran Accords, these institutes were merged into the Paraphysics Division of the Terran Union. The founders of this institution were Johannes Siddhar and Solana Igarashi due to them being the foremost scientists concerning paraphysics, with their research and papers serving as the foundation for thaumatology. More specifically, it was Siddhar’s “Esoteric Energies and Their Properties” and Igarashi’s “Theory of Conceptual Particle Interactions” that spurred the discovery and subsequent manipulation of psions, infons, and mana. In the late 21st century, the existence of paraphysical phenomena was revealed to the general public, with information dissemination campaigns heavily monitored by the PD.
-==ORGANIZATION
-When the PD was first founded, it was just a combination of independent organizations working in unison from what used to be different nations. However, this was later changed when the organizations were officially merged. Now, the PD is jointly led by a Chief Administrator, the Executive Council, and their respective AI. The organization is divided into sections which are further divided into departments. Sections are led by Section Directors while departments are led by Department Heads. Personnel of the division can also be split into various authorization tiers, with Alpha being the highest form of clearance.
-==COMPOSITION
-=Administration Sector
-_Chief Administrator
-The Chief Administrator is the leader of the Paraphysics Division and Administration Sector. One leader is chosen every decade, though there is no term limit. The CA has knowledge of all activities in the Paraphysics Division and is paired with Intendant Eureka, an advanced artificial intelligence (AI).
-_Executive Council
-The Executive Council is composed of the leaders of every sector and their partner AIs. They each possess one vote in the organization while the CA possesses two votes.
-_Department of External Affairs (DEA)
-The DEA Handles both foreign and Terran policy related to paraphysics.
-_Department of Internal Affairs (DIA)
-The DIA is charged with self-policing the Paraphysics Division. This includes rooting out potential traitors as well as enforcing Division law.
-=Information Control Sector (ICS)
-_Department of Intelligence (DOI)
-The DOI finds and monitors the activities of potential threats and reacts accordingly.
-_Department of Communications (DOC)
-The DOC monitors public knowledge about paraphysics and finding potential threats on the interwebs. They were also responsible for the information dissemination campaigns that exposed the greater population to paraphysics.
-_Department of Records (DOR)
-The DOR is responsible for storing, maintaining, and purging Division records.
-=Research and Technology Sector (RTS)
-_Department of Paraphysics (DOP)
-The DOP researches paraphysical artifacts and phenomena for further application.
-_Department of Engineering (DOE)
-The DOE develops both normal and paraphysical technologies for use by the Division.
-_Department of Intelligence Research (DOIR)
-The DOIR controls and creates AIs and ghosts.
-_Department of Bioengineering and Neural Sciences (DOBNS)
-The DOBNS creates the technology necessary to manufacture mages and their equipment. They are also in charge of the Jovian Cloning Facilities.
-=Maintenance and Creation Sector (MCS)
-_Department of Accounting (DOA)
-The DOA manages and distributes the various resources within the Division.
-_Department of Logistics (DOL)
-The DOL is in charge of transporting Division personnel and goods across the Terran Union.
-_Department of Security (DOS)
-The DOS protects the various vaults and facilities of the Division.
-_Department of Manufacturing (DOM)
-The DOM creates the gear, constructs, and structures needed to run the Division.
-_Department of Resources (DORS)
-The DORS collects raw materials for use in manufacturing. They make extensive use of mining drones and self-replicating robots.
-={Magus} Sector
-_Department of Intendants
-The Department of Intendants is charged with maintaining and controlling intendant mages.
-_Department of Pilots
-The Department of Pilots is charged with maintaining and controlling pilot mages.
-_{Department of Combat}
-The Department of Combat is charged with maintaining and controlling combat mages."""
+Scribes Consortium is a galaxy-spanning megaconglomerate composed of the majority of {anima}-based organizations within the {Galactic Commonwealth}. From host-based data encryption to paraphysical substance production, the Consortium has a footing in almost every industry. In short, they manufacture, subjugate, and sell gods for a profit.
+==COMMAND
+=Triumvirate
+Before the first humans discovered agriculture, the founding Triumvirate established the Scribes Consortium. They are known as Archimedean Zodrak, Beldam Hetach, and Rhapsodist Klioxes. Masters and visionaries of their respective fields, the Triumvirate were and still are the primary ruling body of TSC.
+=Council
+The Council is composed of the president of each company that is part of TSC. They are a ruling body that coexists alongside the Triumvirate.
+==SUBSIDIARIES
+=Ilgurzi
+Roughly translating to “Scribes”, the Ilgurzi were originally a cabal of enchanter-calligraphers hailing from the planet Dakhara. Their nimble manipulators and large memories allowed them to store the glyphs and symbols of thousands of languages. As a result, they were highly sought after by both kings and prophets to record their speeches and sermons. It was considered a great honor to have one's words written in the Ilgurzi Script known as Puchep, the “Immortal Alphabet”. Although the original inscription would wear away with time, the holographic projection of the letter would not. This reliability also led for a currency system to be based on Puchep. While no longer used for minting currency, the tradition of immortalizing the words of great leaders continues to this day. The Ilgurzi are charged with producing scribery-based products such as starlit spheres and runic circuit boards. While already possessing a multitude of languages, more complex ones are being created every day by the Ilgurzi.
+_Starlit Spheres
+Starlit Spheres are a form of photonic computer that generates glyphs on command and uses the Archimedean language as a form of computer language. They are essentially omni tools, provided they are supplied with sufficient mana.
+_Runic Circuit Board
+This is a largely retired product as RCBs are considered archaic within the Galactic Commonwealth. An RCB is laid out in the pattern of specific symbols and runes, creating a layer of redundancy in terms of operational effectiveness.
+=Onten
+The {Sharhastian} peoples were born on a world with a dim sun and crushing gravity. As a result, their ears and vocal chords became their main forms of communication and interaction. They are born with perfect pitch and possess the capacity to replicate any sound. Onten was founded as a modernization of the fable-songs used to pass down knowledge from generation to generation. In the 26th century, they not only sell a variety of magical instruments and listening devices, but also have their own music production divisions and groups. One of the most popular of these groups is a chorister hive headed by Queen Aria.
+=Skada Chaheyo
+In the ancient times of Sharhast, Skada Chaheyo was the ancient art of choristry adapted for war. Complex chants and melodies allowed choristers to shake the earth, summon plagues, or bless bodies with strength. The organization founded under the same name was often hired by militaries to act as combat minstrels. In the modern day, they work in the defense sector as information warfare specialists and weapons manufacturing (e.g.: sonic weaponry).
+=Yillvisk
+The use of particle control can aid in the creation or preservation of materials that would not be considered naturally occurring. These include slowing the decay of superheavy elements on higher islands of stability and the creation of exotic compounds and alloys. Currently, Yillvisk has been experimenting with a form of primitive computronium. They also produce a variety of foods, media, and hyperelements. Some of these materials are “active” materials, meaning they have an anima maintaining and watching over them.
+=Duzo Ko ‘eke
+Duzo Ko ‘eke is a design firm specialized in memetic design and implantation. They incorporate memetics subliminally in all of TSC’s products. Members of Duzo Ko ‘eke are often contracted by other companies to design their products. They also are responsible for product placement and advertising schemes. A subdivision of Duzo Ko ‘eke specializes in implanting internal holograms, drawing tattoos, and enacting scarification for clients.
+=Tyrami
+Tyrami is responsible for researching neural technologies to improve hosting capabilities. They also are responsible for storing the bodies of dead hosts in specialized containment units.
+=Hakita
+Hakita is responsible for anima and data hosting within TSC. They monitor and maintain the servers and memory storage apparatuses as well as carry out turnovers when necessary.
+=Pelatanuh
+Pelatanuh is a private security and military contracting company meant to deal with anima-based threats. They do this by deploying empowered hosts developed for any sort of combat situation. Anima and hosts could be edited live based on the changing battlefield.
+=Kero
+Actions that take place within the Conceptual Plane are instantaneous. As a result, it is possible for hosts to communicate with one another with an anima as a medium. While this used to be done with tap plates and inscription stones, the process has been updated. Specially modified hosts known as ansibles are interned in the Galactic Commonwealth’s internet to achieve instantaneous communication for even the furthest points in the galaxy. To maintain high degrees of security with ansibles, a new anima is generated every time an ansible is created. These devices are produced and maintained by Kero.
+==HOSTING
+The majority of the Scribes Consortium’s activities would not be feasible without mass hosting. This takes advantage of the information/memetic nature of anima and controls it. If an anima with specific properties is needed, it is manufactured using the Aksil Process. Named after Qursias Aksil, this is the process of injecting memories into individuals so that they are able to host the anima. These manufactured memories are known as simulacrums. In short, the Aksil Process allows for production and manipulation of anima. The locations where this process takes place are known as Dream Halls.
+=Host Types:
+_Passive
+Passive hosts are the most numerous type of anima host within the Scribes Consortium. These are usually just citizens and employees that enter simulations. Such simulations are indistinguishable from real life and vary from playing videogames to living through torture. The memories made are known as simulacrums. Especially painful memories are known as “Namo Class” and participants can choose to have mental locks placed on such memories. They will essentially become unable to consciously recall the memory unless it is unlocked. Passive Hosts are supplemented by Cognition Stacks. These are servers composed of neural material that serve the same purpose as Passive Hosts.
+_Designated Hosts
+Designated Hosts (DHs) are genetically and mechanically modified organisms used to serve as bodies for certain anima. These are husks until implanted with an anima. They essentially inject experiences into the nervous system of the DH and since the husk has little to no free will on its own, the anima more or less has complete control over the individual. These hosts can take a variety of shapes but their starting form has little value as an anima will adapt its form to suit its Domain regardless (given sufficient materials). DHs are grown in BioTubes then placed into a Matter Injection Apparatus. When the anima is integrated, specific elements are injected into the host. There are various uses for hosts. Some are soldiers, some produce paraphysical materials, and others are used as communication devices. There are also rare instances when an anima or a host will go rogue. While a rogue anima is problematic, a rogue host is even more so, as its actions have consequences within the Material Plane. However, they are quite rare and are usually the result of a system malfunction."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "paraphysicsdivision-lore.html"
+filename = "scribesconsortium-lore.html"
 
 # ignore this stuff
 
