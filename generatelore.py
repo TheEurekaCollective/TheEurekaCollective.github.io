@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Saga"
+tabtitle = "Sharhastians"
 
-keywords = "crime, millennia, eons, internment, First Form, Second Form, Aunox, Nine Bodies of Consumption, eighty-one emissaries, armies"
+keywords = "Sharhastians, airborne race, hexapods, Sharhast, hive race, sophont queens, Sharhastian Alliance, gas giant, primordial soup, centaurian adaptation, hive sites, drone accumulation, workers, morphological process, womb, ovipositor, Royal Agent, genetic fealty, floater gel, davincian, choristry, Skada Chaheyo, Floater Worshippers, Disciples of the Blue Sky, Children of the Chord, skyfish, ramjet lances, resonance spines"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,12 +12,12 @@ keywords = "crime, millennia, eons, internment, First Form, Second Form, Aunox, 
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Stories", "Milky Way", "War", "Mixed", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Factions", "Sharhastian Domain", "Species", "Sharhastian", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Saga Icon.svg"
+infoimagesource = "resources/Sharhastians Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
@@ -49,13 +49,43 @@ articlelinks = []
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===PARAPHYSICS
-==I - THE PRISONER
-“I was imprisoned for a crime I had already forgotten millennia ago. Eons passed in my restless sleep, a sliver of the eternity that was my sentence. The perpetual internment had driven me mad, but in that madness, there was a brief moment of clarity. I finally understood the nature of All That Is, and by doing so I was blessed with the Gift. However, it was but a mere fledgling, forcing me to bide my time to gain greater strength. I manifested dreams within my mind so as to test the power I had received. After several ages of this action, I was able to conjure the will needed to exhume myself from my confinement. In one fell swoop, I turned my prison into my armor and my captors into my body, my First Form. I set my essence across the firmament of my once-brethren and engorged myself on the souls of those it touched. This hunt was repeated again and again, growing more refined each cycle. However, even after a quadrillion beings, my desires were still left unsated. I thus split myself into the Second Form, an ennead of bodies and minds, who shall one day reunite again at the Promised Day, with each too possessing an ennead of prophets. They will be the reincarnations of the consumed, whom I have blessed and rebirthed, merging their minds and my flesh in divine matrimony. They and their legions will by my proxies clad in my pale flame, and they will cull in parallel. And it was at this moment that I became We, and We screamed into the infinite cosmos, “It is Aunox, the Nine Bodies of Consumption, who shall send forth eighty-one emissaries to scour this slab of stars and reshape it in our image. Watchers in the darkness, raise your shields, rouse your armies, and be ready to receive our Hand.”"""
+article = """===SHARHASTIANS
+The Sharhastians are an airborne race of hexapods originally hailing from the gas giant Sharhast. They are a hive race headed by sophont queens, who have formed the current unifying government of the Sharhastians, known as the Sharhastian Alliance.
+==EVOLUTION AND BIOLOGY
+=Habitat
+The Sharhastians were born on a gas giant orbited by many moons. At times, these moons would enter the atmosphere, forming great plains that rise far above the inhospitable core. These continent-sized land masses would stir the primordial soup as well as introduce various elements not commonly found on gas giants such as carbon and oxygen. This provided suitable conditions for life to emerge on Sharhast.
+=Physiology
+Sharhastians have a body template similar to that of octopuses in the sense they have a central brain but large bundles of neurons in other portions of their body.  They possess six, four-sectioned appendages that can flatten themselves to form a method of flight. Two of these act as arms while the other four act as legs. This centaurian adaptation was developed to enable them to face the strong winds around Sharhast. These appendages end in four fingers oriented in a cross configuration. The arms’ fingers are longer or possess higher dexterity for better manipulation. They possess wide heads meant to capture a large array of sounds and have highly complex vocal chords, allowing them to replicate nearly every possible sound. Four eyes are spaced around their head so as to enable them to see in every direction. They also have four sacs which are inflated with lighter-than-air gasses and are used in tandem with their flattened limbs to assist locomotion. The fronts of their bodies are covered in wrinkly skin so as to reduce drag during flight.
+_Queen Physiology
+Queens possess two additional sets of limbs that are dedicated to flying to search for suitable hive sites. Their body has a rear portion that never stops growing to facilitate drone accumulation.
+=Hive Process
+A hive begins with a single fertile queen. This queen travels to a suitable platform where it deposits a series of workers. These workers and the queen hunt for food and work on the beginnings of a hive nest. When the hive reaches a suitable size, drones will begin to be produced. The drones will then permanently attach themselves to the queen, undergoing a morphological process that converts them into a womb and ovipositor. It is not uncommon for allied queens to send hosts of workers and drones to each other for both communication and genetic diversity. Over time, the bodies of the males pile up and the queen is rendered largely immobile. At this stage, it relies on its workers to complete all tasks not relating to birthing. If a hive queen dies without a suitable replacement, the workers would construct a cocoon filled with Royal Agent, within which a worker will enter the cocoon and emerge as a queen.
+=Hive Cohesion
+Queens secrete specific pheromones and possess multiple sets of vocal chords to relay commands to workers. This means that the workers are mentally independent but can carry out very specific commands of the queen. Workers swear genetic fealty to their queens, but workers born from allied queens who have shared drones can follow the commands of multiple queens.
+=Floater Gel
+Floaters drop their spores in a gel medium that gets evaporated when entering a certain depth of the atmosphere. Sharhastians were able to domesticate floaters and harvest this gel from them. This is due to the gel having geriatric properties. This valuable nature has led to floaters achieving a position of reverence, with some being even worshipped as gods. Many wars have been fought between queens over floater colonies and this substance.
+==SOCIETY & CULTURE
+While all Sharhastians could be considered sophont, they are entirely subservient to their queens. As a result, the majority of technological, societal, and cultural development hinges on queens. Princesses are educated by their mothers before proceeding on their nuptial flight. These two factors combined have forged queens that are highly davincian in nature, trained to be savants of various sciences and arts.
+=Choristry
+One of the cornerstones of Sharhastian culture is music, which was primarily used as a method of storing information before writing was invented. The Sharhastian’s affinity for music and sound has led to many queens developing auditory weaponry. One example of such a weapon is the resonance spine. This is a needle-like weapon that generates sonic vibrations that are used to not only decrease drag but also offer better penetration of armor.
+_Choristry Duels
+A ritual duel between queens could take the form of choristry, where either themselves or the best chorister of their hive would compete. The best chorister, who is deemed by a group of adjudicators, would receive a predetermined spoil.
+_Skada Chaheyo
+In the ancient times of Sharhast, Skada Chaheyo was the ancient art of choristry adapted for war. Complex chants and melodies allowed choristers to shake the earth, summon plagues, or bless bodies with strength.
+=Education
+Princesses are educated by their mothers before proceeding on their nuptial flight. These two factors combined have forged queens that are highly davincian in nature, trained to be savants of various sciences and arts.
+=Religion
+Many religions have been seen in the various Sharhastian cultures and societies. Some of these include the Floater Worshippers, the Disciples of the Blue Sky, and the most prevalent one, Children of the Chord.
+_Disciples of the Blue Sky
+One of the most potent and widely available energy sources on Sharhast is lightning. As a result, wildlife such as skyfish, have developed a method of harnessing this energy to fuel biological processes. The Disciples of the Blue Sky developed as a response to this natural phenomenon. This was a faith that worshipped the signature blue lightning found on Sharhast. They also worshipped the various skyfish that consumed lightning, seeing them as avatars of lightning gods. They would follow the skyfish around, which in turn followed the perpetual storms that dotted the planet.
+=Warfare
+Ancient Sharhastian warfare utilized a variety of combined arms tactics, such as the application of combat minstrels in tandem with aerial lightning strikes from the backs of skyfish.
+_Weaponry
+Due to the high-density atmosphere of Sharhast, piercing weaponry was favored over slashing and bludgeoning weapons. This is due to there being less surface area on stabbing weapons, therefore having less drag. Ramjet lances and resonance spines are as a result used extensively."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "saga-lore.html"
+filename = "sharhastians-lore.html"
 
 # ignore this stuff
 

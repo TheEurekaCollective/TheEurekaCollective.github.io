@@ -9,7 +9,7 @@ var loretype = ['Items', 'Factions', 'Factions',
 'Locations', 'Stories', 'Factions',
 'Stories', 'Factions', 'Factions',
 'Characters', 'Subjects', 'Locations',
-'Locations', 'Stories'];
+'Locations', 'Stories', 'Factions'];
 // This is the heading that shows up
 var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS",
 "FASTER THAN LIGHT", "AKANTHE INTERNATIONAL PARK", "ARGENTIMARIA ATTACK",
@@ -19,7 +19,7 @@ var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS",
 "INTERNATIONAL SPACE ELEVATOR", "OPERATION HELIOS", "KALATARI",
 "KALATARI ORIGIN", "KARANAAN", "KOIOS INSTITUTE",
 "MAGUS", "METAPHYSICS", "MILKY WAY GALAXY",
-"NEXUS", "SAGA"];
+"NEXUS", "SAGA", "SHARHASTIANS"];
 // This is the description that shows up, trim it manually
 // (the first description is abt as long as it goes, don't go much longer than that)
 var loretxt = ["Within the Human Domain, antimatter is the primary form of energy production and storage. From cities to starships, antimatter powers almost every aspect of life. It is even used as a currency and is stored in special containment units...",
@@ -47,7 +47,8 @@ var loretxt = ["Within the Human Domain, antimatter is the primary form of energ
 "Metaphysics is a term used to describe the phenomena that occurs within the Conceptual Plane. Metaphysics and the Conceptual Plane operate on completely different laws compared to the Material Plane, meaning it is beyond true...",
 "The Milky Way Galaxy, otherwise known as the Milky Way, is a 13.6 billion-year-old galaxy that is approximately 105,700 light-years in diameter and has a height of more than a thousand light-years. It contains several hundred billion...",
 "The Nexus is a complex series of transportation systems residing within the Void. While it is unknown as to who constructed it, it is theorized to be from before the Theomachy. This system is special from the jump and Void highway...",
-"“I was imprisoned for a crime I had already forgotten millennia ago. Eons passed in my restless sleep, a sliver of the eternity that was my sentence. The perpetual internment had driven me mad, but in that madness, there was a..."];
+"“I was imprisoned for a crime I had already forgotten millennia ago. Eons passed in my restless sleep, a sliver of the eternity that was my sentence. The perpetual internment had driven me mad, but in that madness, there was a...",
+"The Sharhastians are an airborne race of hexapods originally hailing from the gas giant Sharhast. They are a hive race headed by sophont queens, who have formed the current unifying government of the Sharhastians, known as the..."];
 // This is the address of the icon you want to add
 var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg",
 "resources/Faster Than Light Icon.svg", "resources/Akanthe International Park Icon.svg", "resources/Argentimaria Attack Icon.svg",
@@ -57,7 +58,7 @@ var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "r
 "resources/International Space Elevator Icon.svg", "resources/Operation Helios Icon.svg", "resources/Kalatari Icon.svg",
 "resources/Kalatari Origin Icon.svg", "resources/Karanaan Icon.svg", "resources/Koios Institute Icon.svg",
 "resources/Magus Icon.svg", "resources/Metaphysics Icon.svg", "resources/Milky Way Galaxy Icon.svg",
-"resources/Nexus Icon.svg", "resources/Saga Icon.svg"];
+"resources/Nexus Icon.svg", "resources/Saga Icon.svg", "resources/Sharhastians Icon.svg"];
 // This is the link to the corresponding specific page
 // Notice that if the html file is 'lorespecific.html' the entry here is 'lorespecific'
 var lorespecificlink = ['antimatter-lore', 'materna-lore', 'madamemartins-lore',
@@ -68,7 +69,7 @@ var lorespecificlink = ['antimatter-lore', 'materna-lore', 'madamemartins-lore',
 'internationalspaceelevator-lore', 'operationhelios-lore', 'kalatari-lore',
 'kalatariorigin-lore', 'karanaan-lore', 'koiosinstitute-lore',
 'magus-lore', 'metaphysics-lore', 'milkywaygalaxy-lore',
-'nexus-lore', 'saga-lore'];
+'nexus-lore', 'saga-lore', 'sharhastians-lore'];
 
 function initloreboxes(indices, feed) {
 	var j = 0;
