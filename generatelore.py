@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Magus"
+tabtitle = "Materna"
 
-keywords = "​​​​​​mages, Terran Union, Paraphysics Division, Mage Program, Siddhar, Igarashi, mana production potential (MPP), Type-A, Type-B, cloning facilities, Jovian Cloning Facilities, Human Domain, seeker mages, mana retention systems, candidate collection facilities, neural template, combat mages, pilot mages, intendant mages, spaceborne constructs, neural restructuring, cognition stacks, fleshcraft, central cognition cores (CCCs), genetic modifications, psycho-manipulation, psionic commands, somatic threads, psionic interference, ghosts, neural network, consciousness, control system, quantum computers, Concurrent Consciousness, soul, soma, auxiliary cognition matrices, rogue mages, glass gods"
+keywords = "​​​​​​Materna, biotechnology, cloning, prenatal modification, artificial births, Faber Technologies, Variable-Organic Apparatuses, BioTubes, corporation, landside, spaceside, artificial birthing clinics, genes, genetic template, embryo, artificial uterus, polymers, tailored life support system, monitoring sensors, Class-3, human cloning, banned, organs, pets, redundant heart, extra kidney, artificially created organs, hyperlungs, endocrine manipulators, crimson retrievers, great chihuahuas, state-of-the-art, printers, duplicating cells, Gene Hosting, Gamete Hosting, Genetic Banks, genetic lineages, Medicine, Medical BioTubes, culture cells, injured cells, nutrient mix, specially-made viruses, pill, kill code, Gene Tagging, biological products, Materna Genetic Tag, isolated section, artificial genetic code, Materna Corporation, child, mother, grandmother, one-time fees, subscriptions, ecosystem, organic growth capacity, 25 kilograms, 50 kilograms, 100 kilograms, cellular matter, Class 1 subscription, Class 2 subscription, Class 3 subscription, Class 4 subscription, Class 5 subscription, Organization Class subscription, Expedited Medical Program, Priority Medical Pickup, Priority Biotube Replacemnet, Priority Organ Replacement, Yearly Organ Upgrades, unlimited kilograms, growth rates"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "​​​​​​mages, Terran Union, Paraphysics Division, Mage Pr
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Characters", "Human Domain", "Construct", "Human", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Factions", "Human Domain", "Corporation", "Human", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Magus Icon.svg"
+infoimagesource = "resources/Materna Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = ['paraphysicsdivision-lore', 'combatmages-lore']
+articlelinks = ['madamemartins-lore']
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,44 +49,42 @@ articlelinks = ['paraphysicsdivision-lore', 'combatmages-lore']
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===MAGUS
-The mages of the 26th century are no longer the robe-wearing, stave-brandishing wizards of yore. They are produced by the Terran Union’s {Paraphysics Division} to be {engines of war}, pilots of starships, and administrators of civilizations.
-==PROCESS
-The overarching process to find and create a mage is known as the Mage Program. It was devised by Dr. Siddhar and Dr. Igarashi as a means of utilizing paraphysically powerful individuals for the securement and betterment of humankind.
-=Stage 1 - Detection and Acquisition
-Candidates are humans with the potential to become mages. A human is designated to be a candidate if they possess the minimum mana production potential requirement. There are two types of candidates in the Mage Program, based on their origin. They are known as Type-A and Type-B candidates. Type-A candidates originate from cloning facilities, while Type-B candidates come from the wider population.
-_Type-A
-The majority of mage candidates hail from the Jovian Cloning Facilities. These facilities do not produce clones as much as they produce brains in hopes that one would have the necessary MPP to become classed as a mage. Ones that do not reach the necessary requirements are reconstituted back to biomass for reuse. These facilities can produce more brains than the rest of the Human Domain can produce children. It is not completely known whether factions other than the Terran Union possess similar facilities. However, the increase in mage-to-mage engagements over time seems to confirm that other factions do have their own means of producing magus.
-_Type-B
-Throughout the Human Domain, mana detection stations and satellites were constructed to search for potential mage candidates. When a large spike in mana within an area is detected, a team of seeker mages is deployed to retrieve the candidate. There may be a false positive in the event that a person suddenly turns off their mana retention systems. In the event that it is a candidate, however, in-situ surgery or extraction is utilized whether to remove the child from its host parent or artificial uterus. To maintain secrecy, the host’s parents are psychoanalyzed and reprogrammed. The host is placed in a portable biobag and brought to a candidate collection facility. Occasionally, other rival parties and factions deploy their own forces to acquire the candidate as well. However, these forces are usually defeated and to the current day, only .027 percent of Type-B candidates have failed to be extracted.
-=Stage 2 - Seed Collection
-After extraction, both Type-A and Type-B candidates are taken to collection facilities where their neural template is extracted and they are prepped for modification.
-=Stage 3 - Class Determination
-A mage’s class (and subclass) determines what jobs they are meant to accomplish. There are combat mages, pilot mages, and intendant mages. Combat mages are charged with warfare, pilot mages are charged with coordinating spaceships, and intendant mages manage infrastructure. This is dependent not so much on skill as much as on their mana production potential.
-_Mana Production Potential (MPP)
-MPP is a grading system devised by the Paraphysics Division to categorize the differing mana outputs of organisms. These categories are named after the letters of the Greek alphabet, with Alpha being the highest possible MPP and Eta being the lowest. Mages in the highest ranges of MPP are turned into pilots or intendants, while the mages in the lowest ranges become combatants. This is due to spaceships and structures requiring much more fuel compared to the equipment that combatants use. Since mana is scarce in open space, spaceborne constructs require mages in the highest MPP ranges.
-=Stage 4 - Modification
-_Neural Restructuring and Cognition Stacks
-Mastery of the soma occurred during the 23rd century when the art of fleshcraft was devised. While it was usually used for visual modifications or medical procedures, the military discovered a way to compress and restructure the brain. They grew enhanced neurons using mages’ brains as templates and modified them. They then stored these neurons into central cognition cores (CCCs). They also created cognition stacks, which are dedicated banks of cloned neurons. Cognition cores and cognition stacks compose a mages neural network.
-_Enhanced Neurons
-Genetic modification has allowed for the creation of more advanced neurons and neural structures. Mechanical and chemical modifications such as dendrite reinforcement and volatility thread implantation are used to enhance the basic structure of the human brain beyond simple genetic modification.
-_Somatic Threads
-To channel psionic commands around their bodies, somatic threads that utilize the principle of psionic interference are used.
-_Ghosts
-Ghosts are AI designed to reside within and control a mage’s neural network. They act as the consciousness and control system for a mage. They are uploaded after maturation and are designed to be operated using both neural matter and quantum computers.
-_Concurrent Consciousnesses
-The invention of the Concurrent Consciousness has allowed for a blurring of the lines between a natural and AI. For a mage, they are one and the same. A soul and an AI exist within the same soma, and operate as such.
-_Psycho-Manipulation
-Mages are incredibly powerful entities. To keep them in obedience, psycho-manipulators are installed into their CCCs. These are a series of precepts and protocols that prohibit mages from doing certain actions or having certain thoughts. In short, they are given an illusion of free will, and never have the notion to escape or disobey.
-=Stage 5 - Service
-After the necessary modifications, mages are either placed in active service or placed in stasis units for future use.
-==NOTES
-=Rogue Mages
-A mage without their cognition matrices, even blessed with a natural affinity for mana, possesses the same degree of mastery over paraphysics as your average citizen. Insufficient psions and computation render any sort of advanced magic impossible. As a result, mages are supported by auxiliary cognition matrices of their motherships. The arrival of a mage can be heralded by its mothership high in orbit. As powerful as mages are, they are at the whims of their masters. Their psionics can be turned off in an instant, their suits rendered inert, their consciousnesses made dark. However, this is not the primary reason that a rogue mage is so rare. The primary reason is due to the conception of the concurrent consciousness and the installation of psycho-manipulators, the thought of escape or sedition is rendered impossible. These two factors have led mages to be dubbed “glass gods,” powerful entities that could be turned off at the input of a command key."""
+article = """===MATERNA
+Materna is one of the largest companies in the biotechnology sector and focuses on providing services such as cloning, prenatal modification, and artificial births. They are a subsidiary of Faber Technologies and have existed since the mid-21st century. They utilize the trademark Variable-Organic Printing Apparatuses, otherwise known as BioTubes, to grow and modify organics.
+==OPERATIONS
+Materna is an extremely large corporation and has stakes in almost every portion of the human technologies sector. Materna facilities could be found in almost every landside or spaceside city.
+=Artificial Births
+The primary focus of Materna’s operations is the artificial birthing clinics. These are facilities where babies are grown and modified. To begin the fully automated process, genetic samples are extracted from the parents and are mixed to create a genetic template. Desired genes are added and undesired genes are removed. The genetic template is then codified for storage. An embryo is generated based on the genetic template and placed within an artificial uterus. This artificial uterus is made of advanced polymers and has both a tailored life support system and monitoring sensors to ensure that the baby grows up healthy and any complications during the growing process are addressed quickly. The growing period usually takes nine months, but people with a Class 3 or greater subscription can have it decreased up to merely two months.
+=Cloning
+While human cloning is officially banned, organs and pets can be cloned. Organs are not only made to replace existing organs, but also act as an additive. It is not uncommon to see a person with a redundant heart or extra kidney. Artificially created organs, such as hyperlungs and endocrine manipulators, are popular. Pets can also be created with specific traits in mind, some being completely unnatural. Crimson retrievers and great chihuahuas are some of the pets that have been made possible.
+=BioTube
+Materna’s state-of-the-art BioTubes are containers that are suitable for the culturing and duplicating of cells. They are essentially printers for organics.
+=Gene and Gamete Hosting
+Many families have their entire genetic lineages hosted within the Genetic Banks of Materna.
+=Genetic Modifications
+People can pay to have specific snippets of their genetic code removed or added to.
+=Medicine
+Medical BioTubes not only have the capacity to culture cells but also heal injured cells. Injured individuals are placed into a deep sleep and are submerged in a nutrient mix. Specially-made viruses are then injected into the system to perform operations on the individual. After the treatment, an individual takes a pill that sends a kill code to the viruses, which are promptly decomposed and excreted.
+=Gene Tagging
+Almost all biological products of Materna possess the Materna Genetic Tag. This isolated section of artificial genetic code marks the product as originating from the Materna corporation.
+==BUSINESS MODEL
+Most people have their entire families placed in the hands of Materna. In fact, a child, her mother, and her grandmother might have all been grown in the same BioTube. There are two ways that people can pay for Materna’s services: one-time fees and subscriptions. However, one-time fees are unusual as usage of Materna and their ecosystem is quite common. There are six classes of subscription services, each offering a different set of benefits and services. Organizations such as {Madame Martins} can also take advantage of organic growth capacity.
+=Class 1
+For a Class 1 Subscription, one person can get cells, gametes, and gene hosting. This is the first, and only free, tier of Materna subscriptions.
+=Class 2
+For a Class 2 subscription, one person can get 25 kilograms of cellular matter made a year.
+=Class 3
+For a Class 3 subscription, one person can get 50 kilograms of cellular matter made a year.
+=Class 4
+For a Class 4 subscription, one person can get 100 kilograms of cellular matter made a year and a spot in the Expedited Medical Program.
+=Class 5
+For a Class 5 subscription, one person can get Priority Medical Pickup, Priority Medical Biotube Reservation, Priority Organ Replacement, Yearly Organ Upgrades, and unlimited kilograms of cellular matter made a year.
+=Organization Class
+This is the most expensive, but offers lower rates for employees of the organizations as well as incredibly cheap cellular matter growth rates."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "magus-lore.html"
+filename = "materna-lore.html"
 
 # ignore this stuff
 
