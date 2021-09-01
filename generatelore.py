@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Koios Institute"
+tabtitle = "Madame Martins"
 
-keywords = "​​​​​​Koios Institute, Terran Union, astrogeology, biology, Horizon League, celestial maps, United Celestial Cartographers, Terran Accords, generation ships, faster-than-light research, Human Heritage Preservation Society, Human Heritage Reserve (Artifact City), Acropolis, Pyramids, Terracotta Army, superluminal drives, Foundation of Biology, Habitats, arcologies, animal translators, Human Domain, Octavius, Terran Environmental Assembly (TEA), Terran Environmental Restoration Projects"
+keywords = "​​​​​​postnatal genetic modification, cellular sculpting, fleshcraft, Madame Martins, luxury, reworks, modifications, biotubes, Materna, 20D printers, Creidhne, bespoke robots, nanorobots, chemical therapy, morphs, gargantua type, habitation cylinders, iron-clad golems, dragons, Homo felisians, Argus, mermaids, Ancalagon the Black, Silmarillion (Lord of the Rings), Orpheus Irad, House Irad, aeries, Uriel (the Light of God), Safara Gotfir, House Gotfir, fullerene reinforced bone"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "​​​​​​Koios Institute, Terran Union, astrogeology, biolo
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Factions", "Human Domain", "Science", "Human", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Factions", "Human Domain", "Corporation", "Human", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Koios Institute Icon.svg"
+infoimagesource = "resources/Madame Martins Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = ['milkywaygalaxy-lore']
+articlelinks = ['materna-lore']
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,27 +49,23 @@ articlelinks = ['milkywaygalaxy-lore']
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===KOIOS INSTITUTE
-The Koios Institute is a collection of loosely related organizations within the Terran Union. They are responsible for the exploration and investigation of various phenomena within the universe, including astrogeology and biology.
-==ORGANIZATIONS
-=Horizon League
-The Horizon League is dedicated to exploring the vast expanses of space. They maintain humanity’s celestial maps and establish new stations as they go. Their predecessor was the United Celestial Cartographers, but this changed after the Terran Accords due to the assimilation of other organizations. They have been the source of many exploration efforts such as the creation of generation ships and faster-than-light research.
-=Human Heritage Preservation Society
-The Human Heritage Preservation Society is charged with collecting and preserving human artifacts from throughout human history.
-_Human Heritage Reserve
-The Acropolis of Athens no longer serves as the base of the Parthenon, Cairo no longer rests under the shadow of the Pyramids, and the Terracotta Army no longer stands in Qin Shi Huangdi's mausoleum. Those, and other cultural artifacts of the human species, have been transported to the Human Heritage Reserve of the Human Heritage Preservation Society. The reserve, also known as Artifact City, is composed of several interconnected cylinders of varying sizes. Each reserve has an artificial sun and a unique biosphere. Entire cities have been transported to this reserve in order to protect them from degradation and natural disasters. This facility is public and free to access, encouraging millions to visit the facility every day. These reserves are also equipped with superluminal drives, so that the artifacts may escape in the event of an emergency.
-=Foundation of Biology
-The Foundation of Biology investigates all forms of life, both terrestrial and extraterrestrial. They have brought back extinct species, translated animal languages, and researched the alien life of the {Milky Way}.
-_Habitats
-The Habitats are a series of arcologies created as habitats for extinct species that have been revived through genetic manipulation processes. These arcologies consist of vast artificial environments that best suit their dependent species. Some of the species that have been brought back and inhabit these environments include the Irish elk, wooly mammoth, and dire wolf. Some of the aforementioned species have also been allowed back into their original habitats on Terra, such as the woolly mammoths that currently live in the Arctic tundra.
-_Animal Translators
-While the uplifting of non-sophont species is still considered highly controversial, animal translators are in fact very popular. These translators are essentially brain-computer interfaces that utilize AI to learn and understand the thoughts of animals. In fact, one of the most famous celebrities within the Human Domain is Octavius, a veined octopus.
-=Terran Environmental Assembly
-The Terran Environmental Assembly (TEA) monitors and protects the various ecologies present on Terra. This branch was established during the Terran Environmental Restoration Projects, a series of initiatives that utilized natural, technological, and social means to improve the state of the environment on Terra. Some of the initiatives include the restoration of the polar ice caps, the construction of carbon sequestration plants in cities, and the subsidization of underground vertical farms. These and many more projects have helped humankind live in harmony with nature. Now, solar farms cover the various deserts of the world, cities of white are clad in flora and fauna, and the dodos once again tread the island of Mauritius."""
+article = """===MADAME MARTINS
+The invention of postnatal genetic modification and cellular sculpting bestowed upon humans the ability to modify their bodies as they see fit. This newfound ability was initially used for medical procedures but developed into a form of artistic expression by body artists. This denomination of fashion became known as fleshcraft. Madame Martins, a member of the 9 Muses Group, was established to cater to luxury fleshcraft clients. They accomplish everything from simple facial reworks to full body modification that would make a patient unrecognizable as a human.
+==ORGANIZATION
+Like any corporation, Madame Martins possesses a Board of Directors, Presidents, Vice-Presidents, Treasurers, Secretaries, and the like. However, the two notable groups are the engineers and the biologists. While the engineers focus on mechanical modifications, the biologists are tasked with making genetic and cellular modifications.
+==OPERATIONS
+Madame Martins takes pride in their work to redefine what it means to be a human. There is no modification that they cannot accomplish, as their only limitation is their imagination. Engineers and biologists utilize special biotubes built by {Materna} or 6D printers from  Creidhne to construct the specimens their client demands. Bespoke robots then utilize a variety of technologies, including nanorobots and chemical therapy, to either graft specimens onto their clients or modify their clients directly. This process and set of modifications are referred to as a morph.
+==LOCATIONS
+Extreme body modifications, such as those of the gargantua type, are strictly prohibited from public spaces within most human cities due to them posing a public danger. To address this, Madame Martins constructed specialized habitation cylinders to act as both habitats and social spaces for their clients. These cylinders host a wide range of environments, from deserts to oceans. However, they all converge at a central cylinder where most of the clients inhabit. Here, iron-clad golems tromp on the streets while dragons fly between their aeries. Homo felisians can mingle with a child of Argus while mermaids swim in great glass aquariums. It is a true statement of accommodating architecture, as specialized infrastructure for nearly all major types of modifications are available.
+==NOTABLE MORPHS
+=Ancalagon the Black
+Ancalagon the Black was a dragon from the ancient Silmarillion, a companion book to the Lord of the Rings saga. Within the lore, it could crush mountains and blacken the sky with its wings. Orpheus Irad of House Irad was inspired by this fictional figure, and chose it to be his morph. He constructed a specialized habitation cylinder that would serve as his aerie and constructed an entire division of sculptors to create the morph. Redundant hearts, graphene skin, and lighter-than-air gas sacs were just some of the myriad modifications made to Orpheus’s body. The morph took several months to complete due to the sheer volume of organic and mechanical matter that needed to be printed.
+=Uriel, the Light of God
+Uriel, the Light of God, was a seraphic morph commissioned by Safara Gotfir of House Gotfir. It is an angel clad entirely in red-orange flame standing at thirteen meters in height. Embedded in the morph’s chest was a greatsword of the same infernal nature. This was accomplished by implanting various glands along the body that produced a gas. This gas would be contained in a small field that, when ignited, produced a smokeless flame. A series of bodily reinforcements such as fullerene reinforced bone were also necessary to aid in helping Safara grow to and maintain the commissioned size."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "koiosinstitute-lore.html"
+filename = "madamemartins-lore.html"
 
 # ignore this stuff
 

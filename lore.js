@@ -1,7 +1,7 @@
 // don't edit these
 var lorenames = ["Factions", "Characters", "Items", "Subjects", "Locations", "History", "Stories", "All"];
 // make sure these match exactly the entries in lorenames right above
-var loretype = ['Items', 'Locations', 'Locations',
+var loretype = ['Items', 'Locations', 'Factions',
 'Subjects', 'Locations', 'History',
 'Factions', 'Items', 'Characters',
 'Subjects', 'Factions', 'Factions',
@@ -20,7 +20,7 @@ var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS",
 // (the first description is abt as long as it goes, don't go much longer than that)
 var loretxt = ["Within the Human Domain, antimatter is the primary form of energy production and storage. From cities to starships, antimatter powers almost every aspect of life. It is even used as a currency and is stored in special containment units...",
 "In the Great Cities, it is not uncommon for an aspiring couple to walk into a Materna clinic and request a BioTube reservation. For what you may ask? For a baby! In the 26th century, nearly 93% of all births take place within an artificial uterus...",
-"Humanity has long mastered the human body. Genetic modification and alteration are the norm. One can get a cell sculpt from the corner store. An entire field of fashion known as fleshcraft sprung from this newfound ability. It...",
+"The invention of postnatal genetic modification and cellular sculpting bestowed upon humans the ability to modify their bodies as they see fit. This newfound ability was initially used for medical procedures but developed into...",
 "Within Project Anima, there have been many methods in which faster-than-light (FTL) is accomplished and utilized. This article is a compendium of all faster than light capable phenomena and applications. It can be noted... ",
 "Akanthe International Park is a series of scientific missions and resorts located within Akanthe and its ring system. This area is designated a Park due to it being one of the few occurrences of void ecology within the Milky Way Galaxy...",
 "The Argentimaria Attack was a BCI-based psychotechnical terrorist attack that took place in the lunar city of Argentimaria. On the seventh of November, 2133, a fanatical anti-BCI group known as Ad Antea penetrated the servers of...",
@@ -49,7 +49,7 @@ var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "r
 "resources/Kalatari Origin Icon.svg", "resources/Karanaan Icon.svg", "resources/Koios Institute Icon.svg"];
 // This is the link to the corresponding specific page
 // Notice that if the html file is 'lorespecific.html' the entry here is 'lorespecific'
-var lorespecificlink = ['antimatter-lore', 'lorespecific', 'lorespecific',
+var lorespecificlink = ['antimatter-lore', 'lorespecific', 'madamemartins-lore',
 'fasterthanlight-lore', 'akantheinternationalpark-lore', 'argentimariaattack-lore',
 'caspiainteractive-lore', 'chassis-lore', 'combatmages-lore',
 'cosmology-lore', 'ego-lore', 'galacticcommonwealth-lore',
