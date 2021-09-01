@@ -25,7 +25,7 @@ var loretxt = ["Within the Human Domain, antimatter is the primary form of energ
 "Souls can arise from a variety of patterns and phenomena. Whether they be the electrical interactions between neurons or the optical processing fluctuations of an AI, the physical mainframe is the critical factor needed to sustain..."];
 // This is the address of the icon you want to add
 var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg",
-"resources/Faster Than Light Icon.jpg", "resources/Akanthe International Park Icon.svg", "resources/Argentimaria Attack Icon.svg",
+"resources/Faster Than Light Icon.svg", "resources/Akanthe International Park Icon.svg", "resources/Argentimaria Attack Icon.svg",
 "resources/Caspia Interactive Icon.svg", "resources/Chassis Icon.svg", "resources/Combat Mages Icon.svg",
 "resources/Cosmology Icon.svg", "resources/Ego Icon.svg"];
 // This is the link to the corresponding specific page
