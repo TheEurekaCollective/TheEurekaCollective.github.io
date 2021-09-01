@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Faster Than Light"
+tabtitle = "Galactic Commonwealth"
 
-keywords = "​​​​​​faster-than-light (FTL), Warp, warp drive, gravitics, quantum manipulation, warp field, Warp Shielding, Warp Weaponry, Void, mana, Material Plane, voidjumping, reality stabilization field, spatial auger, gravitational field, Void Submersibles, Void Carriers, void drive, Void Tracking, gravitic signatures, Constructs, Nexus, Stasis Worlds, Voidborne Wyrms, Void Tactics, Wormhole, Yunian Uncertainty, wormhole relay stations, Wormhole System, Pathfinders Legion for the Galactic Commonwealth, wormhole gates, Wormhole Cooling, Traders of the Wandering, Quantum Wormholes, superluminal communications, Anima, binary systems, singularity systems, Transpositioning, Bygone Races, conceptual plane, Ansible, Scribes Consortium"
+keywords = "​​​​​​Galactic Commonwealth (the Commonwealth), nations, species, onturgists, Theomachy, Aeternum, Aunox, soulfire, Abyss, Vaiya, Ninth Legion, Newborn Races, civilizations, Assembly, Assemblage, governing body, chanceries (courts), Office of Chronology, atomic clocks (strontium), galactic calendar, Central Aeternum Time, Office of Informational Systems, ansibles, Kero (Scribes Consortium), Office of Interspecies Mediums, universal library, Office of Foreign Affairs, Concordat, Outlanders, intragalactic affairs, extragalactic affairs, Office of Galactic Research, Office of First Contact, Office of Defense, galactic-scale threat, Office of Creation, Office of Logistics, Galactic Orrery, interstellar transportation, Void transportation, Mithraeho Spheres, Sharhastian Alliance, Terran Union, Talaphrian Order, Traders of the Wandering Sun, stellar sphere, xenorelativism, Akanthe International Park"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "​​​​​​faster-than-light (FTL), Warp, warp drive, graviti
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Subjects", "Mixed", "Superluminal", "Mixed", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Factions", "Galactic Commonwealth", "International Body", "Mixed", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Faster Than Light Icon.svg"
+infoimagesource = "resources/Galactic Commonwealth Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = []
+articlelinks = ['milkywaygalaxy-lore', 'paraphysics-lore#onturgy', 'cosmology-lore#abyss', 'milkywaygalaxy-lore#newbornraces', 'fasterthanlight-lore#ansible', 'scribesconsortium-lore', 'ikolae-lore', 'cosmology-lore#void', 'mithraeho-lore', 'sharhastians-lore', 'talaphrianorder-lore', 'karanaan-lore', 'akantheinternationalpark-lore']
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,49 +49,49 @@ articlelinks = []
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===FASTER THAN LIGHT
-Within the Milky Way Galaxy, there have been many methods in which faster-than-light (FTL) is accomplished and utilized. This article is a compendium of all faster-than-light capable phenomena and applications. It can be noted that many of these systems could be used in tandem for different results.
-==WARP
-Warp is the compression and expansion of space-time using a warp drive. With advanced gravitics and quantum manipulation, a bubble is generated in which the area in front of the vessel is compressed while the area behind the vessel is expanded to compensate. Warp speeds are affected by the size, shape, and efficiency of the warp field.
-=Warp Shielding
-When a warp bubble is projected, space-time in the area becomes skewed and difficult for sensors to understand. This allows ships that host a warp drive to use the bubble as a form of shielding.
-=Warp Weaponry
-Warp drives are extremely expensive. However, in rare instances, an explosive device can be fitted with a warp drive.
-==VOID
-The Void is a higher-dimensional space that is composed purely of mana. One location in the Void can coincide with multiple locations in the Material Plane. This property allows for travel within the Void to be much faster than in the Material Plane, a practice known as void jumping. The Void is theoretically infinite and hostile to all forms of matter. As a result, travel into the Void requires using a reality stabilization field and a spatial auger. Spatial augers allow ships to tear through space-time and enter Void space while a reality stabilization field protects ships from the Void. Should a reality stabilization field fail, its contents would disappear completely. Travelers of the Void must also be wary of large gravitic influences that stem from the Material Plane, as gravity possesses the ability to penetrate space-time. If a vessel intercepts a large gravitational field, it may be pulled off its designated course. To address this, advanced computers calculate a voidjump solution before entering the Void.
-=Void Submersibles
-Void Submersibles are ships designed to operate for long periods in the Void without the need to reenter the Material Plane.
-=Void Carriers
-Void Carriers are a type of spaceship that exhibits a very large reality stabilization field. This allows for ships without a void drive to hitch on for a ride within the field. However, this requires significant degrees of coordination as the ships have to move in unison and at the same speeds so as to not accidentally leave the field and enter the Void.
-=Void Tracking
-Just as gravity from the Material Plane penetrates spacetime into the Void, gravitic signatures could be detected within the Void from the Material Plane.
-=Constructs
-With the proper technology, constructs such as the Nexus and the Void Wyrms could be established within the Void.
-=Void Wormholes
-While wormholes function within the Void, their calibration systems are skewed and thus have the possibility of inducing a paradox. Since a single location within the Void can represent multiple locations within the Material Plane, a wormhole passage can be split between multiple locations and destroy whatever travels through it.
-=Void Tactics
-It is common for spaceships to rapidly enter and exit Void space to evade the enemy during ship-to-ship combat.
-==WORMHOLE
-A bridge between two spaces in spacetime is known as a wormhole. Wormholes are one of the fastest methods of FTL, but also the costliest due to the nature of wormhole energy consumption. While the size of a wormhole is expanded in a scalar fashion, the required energy input rises exponentially. It also takes a much larger amount of infrastructure compared to most other forms of FTL travel. Wormhole travel effectiveness drops over large distances due to an accumulation of Yunian Uncertainty. To address this issue, wormhole relay stations are utilized.
-=Wormhole System
-A system of wormholes gates was established by the Karanaan for the Galactic Commonwealth. Most major systems have access to one or more wormhole gates. These wormhole gates are relatively small and are open for short bursts at specific times. It is common to see fleets of spaceships arrayed in front of offline wormholes awaiting their opening. It is also common for ships to link their navigation systems with one another to maintain the best balance between speed and cohesion.
-=Wormhole Cooling
-One of the main pitfalls for any spacefaring object is the amount of heat that needs to be released or decreased. One of the methods devised to help alleviate this issue was to use a wormhole as a cooling system. The high-energy matter would be dumped through the wormhole into an off-site cooling facility. This method has also been used in the reverse, allowing for ships with wormholes to be supplied indefinitely. The stellar engines used by the Traders of the Wandering Sun utilize this technology extensively.
-=Quantum Wormholes
-Small wormholes are generated and allow for superluminal communications, which can include photons and radio waves.
-==ANIMA
-Anima-based FTL can be divided into two categories. These are designated binary systems and singularity systems. A binary system requires the use of two hosts while a singularity system only needs one.
-=Binary Systems
-_Transpositioning
-The Bygone Races had mastered the art of transpositioning, a method of FTL where an object is uploaded to the conceptual plane and placed via an anima in a different location. However, this requires a host to already be at the target location.
-_Ansible
-Ansibles are utilized by organizations such as the Scribes Consortium to allow for FTL communications using an anima as a medium.
-=Singularity Systems
-Singularity systems use anima to produce the FTL systems described above. Essentially, they empower a host to be able to enter the Void, generate wormholes, or warp space."""
+article = """===GALACTIC COMMONWEALTH
+The Galactic Commonwealth, otherwise known as the Commonwealth, is a collection of loosely associated nations and species. It is the dominant organization within the {Milky Way}, composed of hundreds of member states and being on friendly terms with the majority of living {onturgists}.
+==ORIGIN
+After the Theomachy, the remaining few survivors congregated at Aeternum. They decided that even though Aunox and its legions had been quelled, the soulfire threat still remained. Aunox still resided within the {Abyss} and was fighting Vaiya. The Ninth Legion had disappeared without a trace, with scouting parties yielding little to no findings. But most importantly, the warriors that were able to pose a threat to Aunox were either severely weakened or simply dead. To prepare for the uncertain future, the survivors decided to establish the Galactic Commonwealth to serve two functions: foster international relations between the {Newborn Races}, aiding them in understanding and growing with one another, and prepare the fledgling civilizations for any threat, whether it be intra- or extragalactic.
+==STRUCTURE
+=Assembly
+The Assembly is composed of diplomats and representatives from both major and minor races. The Assemblage itself is a pseudo-virtual space meet to debate and dictate the operations of the Galactic Commonwealth. This is the primary governing body of the Galactic Commonwealth.
+=Chanceries
+The chanceries are courts where international and internal disputes are recognized and settled. Cases ranging from territorial disputes to war crimes are addressed here. The chanceries possess an ever-changing panel of judges who are assisted by specialized adjudicator intelligence.
+=Offices
+The Commonwealth offices are the various bureaucratic arms of the Commonwealth government, operating the various systems needed to keep the Commonwealth functional.
+=Office of Chronology
+While local time dominates in the daily affairs, it is also important to keep a galactic timetable and scale to keep affairs in order. The addition of relativistic effects and varying perceptions of time between species only added to the difficulty of such a task. To accomplish this, the Office of Chronology was founded. Their charge is to maintain the atomic clocks, ordering and composing the galactic calendar, and coordinating the various local times of the various nations composing the Galactic Commonwealth. The atomic clocks utilized by the Office of Chronology measure optical transitions in strontium atoms suspended in a near-perfectly stable environment. This means factors such as temperature, electromagnetism, and relativity are almost completely eliminated, allowing for more accurate timekeeping. Atomic clocks that meet Commonwealth standards are placed in nearly every single starship and structure for the sake of syncing with Central Aeternum Time. Central Aeternum Time is measured in cycles, but has been translated into human measurements for convenience and comprehension. The basic unit of a cycle can be likened to a third of a human second.
+=Office of Informational Systems
+To keep the Commonwealth connected, the Office of Informational Systems was founded. This office builds and maintains the various {ansibles} used for instantaneous communications throughout and beyond the galaxy. Members of this office work very closely with Kero of the {Scribes Consortium} due to the company’s mastery over ansible technology.
+=Office of Interspecies Mediums
+Interspecies and international relations are complicated affairs, as different species are attuned to different environments and cultures. What one species might see as beautiful music may cause seizures in another. This sort of physiological and cultural divides encourages isolation between species, breeding distrust and disunity. In an effort to quell such phenomena, the Office of Interspecies Mediums was established. This organization is focused on bridging the cultures of the Commonwealth's different member states. This can include initiatives such as translating and recording languages, deeming whether certain goods are safe for certain species, and constructing the universal library.
+=Office of Foreign Affairs
+While a majority of the nations of the galaxy are part of the Commonwealth, many decided to remain independent, such as the Concordat and the {Ikolae} Collectives. The Office of Foreign Affairs is responsible for maintaining good relations with these independent states by routinely sending ambassadors to them. They also deal with any matters related to extragalactic affairs.
+=Office of Galactic Research
+The Office of Galactic Research investigates and catalogs the various phenomena that occur within the galaxy. They aid in establishing international parks as well as codexing the various life forms on uninhabited worlds.
+=Office of First Contact
+The Office of First Contact keeps watch on the development of various fledgling races within the Milky Way and incorporates them into the Galactic Commonwealth.
+=Office of Defense
+The Office of Defense is the military section of the Commonwealth government. They help settle international disputes, guard key locations and assembly members, and prepare for the event of a galactic-scale threat.
+=Office of Creation
+The Office of Creation builds and maintains the various facilities utilized by the Commonwealth as well as constructing starships and weaponry utilized by the Office of Defense.
+=Office of Logistics
+The Office of Logistics keeps and updates the Galactic Orrery, a map of the galaxy containing various interstellar and {Void} transportation routes. They keep these highways clear of obstructions and construct waystations along these paths.
+==MEMBERSHIP
+To acquire membership within the Galactic Commonwealth, one must be contacted by a Commonwealth ambassador. Upon agreement to join the Commonwealth, a diplomatic party of the civilization is dispatched to Aeternum, where the majority of Commonwealth infrastructure is located. Upon the completion of discussion and agreement, the civilization in question is then officially recognized as a state of the Commonwealth and given a place in the Assembly. Joining the organization offers many benefits, including access to the Galactic Orrery, interweb integration, and access to intra and extragalactic affairs.
+=States
+Some of the states that comprise the Galactic Commonwealth include the {Mithraeho} Spheres, the {Sharhastian} Alliance, and, most recently, the Terran Union.
+=Associated Organizations
+Organizations such as the {Talaphrian Order} and the {Traders of the Wandering Sun} are heavily associated with the Galactic Commonwealth, but are not recognized as a member state. 
+==FUNDING
+While the Galactic Commonwealth accepts donations from its member states, the operations of the Commonwealth are largely self-sufficient. This is due to their capital being a stellar sphere, allowing for the extraction and utilization of a nearly unlimited amount of energy and resources.
+==COMMONWEALTH LAW
+Most member states are quite isolated and possess their own forms of rulership due to different species exhibiting different cultures and values. As a result, Commonwealth Law is generally quite accommodating and vague to account for xenorelativism. However, international locations within the Commonwealth, such as {Akanthe International Park} and Aeternum, possess their own sets of regulations determined by the Assembly. """
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "fasterthanlight-lore.html"
+filename = "galacticcommonwealth-lore.html"
 
 # ignore this stuff
 article = article.replace('{', "<a class='infolink' href='(LINKGOESHERE)'>")
