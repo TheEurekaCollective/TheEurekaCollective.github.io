@@ -8,7 +8,7 @@ var loretype = ['Items', 'Factions', 'Factions',
 'Subjects', 'History', 'Factions',
 'Locations', 'Stories', 'Factions',
 'Stories', 'Factions', 'Factions',
-'Characters', 'Subjects'];
+'Characters', 'Subjects', 'Locations'];
 // This is the heading that shows up
 var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS",
 "FASTER THAN LIGHT", "AKANTHE INTERNATIONAL PARK", "ARGENTIMARIA ATTACK",
@@ -17,7 +17,7 @@ var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS",
 "HUMAN SPELLS", "HUMAN THAUMATOLOGY", "IKOLAE",
 "INTERNATIONAL SPACE ELEVATOR", "OPERATION HELIOS", "KALATARI",
 "KALATARI ORIGIN", "KARANAAN", "KOIOS INSTITUTE",
-"MAGUS", "METAPHYSICS"];
+"MAGUS", "METAPHYSICS", "MILKY WAY GALAXY"];
 // This is the description that shows up, trim it manually
 // (the first description is abt as long as it goes, don't go much longer than that)
 var loretxt = ["Within the Human Domain, antimatter is the primary form of energy production and storage. From cities to starships, antimatter powers almost every aspect of life. It is even used as a currency and is stored in special containment units...",
@@ -42,7 +42,8 @@ var loretxt = ["Within the Human Domain, antimatter is the primary form of energ
 "The Karanaan, otherwise known as the Traders of the Wandering Sun, are a collective of organizations dedicated to building wealth both in and out of the galaxy. Led by Lord-Merchant Olande, the Karanaan hold sway over the large...",
 "The Koios Institute is a collection of loosely related organizations within the Terran Union. They are responsible for the exploration and investigation of various phenomena within the universe, including astrogeology and biology...",
 "The mages of the 26th century are no longer the robe-wearing, stave-brandishing wizards of yore. They are produced by the Terran Union’s Paraphysics Division to be engines of war, pilots of starships, and administrators of civilizations...",
-"Metaphysics is a term used to describe the phenomena that occurs within the Conceptual Plane. Metaphysics and the Conceptual Plane operate on completely different laws compared to the Material Plane, meaning it is beyond true..."];
+"Metaphysics is a term used to describe the phenomena that occurs within the Conceptual Plane. Metaphysics and the Conceptual Plane operate on completely different laws compared to the Material Plane, meaning it is beyond true...",
+"The Milky Way Galaxy, otherwise known as the Milky Way, is a 13.6 billion-year-old galaxy that is approximately 105,700 light-years in diameter and has a height of more than a thousand light-years. It contains several hundred billion..."];
 // This is the address of the icon you want to add
 var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg",
 "resources/Faster Than Light Icon.svg", "resources/Akanthe International Park Icon.svg", "resources/Argentimaria Attack Icon.svg",
@@ -51,7 +52,7 @@ var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "r
 "resources/Human Spells Icon.svg", "resources/Human Thaumatology Icon.svg", "resources/Ikolae Icon.svg",
 "resources/International Space Elevator Icon.svg", "resources/Operation Helios Icon.svg", "resources/Kalatari Icon.svg",
 "resources/Kalatari Origin Icon.svg", "resources/Karanaan Icon.svg", "resources/Koios Institute Icon.svg",
-"resources/Magus Icon.svg", "resources/Metaphysics Icon.svg"];
+"resources/Magus Icon.svg", "resources/Metaphysics Icon.svg", "resources/Milky Way Galaxy Icon.svg"];
 // This is the link to the corresponding specific page
 // Notice that if the html file is 'lorespecific.html' the entry here is 'lorespecific'
 var lorespecificlink = ['antimatter-lore', 'materna-lore', 'madamemartins-lore',
@@ -61,7 +62,7 @@ var lorespecificlink = ['antimatter-lore', 'materna-lore', 'madamemartins-lore',
 'humanspells-lore', 'humanthaumatology-lore', 'ikolae-lore',
 'internationalspaceelevator-lore', 'operationhelios-lore', 'kalatari-lore',
 'kalatariorigin-lore', 'karanaan-lore', 'koiosinstitute-lore',
-'magus-lore', 'metaphysics-lore'];
+'magus-lore', 'metaphysics-lore', 'milkywaygalaxy-lore'];
 
 function initloreboxes(indices, feed) {
 	var j = 0;
