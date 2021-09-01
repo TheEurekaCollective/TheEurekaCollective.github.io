@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Paraphysics"
+tabtitle = "Paraphysics Division"
 
-keywords = "Paraphysics, conceptual-material interactions, metaphysical-physical interactions, thaumaturgy, thaumatology, theurgy (shamanism), onturgy (oneiromancy, Reality Bending), entities, soma, anchor, soul, Conceptual Plane, Material Plane, mana, conceptual particles, information particles (infons), systems, psions, spells, rituals, psion clusters, mana production, Font, anchor generation, spellcasters, Infonic Web (infoweb), Uncertainty Principle, Variation Principle, controlled systems, uncontrolled systems, multi-targeting, multiple-psion systems, Split System Principle, mana limit, psion limit, Psionic Extension, wands, archaic, Verses (Divine Words), subjugation, Channeling, Manifestation, Host, Anchor Decay, Spontaneity, the God of Existence (the Dreamer), apotheosis, the Dream"
+keywords = "Paraphysics Division (PD), research organization, paraphysical forces, Human Domain, gravitic drives, spell rifles, Pre-Unification Era, Federal Bureau of Paraphysics, State Research Center of Koltsovo, Defence Science and Technology Laboratory, Terran Accords, Terran Union, Johannes Siddhar, Solana Igarashi, paraphysics, thaumatology, Esoteric Energies, Conceptual Particle Interactions, psions, infons, mana, Intendant Eureka, AI, Department of External Affairs (DEA), Department of Internal Affairs (DIA), Information Control Sector (ICS), Department of Intelligence (DOI), Department of Communications (DOC), interwebs, Department of Records (DOR), Research and Technology Sector (RTS) , Department of Paraphysics (DOP), Department of Engineering (DOE), Department of Intelligence Research (DOIR), ghosts, Department of Bioengineering and Neural Sciences (DOBNS), mages, Jovian Cloning Facilities, Maintenance and Creation Sector (MCS), Department of Accounting (DOA), Department of Logistics (DOL), Department of Security (DOS), Department of Manufacturing (DOM), Department of Resources (DORS), mining drones, self-replicating robots, Magus Sector, Department of Intendant, intendant mages, Department of Pilots, pilot mages, Department of Combat, combat mages"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "Paraphysics, conceptual-material interactions, metaphysical-physical
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Subjects", "Mixed", "Science", "Mixed", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Factions", "Human Domain", "Science", "Human", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Paraphysics Icon.svg"
+infoimagesource = "resources/Paraphysics Division Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = ['humanspells-lore']
+articlelinks = ['paraphysics-lore', 'spellrifles-lore', 'magus-lore', 'combatmages-lore']
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,66 +49,60 @@ articlelinks = ['humanspells-lore']
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===PARAPHYSICS
-Paraphysics is an umbrella term used to refer to conceptual-material (metaphysical-physical) interactions. It can be divided into three fields: thaumaturgy, theurgy, and onturgy. Each one of these fields utilizes paraphysics in different ways to different effects.
-=Entities
-To understand paraphysics, one must first understand the composition of an entity. Entities are the product of a soma, anchor, and soul coming together. In short, it is an independent organism. A living thing cannot exist without the existence of all these three. The soma is the physical body that serves as the foundation for the anchor. The anchor is the product of specific patterns of energy. When an anchor is generated, it pushes an information signature into the Conceptual Plane. This signature is known as the soul. The soul has no will of its own—it’s simply a container for memories.
-==THAUMATOLOGY
-Thaumatology is the science of using mana and conceptual particles to influence particle interactions and the art of thaumaturgy is its application. Thaumaturgy is the most widely understood and developed form of paraphysics due to every living thing possessing the potential to learn it and apply it.
-=Process
-When a thaumaturgist targets an infon or a set of infons, a “system” is designated. Psions and mana are coalesced in a spell and are directed towards the target system. For an infon to successfully be bonded and overwritten by a psion, the necessary energy threshold must be reached. This is the phase where mana is injected into the system, allowing for the psion to bind to the infon and rewrite it. The particles within the system then carry out the command of the newly rewritten infon. This process is limited by the speed of light.
-={Spells}
-Spells are information packages that are composed using a ritual, which calculates the necessary commands for the target system.
-=Reagents
-_Mana
-Mana is an energy constantly produced by the interactions between the Conceptual and Material Planes. This is most common in the form of souls, which are intrusions into the Conceptual Plane. The larger a system is, the more mana it requires for fuel. If the psion cluster contains a command that its mana partner does not have enough energy for, the bonding will not work at all. Mana is produced through a method called “intrusion”. When a being is born, its soul forces its way into the Conceptual Plane. This location is completely randomized. The closer a soul’s conceptual location is to the Font, the more mana they initially produce. The limit for mana production is theoretically infinite, but its rarity increases exponentially when a soul is to the Font. Mana production can also be influenced by age. The older a soul is, the greater its signature grows. This allows for an increased intrusion, and thus an increased rate of mana production.
-_Psions
-Psions are a byproduct of anchor generation. These particles carry the commands and calculations of the spellcaster. The number of necessary psions needed to stimulate a reaction scales proportionally with the complexity of a system. As a result, the more complex a system is, the more processing power is required.
-_Infons
-Everything in the material universe is part of something known as the Infonic Web. This Web is composed of fragments of order known as information particles (infons). It contains the information for how everything within its system is meant to interact and operate. From the smallest subatomic particle to the largest of galaxies, each one has an infon—becoming more advanced the more complicated its system is.
-=Principles and Notes
-_Uncertainty Principle
-Due to the abundance of infons in the universe, it is difficult to target a single specific infon. As a result, spells are reduced to approximations and are graded on accuracy rather than precision.
-_Variation Principle
-No two spellcasters’ spells are the same. This is due to the inherent differences in how entities perceive and process information. Certain memories can be linked to a particular spell and subconsciously influence it in some way. Spells must be regularly updated to account for changing mental states as well.
-_Imperfect Efficiency
-Thaumaturgy is not perfectly efficient—controlled systems would still be exposed to uncontrolled systems. As a result, a “system” is usually a sphere with lessening effects the further from it is from the center.
-_Multi-Targeting
-When multiple entities target the same system, infons rewrite themselves based on the most recent psion. However, in multiple-psion systems, due to the Split System Principle, the effects of the psions are coalesced, turning the systems into averages of the psion streams.
-_Mana Limit
-People can only generate a certain amount of mana at a time. Once stored mana is exhausted, and mana is being consumed faster than it can be replenished, the spells are canceled.
-_Learning Curve
-Thaumaturgy is a learned skill. One needs to understand how to generate a phenomenon in order to properly rewrite the target Infon. However, basic spells can be accessed with the infoweb.
-_Implications
-While there was much confusion concerning thaumaturgy when it was first discovered, it is now ambiguous and fundamental in modern life. However, even the most advanced scientists in the Human Domain have still not figured out what allows neural activity to produce psions, the origin of mana, and the existence the Conceptual Plane as a whole.
-_Psion Limit
-Naturally, anchors can only emit so many Psions at a given time. With the help of Psionic Extension, psions could be used more efficiently and even increased.
-_Accuracy
-Psions and mana are line-of-sight particles. This means that psions have a very small chance of intercepting a non-target Infon. On top of this, humans that aim psions unassisted are most likely going to miss. As a result, wands are used to help linearize fired psions.
-_Archaic
-Various practices used by ancient thaumaturgists have been tested and debunked through scientific analysis. One of these were Divine Words. Divine Words—otherwise known as Verses—are in actuality just a means of organizing the caster’s thoughts. The words themselves have no magical effect; they are simply a method for pacing rituals, where large numbers of casters compose a singular spell. Verses are no longer in use due to their inefficiency.
-==THEURGY (SHAMANISM)
-Theurgy is the study of anima and their effects on the material universe. Theurgists subjugate anima and use them for their own benefit.
-=Channeling
-Channeling is necessary for an anima to induce phenomena within the Material Plane. To accomplish channeling, an anima must manifest itself using an existing anchor. Manifestation is the process where an anima uses the soul of one of its constituents known as a Host as an entry point into the Material Plane. The anima and soul share the soma and anchor, forming a connection and allowing the anima’s abilities to be exhibited in the Material Plane. The more of an adherent the soul is to the anima, the more effective this connection is. However, the sharing of the anchor places strain on it. This induces Anchor Decay, which wears down and eventually destroys the anchor, thereby killing the Host. This can be decreased if the entity dedicates more of its soul towards the anima. Anchor Decay can also be prevented by strengthening the anchor. Ideally, the perfect anima-soul connection induces negligible amounts of anchor decay, and the Host is able to take full advantage of the anima’s set of abilities.
-=Forms
-An anima can serve as a “conceptual processor.” Any forms of expression, dubbed “vectors,”  can be used as a catalyst that allows the anima to generate phenomena through a Host. This means specific sounds, patterns, and symbols that are correlated with an anima can be used to produce phenomena. Such vectors include scribery, choristry, illustration, and composition.
-=Principles and Notes
-_Spontaneity
-Channeling an anima is a heavily prepared process. One must dedicate oneself to one’s anima to have the anima let one use its powers. Some might spend their entire lives worshipping or devoting themselves to an anima, yet are never able to channel its powers.
-==ONTURGY (ONEIROMANCY, REALITY BENDING)
-Onturgy is, by far, the most esoteric out of the three fields of paraphysics. This is due to its nature as a boon from the god of Existence, the Dreamer. In essence, the art of onturgy is rewriting reality. It is unknown how many possess this ability within the Milky Way Galaxy, but the current estimation rests at nine.
-=Theory
-While not much is known about onturgy, some theories have been produced to explain this phenomenon. The current prevailing theory amongst academic circles that study the phenomenon (which are rare themselves) is that reality exists upon a baseline. Every living thing experiences the baseline reality relatively unchanged. However, onturgists possess the power to generate their own sub-realities and impose them on baseline reality. However, it has been noted that onturgists can only bend reality, not change it entirely. This means they obey causality to some extent and they cannot do things like erase someone's past, as that would imply time travel.
-=Acquisition
-A being can, very rarely, achieve a state of self-imposed apotheosis. They can do this by understanding the true nature of the Dream. When they do so, they are paid a visit by the Dreamer, and are given the ability to warp reality.
-=Principles and Notes
-_Scarcity
-Reality benders are often alone and have to learn by themselves due to the rarity of the skill. Due to their solitude, they have also developed highly varied personalities, goals, and onturgical techniques."""
+article = """===PARAPHYSICS DIVISION
+The Paraphysics Division (PD) is a research organization dedicated to studying and utilizing {paraphysical forces}. While mostly shrouded in mystery to the common person, the technologies and techniques that have been developed by the PD can be seen all over the Human Domain. From gravitic drives to {spell rifles}, the work of the PD has helped humankind reach new technological heights.
+==HISTORY
+The Paraphysics Division (PD) has its roots in several different nations from the Pre-Unification Era. Some of these include the USA’s Federal Bureau of Paraphysics, the USSR’s State Research Center of Koltsovo, and the UK’s Defence Science and Technology Laboratory. After the Terran Accords, these institutes were merged into the Paraphysics Division of the Terran Union. The founders of this institution were Johannes Siddhar and Solana Igarashi due to them being the foremost scientists concerning paraphysics, with their research and papers serving as the foundation for thaumatology. More specifically, it was Siddhar’s “Esoteric Energies and Their Properties” and Igarashi’s “Theory of Conceptual Particle Interactions” that spurred the discovery and subsequent manipulation of psions, infons, and mana. In the late 21st century, the existence of paraphysical phenomena was revealed to the general public, with information dissemination campaigns heavily monitored by the PD.
+==ORGANIZATION
+When the PD was first founded, it was just a combination of independent organizations working in unison from what used to be different nations. However, this was later changed when the organizations were officially merged. Now, the PD is jointly led by a Chief Administrator, the Executive Council, and their respective AI. The organization is divided into sections which are further divided into departments. Sections are led by Section Directors while departments are led by Department Heads. Personnel of the division can also be split into various authorization tiers, with Alpha being the highest form of clearance.
+==COMPOSITION
+=Administration Sector
+_Chief Administrator
+The Chief Administrator is the leader of the Paraphysics Division and Administration Sector. One leader is chosen every decade, though there is no term limit. The CA has knowledge of all activities in the Paraphysics Division and is paired with Intendant Eureka, an advanced artificial intelligence (AI).
+_Executive Council
+The Executive Council is composed of the leaders of every sector and their partner AIs. They each possess one vote in the organization while the CA possesses two votes.
+_Department of External Affairs (DEA)
+The DEA Handles both foreign and Terran policy related to paraphysics.
+_Department of Internal Affairs (DIA)
+The DIA is charged with self-policing the Paraphysics Division. This includes rooting out potential traitors as well as enforcing Division law.
+=Information Control Sector (ICS)
+_Department of Intelligence (DOI)
+The DOI finds and monitors the activities of potential threats and reacts accordingly.
+_Department of Communications (DOC)
+The DOC monitors public knowledge about paraphysics and finding potential threats on the interwebs. They were also responsible for the information dissemination campaigns that exposed the greater population to paraphysics.
+_Department of Records (DOR)
+The DOR is responsible for storing, maintaining, and purging Division records.
+=Research and Technology Sector (RTS)
+_Department of Paraphysics (DOP)
+The DOP researches paraphysical artifacts and phenomena for further application.
+_Department of Engineering (DOE)
+The DOE develops both normal and paraphysical technologies for use by the Division.
+_Department of Intelligence Research (DOIR)
+The DOIR controls and creates AIs and ghosts.
+_Department of Bioengineering and Neural Sciences (DOBNS)
+The DOBNS creates the technology necessary to manufacture mages and their equipment. They are also in charge of the Jovian Cloning Facilities.
+=Maintenance and Creation Sector (MCS)
+_Department of Accounting (DOA)
+The DOA manages and distributes the various resources within the Division.
+_Department of Logistics (DOL)
+The DOL is in charge of transporting Division personnel and goods across the Terran Union.
+_Department of Security (DOS)
+The DOS protects the various vaults and facilities of the Division.
+_Department of Manufacturing (DOM)
+The DOM creates the gear, constructs, and structures needed to run the Division.
+_Department of Resources (DORS)
+The DORS collects raw materials for use in manufacturing. They make extensive use of mining drones and self-replicating robots.
+={Magus} Sector
+_Department of Intendants
+The Department of Intendants is charged with maintaining and controlling intendant mages.
+_Department of Pilots
+The Department of Pilots is charged with maintaining and controlling pilot mages.
+_{Department of Combat}
+The Department of Combat is charged with maintaining and controlling combat mages."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "paraphysics-lore.html"
+filename = "paraphysicsdivision-lore.html"
 
 # ignore this stuff
 

@@ -11,7 +11,7 @@ var loretype = ['Items', 'Factions', 'Factions',
 'Characters', 'Subjects', 'Locations',
 'Locations', 'Stories', 'Factions',
 'Locations', 'Characters', 'Factions',
-'Factions', 'Subjects'];
+'Factions', 'Subjects', 'Factions'];
 // This is the heading that shows up
 var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS",
 "FASTER THAN LIGHT", "AKANTHE INTERNATIONAL PARK", "ARGENTIMARIA ATTACK",
@@ -23,7 +23,7 @@ var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS",
 "MAGUS", "METAPHYSICS", "MILKY WAY GALAXY",
 "NEXUS", "SAGA", "SHARHASTIANS",
 "SILVER TOWER", "SLIME MOLD", "TALAPHRIAN ORDER",
-"MITHRAEHO", "PARAPHYSICS"];
+"MITHRAEHO", "PARAPHYSICS", "PARAPHYSICS DIVISION"];
 // This is the description that shows up, trim it manually
 // (the first description is abt as long as it goes, don't go much longer than that)
 var loretxt = ["Within the Human Domain, antimatter is the primary form of energy production and storage. From cities to starships, antimatter powers almost every aspect of life. It is even used as a currency and is stored in special containment units...",
@@ -57,7 +57,8 @@ var loretxt = ["Within the Human Domain, antimatter is the primary form of energ
 "Slime mold is an umbrella term used to describe various single-celled protists that can coalesce to form complex structures. While originally used in tasks such as neural network simulations and civil engineering, they are...",
 "The Talaphrian Order of Knights, otherwise known as the Knights Talaphria, are a warrior cabal originating from the planet Vitar. They are led by Eyon and possess incredible reality-bending powers. They are frequently...",
 "The Mithraeho are a sophont race of heptapods originating from the nearly tidally locked planet of Dakhara. They are one of the primary Newborn Races of the Galactic Commonwealth with their current government being the...",
-"Paraphysics is an umbrella term used to refer to conceptual-material (metaphysical-physical) interactions. It can be divided into three fields: thaumaturgy, theurgy, and onturgy. Each one of these fields utilizes paraphysics..."];
+"Paraphysics is an umbrella term used to refer to conceptual-material (metaphysical-physical) interactions. It can be divided into three fields: thaumaturgy, theurgy, and onturgy. Each one of these fields utilizes paraphysics...",
+"The Paraphysics Division (PD) is a research organization dedicated to studying and utilizing paraphysical forces. While mostly shrouded in mystery to the common person, the technologies and techniques that have been developed..."];
 // This is the address of the icon you want to add
 var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg",
 "resources/Faster Than Light Icon.svg", "resources/Akanthe International Park Icon.svg", "resources/Argentimaria Attack Icon.svg",
@@ -69,7 +70,7 @@ var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "r
 "resources/Magus Icon.svg", "resources/Metaphysics Icon.svg", "resources/Milky Way Galaxy Icon.svg",
 "resources/Nexus Icon.svg", "resources/Saga Icon.svg", "resources/Sharhastians Icon.svg",
 "resources/Silver Tower Icon.svg", "resources/Slime Mold Icon.svg", "resources/Talaphrian Order Icon.svg",
-"resources/Mithraeho Icon.svg", "resources/Paraphysics Icon.svg"];
+"resources/Mithraeho Icon.svg", "resources/Paraphysics Icon.svg", "resources/Paraphysics Division Icon.svg"];
 // This is the link to the corresponding specific page
 // Notice that if the html file is 'lorespecific.html' the entry here is 'lorespecific'
 var lorespecificlink = ['antimatter-lore', 'materna-lore', 'madamemartins-lore',
@@ -82,7 +83,7 @@ var lorespecificlink = ['antimatter-lore', 'materna-lore', 'madamemartins-lore',
 'magus-lore', 'metaphysics-lore', 'milkywaygalaxy-lore',
 'nexus-lore', 'saga-lore', 'sharhastians-lore',
 'silvertower-lore', 'slimemold-lore', 'talaphrianorder-lore',
-'mithraeho-lore', 'paraphysics-lore'];
+'mithraeho-lore', 'paraphysics-lore', 'paraphysicsdivision-lore'];
 
 function initloreboxes(indices, feed) {
 	var j = 0;
