@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Karanaan"
+tabtitle = "Koios Institute"
 
-keywords = "​​​​​​Karanaan, Traders of the Wandering Sun, Lord-Merchant Olande, Galactic Commonwealth, galactic governments, galactic politics, Bygone Races, Theomachy, stellar engine, Ascendance, Head Chairman of Zvrenda Holdings, Fellowship of Voidwalkers, Nexus, Ikujo Family, pontifices, Society of Silver Scales, Aukhukr Logistics, waystations, wormhole gates, Ergotan International, advanced technologies, Vlahir Communications, wormhole communications, galactic interweb, Taekoti Mining and Manufacturing (TMM), starlifters, automated mining platforms, forge worlds, megastructures, Tykupiel (the Resplendent Aster)"
+keywords = "​​​​​​Koios Institute, Terran Union, astrogeology, biology, Horizon League, celestial maps, United Celestial Cartographers, Terran Accords, generation ships, faster-than-light research, Human Heritage Preservation Society, Human Heritage Reserve (Artifact City), Acropolis, Pyramids, Terracotta Army, superluminal drives, Foundation of Biology, Habitats, arcologies, animal translators, Human Domain, Octavius, Terran Environmental Assembly (TEA), Terran Environmental Restoration Projects"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "​​​​​​Karanaan, Traders of the Wandering Sun, Lord-Merch
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Factions", "Karanaan", "Guild", "Mixed", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Factions", "Human Domain", "Science", "Human", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Karanaan Icon.svg"
+infoimagesource = "resources/Koios Institute Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = ['galacticcommonwealth-lore', 'milkywaygalaxy-lore#bygone-races', 'nexus-lore']
+articlelinks = ['milkywaygalaxy-lore']
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,32 +49,27 @@ articlelinks = ['galacticcommonwealth-lore', 'milkywaygalaxy-lore#bygone-races',
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===KARANAAN
-The Karanaan, otherwise known as the Traders of the Wandering Sun, are a collective of organizations dedicated to building wealth both in and out of the galaxy. Led by Lord-Merchant Olande, the Karanaan hold sway over the large majority of logistics and financial institutions within the galaxy. While they are highly associated with the {Galactic Commonwealth} and other galactic governments, they are not part of any, allowing them to maintain their sovereignty amidst galactic politics.
-==HISTORY
-To fill the vacuum in infrastructure left behind by the {Bygone Races} after the Theomachy, the Karanaan was founded. Seven guilds of wandering nomads, each with their own stellar engine, merged under a single banner. Each guild of the Karanaan held equal authority in the collective, with each relying on the others to maintain their own operations at their full capacity. However, the Ascendance of the Head Chairman of Zvrenda Holdings, Olande, disrupted the status quo. Given this new power, Olande reformed the Karanaan to the one that exists during the modern-day.
-==ORGANIZATION
-The Karanaan are a septet of organizations bound together by Lord-Merchant Olande, Head Chairman of Zvrenda Holdings. Acting in unison, they could be considered one of the most powerful organizations within the Milky Way, with either themselves or their proxies being present in almost every galactic affair.
-=Zvrenda Holdings
-Zvrenda Holdings is the primary shareholder for all the organizations within the Karanaan, allowing it to posit itself as the collective leader. Led by Lord-Merchant Olande, it is the glue that binds all the different organizations together into a single force. While many initially despised Olande’s takeover of the Karanaan, Olande’s masterful leadership and strength took the collective to new heights and profits, rapidly regaining the support of the guilds.
-=Fellowship of Voidwalkers
-The Fellowship of Voidwalkers controls almost all commerce that occurs within the {Nexus}, save for other major organizations such as the Ikujo Family. They are charged with forging pacts with pontifices as well as charting new pathways within the Nexus. 
-=Society of Silver Scales
-The Society of Silver Scales is the primary bank for the Galactic Commonwealth and many smaller governments, charged with keeping track of currency as well as maintaining exchange rates between various currencies.
-=Aukhukr Logistics
-Aukhukr Logistics is one of the largest corporations within the Karanaan, possessing the most expansive merchant fleets known in the galaxy. This is due to their many services and charges, including transportation of goods and people, monitoring and maintaining the various waystations and wormhole gates, as well as charting new transportation routes for the galactic community.
-=Ergotan International
-Ergotan International is a private military corporation that not only protects the Karanaan’s interests but also serves as Olande’s private army. They have their own weapons research divisions, allowing them to stay equipped with the most advanced technologies to bring into battle.
-=Vlahir Communications
-Vlahir Communications monitors and maintains the wormhole communications technology that composes twenty-three percent of the galactic interweb.
-=Taekoti Mining and Manufacturing
-Taekoti Mining and Manufacturing (TMM) acquires the resources and produces the various goods needed to keep the Karanaan operational. They own expansive fleets of starlifters, automated mining platforms, and even forge worlds, megastructures dedicated to the single act of production for the Karanaan.
-==LOCATIONS
-The hubs of the Karanaan are stellar engines, machines held to a godlike status within the collective. They number seven, with each of the guilds controlling one. To enable the travel of these gargantuan constructs, each guild must dedicate their engine power to the traveling star in question. The foremost of these engines is Tykupiel, the Resplendent Aster. It is nearly 200 million kilometers in diameter, serving as Olande’s flagship and the home of Zvrenda Holdings."""
+article = """===KOIOS INSTITUTE
+The Koios Institute is a collection of loosely related organizations within the Terran Union. They are responsible for the exploration and investigation of various phenomena within the universe, including astrogeology and biology.
+==ORGANIZATIONS
+=Horizon League
+The Horizon League is dedicated to exploring the vast expanses of space. They maintain humanity’s celestial maps and establish new stations as they go. Their predecessor was the United Celestial Cartographers, but this changed after the Terran Accords due to the assimilation of other organizations. They have been the source of many exploration efforts such as the creation of generation ships and faster-than-light research.
+=Human Heritage Preservation Society
+The Human Heritage Preservation Society is charged with collecting and preserving human artifacts from throughout human history.
+_Human Heritage Reserve
+The Acropolis of Athens no longer serves as the base of the Parthenon, Cairo no longer rests under the shadow of the Pyramids, and the Terracotta Army no longer stands in Qin Shi Huangdi's mausoleum. Those, and other cultural artifacts of the human species, have been transported to the Human Heritage Reserve of the Human Heritage Preservation Society. The reserve, also known as Artifact City, is composed of several interconnected cylinders of varying sizes. Each reserve has an artificial sun and a unique biosphere. Entire cities have been transported to this reserve in order to protect them from degradation and natural disasters. This facility is public and free to access, encouraging millions to visit the facility every day. These reserves are also equipped with superluminal drives, so that the artifacts may escape in the event of an emergency.
+=Foundation of Biology
+The Foundation of Biology investigates all forms of life, both terrestrial and extraterrestrial. They have brought back extinct species, translated animal languages, and researched the alien life of the {Milky Way}.
+_Habitats
+The Habitats are a series of arcologies created as habitats for extinct species that have been revived through genetic manipulation processes. These arcologies consist of vast artificial environments that best suit their dependent species. Some of the species that have been brought back and inhabit these environments include the Irish elk, wooly mammoth, and dire wolf. Some of the aforementioned species have also been allowed back into their original habitats on Terra, such as the woolly mammoths that currently live in the Arctic tundra.
+_Animal Translators
+While the uplifting of non-sophont species is still considered highly controversial, animal translators are in fact very popular. These translators are essentially brain-computer interfaces that utilize AI to learn and understand the thoughts of animals. In fact, one of the most famous celebrities within the Human Domain is Octavius, a veined octopus.
+=Terran Environmental Assembly
+The Terran Environmental Assembly (TEA) monitors and protects the various ecologies present on Terra. This branch was established during the Terran Environmental Restoration Projects, a series of initiatives that utilized natural, technological, and social means to improve the state of the environment on Terra. Some of the initiatives include the restoration of the polar ice caps, the construction of carbon sequestration plants in cities, and the subsidization of underground vertical farms. These and many more projects have helped humankind live in harmony with nature. Now, solar farms cover the various deserts of the world, cities of white are clad in flora and fauna, and the dodos once again tread the island of Mauritius."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "karanaan-lore.html"
+filename = "koiosinstitute-lore.html"
 
 # ignore this stuff
 
