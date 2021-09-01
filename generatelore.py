@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Cosmology"
+tabtitle = "Ego"
 
-keywords = "​​​​the Outside, It Who Sleeps (the Dreamer), Existences, Material Plane, Conceptual Plane, Void, universe, dimensions, micro-universes, the Abyss, metaphysics, souls, anima, conjecture, apotheons, mana, mass shadows, faster-than-light (FTL), voidjumping"
+keywords = "​​​​souls, liturgy, Ego, Ixus, Theomachy, Zaehaldyn (the Mortal Instrument), Eyon, Aunox, True Form, metaphysics, Apotheon, Perfect Shapes, Abyss, Voidslash, Slab of Time, Sisyphean Scribe, Vagabond Artificers"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "​​​​the Outside, It Who Sleeps (the Dreamer), Existences, Ma
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Subjects", "Existence", "Existence", "Mixed", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Factions", "Mixed", "Construct", "Ego", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Cosmology Icon.svg"
+infoimagesource = "resources/Ego Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = ['metaphysics-lore', 'fasterthanlight-lore']
+articlelinks = []
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,22 +49,22 @@ articlelinks = ['metaphysics-lore', 'fasterthanlight-lore']
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===COSMOLOGY
-Within the Outside, there resides a being. It is known by many names, but its most prominent is It Who Sleeps, otherwise referred to as the Dreamer. It is a being that undergoes the same repeated cycle of slumber and wakefulness. By dreaming, it undergoes a process of creating Existences, and by waking, it undergoes a process of destroying them. Countless Existences have been fashioned and dismantled in this manner. Anima is simply one of these myriad Existences, and it shall not be the last.
-==EXISTENCE
-Within all of Existence, there exists three planes of reality. The first is the Material Plane, which is the universe as we know it. The second is the Conceptual Plane, the realm of souls. The last is the Void, the land of in-betweens.
-=Material Plane
-The Material Plane is our physical universe of matter and energy. It is a four-dimensional space composed of three spatial dimensions and one time dimension. This space contains trillions of galaxies and is billions of years old.
-_Abyss
-Residing in the material plane is a series is interlinked micro-universes collectively referred to as the Abyss. These micro-universes are realms dominated by onturgists.
-=Conceptual Plane
-The Conceptual Plane is a sister universe to the Material Plane. It is the plane of {metaphysics}, souls, and anima. Everything that could be categorized ontologically exists in this universe, from the idea of a cup to a quark. However, this is all conjecture as no material being has ever entered this Plane. The only information about the Conceptual Plane has come from the anecdotes of various anima and apotheons.
-=Void
-The Void is a higher-dimensional space that resides in the space between the Material Plane and the Conceptual Plane. As the two planes’ meeting point, it is rich in mana. It is theoretically as expansive as our universe but is hostile to all forms of matter. Should matter enter this space unprotected, it will disappear instantaneously. However, gravity from our universe is able to penetrate space-time and enter the Void, creating areas known as "mass shadows." Due to its nature of being composed of many more spatial dimensions than the Material Plane, one location in the Void can coincide with multiple locations in the Material Plane. This property has led to the rise of a {faster-than-light} method of transport known as voidjumping."""
+article = """===EGO
+Souls can arise from a variety of patterns and phenomena. Whether they be the electrical interactions between neurons or the optical processing fluctuations of an AI, the physical mainframe is the critical factor needed to sustain a liturgy. However, a race known as the Ego seems to defy this universal law, exhibiting souls without possessing the conventional apparati. They were created by Ixus the Logosmith before the Theomachy, but after Ixus’s death, the means of their manufacturing were lost.
+==CREATION AND THEORY
+Ixus possesses the power to ontologically insert addendums to the precepts of the universe. Extensive experimentation and research in this field by Ixus has allowed it to develop constructs known as Ego, entities whose souls are generated by artificial liturgies. Each ego is bound by different laws and liturgies, meaning they need different processes to sustain themselves. Processes include, but are not limited to, a simple ritual such as drinking from a specific well every day or being forced to slay a soul every time it is unsheathed. They are incapable of breaking these binding tenets, for it is their inherent nature. Many of these entities have been lost or destroyed, with only a scant few surviving to the present day.
+==KNOWN EGO
+=Zaehaldyn, the Mortal Instrument
+Zaehaldyn, the Mortal Instrument, is an ontological weapon forged during the Theomachy for use by Eyon against Aunox. While its base form is matrixed infinities, it can morph into any shape and size desired by its wielder. This form is the platonic form, otherwise known as the True Form, of whatever it represents. This empowers Zaehaldyn on a metaphysical level, turning it into an Apotheon of the specific weapon. These forms are changing constantly due to the meanings of the weapons. However, becoming Perfect Shapes is not its primary ability. Due to it being forged in the Abyss and being pushed into the Universe, the Mortal Instrument’s main ability is being able to channel the ontological abilities of Eyon, meaning Zaehaldyn is one of the only objects in Existence that can channel and amplify Eyon’s “Voidslash” perfectly.
+=The Slab of Time and the Sisyphean Scribe
+The Slab of Time is a layered slab inscribed with text of unknown origin and meaning. It is built and written on by an entity known as the Sisyphean Scribe. This process begins with the Scribe venturing out into the unknown to search for a suitable asteroid or celestial body. Once it has found one to its liking, it will tug the body to the slab, proceeding to meld and reshape the material to the shape of the slab. The Sisyphean Scribe will then arm itself with a hammer and chisel of its own creation, and cut a seemingly random assortment of glyphs and characters into the newly added portion of the slab. Many pilgrims that travel to the structure and observe the texts believe them to be sibylline in nature, but those who knew Ixus before its death surmise the writings to simply be gibberish. It could be noted that the Sisyphean Scribe ignores almost everything in its surroundings, seeming to only be focused on its task. However, it will respond to attacks targeting itself or its slab with great hostility, using its hammer and chisel to kill vandalizers and defacers.
+=Vagabond Artificers
+The Vagabond Artificers are fragments of Ixus forged into beings of creation. They resemble amorphous slimes, swallowing raw materials and processing them into products. From weapons repair to logosmithing, they possess an instinctual ability to craft anything that is desired of them. When Ixus died, their minds were shattered, severely diminishing their creative and cognitive abilities. Now, they roam the galaxy in a seeming trance, fixing or creating products at random.
+"""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "cosmology-lore.html"
+filename = "ego-lore.html"
 
 # ignore this stuff
 article = article.replace('{', "<a class='infolink' href='(LINKGOESHERE)'>")
