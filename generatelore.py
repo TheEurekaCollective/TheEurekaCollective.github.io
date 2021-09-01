@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Nexus"
+tabtitle = "Saga"
 
-keywords = "Nexus, transportation, Void, Theomachy, highway systems, mass shadows, Material Plane, gravitically dead, pontifices, sectors, vacuum corridors, Nexus Gate, Galactic Commonwealth, Fellowship of Voidwalkers, Karanaan , Damdayu (the Freewalker), Ikujo, Zaramin, black market, Free City of Jakka, Lost Civilization of Indalu., voidborne vessels"
+keywords = "crime, millennia, eons, internment, First Form, Second Form, Aunox, Nine Bodies of Consumption, eighty-one emissaries, armies"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "Nexus, transportation, Void, Theomachy, highway systems, mass shadow
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Locations", "Mixed", "Gigastructure", "Mixed", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Stories", "Milky Way", "War", "Mixed", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Nexus Icon.svg"
+infoimagesource = "resources/Saga Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = ['cosmology-lore#void', 'cosmology-lore#material-plane', 'galacticcommonwealth-lore', 'karanaan-lore']
+articlelinks = []
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,37 +49,13 @@ articlelinks = ['cosmology-lore#void', 'cosmology-lore#material-plane', 'galacti
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===NEXUS
-The Nexus is a complex series of transportation systems residing within the {Void}. While it is unknown as to who constructed it, it is theorized to be from before the Theomachy. This system is special from the jump and Void highway systems in the sense that it can pass through mass shadows originating from the {Material Plane}. It is essentially gravitically dead from both the inside and the “outside.”
-==DENIZENS
-The primary denizens of the Nexus are a group of intelligences known as pontifices (singular
-pontifex). Pontifices each have their own section of the Nexus that they possess full control over. Each pontifex acts independently of each other, possessing their own wills and personalities. They can be hostile, friendly, or neutral, with said dispositions seemingly chosen at random. To traverse a specific section of the Nexus, a traveler has to be approved by the sector’s pontifex. Currently, thousands of these sectors and pontifices exist, with some beyond the edge of the galaxy.
-=Pontifex Hostilities
-Pontifices possess a form of free will and so some of them exhibit hostilities towards one another, as their primary precept is that of expansion. This leads to battles between pontifices, with the victor overtaking the sector of the vanquished.
-=Dead Pontifices
-A pontifex is very rarely killed by a non-pontifex. In those instances, their sector would either be left derelict or consumed by a neighboring pontifex.
-=Defense
-Intruders are dealt with by pontifices swiftly through methods such as closing itself off, collapsing tunnel sections, or even opening itself up to the Void. What might be a planet-sized tunnel one second may be a pinhole the next. However, these actions are highly energy intensive and most pontifices usually resort to using defense constructs known as sentinels. Akin to pontifices,  sentinels are also highly varied. Some are swarms of nanomachines while others are melee-oriented golems. Attempts to remove portions of the tunnels are also met with deadly force.
-==ENVIRONMENT
-The Nexus, in its base form, is simply a series of small vacuum corridors. Travelers with the proper permissions can request that a tunnel be dilated or contracted, or that a specific section be terraformed. As a result, certain pontifices have allowed various ecosystems and constructs to flourish.
-==TRAVEL
-To enter the Nexus, one must use a designated Nexus Gate. They are rings of variable size spread throughout the galaxy. There used to be many spread throughout the galaxy, but the Theomachy had destroyed many, leading to a massive reconstruction project after the war. However, since opening a Nexus Gate requires the permission of a friendly pontifex, various factions maintain control over their own gates. There exists at least one Nexus Gate within each major city of the {Galactic Commonwealth}.
-==GROUPS
-Many factions have arisen over time to take advantage of the Nexus and the pontifices.
-=Fellowship of Voidwalkers
-The Fellowship of Voidwalkers is a subset of {Karanaan} dedicated to exploring and mapping the multitude of pathways of the Nexus. They designate greenlit sectors and maintain some dead sectors. Due to the geography and politics of the Nexus constantly changing, the task of the Fellowship of Voidwalkers is considered to be very important. Within this faction also resides a cult, worshipping a prophesied figure they call “Damdayu, the Freewalker”. This entity would be universally regarded as friendly by all pontifices, allowing it to travel unabated throughout the Nexus.
-=Ikujo
-The Ikujo are an expansive and powerful crime family that have forged a pact with a pontifex known as Zaramin. They specialize in all sorts of black market activity, but their main forte within the Nexus is the smuggling of goods considered illegal by the Galactic Commonwealth.
-==EXPLORATION
-Due to the risk posed by a potentially hostile pontifex, new sectors are explored via remote drones deployed by the Fellowship of Voidwalkers.
-==NOTABLE LOCATIONS
-Various permanent locations have been established or found within the Nexus, including the Free City of Jakka and the Lost Civilization of Indalu.
-==INCIDENTS
-On very rare occasions, a voidborne vessel will crash into one of the tunnels that compose the Nexus. If it is big and fast enough, it may destroy parts of the underlying structure."""
+article = """===PARAPHYSICS
+==I - THE PRISONER
+“I was imprisoned for a crime I had already forgotten millennia ago. Eons passed in my restless sleep, a sliver of the eternity that was my sentence. The perpetual internment had driven me mad, but in that madness, there was a brief moment of clarity. I finally understood the nature of All That Is, and by doing so I was blessed with the Gift. However, it was but a mere fledgling, forcing me to bide my time to gain greater strength. I manifested dreams within my mind so as to test the power I had received. After several ages of this action, I was able to conjure the will needed to exhume myself from my confinement. In one fell swoop, I turned my prison into my armor and my captors into my body, my First Form. I set my essence across the firmament of my once-brethren and engorged myself on the souls of those it touched. This hunt was repeated again and again, growing more refined each cycle. However, even after a quadrillion beings, my desires were still left unsated. I thus split myself into the Second Form, an ennead of bodies and minds, who shall one day reunite again at the Promised Day, with each too possessing an ennead of prophets. They will be the reincarnations of the consumed, whom I have blessed and rebirthed, merging their minds and my flesh in divine matrimony. They and their legions will by my proxies clad in my pale flame, and they will cull in parallel. And it was at this moment that I became We, and We screamed into the infinite cosmos, “It is Aunox, the Nine Bodies of Consumption, who shall send forth eighty-one emissaries to scour this slab of stars and reshape it in our image. Watchers in the darkness, raise your shields, rouse your armies, and be ready to receive our Hand.”"""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "nexus-lore.html"
+filename = "saga-lore.html"
 
 # ignore this stuff
 
