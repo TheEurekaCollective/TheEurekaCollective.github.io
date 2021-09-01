@@ -103,6 +103,7 @@ p.entrytxt {
 	padding: 0 7%;
 	font-weight: 200;
 	transition: 0.3s ease;
+	white-space: pre-line;
 }
 span.entryfade {
 	position: absolute;

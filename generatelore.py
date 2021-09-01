@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "International Space Elevator"
+tabtitle = "Operation Helios"
 
-keywords = "​​​​​​Carbon Spire, International Space Elevator (ISE), megastructure, civilization, Apex Station, Terran Union, landside tethering, nanothreads, habitation units, nanolaminates, mana-based active reinforcement systems, living pods, nonliving pods, amenities, skybus, vacuum tram, Old Age"
+keywords = "​​​​​​Helios Class, Appalachia Rejectionist Enclaves, USNA, Seekers, Intendant Eureka, Stealth Station Tarnhelm, HALO-Assisted Drop Pods, subsonic flight, Scramblers, Huginn reconnaissance drones, aerial hypnotics drone, amnestic application, Cataphract Dropships, Hard-Body Combat Androids, Scrappers, Programmers, non-combat drones, Stasis Containment Unit, Hermetic Biovault, Gotfir, House Faber"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "​​​​​​Carbon Spire, International Space Elevator (ISE), 
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Locations", "Human Domain", "Megastructure", "Human", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Stories", "Human Domain", "Mission Log", "Human", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/International Space Elevator Icon.svg"
+infoimagesource = "resources/Operation Helios Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = []
+articlelinks = ['combatmage-lore']
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,29 +49,30 @@ articlelinks = []
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===INTERNATIONAL SPACE ELEVATOR
-The first Carbon Spire, otherwise known as the International Space Elevator (ISE), is humankind's first megastructure. It is one of the centerpieces of human civilization, ferrying people and goods non-stop between its base platforms and Apex Station.
-==HISTORY
-By the middle of the 21st century, the Terran Union realized it needed a more efficient way to take ships into orbit. After much debate, the Union approved the construction of the International Space Elevator (ISE) in 2054. In 2059, the first few hundred platforms were built to facilitate landside tethering. By 2062, the first automated nanothread factory was launched into geostationary orbit over the designated base site. The nanothread factory then began lowering its products down to the platforms, where they were connected. This process was repeated thousands of times, with each subsequent tether having a much faster connection process. In 2066, the first test climb was initiated, and turned out to be a success. At this stage, habitation units started being added onto the orbital nanothread factory, turning it into Apex Station. By 2070, the ISE became fully operational, routinely transporting passengers and resources to and from Apex Station. Both the station and tether are continually being expanded at record rates to facilitate the ever increasing flow of goods.
-==DESIGN & CONSTRUCTION
-=Base
-The ISE’s base is composed of hundreds of thousands of platforms spread out throughout the coastal waters of Singapore. The location is important in helping to maintain geostationary orbit above Terra’s equator.
-=Height
-The ISE is approximately 100,000 kilometers long, which is nearly a quarter of the distance from Terra to Luna.
-=Materials
-Its primary structure utilizes carbon nanothreads, nanolaminates, and mana-based active reinforcement systems. To supply power, superconductor cables are paired with the carbon nanothread tethers.
-=Transportation
-Every day, hundreds of thousands of tether runners are sent up and down the elevator to transport people and goods to Apex Station. People are placed in habitable transport pods, otherwise known as living pods, which are equipped with amenities such as in-transit meals and life support safety measures. Meanwhile, nonliving pods are simply vacuum sealed containers storing either raw materials or manufactured commodities. Since both of these pods utilize the same universal locking lugs, tether runners don’t need to differentiate between the two for transport. On average, it takes one or two days to fully climb a tether and reach Apex Station from the base.
-=Emergency Measures
-In the event that a tether is destroyed, parachutes placed at regular intervals will activate in unison with small explosive charges. The parachutes aid in slowing down the descent of the broken tether as well as breaking the tether into several pieces so it will burn itself up in the atmosphere more easily.
-=Apex Station
-Apex Station was built around the original nanothread factory that began the ISE. Since its inception, several more factories have been built to facilitate higher rates of nanothread production. The station also keeps tens of thousands of kilometers of extra nanothread in reserve for the event of a tether disconnect. Nanothread production and storage aside, the primary purpose of Apex Station for the people and goods that travel through it is to serve as a jumping-off point to harbors of Luna. As a result, there are many amenities available to travelers awaiting their lunar transport, including restaurants, hotels, observatories, and nature decks.
-==OPERATIONS
-To begin the transportation operation, people and goods are brought by a skybus or vacuum tram to one of the collection and sorting facilities. These facilities are similar to Old Age airports, where prospective travelers and goods are grouped into their respective pods. Then, a tram takes these groups to their respective tether platform, where a tether runner and open pod awaits them. The travelers enter the pod, diagnostics are made, and the journey up begins. After the travelers have scaled the tether and are deposited into Apex Station, the tether runners and empty pods go back down to restart their transport cycle."""
+article = """===OPERATION HELIOS
+Mission Log Start
+Terran Time: 22:30
+Terran Date: 24-11-2570
+Subject: Candidate Extraction
+Codename: Operation Helios
+00:00: Helios Class Candidate detected and confirmed in the Appalachia Rejectionist Enclaves of the USNA.
+02:00: 7 {Seekers} and the local drone contingent coordinated by Intendant Eureka were deployed from Stealth Station Tarnhelm.
+04:00: Seekers made landfall through the use of HALO-Assisted Drop Pods twelve kilometers from the target destination. On subsonic flight, they approached the target destination.
+4:30:  Seekers reached the Rejectionist Compound. Sensor Scramblers were activated and Huginn reconnaissance drones were able to obtain a lock on the Host and Candidate. 4 Seekers were deployed to establish a perimeter while 3 Seekers were sent to retrieve the Targets.
+05:10: Entire compound successfully put to sleep via aerial hypnotics drone.
+05:14: Host and Candidate were apprehended. In-situ Host-to-Container surgery and amnestic application initiated.
+06:57: Detection Sector Z breached. 23 Cataphract Dropships and 7300 drones of unknown origin descended upon the compound. Seekers and friendly drones were able to destroy 21 dropships and 7043 drones before they made landfall. The two dropships that remained were able to deploy 170 Hard-Body Combat Androids.
+08:17: 2 dropships, 170 HBCAs and 257 unfriendly drones successfully eliminated. Total casualties were 562 friendly drones, 8 civilians, and 0 Seekers.
+10:42: Candidate successfully extracted and Seekers exited the compound. Scrappers and Programmers deployed. Non-combat drones recalled to local retention facility. Non-combat drones memory wiped.
+21:00: Seekers and Candidate returned to Tarnhelm via Imran Stealth Dropship. Seekers placed to sleep. Candidate transferred to Stasis Containment Unit. Unit placed in Hermetic Biovault 3.
+65:26: Scrappers’ and Programmers’ tasks completed. Returned to a local retention facility. Memories wiped.
+Mission Log Finish
+Administrator: Intendant Kanté
+Addendum: Upon further inspection, the Cataphract Dropships, drones, and HBCAs seemed to originate from Gotfir, a proxy of House Faber. """
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "internationalspaceelevator-lore.html"
+filename = "operationhelios-lore.html"
 
 # ignore this stuff
 article = article.replace('{', "<a class='infolink' href='(LINKGOESHERE)'>")
