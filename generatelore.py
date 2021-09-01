@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Madame Martins"
+tabtitle = "Magus"
 
-keywords = "​​​​​​postnatal genetic modification, cellular sculpting, fleshcraft, Madame Martins, luxury, reworks, modifications, biotubes, Materna, 20D printers, Creidhne, bespoke robots, nanorobots, chemical therapy, morphs, gargantua type, habitation cylinders, iron-clad golems, dragons, Homo felisians, Argus, mermaids, Ancalagon the Black, Silmarillion (Lord of the Rings), Orpheus Irad, House Irad, aeries, Uriel (the Light of God), Safara Gotfir, House Gotfir, fullerene reinforced bone"
+keywords = "​​​​​​mages, Terran Union, Paraphysics Division, Mage Program, Siddhar, Igarashi, mana production potential (MPP), Type-A, Type-B, cloning facilities, Jovian Cloning Facilities, Human Domain, seeker mages, mana retention systems, candidate collection facilities, neural template, combat mages, pilot mages, intendant mages, spaceborne constructs, neural restructuring, cognition stacks, fleshcraft, central cognition cores (CCCs), genetic modifications, psycho-manipulation, psionic commands, somatic threads, psionic interference, ghosts, neural network, consciousness, control system, quantum computers, Concurrent Consciousness, soul, soma, auxiliary cognition matrices, rogue mages, glass gods"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "​​​​​​postnatal genetic modification, cellular sculpting
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Factions", "Human Domain", "Corporation", "Human", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Characters", "Human Domain", "Construct", "Human", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Madame Martins Icon.svg"
+infoimagesource = "resources/Magus Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = ['materna-lore']
+articlelinks = ['paraphysicsdivision-lore', 'combatmages-lore']
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,23 +49,44 @@ articlelinks = ['materna-lore']
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===MADAME MARTINS
-The invention of postnatal genetic modification and cellular sculpting bestowed upon humans the ability to modify their bodies as they see fit. This newfound ability was initially used for medical procedures but developed into a form of artistic expression by body artists. This denomination of fashion became known as fleshcraft. Madame Martins, a member of the 9 Muses Group, was established to cater to luxury fleshcraft clients. They accomplish everything from simple facial reworks to full body modification that would make a patient unrecognizable as a human.
-==ORGANIZATION
-Like any corporation, Madame Martins possesses a Board of Directors, Presidents, Vice-Presidents, Treasurers, Secretaries, and the like. However, the two notable groups are the engineers and the biologists. While the engineers focus on mechanical modifications, the biologists are tasked with making genetic and cellular modifications.
-==OPERATIONS
-Madame Martins takes pride in their work to redefine what it means to be a human. There is no modification that they cannot accomplish, as their only limitation is their imagination. Engineers and biologists utilize special biotubes built by {Materna} or 6D printers from  Creidhne to construct the specimens their client demands. Bespoke robots then utilize a variety of technologies, including nanorobots and chemical therapy, to either graft specimens onto their clients or modify their clients directly. This process and set of modifications are referred to as a morph.
-==LOCATIONS
-Extreme body modifications, such as those of the gargantua type, are strictly prohibited from public spaces within most human cities due to them posing a public danger. To address this, Madame Martins constructed specialized habitation cylinders to act as both habitats and social spaces for their clients. These cylinders host a wide range of environments, from deserts to oceans. However, they all converge at a central cylinder where most of the clients inhabit. Here, iron-clad golems tromp on the streets while dragons fly between their aeries. Homo felisians can mingle with a child of Argus while mermaids swim in great glass aquariums. It is a true statement of accommodating architecture, as specialized infrastructure for nearly all major types of modifications are available.
-==NOTABLE MORPHS
-=Ancalagon the Black
-Ancalagon the Black was a dragon from the ancient Silmarillion, a companion book to the Lord of the Rings saga. Within the lore, it could crush mountains and blacken the sky with its wings. Orpheus Irad of House Irad was inspired by this fictional figure, and chose it to be his morph. He constructed a specialized habitation cylinder that would serve as his aerie and constructed an entire division of sculptors to create the morph. Redundant hearts, graphene skin, and lighter-than-air gas sacs were just some of the myriad modifications made to Orpheus’s body. The morph took several months to complete due to the sheer volume of organic and mechanical matter that needed to be printed.
-=Uriel, the Light of God
-Uriel, the Light of God, was a seraphic morph commissioned by Safara Gotfir of House Gotfir. It is an angel clad entirely in red-orange flame standing at thirteen meters in height. Embedded in the morph’s chest was a greatsword of the same infernal nature. This was accomplished by implanting various glands along the body that produced a gas. This gas would be contained in a small field that, when ignited, produced a smokeless flame. A series of bodily reinforcements such as fullerene reinforced bone were also necessary to aid in helping Safara grow to and maintain the commissioned size."""
+article = """===MAGUS
+The mages of the 26th century are no longer the robe-wearing, stave-brandishing wizards of yore. They are produced by the Terran Union’s {Paraphysics Division} to be {engines of war}, pilots of starships, and administrators of civilizations.
+==PROCESS
+The overarching process to find and create a mage is known as the Mage Program. It was devised by Dr. Siddhar and Dr. Igarashi as a means of utilizing paraphysically powerful individuals for the securement and betterment of humankind.
+=Stage 1 - Detection and Acquisition
+Candidates are humans with the potential to become mages. A human is designated to be a candidate if they possess the minimum mana production potential requirement. There are two types of candidates in the Mage Program, based on their origin. They are known as Type-A and Type-B candidates. Type-A candidates originate from cloning facilities, while Type-B candidates come from the wider population.
+_Type-A
+The majority of mage candidates hail from the Jovian Cloning Facilities. These facilities do not produce clones as much as they produce brains in hopes that one would have the necessary MPP to become classed as a mage. Ones that do not reach the necessary requirements are reconstituted back to biomass for reuse. These facilities can produce more brains than the rest of the Human Domain can produce children. It is not completely known whether factions other than the Terran Union possess similar facilities. However, the increase in mage-to-mage engagements over time seems to confirm that other factions do have their own means of producing magus.
+_Type-B
+Throughout the Human Domain, mana detection stations and satellites were constructed to search for potential mage candidates. When a large spike in mana within an area is detected, a team of seeker mages is deployed to retrieve the candidate. There may be a false positive in the event that a person suddenly turns off their mana retention systems. In the event that it is a candidate, however, in-situ surgery or extraction is utilized whether to remove the child from its host parent or artificial uterus. To maintain secrecy, the host’s parents are psychoanalyzed and reprogrammed. The host is placed in a portable biobag and brought to a candidate collection facility. Occasionally, other rival parties and factions deploy their own forces to acquire the candidate as well. However, these forces are usually defeated and to the current day, only .027 percent of Type-B candidates have failed to be extracted.
+=Stage 2 - Seed Collection
+After extraction, both Type-A and Type-B candidates are taken to collection facilities where their neural template is extracted and they are prepped for modification.
+=Stage 3 - Class Determination
+A mage’s class (and subclass) determines what jobs they are meant to accomplish. There are combat mages, pilot mages, and intendant mages. Combat mages are charged with warfare, pilot mages are charged with coordinating spaceships, and intendant mages manage infrastructure. This is dependent not so much on skill as much as on their mana production potential.
+_Mana Production Potential (MPP)
+MPP is a grading system devised by the Paraphysics Division to categorize the differing mana outputs of organisms. These categories are named after the letters of the Greek alphabet, with Alpha being the highest possible MPP and Eta being the lowest. Mages in the highest ranges of MPP are turned into pilots or intendants, while the mages in the lowest ranges become combatants. This is due to spaceships and structures requiring much more fuel compared to the equipment that combatants use. Since mana is scarce in open space, spaceborne constructs require mages in the highest MPP ranges.
+=Stage 4 - Modification
+_Neural Restructuring and Cognition Stacks
+Mastery of the soma occurred during the 23rd century when the art of fleshcraft was devised. While it was usually used for visual modifications or medical procedures, the military discovered a way to compress and restructure the brain. They grew enhanced neurons using mages’ brains as templates and modified them. They then stored these neurons into central cognition cores (CCCs). They also created cognition stacks, which are dedicated banks of cloned neurons. Cognition cores and cognition stacks compose a mages neural network.
+_Enhanced Neurons
+Genetic modification has allowed for the creation of more advanced neurons and neural structures. Mechanical and chemical modifications such as dendrite reinforcement and volatility thread implantation are used to enhance the basic structure of the human brain beyond simple genetic modification.
+_Somatic Threads
+To channel psionic commands around their bodies, somatic threads that utilize the principle of psionic interference are used.
+_Ghosts
+Ghosts are AI designed to reside within and control a mage’s neural network. They act as the consciousness and control system for a mage. They are uploaded after maturation and are designed to be operated using both neural matter and quantum computers.
+_Concurrent Consciousnesses
+The invention of the Concurrent Consciousness has allowed for a blurring of the lines between a natural and AI. For a mage, they are one and the same. A soul and an AI exist within the same soma, and operate as such.
+_Psycho-Manipulation
+Mages are incredibly powerful entities. To keep them in obedience, psycho-manipulators are installed into their CCCs. These are a series of precepts and protocols that prohibit mages from doing certain actions or having certain thoughts. In short, they are given an illusion of free will, and never have the notion to escape or disobey.
+=Stage 5 - Service
+After the necessary modifications, mages are either placed in active service or placed in stasis units for future use.
+==NOTES
+=Rogue Mages
+A mage without their cognition matrices, even blessed with a natural affinity for mana, possesses the same degree of mastery over paraphysics as your average citizen. Insufficient psions and computation render any sort of advanced magic impossible. As a result, mages are supported by auxiliary cognition matrices of their motherships. The arrival of a mage can be heralded by its mothership high in orbit. As powerful as mages are, they are at the whims of their masters. Their psionics can be turned off in an instant, their suits rendered inert, their consciousnesses made dark. However, this is not the primary reason that a rogue mage is so rare. The primary reason is due to the conception of the concurrent consciousness and the installation of psycho-manipulators, the thought of escape or sedition is rendered impossible. These two factors have led mages to be dubbed “glass gods,” powerful entities that could be turned off at the input of a command key."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "madamemartins-lore.html"
+filename = "magus-lore.html"
 
 # ignore this stuff
 
