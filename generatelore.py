@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Tendril"
+tabtitle = "TI23 Mining Barge"
 
-keywords = "Tendril, sophont gigafauna, terraforming engines, tribal species, Quazon, commensalistic relationship, genetically engineered species, biological supercomputers, ice giants, grazers, excavators, energy generation, Pod Riders, gigaorganisms"
+keywords = "TI23 Mining Barge, Terwa Industrial, Ascella Shipyards, system of Sol, mining vehicles, Human Domain, adaptive mining platform, backward compatible, exosystem, drone platform, asteroid, planetesimals, Human Domain, Ascella Orbital Shipyards of Mars, antimatter drives, Size-M raw materials tub, drone launch bays, carrier, charging station, helical mining laser, chassis, fuel tank reserves, cargo containers, sensor suites, drone repair unit, magnetic field generators, collective, Sol System, Kuiper Belt, foreman AI, skeleton crew, engineers, scientists, ionized, electric fields, raw material, dock, factory"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "Tendril, sophont gigafauna, terraforming engines, tribal species, Qu
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Factions", "Mixed", "Species", "Tendril", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Items", "Human Domain", "Vehicle", "Human", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Tendril Icon.svg"
+infoimagesource = "resources/TI23 Mining Barge Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = []
+articlelinks = ['antimatter-lore']
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,23 +49,24 @@ articlelinks = []
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===TENDRIL
-The Tendril are a species of sophont gigafauna that are theorized to be terraforming engines created by an unknown race. They possess the capability to modify their own genome and generate subspecies as needed. A tribal species known as the Quazon have formed a commensalistic relationship with certain Tendril, using them for survival and transport in exchange for being the Tendril’s proxies in galactic affairs.
-==EVOLUTION & BIOLOGY
-=Creation Theory
-Some scientists theorize that the Tendril species is a genetically engineered species meant to terraform planets for some higher race. However, no plausible species within the galaxy have claimed to be responsible as its creator. Other scientists purport that they are in actuality a form of space whale that decided to settle down onto planets instead of traveling throughout the galaxy nomadically.
-=Physiology
-Tendril are biological supercomputers that possess the capability to voluntarily modify their genome with incredible accuracy. This has allowed them to adapt to a variety of environments as well as develop subspecies to aid them in carrying out their primary function: terraforming. As a result, it is hard to precisely fit the Tendril into a single series of physical descriptions, as each of them exists in different environments with different genetic codes.
-=Life Cycle
-The life of a tendril begins as a pod, one of hundreds to tens of thousands created by its mother. The pod is then launched into space on a calculated trajectory to a new planet or asteroid. These celestial bodies are chosen based on hospitality ratings collected by sensors that the mother grew. Tendril seem to have the highest preference for ice giants due to their hard outer shells but abundant water supplies. After making impact on the planet’s surface, the pod will open up and immediately begin the process of penetrating the ice surface and acquiring energy. Based on the type of star that hosts it, it will create plants uniquely suited for that type of star. It will then create a variety of subspecies such as grazers and excavators to find physical material for growth. After penetrating the surface, it will make a journey to the planet's core, where it will repeat the process of creating holes in the ice for energy generation, creating subspecies to help it grow and maintain itself, and terraforming the planet. After reaching maturity, a process that takes several hundred, if not thousands of years, they will then create pods to start the process over again.
-==PSYCHOLOGY
-While the Tendril are sophont, their gargantuan sizes make communication between their different parts take large amounts of time, meaning their thoughts are incredibly slow compared to most other sophont species. They possess no form of society as they spend most of their lives in isolation, creating behaviors that would be considered extremely antisocial compared to most other sophont species. However, some have bonded with the Quazon tribes they host, with some regarding them as pets and others seeing them as individuals on equal footing with themselves.
-==QUAZON
-The Quazon, otherwise known as the Pod Riders, are a race of sophont quadrupeds that worship the Tendril as gods. They are called pod riders due to their method of propagating from planet to planet by hitching a ride on pods. Quazon have a commensalistic relationship with the Tendril, with them harvesting resources such as foods and building materials from the gigaorganism. Particularly benevolent Tendril will heed the prayers of its resident Quazon, forming subspecies that act as beasts of burden or guardians. The long period of interaction between the Quazon and the Tendril have led the Quazon to develop very similar genetic makeups to the Tendril, with some components even being interchangeable."""
+article = """===TI23 MINING BARGE
+The TI23 Mining Barge is a resource acquisition vessel developed by Terwa Industrial and produced by Ascella Shipyards within the system of Sol. It is one of the most widely used mining vehicles within the Human Domain due to its modularity and efficient design.
+==DEVELOPMENT
+The engineers of Terwa Industrial wanted to make an adaptive mining platform that was backward compatible with other currently existing products within the Terwa Industrial ecosystem. They thus devised the TI23 Mining Barge, a modular and efficient drone platform that could mine everything from the smallest asteroid to the largest planetesimals. It was made with the idea that profits aren’t made on the base vehicle, as it is sold at a loss. Instead, money is made from the sale of various parts and services compatible with the TI23 ecosystem.  They then outsourced the production of the platform and its components to Ascella Shipyards, one of the largest shipbuilding corporations within the Human Domain. Primary production of the vehicle takes place in the Ascella Orbital Shipyards of Mars.
+==COMPOSITION
+The baseline TI23 Mining Barge is composed of two sets of {antimatter} drives, a Size-M raw materials tub, and a single platform of drone launch bays. This platform would act as both a carrier and a charging station. The drones would be equipped with a single set of antimatter drives and a helical mining laser.
+==ATTACHMENTS & UPGRADES
+Both the barge and the drones it utilizes can be upgraded. However, the drone and barge systems are not cross-compatible with one another.
+=Barge
+The barge can be upgraded with a reinforced and enlarged chassis to allow more room for additional upgrades. This could include increased fuel tank reserves, larger cargo containers, faster drives, improved sensor suites, larger and more energy-efficient drone platforms, and even a small drone repair unit.
+=Drones
+Drones can be equipped with various upgrades such as stronger mining lasers, more precise magnetic field generators, and even the ability to link up with other drones in its collective to combine their lasers and mine harder-to-extract materials more effectively.
+==OPERATIONS
+The most common application of the TI23 Mining Barge is mining the Kuiper belt in Sol System. Fleets of these vessels would be deployed with a foreman AI and a skeleton crew of engineers and scientists that would act in the event of a failure or emergency. After the mining barges are spread out and their charges allocated, drones will be deployed to target specific asteroids or groups of asteroids. Each drone will utilize ablative mining lasers to burn desired material off of the objects. After the materials are ionized by the mining lasers, electric fields pull the material into the drones’ storage tanks. Once their tanks are full, the drones will return to the mining barge and dump their extracted material into the barge’s containers. After filling up the barge’s containers, the drones will return to their dock and recharge for their next mission. The barge itself will then transport the raw material to its assigned dock or factory."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "tendril-lore.html"
+filename = "ti23miningbarge-lore.html"
 
 # ignore this stuff
 
