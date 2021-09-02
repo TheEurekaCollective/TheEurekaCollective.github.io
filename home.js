@@ -13,7 +13,7 @@ var featureddescriptions = ["In the Great Cities, it is not uncommon for an aspi
 
 
 var artnames = ["MAGUS", "THE INFINITE CITY", "SCULPT"];
-var artimgsources = ["resources/Magus.png", "resources/Infinite City.jpg", "resources/Sculpt.jpeg"];
+var artimgsources = ["resources/Magus.png", "resources/Infinite City.jpg", "resources/Morph Small.jpg"];
 var artlinks = ['artspecific', 'artspecific', 'artspecific'];
 
 
