@@ -2,9 +2,9 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Universal Cartridge"
+tabtitle = "Unyielding Aristeia"
 
-keywords = "universal cartridge, Creidhe, Transmute, Weybaan Dynamics, printing technology, weapons systems, Human Domain, 6D printers, magnetic stabilization, flash vacuum molding, ballistics technology, microcomputers, electronic firing system, polymer propellant, evaporable transistor pad, monolithic rounds, internal explosive, finned needles, armor penetration, overpenetration, sectioned fragmentors, transmutation technologies, depleted uranium, small arms projectiles, uranium-titanium alloy, nanolaminates, pyrophytic effects, tungsten, ceramic projectiles, boarding actions, nanite projectiles, nanite swarms, mini-missiles, AI, telescoping, internal printer, electromagnetic accelerator weaponry, railguns, gauss guns"
+keywords = "Unyielding Aristea, Ascalon-class, battlecruiser, flagship, Terran Navy, First Terran Delegation, Infinite City, Galactic Commonwealth, combat mages, neural uplink, enchanted plating, nanolaminate plating, superstructures, somatic threads, mana, psions, spell cannons, particle beams, spells, Claíomh Solais, crystalline structure, hardlight, plasma weaponry, mass accelerators, antimatter warheads, Suspended Particle Grid, Point Defense System (PDS), SF-12 Talaria Drive, warp drive, gravitic fields, subluminal speeds, superluminal speeds, N23 Omnidirectional Gravitic Engine (N23-OGE), gravity wells, omnidirectional, mass-ejection engines, K-Series Inertial Compensator, Inertial Compensation Field, collective consciousness, mage pilots, ghosts, warp jumps, antimatter plant, gravitic plating, Habitation Units, arcology, Micro-Wormhole Generator (MWG), optical communications laser, Mana-Catalysed Antimatter Reactor (MCAR), Gungnir-Class, assault frigates, cognition stacks, enhanced neural material, psionically entangled, quantum computers, AI, Multi-Use Launch Tubes (MULTs), breaching pods, drop pods, escape pods, life-support systems, beacons, communications arrays, Terran law, military engagements, alien specimens, alien technologies"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
@@ -12,17 +12,17 @@ keywords = "universal cartridge, Creidhe, Transmute, Weybaan Dynamics, printing 
 # 2 5
 # 3 6
 infoheadings = ["CATEGORY", "CREATOR", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Items", "Mixed", "Weapon", "Human", "Devin Deng", "September 1st, 2021"]
+infoentries = ["Items", "Terrain Union", "Starship", "Human", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Universal Cartridge Icon.svg"
+infoimagesource = "resources/Unyielding Aristea Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = []
+articlelinks = ['magus-lore', 'combatmage-lore', 'humanspells-lore', 'antimatter-lore', 'fasterthanlight-lore#warp']
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,83 +49,88 @@ articlelinks = []
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===UNIVERSAL CARTRIDGE
-The universal cartridge is a kinetic composition and delivery system devised and constructed through a collaboration between Creidhe, Transmute, and Weybaan Dynamics. It is essentially a cartridge printing technology, making it one of the most widely used weapons systems within the Human Domain.
-==ORGANIZATION
-=Creidhe
-Creidhe’s contribution to this system was the printing apparatus and its material cartridges. They utilize 6D printers that can accept a variety of materials and have functions such as magnetic stabilization and flash vacuum molding. Cartridge printers utilize a staged printing process where different components of the cartridge are compiled along a linear pathway.
-=Weybaan Dynamics
-Weybaan Dynamics provided the ballistics technology and proprietary components such as microcomputers and guidance packages.
-=Transmute
-Transmute is a materials acquisition and production company that provides the raw materials needed in the material cartridges used by Creidhe.
-==UNIVERSAL CARTRIDGE
-While universal cartridges vary in composition, there are some similarities found throughout most.
-=Electronic Firing
-The use of an electronic firing system aids in preventing cookoff, decreasing locktime, and increasing ergonomics.
-=Polymer Propellant
-The cartridge utilizes a printable polymer propellant that is triggered by a strong electric charge.
-=Sprayable Transistor
-An evaporable transistor pad is used to help ease the transfer of electricity from the firing face to the propellant.
-=Caseless
-Improvements in propellant technology has allowed for the forgoing of cased ammunition, decreasing the size of the cartridge and increasing the amount of energy dedicated to the projectile.
-==PRINTING METHOD
-Printing the cartridge is divided into several steps.
-=Printer
-The printer is most commonly a cylinder with recesses meant to accept printing cartridges. It has its own internal computer and is open on one end to allow for feeding cartridges into the firing chamber.
-=Planning
-Here, previous ballistics data and user commands are sent to the printer based on the situation at hand. This primes the printer for production. Here, the shape, strength, and composition of the cartridge and its constituent parts can be modified.
-=Projectile Composition
-At this stage, the projectile and its subsystems are printed.
-=Propellant Composition
-At this stage, the propellant is applied to the projectile in a manner that allows the projectile to be enveloped in the propellant, a process known as telescoping. The size and amount can also be adjusted for varying degrees of power.
-=Primer Application
-At the end of the printing process, a transistor is sprayed onto the rear of the cartridge, completing the production process.
-==VARIATIONS
-Modulation of a printer’s settings can produce different compositions of a cartridge.
-=Shapes
-_Conventional
-The most widely used shape of ammunition are monolithic rounds such as those of the flat, boattail, and wadcutter shapes.
-_Shaped Charge
-A shaped charge contains an internal explosive that converts the projectile into a stream of molten metal upon penetration, allowing for an increase in damage.
-_Shot
-Balls of varying size can be printed to turn the weapon into a shotgun.
-_Sabot
-Finned needles, while smaller and possess less mass, travel at higher velocities and provide better armor penetration compared to their conventional counterparts.
-_Hollow Point
-Upon impact, a hollow point projectile will deform into a “mushroom”, allowing for a larger wound channel as well as preventing overpenetration on targets.
-_Sectioned Fragmentors
-Sectioned fragmentors are similar to hollow points but the head is divided into multiple sections, allowing for fragmentation upon impact and the creation of multiple wound channels.
-=Materials
-_Depleted Uranium
-Improvements in radiation sealing, medical, respiratory, and transmutation technologies have made depleted uranium a viable small arms projectile. The depleted uranium is mixed with titanium to create a uranium-titanium alloy. The projectile is then coated with special nanolaminates that contain the radiation. At high enough speeds an exposed uranium projectile will exhibit pyrophytic effects within the atmosphere.
-_Tungsten
-Tungsten is denser than depleted uranium and as a result is sometimes used as a projectile. However, tungsten has lower penetrative power than depleted uranium as well as lacks the pyrophytic effect.
-_Nanolaminate
-Nanolaminate projectiles are the product of many single-atom layers of various materials being stacked on top of and bonded to each other.
-_Ceramics
-Ceramic projectiles are highly heat resistant and are used as a form of frangible projectile. They are commonly used in boarding actions to prevent creating breaches in the hull of a ship.
-_Nanites
-Nanite projectiles are tightly bound nanite swarms meant to infiltrate the bodies of their targets, allowing for various programs such as hacking to take place.
-=Formats
-_Mini-Missiles
-Mini-missiles utilize a two-stage propelling system to balance recoil and speed. These are mostly handheld, large-caliber weaponry.
-=Utility Packages
-_Stabilization Fins
-Stabilization fins controlled by computers are used to help guide the projectile while in flight. They could also act as brakes to help the projectile tumble upon penetration or hooks to make removal of the projectile harder.
-_Explosives
-Projectiles could be outfitted with explosives that are mass-reactive. Once embedded in the target they explode to cause additional damage. These charges could also be shaped to help penetrate armor.
-_Micro-Computers
-Micro-Computers can be placed in the cores of projectiles to feed tactical information to AI once they embedded themselves in their target, including technological and biological information.
-==FIRING METHOD
-When an operator pulls a weapon’s trigger either physically or mentally, a signal is sent from the trigger group to the firing face, upon which an electric charge is dispensed onto the transistor of the cartridge.
-==APPLICATION
-While universal cartridges can be modified and used for almost every type of firearm, only weapons of rifles and greater size contain an internal printer.
-==NOTES
-Universal Cartridge systems have also been used in electromagnetic accelerator weaponry, such as railguns and gauss guns. However, the printers used by these weapons forgo the primer and propellant stages of printing, and instead focus on creating payloads."""
+article = """===UNYIELDING ARISTEA
+The Unyielding Aristea is an Ascalon-class battlecruiser that serves as the flagship of the Terran Navy. It represents the finest of human engineering and skill. It is designed to operate for long periods of time both independently and within a fleet. It serves as both a scientific and military vessel.
+==HISTORY
+Due to the Aristea being one of the newest military vessels within the Terran Navy, it is a relatively undecorated history compared to its forebears. However, it served as a security attachment for the First Terran Delegation sent to the Infinite City, and by extension, the Galactic Commonwealth.
+==SPECIFICATIONS
+=Dimensions
+At its largest points, the Aristea is approximately forty kilometers long, 3 kilometers tall, and 3 kilometers wide. Its shape is akin to a long pillar.
+=Crew
+_{Mage} Crew
+The Unyielding Aristea hosts a {combat mage} complement of approximately a thousand. This is the largest complement of combat mages ever devoted to a single construct.
+_Non-Mage Crew
+The non-mage crew is composed of four thousand Terran Navy personnel. This personnel is tasked with piloting and maintaining the ship via neural uplink.
+=Construction
+The ship is primarily composed of enchanted nanolaminate plating. This material composes both the superstructure and armor.
+_Armor
+The hull of the Aristea is three layers of nanolaminate hull plating, each several meters thick. Between these layers is a liquid medium that turns into solid ceramic foam in the event of a breach to prevent the precious atmosphere from leaking out.
+_Superstructure
+The Aristea was built around a central supporting column that fractalized outwards in a curved hexagonal fashion. This provided a strong superstructure to the ship, allowed it to be modified and upgraded incrementally, and reduced potential stress points. Certain sections of the column are hollow so as to allow somatic threads to be integrated.
+_Somatic Threads
+Somatic threads run through the hollow pockets of the superstructure to provide power, data, mana, and psions to the entirety of the ship.
+==EQUIPMENT
+={Spell} Cannons
+Spell cannons are the primary armament of most Terran ships. Everything from point defense systems to capital ship-grade weaponry utilizes spell cannons. This is due to the vacuum nature of space. Spells lack the necessary particles to affect. This means that particles need to be delivered to the target location first before spells are able to be used. Spell cannons come in several varieties, but the primary ones currently in usage are particle beams.
+_Particle Beams
+Particle beams fire exclusively photons, meaning that the particle is delivered at the same maximum speed spells are. This reduces latency. The most common spell used for particle beams is Claíomh Solais, where at the moment before impact, the photons are slowed and forced to form a crystalline structure, turning the beam into hardlight. This achieves a balance between the impact force afforded to kinetic projectiles as well as the heating effect exclusive to plasma weaponry. This is a major improvement on the more archaic mass accelerators as it increases the speed of the projectile significantly as well as reduces recoil to negligible amounts. This means that less reinforcement is required to prevent the ship from tearing itself apart as compared to the older mass accelerators.
+=Missiles
+When more nimble offensive measures are needed, long-range {antimatter} warheads are considered the staple. Magnetic coil launch tubes launch the missile at incredible speeds, where upon exiting its host vessel the missile’s directional thrusters will take over. These warheads are fired out of hundreds of retractable pods.
+=Suspended Particle Grid
+Particles that would normally be vented from the ship are instead projected outwards using a particle suspension grid. This serves as a form of energy shielding for the ship.
+=Point Defense System
+The spell cannon-based PDS protects the Aristea from incoming missiles and small attack vehicles.
+=SF-12 Talaria Drive
+The SF-12 Talaria Drive is a form of {warp} drive that utilizes advanced gravitic fields to generate imperfections in space time. Space in front of the ship is compressed while space behind the ship is extended, allowing for a field in space that is essentially moving forward. This allows the ship to move at both subluminal and superluminal speeds. When necessary, the ship can also change the shape of the fields to act as a form of shielding. However, this is not the primary form of movement as it is incredibly energy intensive.
+=N23 Omnidirectional Gravitic Engine
+The N23-OGE emits gravity wells in space. These wells are generated at precise locations so as to allow the ship to be pulled toward them. This is the primary form of sublight movement. Due to the nature of the N23-OGE, the Aristea can move omnidirectionally, a feature that was not as feasible by prior mass-ejection engines.
+=K-Series Inertial Compensator
+To prevent the crew and contents from being damaged when moving at high sublight speeds, the Aristea is equipped with an Inertial Compensation Field.
+=Control
+Control modules control all of the systems required to operate the Aristea. These modules are placed near the center of the ship to afford the best protection.
+_Command Module
+The command module is where the human pilots of the Aristea link directly into the ship. They meld into a version of a collective consciousness that allows them to have incredibly refined direct control over the ship as well as give commands to the mages and artificial intelligences easily.
+_Mage Pilot Module
+Mage pilots, copilots, and their ghost are tasked with all ship and ship combat-related operations. This means moving the ship around, compiling sensory data, and calculating warp jump solutions.
+_Mage Intendant Module
+The intendant module of the Aristea is charged with maintaining the habitation systems necessary for the non-mage crew. It also handles other utility functions such as factory operations and antimatter plant usage.
+=Utility
+_Gravitic Plating
+Gravitic plating helps orient the members of the crew orient themselves in a single “down” direction. While in most instances the gravity is set to 1 G, this can be increased significantly as a retention measure in the event of a hull breach.
+_Habitation Units
+The non-mage crew of the ship has their own space for rest and relaxation. This includes the mess hall, personal habitats, and arcology. Within the mess hall, robotic chefs, food printers, and self-cooking stations allow the crew to enjoy any food or drink they wish. The personal habitats are a collection of modular rooms that could be reconfigured to suit its inhabitants’ needs. Finally, there exists an arcology that is composed of various flora and fauna. This section is maintained by drones and sealed off when not in use to prevent the escape of animals and insects.
+_Maintenance Systems
+Almost all of the internal maintenance systems of the Aristea are drone-operated. This allows for maintenance and service corridors to be much smaller and save space.
+_Factory
+Advanced printing systems allow for nearly anything to be produced on the ship, given the necessary materials. This allows for the ship and its inhabitants to operate for long periods without resupply.
+_Cooling Rods
+Cooling Rods oriented towards the rear of the ship allow for waste heat to be removed efficiently.
+_Micro-Wormhole Generator
+The MWG allows the UA to communicate instantaneously with central command. It operates by opening up a wormhole then sending an optical communications laser.
+_Mana-Catalysed Antimatter Reactor
+The MCAR powers all of the UA’s functions. In the event that the primary reactor fails, an auxiliary fusion reactor is activated. However, this only allows the ship to operate on low power.
+_Antimatter Plant
+Due to the focus of the flagship being that of operational independence, an onboard antimatter plant allows for portable fuel production.
+_Frigate Complement
+Gungnir-Class assault frigates can rapidly deploy from the UA to act as scouts as well as offer additional firepower.
+_Dropships
+Dropships allow the repeated deployment of everything from personnel to heavy vehicles.
+_Central Transport
+The size of the ship necessitated a method to transport personnel and goods. A tram network runs throughout the ship for this purpose.
+_Cognition Stacks
+Cognition stacks serve as the central processing units for the mages and their ghosts. This is essentially enhanced neural material that is psionically entangled with their respective mages.
+_Computer Servers
+To calculate the various physical solutions needed to allow spells to function, quantum computers are utilized. These computers also house the true bodies of the various artificial intelligences and ghosts.
+_Sensors
+The UA possesses no windows. Instead, it uses an advanced sensor suite including long-range cameras and sensors to observe its surroundings. It also utilizes advanced scanner technology to detect enemy ships and foreign bodies.
+_Multi-Use Launch Tubes
+MULTs are used to deliver breaching pods, drop pods, and escape pods. Breaching pods are used for boarding actions on lightly armored ships. Drop pods are used for atmospheric entry and are usually used to deliver mages, drones, and equipment. Finally, there are escape pods. Escape pods usually contain life-support systems, beacons, and communications arrays. Under Terran law, escape pods must be marked as escape pods and are not allowed to be shot down. During military engagements, soldiers in escape pods are taken as POWs.
+_Laboratories
+The various laboratories built into the UA study the various alien specimens and technologies found throughout the UA’s travels, as well as improve and research existing technologies."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "universalcartridge-lore.html"
+filename = "unyieldingaristea-lore.html"
 
 # ignore this stuff
 
