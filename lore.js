@@ -14,7 +14,7 @@ var loretype = ['Items', 'Factions', 'Factions',
 'Factions', 'Subjects', 'Factions',
 'Factions', 'History', 'Items',
 'Factions', 'Items', 'Locations',
-'Items', 'Items'];
+'Items', 'Items', 'Factions'];
 // This is the heading that shows up
 var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS",
 "FASTER THAN LIGHT", "AKANTHE INTERNATIONAL PARK", "ARGENTIMARIA ATTACK",
@@ -29,7 +29,7 @@ var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS",
 "MITHRAEHO", "PARAPHYSICS", "PARAPHYSICS DIVISION",
 "SCRIBES CONSORTIUM", "SILENT ELDER", "SPELL RIFLES",
 "TENDRIL", "TI23 MINING BARGE", "TYKUPIEL",
-"UNIVERSAL CARTRIDGE", "UNYIELDING ARISTEA"];
+"UNIVERSAL CARTRIDGE", "UNYIELDING ARISTEA", "YGIRIN"];
 // This is the description that shows up, trim it manually
 // (the first description is abt as long as it goes, don't go much longer than that)
 var loretxt = ["Within the Human Domain, antimatter is the primary form of energy production and storage. From cities to starships, antimatter powers almost every aspect of life. It is even used as a currency and is stored in special containment units...",
@@ -72,7 +72,8 @@ var loretxt = ["Within the Human Domain, antimatter is the primary form of energ
 "The TI23 Mining Barge is a resource acquisition vessel developed by Terwa Industrial and produced by Ascella Shipyards within the system of Sol. It is one of the most widely used mining vehicles within the Human Domain...",
 "Tykupiel is the capital of Zvrenda Holdings and the Karanaan’s proxy in the Galactic Commonwealth. It is a gigantic, multi-layered sphere that hosts a G-type star, with the outermost sphere being 200 million...",
 "The universal cartridge is a kinetic composition and delivery system devised and constructed through a collaboration between Creidhe, Transmute, and Weybaan Dynamics. It is essentially a cartridge printing technology...",
-"The Unyielding Aristea is an Ascalon-class battlecruiser that serves as the flagship of the Terran Navy. It represents the finest of human engineering and skill. It is designed to operate for long periods of time both..."];
+"The Unyielding Aristea is an Ascalon-class battlecruiser that serves as the flagship of the Terran Navy. It represents the finest of human engineering and skill. It is designed to operate for long periods of time both...",
+"Ygirin, otherwise known as Star Children, is an umbrella term used to refer to organisms that are born due to the pressures and energies that exist within stars. These forces amalgamate and entangle collections of..."];
 // This is the address of the icon you want to add
 var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg",
 "resources/Faster Than Light Icon.svg", "resources/Akanthe International Park Icon.svg", "resources/Argentimaria Attack Icon.svg",
@@ -87,7 +88,7 @@ var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "r
 "resources/Mithraeho Icon.svg", "resources/Paraphysics Icon.svg", "resources/Paraphysics Division Icon.svg",
 "resources/Scribes Consortium Icon.svg", "resources/Silent Elder Icon.svg", "resources/Spell Rifles Icon.svg",
 "resources/Tendril Icon.svg", "resources/TI23 Mining Barge Icon.svg", "resources/Tykupiel Icon.svg",
-"resources/Universal Cartridge Icon.svg", "resources/Unyielding Aristea Icon.svg"];
+"resources/Universal Cartridge Icon.svg", "resources/Unyielding Aristea Icon.svg", "resources/Ygirin Icon.svg"];
 // This is the link to the corresponding specific page
 // Notice that if the html file is 'lorespecific.html' the entry here is 'lorespecific'
 var lorespecificlink = ['antimatter-lore', 'materna-lore', 'madamemartins-lore',
@@ -103,7 +104,7 @@ var lorespecificlink = ['antimatter-lore', 'materna-lore', 'madamemartins-lore',
 'mithraeho-lore', 'paraphysics-lore', 'paraphysicsdivision-lore',
 'scribesconsortium-lore', 'silentelder-lore', 'spellrifles-lore',
 'tendril-lore', 'ti23miningbarge-lore', 'tykupiel-lore',
-'universalcartridge-lore', 'unyieldingaristea-lore'];
+'universalcartridge-lore', 'unyieldingaristea-lore', 'ygirin-lore'];
 
 function initloreboxes(indices, feed) {
 	var j = 0;

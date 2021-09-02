@@ -2,27 +2,27 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Unyielding Aristeia"
+tabtitle = "Ygirin"
 
-keywords = "Unyielding Aristea, Ascalon-class, battlecruiser, flagship, Terran Navy, First Terran Delegation, Infinite City, Galactic Commonwealth, combat mages, neural uplink, enchanted plating, nanolaminate plating, superstructures, somatic threads, mana, psions, spell cannons, particle beams, spells, Claíomh Solais, crystalline structure, hardlight, plasma weaponry, mass accelerators, antimatter warheads, Suspended Particle Grid, Point Defense System (PDS), SF-12 Talaria Drive, warp drive, gravitic fields, subluminal speeds, superluminal speeds, N23 Omnidirectional Gravitic Engine (N23-OGE), gravity wells, omnidirectional, mass-ejection engines, K-Series Inertial Compensator, Inertial Compensation Field, collective consciousness, mage pilots, ghosts, warp jumps, antimatter plant, gravitic plating, Habitation Units, arcology, Micro-Wormhole Generator (MWG), optical communications laser, Mana-Catalysed Antimatter Reactor (MCAR), Gungnir-Class, assault frigates, cognition stacks, enhanced neural material, psionically entangled, quantum computers, AI, Multi-Use Launch Tubes (MULTs), breaching pods, drop pods, escape pods, life-support systems, beacons, communications arrays, Terran law, military engagements, alien specimens, alien technologies"
+keywords = "Ygirin (Star Children), cosmic strings, early Commonwealth period, Xweili, plasma probe, psionic emissions, Bureau of Astrobiology, Galactic Codex, sophont, hunting, plasma fishers, Fields of Aster, gravitic nets, Fusion Matrix, electromagnetically shielded, Khepri, Ptah, Hathor, Aten, Talaphrian Order, groundmaster, War of the Disk, General Ohu, Second Legion, Lord-Merchant Olande, Olande’s Scepter, Commonwealth Public Athenaeum"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
 # 1 4
 # 2 5
 # 3 6
-infoheadings = ["CATEGORY", "CREATOR", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
-infoentries = ["Items", "Terrain Union", "Starship", "Human", "Devin Deng", "September 1st, 2021"]
+infoheadings = ["CATEGORY", "DOMAIN", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
+infoentries = ["Factions", "Milky Way", "Species", "Ygirin", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Unyielding Aristea Icon.svg"
+infoimagesource = "resources/Ygirin Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = ['magus-lore', 'combatmage-lore', 'humanspells-lore', 'antimatter-lore', 'fasterthanlight-lore#warp']
+articlelinks = ['galacticcommonwealth-lore', 'talaphrianorder-lore', 'karanaan-lore']
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,88 +49,34 @@ articlelinks = ['magus-lore', 'combatmage-lore', 'humanspells-lore', 'antimatter
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===UNYIELDING ARISTEA
-The Unyielding Aristea is an Ascalon-class battlecruiser that serves as the flagship of the Terran Navy. It represents the finest of human engineering and skill. It is designed to operate for long periods of time both independently and within a fleet. It serves as both a scientific and military vessel.
+article = """===YGIRIN
+Ygirin, otherwise known as Star Children, is an umbrella term used to refer to organisms that are born due to the pressures and energies that exist within stars. These forces amalgamate and entangle collections of cosmic strings, creating a Ygirin. As they grow and mature by accumulating more “energy-mass”, they move towards the surface of their host stars. This process can take thousands of years. However, they eventually die due to them reaching the surface and being ejected from their host stars.
 ==HISTORY
-Due to the Aristea being one of the newest military vessels within the Terran Navy, it is a relatively undecorated history compared to its forebears. However, it served as a security attachment for the First Terran Delegation sent to the Infinite City, and by extension, the Galactic Commonwealth.
-==SPECIFICATIONS
-=Dimensions
-At its largest points, the Aristea is approximately forty kilometers long, 3 kilometers tall, and 3 kilometers wide. Its shape is akin to a long pillar.
-=Crew
-_{Mage} Crew
-The Unyielding Aristea hosts a {combat mage} complement of approximately a thousand. This is the largest complement of combat mages ever devoted to a single construct.
-_Non-Mage Crew
-The non-mage crew is composed of four thousand Terran Navy personnel. This personnel is tasked with piloting and maintaining the ship via neural uplink.
-=Construction
-The ship is primarily composed of enchanted nanolaminate plating. This material composes both the superstructure and armor.
-_Armor
-The hull of the Aristea is three layers of nanolaminate hull plating, each several meters thick. Between these layers is a liquid medium that turns into solid ceramic foam in the event of a breach to prevent the precious atmosphere from leaking out.
-_Superstructure
-The Aristea was built around a central supporting column that fractalized outwards in a curved hexagonal fashion. This provided a strong superstructure to the ship, allowed it to be modified and upgraded incrementally, and reduced potential stress points. Certain sections of the column are hollow so as to allow somatic threads to be integrated.
-_Somatic Threads
-Somatic threads run through the hollow pockets of the superstructure to provide power, data, mana, and psions to the entirety of the ship.
-==EQUIPMENT
-={Spell} Cannons
-Spell cannons are the primary armament of most Terran ships. Everything from point defense systems to capital ship-grade weaponry utilizes spell cannons. This is due to the vacuum nature of space. Spells lack the necessary particles to affect. This means that particles need to be delivered to the target location first before spells are able to be used. Spell cannons come in several varieties, but the primary ones currently in usage are particle beams.
-_Particle Beams
-Particle beams fire exclusively photons, meaning that the particle is delivered at the same maximum speed spells are. This reduces latency. The most common spell used for particle beams is Claíomh Solais, where at the moment before impact, the photons are slowed and forced to form a crystalline structure, turning the beam into hardlight. This achieves a balance between the impact force afforded to kinetic projectiles as well as the heating effect exclusive to plasma weaponry. This is a major improvement on the more archaic mass accelerators as it increases the speed of the projectile significantly as well as reduces recoil to negligible amounts. This means that less reinforcement is required to prevent the ship from tearing itself apart as compared to the older mass accelerators.
-=Missiles
-When more nimble offensive measures are needed, long-range {antimatter} warheads are considered the staple. Magnetic coil launch tubes launch the missile at incredible speeds, where upon exiting its host vessel the missile’s directional thrusters will take over. These warheads are fired out of hundreds of retractable pods.
-=Suspended Particle Grid
-Particles that would normally be vented from the ship are instead projected outwards using a particle suspension grid. This serves as a form of energy shielding for the ship.
-=Point Defense System
-The spell cannon-based PDS protects the Aristea from incoming missiles and small attack vehicles.
-=SF-12 Talaria Drive
-The SF-12 Talaria Drive is a form of {warp} drive that utilizes advanced gravitic fields to generate imperfections in space time. Space in front of the ship is compressed while space behind the ship is extended, allowing for a field in space that is essentially moving forward. This allows the ship to move at both subluminal and superluminal speeds. When necessary, the ship can also change the shape of the fields to act as a form of shielding. However, this is not the primary form of movement as it is incredibly energy intensive.
-=N23 Omnidirectional Gravitic Engine
-The N23-OGE emits gravity wells in space. These wells are generated at precise locations so as to allow the ship to be pulled toward them. This is the primary form of sublight movement. Due to the nature of the N23-OGE, the Aristea can move omnidirectionally, a feature that was not as feasible by prior mass-ejection engines.
-=K-Series Inertial Compensator
-To prevent the crew and contents from being damaged when moving at high sublight speeds, the Aristea is equipped with an Inertial Compensation Field.
-=Control
-Control modules control all of the systems required to operate the Aristea. These modules are placed near the center of the ship to afford the best protection.
-_Command Module
-The command module is where the human pilots of the Aristea link directly into the ship. They meld into a version of a collective consciousness that allows them to have incredibly refined direct control over the ship as well as give commands to the mages and artificial intelligences easily.
-_Mage Pilot Module
-Mage pilots, copilots, and their ghost are tasked with all ship and ship combat-related operations. This means moving the ship around, compiling sensory data, and calculating warp jump solutions.
-_Mage Intendant Module
-The intendant module of the Aristea is charged with maintaining the habitation systems necessary for the non-mage crew. It also handles other utility functions such as factory operations and antimatter plant usage.
-=Utility
-_Gravitic Plating
-Gravitic plating helps orient the members of the crew orient themselves in a single “down” direction. While in most instances the gravity is set to 1 G, this can be increased significantly as a retention measure in the event of a hull breach.
-_Habitation Units
-The non-mage crew of the ship has their own space for rest and relaxation. This includes the mess hall, personal habitats, and arcology. Within the mess hall, robotic chefs, food printers, and self-cooking stations allow the crew to enjoy any food or drink they wish. The personal habitats are a collection of modular rooms that could be reconfigured to suit its inhabitants’ needs. Finally, there exists an arcology that is composed of various flora and fauna. This section is maintained by drones and sealed off when not in use to prevent the escape of animals and insects.
-_Maintenance Systems
-Almost all of the internal maintenance systems of the Aristea are drone-operated. This allows for maintenance and service corridors to be much smaller and save space.
-_Factory
-Advanced printing systems allow for nearly anything to be produced on the ship, given the necessary materials. This allows for the ship and its inhabitants to operate for long periods without resupply.
-_Cooling Rods
-Cooling Rods oriented towards the rear of the ship allow for waste heat to be removed efficiently.
-_Micro-Wormhole Generator
-The MWG allows the UA to communicate instantaneously with central command. It operates by opening up a wormhole then sending an optical communications laser.
-_Mana-Catalysed Antimatter Reactor
-The MCAR powers all of the UA’s functions. In the event that the primary reactor fails, an auxiliary fusion reactor is activated. However, this only allows the ship to operate on low power.
-_Antimatter Plant
-Due to the focus of the flagship being that of operational independence, an onboard antimatter plant allows for portable fuel production.
-_Frigate Complement
-Gungnir-Class assault frigates can rapidly deploy from the UA to act as scouts as well as offer additional firepower.
-_Dropships
-Dropships allow the repeated deployment of everything from personnel to heavy vehicles.
-_Central Transport
-The size of the ship necessitated a method to transport personnel and goods. A tram network runs throughout the ship for this purpose.
-_Cognition Stacks
-Cognition stacks serve as the central processing units for the mages and their ghosts. This is essentially enhanced neural material that is psionically entangled with their respective mages.
-_Computer Servers
-To calculate the various physical solutions needed to allow spells to function, quantum computers are utilized. These computers also house the true bodies of the various artificial intelligences and ghosts.
-_Sensors
-The UA possesses no windows. Instead, it uses an advanced sensor suite including long-range cameras and sensors to observe its surroundings. It also utilizes advanced scanner technology to detect enemy ships and foreign bodies.
-_Multi-Use Launch Tubes
-MULTs are used to deliver breaching pods, drop pods, and escape pods. Breaching pods are used for boarding actions on lightly armored ships. Drop pods are used for atmospheric entry and are usually used to deliver mages, drones, and equipment. Finally, there are escape pods. Escape pods usually contain life-support systems, beacons, and communications arrays. Under Terran law, escape pods must be marked as escape pods and are not allowed to be shot down. During military engagements, soldiers in escape pods are taken as POWs.
-_Laboratories
-The various laboratories built into the UA study the various alien specimens and technologies found throughout the UA’s travels, as well as improve and research existing technologies."""
+The first documented case of a Ygirin was sometime during the early {Commonwealth} period. A group of Xweili scientists were exploring the inner workings of a star utilizing a plasma probe when one of the probe’s scanners detected a series of psionic emissions originating from within the star. Electromagnetic imaging showed a miniscule amorphous blob of higher density compared to the surrounding area. This news was brought to the attention of the Bureau of Astrobiology, who then officially catalogued the species in the Galactic Codex.
+==BIOLOGY
+=Composition
+Ygirin lack the specialized structures that most other species have. Their bodies are entirely homogeneous, with all their functions distributed throughout their bodies.
+=Growth and Development
+Ygirin consume plasma and nuclear matter to grow themselves. Given enough material, they can grow indefinitely. Over time, a Ygirin gains a stronger grasp over electromagnetism as well as increases in intelligence.
+==SOCIETY
+Since it is very rare for more than a few Ygirin to exist within a star at a single time, most Ygirin are naturally antisocial. However, some of the sophont Ygirin have been able to form relationships with others.
+==RARITY
+Ygirin are extremely rare due to the very specialized conditions that involve their emergence. As a result, only a few thousand Ygirin have been detected within the Milky Way.
+==YGIRIN HUNTING
+Ygirin hunting is an extremely profitable practice as wealthy individuals and laboratories are willing to pay exorbitant amounts of credits to acquire a specimen. Hunters of Ygirin are known as plasma fishers. The Fields of Aster, a region of the galaxy heavily populated with stars, is a hotspot for Ygirin hunters.
+==YIGIRIN EXTRACTION
+To collect a Ygirin, a gravitic net is deployed into its host star. This net then pulls the Ygirin into a Fusion Matrix. This matrix is essentially a collection area for plasma to keep the Ygirin alive. It is also electromagnetically shielded to prevent the Ygirin from interacting with the outside world.
+==SOPHONTHOOD
+While the majority are non-sophont in terms of intelligence, there have been four notable instances of a sophont Ygirin occurring naturally. They are known as Khepri, Ptah, Hathor, and Aten. To interact with the world, they utilize a modular fusion matrix, which adapts to any form the Ygirin desires.
+==NOTABLE INDIVIDUALS
+Groundsmaster Aten of the {Talaphrian Order} is one of the oldest groundmasters within the Order. It has been part of the order since the pre-war era, meaning that it was a veteran of the War of the Disk. Aten’s most prolific achievement was destroying General Ohu of the Second Legion.
+==KNOWN OWNERS
+Lord-Merchant Olande: The long life of the leader of the {Karanaan} has allowed it to collect multiple Ygirin. The most prominent in its collection is the one that resides within the capstone of Olande’s Scepter. It is an infinitely mirrored gem, creating a “star within star” visual effect. 
+The Commonwealth Public Athenaeum is known to have a Ygirin exhibit."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "unyieldingaristea-lore.html"
+filename = "ygirin-lore.html"
 
 # ignore this stuff
 
