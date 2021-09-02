@@ -4,12 +4,12 @@ var featuredimglink = 'artspecific';
 var featuredimgsource = 'resources/Magus.png';
 
 
-var featuredtitles = ['MATERNA', 'MATERNA', 'MATERNA'];
-var featurediconsources = ['resources/Materna Icon.svg', 'resources/Materna Icon.svg', 'resources/Materna Icon.svg'];
+var featuredtitles = ['MILKY WAY GALAXY', 'SLIME MOLD', 'PARAPHYSICS'];
+var featurediconsources = ['resources/Milky Way Galaxy Icon.svg', 'resources/Slime Mold Icon.svg', 'resources/Paraphysics Icon.svg'];
 var featuredlinks = ['lorespecific', 'lorespecific', 'lorespecific'];
-var featureddescriptions = ["In the Great Cities, it is not uncommon for an aspiring couple to walk into a Materna clinic and request a BioTube reservation. For what you may ask? For a baby! In the 26th century, nearly 93% of all births take place within an artificial uterus...",
-"In the Great Cities, it is not uncommon for an aspiring couple to walk into a Materna clinic and request a BioTube reservation. For what you may ask? For a baby! In the 26th century, nearly 93% of all births take place within an artificial uterus...",
-"In the Great Cities, it is not uncommon for an aspiring couple to walk into a Materna clinic and request a BioTube reservation. For what you may ask? For a baby! In the 26th century, nearly 93% of all births take place within an artificial uterus..."];
+var featureddescriptions = ["The Milky Way Galaxy, otherwise known as the Milky Way, is a 13.6 billion-year-old galaxy that is approximately 105,700 light-years in diameter and has a height of more than a thousand light-years. It contains several hundred billion...",
+"Slime mold is an umbrella term used to describe various single-celled protists that can coalesce to form complex structures. While originally used in tasks such as neural network simulations and civil engineering, they are...",
+"Paraphysics is an umbrella term used to refer to conceptual-material (metaphysical-physical) interactions. It can be divided into three fields: thaumaturgy, theurgy, and onturgy. Each one of these fields utilizes paraphysics..."];
 
 
 var artnames = ["MAGUS", "THE INFINITE CITY", "SCULPT"];
