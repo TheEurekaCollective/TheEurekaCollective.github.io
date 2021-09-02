@@ -12,7 +12,7 @@ var loretype = ['Items', 'Factions', 'Factions',
 'Locations', 'Stories', 'Factions',
 'Locations', 'Characters', 'Factions',
 'Factions', 'Subjects', 'Factions',
-'Factions'];
+'Factions', 'History'];
 // This is the heading that shows up
 var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS",
 "FASTER THAN LIGHT", "AKANTHE INTERNATIONAL PARK", "ARGENTIMARIA ATTACK",
@@ -25,7 +25,7 @@ var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS",
 "NEXUS", "SAGA", "SHARHASTIANS",
 "SILVER TOWER", "SLIME MOLD", "TALAPHRIAN ORDER",
 "MITHRAEHO", "PARAPHYSICS", "PARAPHYSICS DIVISION",
-"SCRIBES CONSORTIUM"];
+"SCRIBES CONSORTIUM", "SILENT ELDER"];
 // This is the description that shows up, trim it manually
 // (the first description is abt as long as it goes, don't go much longer than that)
 var loretxt = ["Within the Human Domain, antimatter is the primary form of energy production and storage. From cities to starships, antimatter powers almost every aspect of life. It is even used as a currency and is stored in special containment units...",
@@ -61,7 +61,8 @@ var loretxt = ["Within the Human Domain, antimatter is the primary form of energ
 "The Mithraeho are a sophont race of heptapods originating from the nearly tidally locked planet of Dakhara. They are one of the primary Newborn Races of the Galactic Commonwealth with their current government being the...",
 "Paraphysics is an umbrella term used to refer to conceptual-material (metaphysical-physical) interactions. It can be divided into three fields: thaumaturgy, theurgy, and onturgy. Each one of these fields utilizes paraphysics...",
 "The Paraphysics Division (PD) is a research organization dedicated to studying and utilizing paraphysical forces. While mostly shrouded in mystery to the common person, the technologies and techniques that have been developed...",
-"Scribes Consortium is a galaxy-spanning megaconglomerate composed of the majority of anima-based organizations within the Galactic Commonwealth. From host-based data encryption to paraphysical substance production..."];
+"Scribes Consortium is a galaxy-spanning megaconglomerate composed of the majority of anima-based organizations within the Galactic Commonwealth. From host-based data encryption to paraphysical substance production...",
+"In the gaps between galaxies, in a cold realm known as the Outlands, there resides engines that were constructed to bear their sleeping creators to the time when the stars have grown dim and the universe has grown..."];
 // This is the address of the icon you want to add
 var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg",
 "resources/Faster Than Light Icon.svg", "resources/Akanthe International Park Icon.svg", "resources/Argentimaria Attack Icon.svg",
@@ -74,7 +75,7 @@ var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "r
 "resources/Nexus Icon.svg", "resources/Saga Icon.svg", "resources/Sharhastians Icon.svg",
 "resources/Silver Tower Icon.svg", "resources/Slime Mold Icon.svg", "resources/Talaphrian Order Icon.svg",
 "resources/Mithraeho Icon.svg", "resources/Paraphysics Icon.svg", "resources/Paraphysics Division Icon.svg",
-"resources/Scribes Consortium Icon.svg"];
+"resources/Scribes Consortium Icon.svg", "resources/Silent Elder Icon.svg"];
 // This is the link to the corresponding specific page
 // Notice that if the html file is 'lorespecific.html' the entry here is 'lorespecific'
 var lorespecificlink = ['antimatter-lore', 'materna-lore', 'madamemartins-lore',
@@ -88,7 +89,7 @@ var lorespecificlink = ['antimatter-lore', 'materna-lore', 'madamemartins-lore',
 'nexus-lore', 'saga-lore', 'sharhastians-lore',
 'silvertower-lore', 'slimemold-lore', 'talaphrianorder-lore',
 'mithraeho-lore', 'paraphysics-lore', 'paraphysicsdivision-lore',
-'scribesconsortium-lore'];
+'scribesconsortium-lore', 'silentelder-lore'];
 
 function initloreboxes(indices, feed) {
 	var j = 0;
