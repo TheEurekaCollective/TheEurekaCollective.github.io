@@ -12,7 +12,8 @@ var loretype = ['Items', 'Factions', 'Factions',
 'Locations', 'Stories', 'Factions',
 'Locations', 'Characters', 'Factions',
 'Factions', 'Subjects', 'Factions',
-'Factions', 'History', 'Items'];
+'Factions', 'History', 'Items',
+'Factions'];
 // This is the heading that shows up
 var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS",
 "FASTER THAN LIGHT", "AKANTHE INTERNATIONAL PARK", "ARGENTIMARIA ATTACK",
@@ -25,7 +26,8 @@ var loreheadings = ["ANTIMATTER", "MATERNA", "MADAME MARTINS",
 "NEXUS", "SAGA", "SHARHASTIANS",
 "SILVER TOWER", "SLIME MOLD", "TALAPHRIAN ORDER",
 "MITHRAEHO", "PARAPHYSICS", "PARAPHYSICS DIVISION",
-"SCRIBES CONSORTIUM", "SILENT ELDER", "SPELL RIFLES"];
+"SCRIBES CONSORTIUM", "SILENT ELDER", "SPELL RIFLES",
+"TENDRIL"];
 // This is the description that shows up, trim it manually
 // (the first description is abt as long as it goes, don't go much longer than that)
 var loretxt = ["Within the Human Domain, antimatter is the primary form of energy production and storage. From cities to starships, antimatter powers almost every aspect of life. It is even used as a currency and is stored in special containment units...",
@@ -63,7 +65,8 @@ var loretxt = ["Within the Human Domain, antimatter is the primary form of energ
 "The Paraphysics Division (PD) is a research organization dedicated to studying and utilizing paraphysical forces. While mostly shrouded in mystery to the common person, the technologies and techniques that have been developed...",
 "Scribes Consortium is a galaxy-spanning megaconglomerate composed of the majority of anima-based organizations within the Galactic Commonwealth. From host-based data encryption to paraphysical substance production...",
 "In the gaps between galaxies, in a cold realm known as the Outlands, there resides engines that were constructed to bear their sleeping creators to the time when the stars have grown dim and the universe has grown...",
-"Spell rifles are the primary form of armament used by combat mages. They are military-grade wands dedicated to aiding a mage in focusing their spells and delivering them over long distances towards targets. They allow..."];
+"Spell rifles are the primary form of armament used by combat mages. They are military-grade wands dedicated to aiding a mage in focusing their spells and delivering them over long distances towards targets. They allow...",
+"The Tendril are a species of sophont gigafauna that are theorized to be terraforming engines created by an unknown race. They possess the capability to modify their own genome and generate subspecies as needed. A tribal..."];
 // This is the address of the icon you want to add
 var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "resources/Madame Martins Icon.svg",
 "resources/Faster Than Light Icon.svg", "resources/Akanthe International Park Icon.svg", "resources/Argentimaria Attack Icon.svg",
@@ -76,7 +79,8 @@ var loreimg = ["resources/Antimatter Icon.svg", "resources/Materna Icon.svg", "r
 "resources/Nexus Icon.svg", "resources/Saga Icon.svg", "resources/Sharhastians Icon.svg",
 "resources/Silver Tower Icon.svg", "resources/Slime Mold Icon.svg", "resources/Talaphrian Order Icon.svg",
 "resources/Mithraeho Icon.svg", "resources/Paraphysics Icon.svg", "resources/Paraphysics Division Icon.svg",
-"resources/Scribes Consortium Icon.svg", "resources/Silent Elder Icon.svg", "resources/Spell Rifles Icon.svg"];
+"resources/Scribes Consortium Icon.svg", "resources/Silent Elder Icon.svg", "resources/Spell Rifles Icon.svg",
+"resources/Tendril Icon.svg"];
 // This is the link to the corresponding specific page
 // Notice that if the html file is 'lorespecific.html' the entry here is 'lorespecific'
 var lorespecificlink = ['antimatter-lore', 'materna-lore', 'madamemartins-lore',
@@ -90,7 +94,8 @@ var lorespecificlink = ['antimatter-lore', 'materna-lore', 'madamemartins-lore',
 'nexus-lore', 'saga-lore', 'sharhastians-lore',
 'silvertower-lore', 'slimemold-lore', 'talaphrianorder-lore',
 'mithraeho-lore', 'paraphysics-lore', 'paraphysicsdivision-lore',
-'scribesconsortium-lore', 'silentelder-lore', 'spellrifles-lore'];
+'scribesconsortium-lore', 'silentelder-lore', 'spellrifles-lore',
+'tendril-lore'];
 
 function initloreboxes(indices, feed) {
 	var j = 0;
