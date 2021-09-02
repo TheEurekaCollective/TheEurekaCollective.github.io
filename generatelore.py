@@ -2,27 +2,27 @@
 
 # This will be displayed as the title of the tab, ex "Aeternum"
 # will display the title "Aeternum - Project Anima" on the tab
-tabtitle = "Silent Elder"
+tabtitle = "Spell Rifles"
 
-keywords = "Outlands, sleeping creators, tombs, prisons, Galactic Commonwealth, extragalactic threats, Department of Defense, voidjumping, Assembly, Talaphrian Order, Talaphria, hardlight, antineutronium orbs, Theomachy, voidslashes, Elder Races"
+keywords = "spell rifles, combat mages, wands, hermetically sealed, psionic pylon, computation module, fire control system, bespoke weave, neural seed, Psionic Interference, somatic cable, internal matrices, burnout, computation module, spell capacitor, AI, thread receiver, mental commands, mana-catalyzed, antimatter, microreactor, neural interface, Paraphysics Division, 6D Vacuum Printing, Hardlight Construction"
 
 # This is the information that will appear in the lil box on
 # the right, the order the entries appear in the box is:
 # 1 4
 # 2 5
 # 3 6
-infoheadings = ["CATEGORY", "TYPE", "CLASS", "LOCATION", "AUTHOR", "LAST UPDATE"]
-infoentries = ["History", "First Contact", "Incident", "Outlands", "Devin Deng", "September 1st, 2021"]
+infoheadings = ["CATEGORY", "CREATOR", "CLASS", "SPECIES", "AUTHOR", "LAST UPDATE"]
+infoentries = ["Items", "Paraphysics Division", "Weapon", "Human", "Devin Deng", "September 1st, 2021"]
 
 # this is the address of the image that appears in the lil
 # box on the right, make sure it's relative to the html file
 # (probably something like resources/image.jpg)
-infoimagesource = "resources/Silent Elder Icon.svg"
+infoimagesource = "resources/Spell Rifles Icon.svg"
 
 # if the article has links, put the addresses for those links
 # here. They must be listed in the same order as they appear
 # in the article. You can omit the .html extension
-articlelinks = ['galacticcommonwealth-lore', 'talaphrianorder-lore']
+articlelinks = ['combatmages-lore', 'magus-lore']
 
 # this is the hardest part so read it carefully, look at the
 # example for reference, make sure text is surrounded by triple quotes.
@@ -49,13 +49,28 @@ articlelinks = ['galacticcommonwealth-lore', 'talaphrianorder-lore']
 # 6 - any line that doesn't start with equal signs is interpreted
 #     as a regular paragraph
 
-article = """===SILENT ELDER
-In the gaps between galaxies, in a cold realm known as the Outlands, there resides engines that were constructed to bear their sleeping creators to the time when the stars have grown dim and the universe has grown cold. Their function is variable, with as many being tombs as prisons. Opening such pandoran vessels may awaken a benevolent god or a sleeping devil. One of these objects was discovered by the {Galactic Commonwealth} during a routine patrol for extragalactic threats. It was a smooth sphere of onyx coloration with at least three hundred kilometers in diameter. Upon approaching the object, black figures arose straight from the surface of the sphere as if it were a liquid and lunged at the party, cutting off all further transmissions. Whatever this object was, it was hostile, and it possessed the capability to destroy an entire flotilla of Commonwealth scout ships. A larger fleet was dispatched by the Department of Defense to contain the area and further monitor the object. However, all attempts were again met with hostility, forcing the fleet to voidjump away from the area. The Assembly decided that their ships were not equipped to deal with such a  threat, leading them to turn to the {Talaphrian Order} for aid.
-Five Knights Talaphria were contracted to investigate, and if possible, exterminate the entity. Upon arrival, thousands upon thousands of onyx warriors were launched from the sphere, firing at the knights with various weapons of hardlight. These attempts failed, and the warriors retreated into the structure. The knights didn’t dare engage with the object, eyeing it warily during the calm. This calm was cut short, however, when an orifice of pale light opened on the sphere. From it emerged a figure approximately ten meters tall and clad in black spheres. It regarded the knights for a brief moment, before summoning an array of antineutronium orbs, a form of weapon not seen since the Theomachy. In nanoseconds, the projectiles were fired at the knights at speeds nearing the speed of light. The knights were only able to react quickly enough to dampen the blow with rudimentary shields, resulting in the damage weakening them severely. With their remaining strength, they attacked the entity before it could recover its weaponry, trying to tear it asunder with rapid voidslashes. The entity suffered extreme damage, and seemed to sense that its loss was inevitable. It destroyed its home in a great conflagration which killed itself in the process. When the knights recovered, the body and the sphere were gone, supposedly annihilated from the blast. An observer ship recorded this entire ordeal, documenting it as one of the first cases where an Elder was awoken from its tomb. From then on, all structures of this construction were quarantined and made inaccessible to the public."""
+article = """===SPELL RIFLES
+Spell rifles are the primary form of armament used by {combat mages}. They are military-grade wands dedicated to aiding a {mage} in focusing their spells and delivering them over long distances towards targets. They allow a mage to convert what would have initially been a random spray of information into a condensed beam. These weapons are recoilless, silent, and are hermetically sealed to prevent tampering.
+=Components
+While the manufacture and structure of spell rifles vary, they are most often composed of a psionic pylon, computation module, fire control system, power supply, and frame.
+_Psionic Pylon
+The psionic pylon is the primary functioning component of the spell rifle.  It is a bespoke weave of neurons grown using the mage’s personal neural seed. These neurons are woven in such a special matrix so as to afford the mage higher degrees of accuracy when casting their psions. Using the principle of Psionic Interference, psions are transferred directly from a somatic cable to the psionic pylon. These focus the psions and turn what would be a wild torrent of spells into a precise beam of information. Accuracy of a spell rifle is highly dependent on the length of the pylon and the complexity of the internal matrices. Rapid, repeated use of a pylon may wear out the neural integrity or cause overheating, an effect known as burnout. This may necessitate the periodic replacement of a pylon.
+_Computation Module
+The computation module both stores low-power spells and with a spell capacitor, it can interpret and compose spells that come from somatic threads. It can also store an AI so as to further assist the mage in terms of aiming and firing. The stored AI has a degree of authority over the use of the spell rifles. As a result, it can control portions of both the fire control and optical systems.
+_Fire Control System
+The fire control system is what links all the other systems of a spell rifle together. It is composed of the trigger, toggle buttons, and thread receiver. A mage is able to insert its hand-based somatic threads through the thread receiver built into the handle and as a result can operate the weapon using only mental commands.
+_Power Supply
+While the type varies, the most common is a mana-catalyzed antimatter microreactor. This is used to power the systems without needing to connect directly to the mage.
+_Frame
+The frame of a spell rifle is a shell that the parts of a spell rifle are placed into for ease of manipulation. High resolution sensor packages are often integrated into the frame so as to assist with aiming and data collection. This information is delivered to the mage via direct neural interface.
+=Internal Explosive
+When used by an unauthorized individual, the weapon will explode and destroy itself.
+=Production
+The individual components are produced by the Paraphysics Division utilizing a mixture of 6D Vacuum Printing and Hardlight Construction."""
 
 # this is the file the html gets saved in, make sure to include
 # the .html extension
-filename = "silentelder-lore.html"
+filename = "spellrifles-lore.html"
 
 # ignore this stuff
 
