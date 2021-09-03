@@ -1,7 +1,7 @@
 
 var featuredimgname = 'MAGUS';
 var featuredimglink = 'magus-art';
-var featuredimgsource = 'resources/Magus.png';
+var featuredimgsource = 'resources/maguscompressed.jpg';
 
 
 var featuredtitles = ['MILKY WAY GALAXY', 'SLIME MOLD', 'PARAPHYSICS'];
@@ -13,7 +13,7 @@ var featureddescriptions = ["The Milky Way Galaxy, otherwise known as the Milky 
 
 
 var artnames = ["MAGUS", "AETERNUM", "FLESHCRAFT"];
-var artimgsources = ["resources/Magus.png", "resources/Infinite City.jpg", "resources/Morph Small.jpg"];
+var artimgsources = ["resources/maguscompressed.jpg", "resources/aeternumcompressed.jpg", "resources/fleshcraftcompressed.jpg"];
 var artlinks = ['magus-art', 'aeternum-art', 'fleshcraft-art'];
 
 

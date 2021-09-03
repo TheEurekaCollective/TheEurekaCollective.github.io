@@ -1,5 +1,5 @@
 // address of the art image to be added
-var imgs = ["resources/Infinite City.jpg", "resources/Magus.jpg", "resources/Morph Small.jpg", "resources/Rebirth.jpg"];
+var imgs = ["resources/aeternumcompressed.jpg", "resources/maguscompressed.jpg", "resources/fleshcraftcompressed.jpg", "resources/rebirthcompressed.jpg"];
 // name of the image
 var gallerynames = ["AETERNUM", "MAGUS", "FLESHCRAFT", "REBIRTH"];
 // link to the specific page
