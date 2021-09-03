@@ -1,10 +1,10 @@
 // address of the art image to be added
-var imgs = ["resources/Infinite City.jpg", "resources/Magus.png", "resources/Morph Small.jpg"];
+var imgs = ["resources/Infinite City.jpg", "resources/Magus.jpg", "resources/Morph Small.jpg"];
 // name of the image
 var gallerynames = ["AETERNUM", "MAGUS", "SCULPT"];
 // link to the specific page
 // note that if the html file is 'artspecific.html' the link is 'artspecific'
-var artpagelink = ["aeternum-art", "artspecific", "artspecific"];
+var artpagelink = ["aeternum-art", "magus-art", "artspecific"];
 
 function initartboxes(indices, div, start) {
 	var j = 0;
