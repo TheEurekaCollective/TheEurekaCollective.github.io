@@ -89,7 +89,6 @@ p.gallerytxt {
 	font-style: italic;
 	text-align: center;
 	line-height: 3.6vh;
-	overflow: scroll;
 }
 p.readmore {
 	color: white;
