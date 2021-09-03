@@ -1,5 +1,5 @@
 // address of the art image to be added
-var imgs = ["resources/Infinite City.jpg", "resources/Magus.png", "resources/Sculpt.jpeg"];
+var imgs = ["resources/Infinite City.jpg", "resources/Magus.png", "resources/Morph Small.jpg"];
 // name of the image
 var gallerynames = ["THE INFINITE CITY", "MAGUS", "SCULPT"];
 // link to the specific page
