@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Fleshcraft - Project Anima</title>
+	<link rel="shortcut icon" href="resources/Anima-Standalone.ico">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="keywords" content="madame martins, morph, fleshcraft">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Megrim&family=Poiret+One&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<!-- extralight 200 medium 500 bold 700 -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="artspecific.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-X3JSDF3FB4"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-X3JSDF3FB4');
+	</script>
+</head>
+<body >
+	<div class="header">
+		<a href="/">
+			<img src="resources/Project Anima Logo Merged.svg" class="menu">
+		</a>
+		<table class="menu"> <tr>
+			<td class="menu"> <a href="lore" class="menu">
+				Lore </a> </td>
+			<td class="menu"> <a href="art" class="menu current">
+				Art </a> </td>
+			<td class="menu"> <a href="universe" class="menu">
+				Universe </a> </td>
+			<td class="menu"> <a href="aboutus" class="menu">
+				About Us </a> </td>
+	  	</tr> </table>
+		<form action="results">
+			<input type="text" placeholder="Search..." autocomplete="off" class="menu" name="search">
+		</form>
+		<div class="container-in">
+			<div class="search-container">
+				<div id="search-results"></div>
+			</div>
+		</div>
+	</div>
+	<div class="galleryleft">
+		<img src="resources/Morph.jpg" class="specificimg">
+		<div id="fullscreen"></div>
+	</div>
+	<div class="galleryright">
+		<h1>FLESHCRAFT</h1>
+		<span class="galleryunderline" style="top: 21vh;"></span>
+		<p class="gallerytxt">“No longer does my birth-form bind me or my natural mind shackle me. I can morph my body and shift my emotion as I see fit. I have quantified my own soul, and by doing so, I have been freed,” - Synthia Faber</p>
+		<span class="galleryunderline" style="top: 74vh;"></span>
+		<p class="readmore">Read more in <a href="madamemartins-lore" class="readmore">Lore</a></p>
+		<span class="authorborder"></span>
+		<img class="pfp" src="resources/memberprofiles/TitanAMB.png"></span>
+		<p class="authorname">Duke Ye</p>
+		<p class="authorclass">Artist</p>
+	</div>
+
+	<script src="home.js"></script>
+	<script src="data.js"></script>
+	<script src="art.js"></script>
+	<script>
+		initspecific();
+		fullscreenborder(document.getElementById('fullscreen'), 8, 7);
+	</script>
+</body>
