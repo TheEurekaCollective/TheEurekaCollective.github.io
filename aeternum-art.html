@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Aeternum - Project Anima</title>
+	<link rel="shortcut icon" href="resources/Anima-Standalone.ico">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="keywords" content="aeternum, infinite city, galactic commonwealth, megastructure, dyson sphere, tykupiel">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Megrim&family=Poiret+One&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<!-- extralight 200 medium 500 bold 700 -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="artspecific.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-X3JSDF3FB4"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-X3JSDF3FB4');
+	</script>
+</head>
+<body >
+	<div class="header">
+		<a href="/">
+			<img src="resources/Project Anima Logo Merged.svg" class="menu">
+		</a>
+		<table class="menu"> <tr>
+			<td class="menu"> <a href="lore" class="menu">
+				Lore </a> </td>
+			<td class="menu"> <a href="art" class="menu current">
+				Art </a> </td>
+			<td class="menu"> <a href="universe" class="menu">
+				Universe </a> </td>
+			<td class="menu"> <a href="aboutus" class="menu">
+				About Us </a> </td>
+	  	</tr> </table>
+		<form action="results">
+			<input type="text" placeholder="Search..." autocomplete="off" class="menu" name="search">
+		</form>
+		<div class="container-in">
+			<div class="search-container">
+				<div id="search-results"></div>
+			</div>
+		</div>
+	</div>
+	<div class="galleryleft">
+		<img src="resources/Infinite City.jpg" class="specificimg">
+		<div id="fullscreen"></div>
+	</div>
+	<div class="galleryright">
+		<h1>AETERNUM</h1>
+		<span class="galleryunderline" style="top: 21vh;"></span>
+		<p class="gallerytxt">“It has seen burning stars turn cold, civilizations rise and fall, and wars that split the heavens themselves. It stares unblinking and stands unmoved. It has been here longer than you or I, and it will continue to exist long after our passing.” - Groundsmaster Rendar</p>
+		<span class="galleryunderline" style="top: 74vh;"></span>
+		<p class="readmore">Read more in <a href="lore" class="readmore">Lore</a></p>
+		<span class="authorborder"></span>
+		<img class="pfp" src="resources/memberprofiles/jessica mui.jpg"></span>
+		<p class="authorname">Jessica Mui</p>
+		<p class="authorclass">Artist</p>
+	</div>
+
+	<script src="home.js"></script>
+	<script src="data.js"></script>
+	<script src="art.js"></script>
+	<script>
+		initspecific();
+		fullscreenborder(document.getElementById('fullscreen'), 8, 7);
+	</script>
+</body>
