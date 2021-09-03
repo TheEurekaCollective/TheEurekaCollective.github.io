@@ -1,0 +1,150 @@
+
+div.galleryleft {
+	position: absolute;
+	height: 100%;
+	width: 70vw;
+	left: 0;
+	top: 0;
+	background-color: #0b0b0b;
+}
+div.galleryright {
+	position: absolute;
+	height: 100%;
+	width: 30vw;
+	left: 70vw;
+	top: 0;
+}
+img.specificimg {
+	position: absolute;
+	width: 96%;
+	height: 75%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	object-fit: contain;
+	/* border: 1px solid white; */
+	transition: 0.5s ease;
+	z-index: 20;
+	background-color: #00000000;
+}
+#fullscreen {
+	transform: translate(-50%, -50%);
+	width: 4vh;
+	left: 35vw;
+	position: absolute;
+	height: 4vh;
+	top: 94vh;
+	transition: 0.3s ease;
+}
+span.arth {
+	position: absolute;
+	background-color: #cccccc;
+	height: 1px;
+	width: 1.2vh;
+	border: 0px solid white;
+	box-shadow: 0 0 0px white;
+	transition: 0.3s ease;
+}
+span.artv {
+	position: absolute;
+	background-color: #cccccc;
+	height: 1.2vh;
+	width: 1px;
+	border: 0px solid white;
+	box-shadow: 0 0 0px white;
+	transition: 0.3s ease;
+}
+h1, p.galleryheading {
+	position: absolute;
+	width: 100%;
+	top: 13vh;
+	font-size: 4.2vh;
+	color: white;
+	color: white;
+	font-family: Poiret One;
+	text-align: center;
+	letter-spacing: 1.2vh;
+	margin: 0; padding: 0;
+}
+span.galleryunderline {
+	position: absolute;
+	width: 22vw;
+	left: 4vw;
+	height: 1px;
+	background-color: white;
+}
+p.gallerytxt {
+	/* background-color: #333333; */
+	position: absolute;
+	left: 5%;
+	width: 90%;
+	padding: 0;
+	margin: 0;
+	top: 47.5vh;
+	transform: translateY(-50%);
+	color: white;
+	font-family: Raleway;
+	font-weight: 200;
+	font-size: 2.6vh;
+	font-style: italic;
+	text-align: center;
+	line-height: 3.6vh;
+	overflow: scroll;
+}
+p.readmore {
+	color: white;
+	font-family: Raleway;
+	font-weight: 200;
+	font-size: 2.6vh;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 79vh;
+	padding: 0; margin: 0;
+}
+a.readmore {
+	color: white;
+	font-family: Raleway;
+	font-weight: 200;
+	font-size: 2.6vh;
+	text-decoration: underline;
+}
+span.authorborder {
+	position: absolute;
+	width: 28vw;
+	left: 1vw;
+	height: 1px;
+	top: 88vh;
+	background-color: white;
+}
+img.pfp {
+	transform: translate(-50%, -50%);
+	height: 8vh;
+	width: 8vh;
+	position: absolute;
+	top: 94vh;
+	left: 9vw;
+ 	border-radius: 50%;
+	margin: 0;
+	padding: 0;
+	object-fit: cover;
+}
+p.authorname {
+	position: absolute;
+	color: white;
+	font-family: Poiret One;
+	font-size: 3.5vh;
+	left: 12vw;
+	top: 90vh;
+	margin: 0; padding: 0;
+}
+p.authorclass {
+	position: absolute;
+	color: white;
+	font-family: Raleway;
+	font-size: 2.4vh;
+	font-weight: 200;
+	left: 12vw;
+	bottom: 2.3vh;
+	margin: 0; padding: 0;
+}

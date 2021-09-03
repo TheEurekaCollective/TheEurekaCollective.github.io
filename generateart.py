@@ -2,6 +2,8 @@
 # will display the title "Aeternum - Project Anima" on the tab
 tabtitle = "Cool Title"
 
+keywords = ""
+
 # This is the title of the art piece that shows up on the page,
 # it's probably the same as the page title but make sure it's all caps
 arttitle = "COOL TITLE"
@@ -41,6 +43,7 @@ filename = "thingy-art.html"
 # ignore this stuff
 s = open('arttemplate.txt', 'r').read()
 s = s.replace("(PAGETITLE)", tabtitle)
+s = s.replace("(KEYWORDS)", keywords)
 s = s.replace("(IMAGELOCATION)", imagelocation)
 s = s.replace("(ARTHEADING)", arttitle)
 s = s.replace("(ARTDESCRIPTION)", description)

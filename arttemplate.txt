@@ -5,7 +5,7 @@
 	<link rel="shortcut icon" href="resources/Anima-Standalone.ico">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta charset="UTF-8">
-	<meta name="keywords" content="Magic, Mage, Antimatter, Paraphysics">
+	<meta name="keywords" content="(KEYWORDS)">
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Megrim&family=Poiret+One&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<!-- extralight 200 medium 500 bold 700 -->
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="art.css">
+	<link rel="stylesheet" href="artspecific.css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -54,14 +54,10 @@
 		<div id="fullscreen"></div>
 	</div>
 	<div class="galleryright">
-		<p class="galleryheading">(ARTHEADING)</p>
+		<h1>(ARTHEADING)</h1>
 		<span class="galleryunderline" style="top: 21vh;"></span>
-		<p class="gallerytxt" onscroll="specificscroll();">(ARTDESCRIPTION)</p>
-		<div class="galleryscroll">
-			<span id="gscrollbar"></span>
-			<span id="gdot"></span>
-		</div>
-		<span class="galleryunderline" style="top: 76vh;"></span>
+		<p class="gallerytxt">(ARTDESCRIPTION)</p>
+		<span class="galleryunderline" style="top: 74vh;"></span>
 		<p class="readmore">Read more in <a href="(READMORE)" class="readmore">Lore</a></p>
 		<span class="authorborder"></span>
 		<img class="pfp" src="(ARTISTPFP)"></span>
@@ -74,10 +70,6 @@
 	<script src="art.js"></script>
 	<script>
 		initspecific();
-		fullscreenborder(document.getElementById('fullscreen'), 8,8,7,7);
-	</script>
-	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-	<script>
-		AOS.init();
+		fullscreenborder(document.getElementById('fullscreen'), 8, 7);
 	</script>
 </body>
