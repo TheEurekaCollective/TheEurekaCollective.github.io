@@ -1,20 +1,20 @@
 
 var featuredimgname = 'MAGUS';
-var featuredimglink = 'artspecific';
+var featuredimglink = 'magus-art';
 var featuredimgsource = 'resources/Magus.png';
 
 
 var featuredtitles = ['MILKY WAY GALAXY', 'SLIME MOLD', 'PARAPHYSICS'];
 var featurediconsources = ['resources/Milky Way Galaxy Icon.svg', 'resources/Slime Mold Icon.svg', 'resources/Paraphysics Icon.svg'];
-var featuredlinks = ['lorespecific', 'lorespecific', 'lorespecific'];
+var featuredlinks = ['milkywaygalaxy-lore', 'slimemold-lore', 'paraphysics-lore'];
 var featureddescriptions = ["The Milky Way Galaxy, otherwise known as the Milky Way, is a 13.6 billion-year-old galaxy that is approximately 105,700 light-years in diameter and has a height of more than a thousand light-years. It contains several hundred billion...",
 "Slime mold is an umbrella term used to describe various single-celled protists that can coalesce to form complex structures. While originally used in tasks such as neural network simulations and civil engineering, they are...",
 "Paraphysics is an umbrella term used to refer to conceptual-material (metaphysical-physical) interactions. It can be divided into three fields: thaumaturgy, theurgy, and onturgy. Each one of these fields utilizes paraphysics..."];
 
 
-var artnames = ["MAGUS", "THE INFINITE CITY", "SCULPT"];
+var artnames = ["MAGUS", "AETERNUM", "FLESHCRAFT"];
 var artimgsources = ["resources/Magus.png", "resources/Infinite City.jpg", "resources/Morph Small.jpg"];
-var artlinks = ['artspecific', 'artspecific', 'artspecific'];
+var artlinks = ['magus-art', 'aeternum-art', 'fleshcraft-art'];
 
 
 var sponsors = [];
